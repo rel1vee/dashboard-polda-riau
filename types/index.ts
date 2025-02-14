@@ -4,23 +4,43 @@ export interface Company {
   area: number;
   target2Percent: number;
   target7Percent: number;
-  quarterlyTargets: {
-    Q1: number;
-    Q2: number;
-    Q3: number;
-    Q4: number;
+
+  // Monokultur targets per quarter
+  monokulturTargets: {
+    I: number;
+    II: number;
+    III: number;
+    IV: number;
   };
-  achievement: {
-    Q1: number;
-    Q2: number;
-    Q3: number;
-    Q4: number;
+
+  // Monokultur achievements per quarter
+  monokulturAchievements: {
+    I: number;
+    II: number;
+    III: number;
+    IV: number;
   };
+
+  // Tumpang sari targets per quarter
+  tumpangSariTargets: {
+    I: number;
+    II: number;
+    III: number;
+    IV: number;
+  };
+
+  // Tumpang sari achievements per quarter
+  tumpangSariAchievements: {
+    I: number;
+    II: number;
+    III: number;
+    IV: number;
+  };
+
   status: number;
   csr: number;
 }
-
-export interface PolresData {
+export interface City {
   id: number;
   nama: string;
   coordinates: [number, number]; // latitude, longitude
