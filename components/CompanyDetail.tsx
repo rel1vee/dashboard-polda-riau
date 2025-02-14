@@ -57,7 +57,7 @@ const CompanyDetailsModal = ({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-6xl max-h-[95%]">
+      <DialogContent className="md:max-w-6xl max-h-[95%] h-full w-full overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <Building2 className="w-5 h-5 text-blue-500" />
@@ -73,7 +73,7 @@ const CompanyDetailsModal = ({
           </TabsList>
 
           <TabsContent value="overview">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Card>
                 <CardHeader>
                   <CardTitle className="text-sm font-medium text-gray-500">
