@@ -59,8 +59,8 @@ const CompanyDetailsModal = ({
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="md:max-w-6xl max-h-[95%] w-[95%] overflow-y-auto rounded-xl">
         <DialogHeader>
-          <DialogTitle className="flex items-start md:items-center gap-2">
-            <Building2 className="w-5 h-5 text-blue-500" />
+          <DialogTitle className="flex items-center gap-2">
+            <Building2 className="hidden md:block w-5 h-5 text-blue-500" />
             {company.name}
           </DialogTitle>
         </DialogHeader>

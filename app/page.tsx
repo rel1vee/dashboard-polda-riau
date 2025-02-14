@@ -92,7 +92,7 @@ const DashboardRiauPage = () => {
                 })}
               </div>
               <p className="text-xs text-gray-500">
-                Total lahan diseluruh wilayah
+                Total lahan di seluruh wilayah
               </p>
             </CardContent>
           </Card>
@@ -111,7 +111,7 @@ const DashboardRiauPage = () => {
                 })}
               </div>
               <p className="text-xs text-gray-500">
-                2% dari total lahan diseluruh wilayah
+                2% dari total lahan di seluruh wilayah
               </p>
             </CardContent>
           </Card>
@@ -130,7 +130,7 @@ const DashboardRiauPage = () => {
                 })}
               </div>
               <p className="text-xs text-gray-500">
-                7% dari total lahan diseluruh wilayah
+                7% dari total lahan di seluruh wilayah
               </p>
             </CardContent>
           </Card>
