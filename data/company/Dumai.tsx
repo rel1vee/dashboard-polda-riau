@@ -1,4 +1,3 @@
 import { Company } from "@/types";
 
-export const dumaiCompanies: Company[] = [
-]
+export const dumaiCompanies: Company[] = [];

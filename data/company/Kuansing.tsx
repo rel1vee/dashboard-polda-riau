@@ -1,4 +1,103 @@
 import { Company } from "@/types";
 
 export const kuansingCompanies: Company[] = [
-]
+  {
+    id: 1,
+    name: "PT. BANGUN PERSADA TATA MAKMUR TAKE OVER PT. SANDRIA SUKSES BERSAMA",
+    area: 200.0,
+    target2Percent: 4.0,
+    target7Percent: 14.0,
+    monokulturTargets: {
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
+      IV: 1.0,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 3.5,
+      II: 3.5,
+      III: 3.5,
+      IV: 3.5,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 2,
+    name: "PT. CERENTI SUBUR",
+    area: 8929.0,
+    target2Percent: 178.58,
+    target7Percent: 625.03,
+    monokulturTargets: {
+      I: 44.65,
+      II: 44.65,
+      III: 44.65,
+      IV: 44.65,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 156.26,
+      II: 156.26,
+      III: 156.26,
+      IV: 156.26,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 3,
+    name: "PT. CITRA RIAU SARANA",
+    area: 12000.0,
+    target2Percent: 240.0,
+    target7Percent: 840.0,
+    monokulturTargets: {
+      I: 60.0,
+      II: 60.0,
+      III: 60.0,
+      IV: 60.0,
+    },
+    monokulturAchievements: {
+      I: 1.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 210.0,
+      II: 210.0,
+      III: 210.0,
+      IV: 210.0,
+    },
+    tumpangSariAchievements: {
+      I: 5.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+];

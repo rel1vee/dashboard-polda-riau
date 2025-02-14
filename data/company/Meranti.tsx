@@ -1,4 +1,3 @@
 import { Company } from "@/types";
 
-export const merantiCompanies: Company[] = [
-]
+export const merantiCompanies: Company[] = [];

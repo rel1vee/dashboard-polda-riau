@@ -1,4 +1,3 @@
 import { Company } from "@/types";
 
-export const bengkalisCompanies: Company[] = [
-]
+export const bengkalisCompanies: Company[] = [];
