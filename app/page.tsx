@@ -187,7 +187,8 @@ const DashboardRiauPage = () => {
                 </CardTitle>
                 {selectedCity && (
                   <CardDescription>
-                    Total {selectedCity.companies.length} Perusahaan Terdaftar
+                    Total {selectedCity.companies.length} Perusahaan. Pilih
+                    perusahaan untuk melihat detail.
                   </CardDescription>
                 )}
               </CardHeader>
