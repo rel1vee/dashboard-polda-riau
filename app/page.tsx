@@ -191,8 +191,8 @@ const DashboardRiauPage = () => {
                   </CardDescription>
                 )}
               </CardHeader>
-              <CardContent>
-                <ScrollArea className="h-[525px]">
+              <ScrollArea className="h-[550px]">
+                <CardContent>
                   {selectedCity ? (
                     <div>
                       {selectedCity.companies.length > 0 ? (
@@ -257,8 +257,8 @@ const DashboardRiauPage = () => {
                       <p>Pilih wilayah pada peta...</p>
                     </div>
                   )}
-                </ScrollArea>
-              </CardContent>
+                </CardContent>
+              </ScrollArea>
             </Card>
           </div>
         </div>
