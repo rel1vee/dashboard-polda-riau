@@ -1,8 +1,16 @@
 import { City } from "../types";
+import { bengkalisCompanies } from "./company/Bengkalis";
+import { dumaiCompanies } from "./company/Dumai";
+import { inhilCompanies } from "./company/Inhil";
 import { inhuCompanies } from "./company/Inhu";
 import { KamparCompanies } from "./company/Kampar";
+import { kuansingCompanies } from "./company/Kuansing";
+import { merantiCompanies } from "./company/Meranti";
+import { pekanbaruCompanies } from "./company/Pekanbaru";
 import { PelalawanCompanies } from "./company/Pelalawan";
+import { rohilCompanies } from "./company/Rohil";
 import { rohulCompanies } from "./company/Rohul";
+import { siakCompanies } from "./company/Siak";
 
 export const riauCity: City[] = [
   {
@@ -33,7 +41,7 @@ export const riauCity: City[] = [
     monokulturTarget: 7216.48,
     tumpangSariTarget: 25257.66,
     totalTarget: 32474.14,
-    companies: inhuCompanies,
+    companies: inhilCompanies,
   },
   {
     id: 4,
@@ -43,7 +51,7 @@ export const riauCity: City[] = [
     monokulturTarget: 2647.36,
     tumpangSariTarget: 9265.77,
     totalTarget: 11913.13,
-    companies: inhuCompanies,
+    companies: pekanbaruCompanies,
   },
   {
     id: 5,
@@ -53,7 +61,7 @@ export const riauCity: City[] = [
     monokulturTarget: 1498.07,
     tumpangSariTarget: 5243.25,
     totalTarget: 6741.33,
-    companies: inhuCompanies,
+    companies: bengkalisCompanies,
   },
   {
     id: 6,
@@ -73,7 +81,7 @@ export const riauCity: City[] = [
     monokulturTarget: 1664.2,
     tumpangSariTarget: 5824.7,
     totalTarget: 7488.9,
-    companies: inhuCompanies,
+    companies: rohilCompanies,
   },
   {
     id: 8,
@@ -83,7 +91,7 @@ export const riauCity: City[] = [
     monokulturTarget: 2042.11,
     tumpangSariTarget: 7147.4,
     totalTarget: 9189.51,
-    companies: inhuCompanies,
+    companies: siakCompanies,
   },
   {
     id: 9,
@@ -93,7 +101,7 @@ export const riauCity: City[] = [
     monokulturTarget: 1486.1,
     tumpangSariTarget: 5201.34,
     totalTarget: 6687.44,
-    companies: inhuCompanies,
+    companies: kuansingCompanies,
   },
   {
     id: 10,
@@ -113,7 +121,7 @@ export const riauCity: City[] = [
     monokulturTarget: 0,
     tumpangSariTarget: 0,
     totalTarget: 3245.0,
-    companies: inhuCompanies,
+    companies: merantiCompanies,
   },
   {
     id: 12,
@@ -123,6 +131,6 @@ export const riauCity: City[] = [
     monokulturTarget: 0,
     tumpangSariTarget: 0,
     totalTarget: 287.5,
-    companies: inhuCompanies,
+    companies: dumaiCompanies,
   },
 ];
