@@ -10,22 +10,8 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import {
-  Building2,
-  Target,
-  Map,
-  MapPin,
-  TargetIcon,
-  Sprout,
-} from "lucide-react";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
+import { Building2, Map, TargetIcon, Sprout } from "lucide-react";
+import { Table, TableBody, TableRow } from "@/components/ui/table";
 import { City, Company } from "@/types";
 import { riauCity } from "@/data/RiauCity";
 import CompanyDetailsModal from "@/components/CompanyDetail";
@@ -204,7 +190,7 @@ const DashboardRiauPage = () => {
           >
             <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden">
               <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
-                <CardTitle className="flex items-center gap-2 text-blue-600">
+                <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
                   <Map className="w-5 h-5" />
                   Peta Sebaran Kota di Wilayah Riau
                 </CardTitle>
@@ -226,7 +212,7 @@ const DashboardRiauPage = () => {
           >
             <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all">
               <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
-                <CardTitle className="flex items-center gap-2 text-blue-600">
+                <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
                   <Building2 className="w-5 h-5" />
                   {selectedCity
                     ? `Perusahaan di ${selectedCity.nama}`
@@ -248,7 +234,6 @@ const DashboardRiauPage = () => {
                   <div className="p-4">
                     {selectedCity.companies.length > 0 ? (
                       <Table>
-                        <TableHeader></TableHeader>
                         <TableBody>
                           {selectedCity.companies.map((company, index) => (
                             <TableRow
