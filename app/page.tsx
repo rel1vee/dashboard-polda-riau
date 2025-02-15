@@ -120,7 +120,7 @@ const DashboardRiauPage = () => {
         </motion.div>
         {/* Stats Summary */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-4 gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
@@ -191,7 +191,7 @@ const DashboardRiauPage = () => {
             <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden">
               <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
                 <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
-                  <Map className="w-5 h-5" />
+                  <Map className="w-5 h-5 hidden md:block" />
                   Peta Sebaran Kota di Wilayah Riau
                 </CardTitle>
                 <CardDescription>
@@ -213,7 +213,7 @@ const DashboardRiauPage = () => {
             <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all">
               <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
                 <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
-                  <Building2 className="w-5 h-5" />
+                  <Building2 className="w-5 h-5 hidden md:block" />
                   {selectedCity
                     ? `Perusahaan di ${selectedCity.nama}`
                     : "Daftar Perusahaan"}
