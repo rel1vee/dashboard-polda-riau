@@ -3,7 +3,7 @@ import { Company } from "@/types";
 export const inhilCompanies: Company[] = [
   {
     id: 1,
-    name: "KOPERASI KONSUMEN RINDANG BENUA",
+    name: "KOPERASI KONSUMEN RINDANG BENUA ",
     area: 502.54,
     target2Percent: 10.05,
     target7Percent: 35.18,
@@ -133,105 +133,105 @@ export const inhilCompanies: Company[] = [
     status: 0,
     csr: 0.0,
   },
-  // {
-  //     "id": 5,
-  //     "name": "PT. BHUMIREKSA NUSASEJATI",
-  //     "area": "25752.00",
-  //     "target2Percent": "515.04",
-  //     "target7Percent": "1802.64",
-  //     "monokulturTargets": {
-  //         "I": "128.76",
-  //         "II": "128.76",
-  //         "III": "128.76",
-  //         "IV": "128.76"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "450.66",
-  //         "II": "450.66",
-  //         "III": "450.66",
-  //         "IV": "450.66"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
-  // {
-  //     "id": 6,
-  //     "name": "PT. BUMIPALMA LESTARIPERSADA",
-  //     "area": "6690.00",
-  //     "target2Percent": "133.80",
-  //     "target7Percent": "468.30",
-  //     "monokulturTargets": {
-  //         "I": "33.45",
-  //         "II": "33.45",
-  //         "III": "33.45",
-  //         "IV": "33.45"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "117.08",
-  //         "II": "117.08",
-  //         "III": "117.08",
-  //         "IV": "117.08"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
-  // {
-  //     "id": 7,
-  //     "name": "PT. CITRA PALMA KENCANA",
-  //     "area": "3442.43",
-  //     "target2Percent": "68.85",
-  //     "target7Percent": "240.97",
-  //     "monokulturTargets": {
-  //         "I": "17.21",
-  //         "II": "17.21",
-  //         "III": "17.21",
-  //         "IV": "17.21"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "60.24",
-  //         "II": "60.24",
-  //         "III": "60.24",
-  //         "IV": "60.24"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
+  {
+    id: 5,
+    name: "PT. BHUMIREKSA NUSASEJATI",
+    area: 25752.0,
+    target2Percent: 515.04,
+    target7Percent: 1802.64,
+    monokulturTargets: {
+      I: 128.76,
+      II: 128.76,
+      III: 128.76,
+      IV: 128.76,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 450.66,
+      II: 450.66,
+      III: 450.66,
+      IV: 450.66,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 6,
+    name: "PT. BUMIPALMA LESTARIPERSADA",
+    area: 6690.0,
+    target2Percent: 133.8,
+    target7Percent: 468.3,
+    monokulturTargets: {
+      I: 33.45,
+      II: 33.45,
+      III: 33.45,
+      IV: 33.45,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 117.08,
+      II: 117.08,
+      III: 117.08,
+      IV: 117.08,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 7,
+    name: "PT. CITRA PALMA KENCANA",
+    area: 3442.43,
+    target2Percent: 68.85,
+    target7Percent: 240.97,
+    monokulturTargets: {
+      I: 17.21,
+      II: 17.21,
+      III: 17.21,
+      IV: 17.21,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 60.24,
+      II: 60.24,
+      III: 60.24,
+      IV: 60.24,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
   {
     id: 8,
     name: "PT. GUNTUNG IDAMANNUSA",
@@ -265,72 +265,72 @@ export const inhilCompanies: Company[] = [
     status: 0,
     csr: 0.0,
   },
-  // {
-  //     "id": 9,
-  //     "name": "PT. HIJAU LINGKUNGAN SAWIT INDAH",
-  //     "area": "14840.00",
-  //     "target2Percent": "296.80",
-  //     "target7Percent": "1038.80",
-  //     "monokulturTargets": {
-  //         "I": "74.20",
-  //         "II": "74.20",
-  //         "III": "74.20",
-  //         "IV": "74.20"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "259.70",
-  //         "II": "259.70",
-  //         "III": "259.70",
-  //         "IV": "259.70"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
-  // {
-  //     "id": 10,
-  //     "name": "PT. INDOGREEN JAYA ABADI",
-  //     "area": "9549.96",
-  //     "target2Percent": "191.00",
-  //     "target7Percent": "668.50",
-  //     "monokulturTargets": {
-  //         "I": "47.75",
-  //         "II": "47.75",
-  //         "III": "47.75",
-  //         "IV": "47.75"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "167.12",
-  //         "II": "167.12",
-  //         "III": "167.12",
-  //         "IV": "167.12"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
+  {
+    id: 9,
+    name: "PT. HIJAU LINGKUNGAN SAWIT INDAH",
+    area: 14840.0,
+    target2Percent: 296.8,
+    target7Percent: 1038.8,
+    monokulturTargets: {
+      I: 74.2,
+      II: 74.2,
+      III: 74.2,
+      IV: 74.2,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 259.7,
+      II: 259.7,
+      III: 259.7,
+      IV: 259.7,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 10,
+    name: "PT. INDOGREEN JAYA ABADI",
+    area: 9549.96,
+    target2Percent: 191.0,
+    target7Percent: 668.5,
+    monokulturTargets: {
+      I: 47.75,
+      II: 47.75,
+      III: 47.75,
+      IV: 47.75,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 167.12,
+      II: 167.12,
+      III: 167.12,
+      IV: 167.12,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
   {
     id: 11,
     name: "PT. INDOMANIS LESTARI",
@@ -364,204 +364,204 @@ export const inhilCompanies: Company[] = [
     status: 0,
     csr: 0.0,
   },
-  // {
-  //     "id": 12,
-  //     "name": "PT. INDRAWAN PERKASA",
-  //     "area": "715.66",
-  //     "target2Percent": "14.31",
-  //     "target7Percent": "50.10",
-  //     "monokulturTargets": {
-  //         "I": "3.58",
-  //         "II": "3.58",
-  //         "III": "3.58",
-  //         "IV": "3.58"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "12.52",
-  //         "II": "12.52",
-  //         "III": "12.52",
-  //         "IV": "12.52"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
-  // {
-  //     "id": 13,
-  //     "name": "PT. ISTANA RATU MAS",
-  //     "area": "10152.00",
-  //     "target2Percent": "203.04",
-  //     "target7Percent": "710.64",
-  //     "monokulturTargets": {
-  //         "I": "50.76",
-  //         "II": "50.76",
-  //         "III": "50.76",
-  //         "IV": "50.76"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "177.66",
-  //         "II": "177.66",
-  //         "III": "177.66",
-  //         "IV": "177.66"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
-  // {
-  //     "id": 14,
-  //     "name": "PT. KELOLA SAWIT MAKMUR",
-  //     "area": "10240.00",
-  //     "target2Percent": "204.80",
-  //     "target7Percent": "716.80",
-  //     "monokulturTargets": {
-  //         "I": "51.20",
-  //         "II": "51.20",
-  //         "III": "51.20",
-  //         "IV": "51.20"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "179.20",
-  //         "II": "179.20",
-  //         "III": "179.20",
-  //         "IV": "179.20"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
-  // {
-  //     "id": 15,
-  //     "name": "PT. KERETA KUDA KENCANA",
-  //     "area": "15548.00",
-  //     "target2Percent": "310.96",
-  //     "target7Percent": "1088.36",
-  //     "monokulturTargets": {
-  //         "I": "77.74",
-  //         "II": "77.74",
-  //         "III": "77.74",
-  //         "IV": "77.74"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "272.09",
-  //         "II": "272.09",
-  //         "III": "272.09",
-  //         "IV": "272.09"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
-  // {
-  //     "id": 16,
-  //     "name": "PT. KRISNA KERETA KENCANA",
-  //     "area": "14215.00",
-  //     "target2Percent": "284.30",
-  //     "target7Percent": "995.05",
-  //     "monokulturTargets": {
-  //         "I": "71.08",
-  //         "II": "71.08",
-  //         "III": "71.08",
-  //         "IV": "71.08"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "248.76",
-  //         "II": "248.76",
-  //         "III": "248.76",
-  //         "IV": "248.76"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
-  // {
-  //     "id": 17,
-  //     "name": "PT. OSCAR INVESTAMA",
-  //     "area": "14560.00",
-  //     "target2Percent": "291.20",
-  //     "target7Percent": "1019.20",
-  //     "monokulturTargets": {
-  //         "I": "72.80",
-  //         "II": "72.80",
-  //         "III": "72.80",
-  //         "IV": "72.80"
-  //     },
-  //     "monokulturAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "tumpangSariTargets": {
-  //         "I": "254.80",
-  //         "II": "254.80",
-  //         "III": "254.80",
-  //         "IV": "254.80"
-  //     },
-  //     "tumpangSariAchievements": {
-  //         "I": 0.00,
-  //         "II": 0.00,
-  //         "III": 0.00,
-  //         "IV": 0.00
-  //     },
-  //     "status": 0,
-  //     "csr": 0.00
-  // },
+  {
+    id: 12,
+    name: "PT. INDRAWAN PERKASA",
+    area: 715.66,
+    target2Percent: 14.31,
+    target7Percent: 50.1,
+    monokulturTargets: {
+      I: 3.58,
+      II: 3.58,
+      III: 3.58,
+      IV: 3.58,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 12.52,
+      II: 12.52,
+      III: 12.52,
+      IV: 12.52,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 13,
+    name: "PT. ISTANA RATU MAS",
+    area: 10152.0,
+    target2Percent: 203.04,
+    target7Percent: 710.64,
+    monokulturTargets: {
+      I: 50.76,
+      II: 50.76,
+      III: 50.76,
+      IV: 50.76,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 177.66,
+      II: 177.66,
+      III: 177.66,
+      IV: 177.66,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 14,
+    name: "PT. KELOLA SAWIT MAKMUR",
+    area: 10240.0,
+    target2Percent: 204.8,
+    target7Percent: 716.8,
+    monokulturTargets: {
+      I: 51.2,
+      II: 51.2,
+      III: 51.2,
+      IV: 51.2,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 179.2,
+      II: 179.2,
+      III: 179.2,
+      IV: 179.2,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 15,
+    name: "PT. KERETA KUDA KENCANA",
+    area: 15548.0,
+    target2Percent: 310.96,
+    target7Percent: 1088.36,
+    monokulturTargets: {
+      I: 77.74,
+      II: 77.74,
+      III: 77.74,
+      IV: 77.74,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 272.09,
+      II: 272.09,
+      III: 272.09,
+      IV: 272.09,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 16,
+    name: "PT. KRISNA KERETA KENCANA",
+    area: 14215.0,
+    target2Percent: 284.3,
+    target7Percent: 995.05,
+    monokulturTargets: {
+      I: 71.08,
+      II: 71.08,
+      III: 71.08,
+      IV: 71.08,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 248.76,
+      II: 248.76,
+      III: 248.76,
+      IV: 248.76,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
+  {
+    id: 17,
+    name: "PT. OSCAR INVESTAMA",
+    area: 14560.0,
+    target2Percent: 291.2,
+    target7Percent: 1019.2,
+    monokulturTargets: {
+      I: 72.8,
+      II: 72.8,
+      III: 72.8,
+      IV: 72.8,
+    },
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariTargets: {
+      I: 254.8,
+      II: 254.8,
+      III: 254.8,
+      IV: 254.8,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    status: 0,
+    csr: 0.0,
+  },
   {
     id: 18,
     name: "PT. PANCUR SAWIT MAS",
