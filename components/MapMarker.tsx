@@ -4,6 +4,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { Badge } from "./ui/badge";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { useRef } from "react";
 
 // SVG untuk custom marker
 const pinIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
@@ -36,6 +37,9 @@ interface MapProps {
 }
 
 const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
+  // Create refs for each marker
+  const markerRefs = useRef<{ [key: string]: L.Marker | null }>({});
+
   return (
     <div className="h-[500px] overflow-hidden">
       <MapContainer
@@ -56,12 +60,27 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             icon={customIcon}
             eventHandlers={{
               click: () => {
+                const marker = markerRefs.current[city.id];
+                if (marker) {
+                  marker.openPopup();
+                }
                 onCityClick(city); // Panggil callback saat marker diklik
               },
+              mouseover: () => {
+                const marker = markerRefs.current[city.id];
+                if (marker) {
+                  marker.openPopup();
+                }
+              },
+            }}
+            ref={(ref) => {
+              if (ref) {
+                markerRefs.current[city.id] = ref;
+              }
             }}
           >
             <Popup className="rounded-xl shadow-xl bg-white">
-              <div className="p-4">
+              <div>
                 {/* Header */}
                 <h3 className="font-bold text-lg mb-3 text-gray-800 hover:text-blue-600 transition-colors">
                   {city.nama}
@@ -82,7 +101,9 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                       Total Luas Lahan:
                     </span>
                     <span className="font-bold text-gray-900">
-                      {city.totalArea} Ha
+                      {city.totalArea.toLocaleString("id-ID", {
+                        maximumFractionDigits: 2,
+                      })}
                     </span>
                   </div>
                 </div>
