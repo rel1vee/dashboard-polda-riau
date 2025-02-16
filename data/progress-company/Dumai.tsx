@@ -1,13 +1,13 @@
-import { Company } from "@/types";
+import { Progress } from "@/types";
 
-export const dumaiCompaniesProgress: Company[] = [
+export const dumaiCompaniesProgress: Progress[] = [
   {
     id: 1,
     namaPJ: "RADI",
     nomorTelp: "085271297032",
     area: 49.3717,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 0.0,
@@ -74,8 +74,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "FRITS HENDRA SIHOMBING",
     nomorTelp: "081275483338",
     area: 20.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 0.0,
@@ -142,8 +142,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "FAISAL FAHMI",
     nomorTelp: "081365068625",
     area: 2.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 2.0,
@@ -210,8 +210,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "ROZIKIN",
     nomorTelp: "082387777855",
     area: 2.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 2.0,
@@ -278,8 +278,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "SOFIAN",
     nomorTelp: "081276022789",
     area: 2.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 2.0,
@@ -346,8 +346,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "SULFAN BATU BARA",
     nomorTelp: "082382481942",
     area: 2.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 2.0,
@@ -414,8 +414,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "JUMIRIN",
     nomorTelp: "081365733474",
     area: 28.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 2.0,
@@ -482,8 +482,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "AYU",
     nomorTelp: "082391228484",
     area: 15.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 15.0,
@@ -550,8 +550,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "FAISAL FAHMI",
     nomorTelp: "081365068625",
     area: 14.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 14.0,
@@ -618,8 +618,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "AJANG",
     nomorTelp: "082389099991",
     area: 10.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 7.0,
@@ -686,8 +686,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "SYAHBUDI",
     nomorTelp: "085324798438",
     area: 15.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 15.0,
@@ -754,8 +754,8 @@ export const dumaiCompaniesProgress: Company[] = [
     namaPJ: "SYAHBUDI",
     nomorTelp: "085324798438",
     area: 10.0,
-    coordinates: 0,
-    photo: 0,
+    coordinates: null,
+    photo: "",
     monokultur: {
       targetTanam: {
         luas: 0.0,

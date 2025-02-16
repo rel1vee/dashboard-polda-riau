@@ -6,8 +6,7 @@ export const pekanbaruCompaniesProgress: Progress[] = [
     namaPJ: "Yudistira",
     nomorTelp: "0822-5010-0727",
     area: 421.31,
-    coordinates:
-      "0.61937102, 101.36358149 ; 0.603250, 101.423706 ; 0.4969, 101.5102 ; 0.5528, 101.481",
+    coordinates: null,
     photo: "",
     monokultur: {
       targetTanam: {
@@ -75,7 +74,7 @@ export const pekanbaruCompaniesProgress: Progress[] = [
     namaPJ: "Paijan",
     nomorTelp: "0812-7563-968",
     area: 197.0,
-    coordinates: "0.3056, 101.3243",
+    coordinates: null,
     photo: "",
     monokultur: {
       targetTanam: {
@@ -143,8 +142,7 @@ export const pekanbaruCompaniesProgress: Progress[] = [
     namaPJ: "Imelda",
     nomorTelp: "0813-6525-2692",
     area: 200.0,
-    coordinates:
-      "0.2653, 101.3055 ; 0.2715, 101.3158 ; 0.2746,101.3344 ; 0.508171, 101.540875",
+    coordinates: null,
     photo: "",
     monokultur: {
       targetTanam: {
@@ -212,7 +210,7 @@ export const pekanbaruCompaniesProgress: Progress[] = [
     namaPJ: "Hutabarat",
     nomorTelp: "0823-8330-0829",
     area: 629.21,
-    coordinates: "0.3113, 101.3251 ; 0.5434, 101.5152",
+    coordinates: null,
     photo: "",
     monokultur: {
       targetTanam: {
@@ -280,8 +278,7 @@ export const pekanbaruCompaniesProgress: Progress[] = [
     namaPJ: "Hartono",
     nomorTelp: "0811-7087-965",
     area: 5038.6,
-    coordinates:
-      "0.601033 101.561592 ; 0.491730, 101.385141 ; 0.479183, 101.33735 ; 0.604215, 101.353154 ; 0.599429,101.506923",
+    coordinates: null,
     photo: "",
     monokultur: {
       targetTanam: {

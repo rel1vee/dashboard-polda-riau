@@ -11,6 +11,18 @@ import { PelalawanCompanies } from "./company/Pelalawan";
 import { rohilCompanies } from "./company/Rohil";
 import { rohulCompanies } from "./company/Rohul";
 import { siakCompanies } from "./company/Siak";
+import { bengkalisOtherCompanies } from "./other-company/Bengkalis";
+import { dumaiOtherCompanies } from "./other-company/Dumai";
+import { inhilOtherCompanies } from "./other-company/Inhil";
+import { inhuOtherCompanies } from "./other-company/Inhu";
+import { kamparOtherCompanies } from "./other-company/Kampar";
+import { kuansingOtherCompanies } from "./other-company/Kuansing";
+import { merantiOtherCompanies } from "./other-company/Meranti";
+import { pekanbaruOtherCompanies } from "./other-company/Pekanbaru";
+import { pelalawanOtherCompanies } from "./other-company/Pelalawan";
+import { rohilOtherCompanies } from "./other-company/Rohil";
+import { rohulOtherCompanies } from "./other-company/Rohul";
+import { siakOtherCompanies } from "./other-company/Siak";
 
 export const riauCity: City[] = [
   {
@@ -22,6 +34,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 10931.04,
     totalTarget: 14054.19,
     companies: inhuCompanies,
+    otherCompanies: inhuOtherCompanies,
   },
   {
     id: 2,
@@ -32,6 +45,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 9974.11,
     totalTarget: 12823.86,
     companies: KamparCompanies,
+    otherCompanies: kamparOtherCompanies,
   },
   {
     id: 3,
@@ -42,6 +56,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 25257.66,
     totalTarget: 32474.14,
     companies: inhilCompanies,
+    otherCompanies: inhilOtherCompanies,
   },
   {
     id: 4,
@@ -52,6 +67,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 9265.77,
     totalTarget: 11913.13,
     companies: pekanbaruCompanies,
+    otherCompanies: pekanbaruOtherCompanies,
   },
   {
     id: 5,
@@ -62,6 +78,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 5243.25,
     totalTarget: 6741.33,
     companies: bengkalisCompanies,
+    otherCompanies: bengkalisOtherCompanies,
   },
   {
     id: 6,
@@ -72,6 +89,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 12118.01,
     totalTarget: 15580.3,
     companies: PelalawanCompanies,
+    otherCompanies: pelalawanOtherCompanies,
   },
   {
     id: 7,
@@ -82,6 +100,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 5824.7,
     totalTarget: 7488.9,
     companies: rohilCompanies,
+    otherCompanies: rohilOtherCompanies,
   },
   {
     id: 8,
@@ -92,6 +111,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 7147.4,
     totalTarget: 9189.51,
     companies: siakCompanies,
+    otherCompanies: siakOtherCompanies,
   },
   {
     id: 9,
@@ -102,6 +122,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 5201.34,
     totalTarget: 6687.44,
     companies: kuansingCompanies,
+    otherCompanies: kuansingOtherCompanies,
   },
   {
     id: 10,
@@ -112,6 +133,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 11654.02,
     totalTarget: 14983.74,
     companies: rohulCompanies,
+    otherCompanies: rohulOtherCompanies,
   },
   {
     id: 11,
@@ -122,6 +144,7 @@ export const riauCity: City[] = [
     tumpangSariTarget: 0,
     totalTarget: 3245.0,
     companies: merantiCompanies,
+    otherCompanies: merantiOtherCompanies,
   },
   {
     id: 12,
@@ -132,5 +155,6 @@ export const riauCity: City[] = [
     tumpangSariTarget: 0,
     totalTarget: 287.5,
     companies: dumaiCompanies,
+    otherCompanies: dumaiOtherCompanies,
   },
 ];
