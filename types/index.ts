@@ -3,6 +3,7 @@ export interface City {
   nama: string;
   coordinates: [number, number]; // latitude, longitude
   totalArea: number;
+  otherTotalArea: number;
   monokulturTarget: number;
   tumpangSariTarget: number;
   totalTarget: number;

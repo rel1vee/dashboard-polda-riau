@@ -35,6 +35,71 @@ const DashboardRiauPage = () => {
     useState<Company | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  // const rankCompanies = (companies: Company[]) => {
+  //   const maxArea = Math.max(...companies.map((company) => company.area));
+
+  //   const areaScore = (company: Company) => (company.area / maxArea) * 100;
+
+  //   const monokulturScore = (company: Company) => {
+  //     const achievements = Object.values(company.monokulturAchievements);
+  //     const targets = Object.values(company.monokulturTargets || {});
+  //     const maxTarget = Math.max(...targets);
+  //     return (
+  //       (achievements.reduce((sum, val) => sum + val, 0) /
+  //         (maxTarget * achievements.length)) *
+  //       100
+  //     );
+  //   };
+
+  //   const tumpangSariScore = (company: Company) => {
+  //     const achievements = Object.values(company.tumpangSariAchievements);
+  //     const targets = Object.values(company.tumpangSariTargets || {});
+  //     const maxTarget = Math.max(...targets);
+  //     return (
+  //       (achievements.reduce((sum, val) => sum + val, 0) /
+  //         (maxTarget * achievements.length)) *
+  //       100
+  //     );
+  //   };
+
+  //   // const csrScore = (company: Company) => {
+  //   //   const achievements = Object.values(company.csrAchievements || {});
+  //   //   const maxAchievement = Math.max(...achievements);
+  //   //   return (achievements.reduce((sum, val) => sum + val, 0) / (maxAchievement * achievements.length)) * 100;
+  //   // };
+
+  //   // const progressScore = (company: Company) => {
+  //   //   if (!company.progress || company.progress.length === 0) return 0;
+  //   //   const totalProgress = company.progress.reduce((sum, p) => sum + p.value, 0);
+  //   //   return (totalProgress / company.progress.length) * 100;
+  //   // };
+
+  //   const calculateFinalScore = (company: Company) => {
+  //     const weights = {
+  //       area: 0.2,
+  //       monokultur: 0.3,
+  //       tumpangSari: 0.25,
+  //       csr: 0.15,
+  //       progress: 0.1,
+  //     };
+
+  //     return (
+  //       areaScore(company) * weights.area +
+  //       monokulturScore(company) * weights.monokultur +
+  //       tumpangSariScore(company) * weights.tumpangSari
+  //       // csrScore(company) * weights.csr +
+  //       // progressScore(company) * weights.progress
+  //     );
+  //   };
+
+  //   return companies
+  //     .map((company) => ({
+  //       ...company,
+  //       finalScore: calculateFinalScore(company),
+  //     }))
+  //     .sort((a, b) => b.finalScore - a.finalScore);
+  // };
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -76,12 +141,14 @@ const DashboardRiauPage = () => {
     return riauCity.reduce(
       (acc, polres) => ({
         totalArea: acc.totalArea + polres.totalArea,
+        otherTotalArea: acc.otherTotalArea + polres.otherTotalArea,
         monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
         tumpangSariTarget: acc.tumpangSariTarget + polres.tumpangSariTarget,
         totalTarget: acc.totalTarget + polres.totalTarget,
       }),
       {
         totalArea: 0,
+        otherTotalArea: 0,
         monokulturTarget: 0,
         tumpangSariTarget: 0,
         totalTarget: 0,
@@ -139,7 +206,7 @@ const DashboardRiauPage = () => {
             {[
               {
                 title: "Luas Keseluruhan",
-                value: stats.totalArea,
+                value: stats.totalArea + stats.otherTotalArea,
                 description: "Total lahan di seluruh wilayah",
                 icon: Map,
                 gradient: "from-purple-400 to-pink-500",
@@ -250,6 +317,7 @@ const DashboardRiauPage = () => {
                                 className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
                                 onClick={() => handleCompanyClick(company)}
                               >
+                                {/* <motion.td>{index + 1}</motion.td> */}
                                 <motion.td
                                   variants={tableRowVariants}
                                   initial="hidden"
@@ -259,6 +327,9 @@ const DashboardRiauPage = () => {
                                 >
                                   {company.name}
                                 </motion.td>
+                                {/* <motion.td>
+                                    {company.finalScore.toFixed(2)}
+                                  </motion.td> */}
                               </TableRow>
                             ))}
                           </TableBody>
