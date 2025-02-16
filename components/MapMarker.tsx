@@ -47,6 +47,15 @@ const calculateTotalAchievements = (
 
   return allCompanies.reduce(
     (totals, company) => {
+      // Menghitung capaian Monokultur pada Periode II saja
+      // const monoTotal = company.monokulturAchievements?.II ?? 0;
+
+      // Menghitung capaian Tumpang Sari pada Periode II saja
+      // const tumpangSariTotal = company.tumpangSariAchievements?.II ?? 0;
+
+      // Menghitung capaian CSR pada Periode II saja
+      // const csrTotal = company.csrAchievements?.II ?? 0;
+
       const monoTotal = Object.values(company.monokulturAchievements).reduce(
         (sum, val) => sum + val,
         0
@@ -54,6 +63,7 @@ const calculateTotalAchievements = (
       const tumpangSariTotal = Object.values(
         company.tumpangSariAchievements
       ).reduce((sum, val) => sum + val, 0);
+
       const csrTotal = company.csrAchievements
         ? Object.values(company.csrAchievements).reduce(
             (sum, val) => sum + val,

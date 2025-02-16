@@ -16,10 +16,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Building2,
   Calendar,
+  Database,
   Phone,
   Target,
   User,
-  WarehouseIcon,
 } from "lucide-react";
 import {
   BarChart,
@@ -792,10 +792,10 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                     })}
                 </>
               ) : (
-                <div className="h-[400px] flex items-center justify-center flex-col gap-4">
-                  <WarehouseIcon className="h-8 w-8 text-emerald-700" />
-                  <span className="text-emerald-700 text-xl">
-                    Data progress tanam belum dimasukkan.
+                <div className="h-[400px] flex items-center justify-center flex-col gap-2">
+                  <Database className="h-10 w-10 text-emerald-800" />
+                  <span className="text-emerald-800 text-xl">
+                    Data progress tanam belum dimasukkan...
                   </span>
                 </div>
               )}
