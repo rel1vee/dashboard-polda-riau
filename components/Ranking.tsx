@@ -8,7 +8,13 @@ import {
   CardDescription,
   CardContent,
 } from "@/components/ui/card";
-import { Table, TableBody, TableRow, TableCell } from "@/components/ui/table";
+import {
+  Table,
+  TableBody,
+  TableRow,
+  TableCell,
+  TableHeader,
+} from "@/components/ui/table";
 import { Trophy } from "lucide-react";
 import { City } from "@/types";
 
@@ -98,25 +104,35 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
       <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
         <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
           <Trophy className="w-5 h-5 hidden md:block" />
-          Perankingan Kabupaten/Kota
+          Perankingan Kab/Kota
         </CardTitle>
         <CardDescription>
-          Hasil perankingan kabupaten/kota (
-          <span className="italic">fairness method</span>)
+          Hasil perankingan (<span className="italic">fairness method</span>)
         </CardDescription>
       </CardHeader>
       <CardContent className="p-0 overflow-y-auto max-h-[500px]">
-        <div className="p-4">
+        <div className="py-2 px-4">
           <Table>
+            <TableHeader>
+              <TableRow>
+                <TableCell className="text-center font-semibold">No</TableCell>
+                <TableCell className="p-4 font-semibold">Kab/Kota</TableCell>
+                <TableCell className="p-4 text-center font-semibold">
+                  Skor
+                </TableCell>
+              </TableRow>
+            </TableHeader>
             <TableBody>
               {rankedCities.map((city, index) => (
                 <TableRow
                   key={city.id}
                   className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
                 >
-                  <TableCell className="p-4 font-medium">{index + 1}</TableCell>
+                  <TableCell className="text-center font-medium">
+                    {index + 1}
+                  </TableCell>
                   <TableCell className="p-4">{city.nama}</TableCell>
-                  <TableCell className="p-4">
+                  <TableCell className="p-4 text-center">
                     {city.finalScore.toFixed(2)}
                   </TableCell>
                 </TableRow>

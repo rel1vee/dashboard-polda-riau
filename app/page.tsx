@@ -92,7 +92,68 @@ const DashboardRiauPage = () => {
     );
   };
 
+  const getTotalAchievements = () => {
+    return riauCity.reduce(
+      (acc, polres) => {
+        const allCompanies = [
+          ...polres.companies,
+          ...(polres.otherCompanies || []),
+        ];
+
+        const monoAchievement = allCompanies.reduce((sum, company) => {
+          if (company.monokulturAchievements) {
+            return (
+              sum +
+              Object.values(company.monokulturAchievements).reduce(
+                (a, b) => a + b,
+                0
+              )
+            );
+          }
+          return sum;
+        }, 0);
+
+        const tumpangSariAchievement = allCompanies.reduce((sum, company) => {
+          if (company.tumpangSariAchievements) {
+            return (
+              sum +
+              Object.values(company.tumpangSariAchievements).reduce(
+                (a, b) => a + b,
+                0
+              )
+            );
+          }
+          return sum;
+        }, 0);
+
+        const csrAchievement = allCompanies.reduce((sum, company) => {
+          if (company.csrAchievements) {
+            return (
+              sum +
+              Object.values(company.csrAchievements).reduce((a, b) => a + b, 0)
+            );
+          }
+          return sum;
+        }, 0);
+
+        return {
+          monokulturAchievement: acc.monokulturAchievement + monoAchievement,
+          tumpangSariAchievement:
+            acc.tumpangSariAchievement + tumpangSariAchievement,
+          csrAchievement: acc.csrAchievement + csrAchievement,
+        };
+      },
+      {
+        monokulturAchievement: 0,
+        tumpangSariAchievement: 0,
+        csrAchievement: 0,
+      }
+    );
+  };
+
   const stats = getTotalStats();
+
+  const achievements = getTotalAchievements();
 
   const handleCompanyClick = (company: Company) => {
     setSelectedCompany(company);
@@ -126,11 +187,11 @@ const DashboardRiauPage = () => {
             transition={{ duration: 0.5 }}
             className="bg-white p-6 rounded-xl shadow-lg"
           >
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              Dashboard Wilayah Riau
+            <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              Dashboard Provinsi Riau
             </h1>
             <p className="text-gray-500 mt-1">
-              Overview Statistik dan Data Perusahaan di Wilayah Riau
+              Overview Statistik dan Data Perusahaan Provinsi Riau
             </p>
           </motion.div>
           {/* Stats Summary */}
@@ -144,27 +205,50 @@ const DashboardRiauPage = () => {
               {
                 title: "Luas Keseluruhan",
                 value: stats.totalArea + stats.otherTotalArea,
-                description: "Total lahan di seluruh wilayah",
+                description: "Total lahan di Provinsi Riau",
                 icon: Map,
                 gradient: "from-purple-400 to-pink-500",
               },
               {
-                title: "Target Monokultur",
-                value: stats.monokulturTarget,
-                description: "2% dari total lahan di seluruh wilayah",
+                title: "Monokultur",
+                value: `${achievements.monokulturAchievement.toLocaleString(
+                  "id-ID",
+                  {
+                    maximumFractionDigits: 2,
+                  }
+                )} dari ${stats.monokulturTarget.toLocaleString("id-ID", {
+                  maximumFractionDigits: 2,
+                })}`,
+                description: "2% dari total lahan di Provinsi Riau",
                 icon: Sprout,
                 gradient: "from-sky-400 to-blue-500",
               },
               {
-                title: "Target Tumpang Sari",
-                value: stats.tumpangSariTarget,
-                description: "7% dari total lahan di seluruh wilayah",
+                title: "Tumpang Sari",
+                value: `${achievements.tumpangSariAchievement.toLocaleString(
+                  "id-ID",
+                  {
+                    maximumFractionDigits: 2,
+                  }
+                )} dari ${stats.tumpangSariTarget.toLocaleString("id-ID", {
+                  maximumFractionDigits: 2,
+                })}`,
+                description: "7% dari total lahan di Provinsi Riau",
                 icon: Sprout,
                 gradient: "from-orange-400 to-pink-500",
               },
               {
                 title: "Total Target",
-                value: stats.totalTarget,
+                value: `${(
+                  achievements.monokulturAchievement +
+                  achievements.tumpangSariAchievement
+                ).toLocaleString("id-ID", {
+                  maximumFractionDigits: 2,
+                })} dari ${(
+                  stats.monokulturTarget + stats.tumpangSariTarget
+                ).toLocaleString("id-ID", {
+                  maximumFractionDigits: 2,
+                })}`,
                 description: "2% monokultur + 7% tumpang sari",
                 icon: TargetIcon,
                 gradient: "from-green-400 to-emerald-500",
@@ -177,14 +261,14 @@ const DashboardRiauPage = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                <CardHeader className="flex flex-row items-center justify-between pb-2">
+                <CardHeader className="flex flex-row items-center justify-between pb-4">
                   <CardTitle className="text-xl font-bold">
                     {stat.title}
                   </CardTitle>
                   <stat.icon className="w-6 h-6 text-white opacity-80" />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-3xl font-bold">
+                  <div className="text-2xl font-bold">
                     {stat.value.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}
@@ -206,10 +290,10 @@ const DashboardRiauPage = () => {
                   <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
                     <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
                       <Map className="w-5 h-5 hidden md:block" />
-                      Peta Sebaran Kota di Wilayah Riau
+                      Peta Sebaran di Provinsi Riau
                     </CardTitle>
                     <CardDescription>
-                      Pilih wilayah untuk melihat list dan detail perusahaan
+                      Pilih kab/kota untuk melihat daftar dan detail perusahaan
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="p-0">
@@ -253,7 +337,7 @@ const DashboardRiauPage = () => {
                     </CardDescription>
                   ) : (
                     <CardDescription>
-                      Pilih wilayah pada peta untuk melihat perusahaan target
+                      Pilih kab/kota pada peta untuk melihat perusahaan target
                     </CardDescription>
                   )}
                 </CardHeader>
@@ -303,7 +387,7 @@ const DashboardRiauPage = () => {
                       transition={{ duration: 0.3 }}
                     >
                       <Map className="w-12 h-12 mb-4 opacity-50" />
-                      <p>Pilih kabupaten/kota pada peta...</p>
+                      <p>Pilih kab/kota pada peta...</p>
                     </motion.div>
                   )}
                 </CardContent>
@@ -329,7 +413,7 @@ const DashboardRiauPage = () => {
                     </CardDescription>
                   ) : (
                     <CardDescription>
-                      Pilih wilayah pada peta untuk melihat perusahaan lain
+                      Pilih kab/kota pada peta untuk melihat perusahaan lain
                     </CardDescription>
                   )}
                 </CardHeader>
@@ -386,7 +470,7 @@ const DashboardRiauPage = () => {
                       transition={{ duration: 0.3 }}
                     >
                       <Map className="w-12 h-12 mb-4 opacity-50" />
-                      <p>Pilih kabupaten/kota pada peta...</p>
+                      <p>Pilih kab/kota pada peta...</p>
                     </motion.div>
                   )}
                 </CardContent>
