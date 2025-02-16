@@ -267,7 +267,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
         </DialogHeader>
 
         <Tabs defaultValue="overview" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4">
+          <TabsList className="grid w-full h-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-0">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="progress">
               Monokultur & Tumpang Sari
@@ -792,9 +792,9 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                     })}
                 </>
               ) : (
-                <div className="h-[400px] flex items-center justify-center flex-col gap-2">
+                <div className="h-[400px] flex items-center justify-center text-center flex-col gap-2">
                   <Database className="h-10 w-10 text-emerald-800" />
-                  <span className="text-emerald-800 text-xl">
+                  <span className="text-emerald-800 text-xl text-center">
                     Data progress tanam belum dimasukkan...
                   </span>
                 </div>
