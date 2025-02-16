@@ -270,7 +270,6 @@ const DashboardRiauPage = () => {
                                 className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
                                 onClick={() => handleCompanyClick(company)}
                               >
-                                {/* <motion.td>{index + 1}</motion.td> */}
                                 <motion.td
                                   variants={tableRowVariants}
                                   initial="hidden"
@@ -280,9 +279,6 @@ const DashboardRiauPage = () => {
                                 >
                                   {company.name}
                                 </motion.td>
-                                {/* <motion.td>
-                                    {company.finalScore.toFixed(2)}
-                                  </motion.td> */}
                               </TableRow>
                             ))}
                           </TableBody>

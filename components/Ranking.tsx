@@ -100,7 +100,10 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
           <Trophy className="w-5 h-5 hidden md:block" />
           Perankingan Kabupaten/Kota
         </CardTitle>
-        <CardDescription>Hasil perankingan kabupaten/kota</CardDescription>
+        <CardDescription>
+          Hasil perankingan kabupaten/kota (
+          <span className="italic">fairness method</span>)
+        </CardDescription>
       </CardHeader>
       <CardContent className="p-0 overflow-y-auto max-h-[500px]">
         <div className="p-4">
