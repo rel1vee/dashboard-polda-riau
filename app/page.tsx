@@ -15,6 +15,7 @@ import { Table, TableBody, TableRow } from "@/components/ui/table";
 import { City, Company } from "@/types";
 import { riauCity } from "@/data/RiauCity";
 import CompanyDetailsModal from "@/components/CompanyDetail";
+import OtherCompanyDetailsModal from "@/components/OtherCompanyDetail";
 
 const MapMarker = dynamic(() => import("@/components/MapMarker"), {
   ssr: false,
@@ -30,6 +31,8 @@ const MotionCard = motion.create(Card);
 const DashboardRiauPage = () => {
   const [selectedCity, setSelectedCity] = useState<City | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
+  const [selectedOtherCompany, setSelectedOtherCompany] =
+    useState<Company | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const containerVariants = {
@@ -93,9 +96,15 @@ const DashboardRiauPage = () => {
     setIsModalOpen(true);
   };
 
+  const handleOtherCompanyClick = (company: Company) => {
+    setSelectedOtherCompany(company);
+    setIsModalOpen(true);
+  };
+
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setSelectedCompany(null);
+    setSelectedOtherCompany(null);
   };
 
   return (
@@ -110,6 +119,7 @@ const DashboardRiauPage = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+          className="backdrop-blur-md p-6 rounded-xl shadow-lg"
         >
           <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
             Dashboard Wilayah Riau
@@ -174,39 +184,37 @@ const DashboardRiauPage = () => {
                     maximumFractionDigits: 2,
                   })}
                 </div>
-
                 <p className="text-xs opacity-80 mt-2">{stat.description}</p>
               </CardContent>
             </MotionCard>
           ))}
         </motion.div>
         {/* Map and Table Section */}
-        <div className="grid grid-cols-12 gap-6">
-          <motion.div
-            className="col-span-12 lg:col-span-8"
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden">
-              <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
-                <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
-                  <Map className="w-5 h-5 hidden md:block" />
-                  Peta Sebaran Kota di Wilayah Riau
-                </CardTitle>
-                <CardDescription>
-                  Pilih wilayah untuk melihat list dan detail perusahaan
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="p-0">
-                <MapMarker cities={riauCity} onCityClick={setSelectedCity} />
-              </CardContent>
-            </Card>
-          </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden backdrop-blur-md">
+            <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
+              <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
+                <Map className="w-5 h-5 hidden md:block" />
+                Peta Sebaran Kota di Wilayah Riau
+              </CardTitle>
+              <CardDescription>
+                Pilih wilayah untuk melihat list dan detail perusahaan
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="p-0">
+              <MapMarker cities={riauCity} onCityClick={setSelectedCity} />
+            </CardContent>
+          </Card>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <motion.div
-            className="col-span-12 lg:col-span-4"
-            initial={{ opacity: 0, x: 20 }}
+            initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
@@ -215,16 +223,17 @@ const DashboardRiauPage = () => {
                 <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
                   <Building2 className="w-5 h-5 hidden md:block" />
                   {selectedCity
-                    ? `Perusahaan di ${selectedCity.nama}`
-                    : "Daftar Perusahaan"}
+                    ? `Perusahaan Target di ${selectedCity.nama}`
+                    : "Daftar Perusahaan Target"}
                 </CardTitle>
                 {selectedCity ? (
                   <CardDescription>
+                    Total {selectedCity.companies.length} perusahaan target.
                     Pilih perusahaan untuk melihat detail.
                   </CardDescription>
                 ) : (
                   <CardDescription>
-                    Pilih wilayah pada peta untuk melihat perusahaan
+                    Pilih wilayah pada peta untuk melihat perusahaan target
                   </CardDescription>
                 )}
               </CardHeader>
@@ -262,7 +271,7 @@ const DashboardRiauPage = () => {
                         transition={{ duration: 0.3 }}
                       >
                         <Building2 className="w-12 h-12 mb-4 opacity-50" />
-                        <p>Belum ada data perusahaan...</p>
+                        <p>Belum ada data perusahaan target...</p>
                       </motion.div>
                     )}
                   </div>
@@ -274,7 +283,84 @@ const DashboardRiauPage = () => {
                     transition={{ duration: 0.3 }}
                   >
                     <Map className="w-12 h-12 mb-4 opacity-50" />
-                    <p>Pilih wilayah pada peta...</p>
+                    <p>Pilih kabupaten/kota pada peta...</p>
+                  </motion.div>
+                )}
+              </CardContent>
+            </Card>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
+                <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
+                  <Building2 className="w-5 h-5 hidden md:block" />
+                  {selectedCity
+                    ? `Perusahaan Lain/Society/Poktan di ${selectedCity.nama}`
+                    : "Daftar Perusahaan Lain/Society/Poktan"}
+                </CardTitle>
+                {selectedCity ? (
+                  <CardDescription>
+                    Total {selectedCity.otherCompanies?.length} perusahaan lain.
+                    Pilih perusahaan untuk melihat detail.
+                  </CardDescription>
+                ) : (
+                  <CardDescription>
+                    Pilih wilayah pada peta untuk melihat perusahaan lain
+                  </CardDescription>
+                )}
+              </CardHeader>
+
+              <CardContent className="p-0 overflow-y-auto max-h-[500px]">
+                {selectedCity ? (
+                  <div className="p-4">
+                    {selectedCity.otherCompanies &&
+                    selectedCity.otherCompanies.length > 0 ? (
+                      <Table>
+                        <TableBody>
+                          {selectedCity.otherCompanies.map((poktan, index) => (
+                            <TableRow
+                              key={poktan.id}
+                              className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
+                              onClick={() => handleOtherCompanyClick(poktan)}
+                            >
+                              <motion.td
+                                variants={tableRowVariants}
+                                initial="hidden"
+                                animate="visible"
+                                transition={{ delay: index * 0.1 }}
+                                className="p-4 font-medium"
+                              >
+                                {poktan.name}
+                              </motion.td>
+                            </TableRow>
+                          ))}
+                        </TableBody>
+                      </Table>
+                    ) : (
+                      <motion.div
+                        className="flex flex-col items-center justify-center py-16 text-gray-500"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <Building2 className="w-12 h-12 mb-4 opacity-50" />
+                        <p>Belum ada data perusahaan lain/society/poktan...</p>
+                      </motion.div>
+                    )}
+                  </div>
+                ) : (
+                  <motion.div
+                    className="flex flex-col items-center justify-center py-16 text-gray-500"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <Map className="w-12 h-12 mb-4 opacity-50" />
+                    <p>Pilih kabupaten/kota pada peta...</p>
                   </motion.div>
                 )}
               </CardContent>
@@ -285,6 +371,14 @@ const DashboardRiauPage = () => {
       {selectedCompany && (
         <CompanyDetailsModal
           company={selectedCompany}
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+        />
+      )}
+
+      {selectedOtherCompany && (
+        <OtherCompanyDetailsModal
+          company={selectedOtherCompany}
           isOpen={isModalOpen}
           onClose={handleCloseModal}
         />
