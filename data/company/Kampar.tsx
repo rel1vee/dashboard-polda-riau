@@ -2104,8 +2104,8 @@ export const KamparCompanies: Company[] = [
       IV: 0.0,
     },
     csrAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 2,
+      II: 2,
       III: 0.0,
       IV: 0.0,
     },
