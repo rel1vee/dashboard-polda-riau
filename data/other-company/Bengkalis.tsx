@@ -187,7 +187,7 @@ export const bengkalisOtherCompanies: Company[] = [
   },
   {
     id: 9,
-    name: "Lahan kosong milik PEMDES Muntai jl. Nasroen \n\nDesa Muntai Kec. Bantan Kab. Bengkalis.\n     ",
+    name: "Lahan Kosong Milik PEMDES Muntai Jl. Nasroen \n\nDesa Muntai Kec. Bantan Kab. Bengkalis.\n     ",
     area: 0.06,
     monokulturAchievements: {
       I: 0.06,

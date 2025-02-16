@@ -7,13 +7,11 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { useRef } from "react";
 import { Company } from "@/types";
 
-// SVG untuk custom marker
 const pinIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
   <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
   <circle cx="12" cy="10" r="3"/>
 </svg>`;
 
-// Custom icon untuk marker
 const customIcon = L.divIcon({
   className: "custom-marker",
   html: `<div class="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center shadow-lg hover:bg-yellow-600 transition-colors">
@@ -24,7 +22,6 @@ const customIcon = L.divIcon({
   popupAnchor: [0, -32],
 });
 
-// Komponen Map dengan parameter
 interface MapProps {
   cities: {
     id: number;
@@ -74,7 +71,6 @@ const calculateTotalAchievements = (
   );
 };
 
-// Fungsi untuk menghitung total lahan
 const calculateTotalArea = (
   companies: Company[],
   otherCompanies: Company[]
@@ -84,7 +80,6 @@ const calculateTotalArea = (
 };
 
 const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
-  // Create refs for each marker
   const markerRefs = useRef<{ [key: string]: L.Marker | null }>({});
 
   return (
@@ -167,12 +162,15 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                       <span className="font-bold text-gray-900">
                         {totalArea.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
-                        })} Ha
+                        })}{" "}
+                        Ha
                       </span>
                     </div>
                     {/* Capaian Monokultur */}
                     <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
-                      <span className="text-sm text-gray-600">Monokultur:</span>
+                      <span className="text-sm text-gray-600">
+                        Total Monokultur:
+                      </span>
                       <span className="font-medium text-gray-900">
                         {achievements.monokultur.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
@@ -187,7 +185,7 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                     {/* Capaian Tumpang Sari */}
                     <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
                       <span className="text-sm text-gray-600">
-                        Tumpang Sari:
+                        Total Tumpang Sari:
                       </span>
                       <span className="font-medium text-gray-900">
                         {achievements.tumpangSari.toLocaleString("id-ID", {
@@ -202,13 +200,9 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                     </div>
                     {/* Capaian CSR */}
                     <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
-                      <span className="text-sm text-gray-600">CSR:</span>
+                      <span className="text-sm text-gray-600">Total CSR:</span>
                       <span className="font-medium text-gray-900">
                         {achievements.csr.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        dari{" "}
-                        {city.totalTarget.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
                         Ha

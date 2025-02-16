@@ -100,41 +100,65 @@ const DashboardRiauPage = () => {
           ...(polres.otherCompanies || []),
         ];
 
+        // Menghitung capaian Monokultur pada Periode II saja
         const monoAchievement = allCompanies.reduce((sum, company) => {
-          if (company.monokulturAchievements) {
-            return (
-              sum +
-              Object.values(company.monokulturAchievements).reduce(
-                (a, b) => a + b,
-                0
-              )
-            );
+          if (company.monokulturAchievements?.II) {
+            return sum + company.monokulturAchievements.II;
           }
           return sum;
         }, 0);
 
+        // Menghitung capaian Tumpang Sari pada Periode II saja
         const tumpangSariAchievement = allCompanies.reduce((sum, company) => {
-          if (company.tumpangSariAchievements) {
-            return (
-              sum +
-              Object.values(company.tumpangSariAchievements).reduce(
-                (a, b) => a + b,
-                0
-              )
-            );
+          if (company.tumpangSariAchievements?.II) {
+            return sum + company.tumpangSariAchievements.II;
           }
           return sum;
         }, 0);
 
+        // Menghitung capaian CSR pada Periode II saja
         const csrAchievement = allCompanies.reduce((sum, company) => {
-          if (company.csrAchievements) {
-            return (
-              sum +
-              Object.values(company.csrAchievements).reduce((a, b) => a + b, 0)
-            );
+          if (company.csrAchievements?.II) {
+            return sum + company.csrAchievements.II;
           }
           return sum;
         }, 0);
+
+        // const monoAchievement = allCompanies.reduce((sum, company) => {
+        //   if (company.monokulturAchievements) {
+        //     return (
+        //       sum +
+        //       Object.values(company.monokulturAchievements).reduce(
+        //         (a, b) => a + b,
+        //         0
+        //       )
+        //     );
+        //   }
+        //   return sum;
+        // }, 0);
+
+        // const tumpangSariAchievement = allCompanies.reduce((sum, company) => {
+        //   if (company.tumpangSariAchievements) {
+        //     return (
+        //       sum +
+        //       Object.values(company.tumpangSariAchievements).reduce(
+        //         (a, b) => a + b,
+        //         0
+        //       )
+        //     );
+        //   }
+        //   return sum;
+        // }, 0);
+
+        // const csrAchievement = allCompanies.reduce((sum, company) => {
+        //   if (company.csrAchievements) {
+        //     return (
+        //       sum +
+        //       Object.values(company.csrAchievements).reduce((a, b) => a + b, 0)
+        //     );
+        //   }
+        //   return sum;
+        // }, 0);
 
         return {
           monokulturAchievement: acc.monokulturAchievement + monoAchievement,
