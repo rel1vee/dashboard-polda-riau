@@ -30,6 +30,7 @@ interface MapProps {
     nama: string;
     coordinates: [number, number];
     companies: { name: string }[];
+    otherCompanies?: { name: string }[];
     totalArea: number;
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -92,13 +93,19 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                       variant="secondary"
                       className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                     >
-                      {city.companies.length} Perusahaan
+                      {city.companies.length} Perusahaan Target
+                    </Badge>
+                    <Badge
+                      variant="secondary"
+                      className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
+                    >
+                      {city.otherCompanies?.length} Perusahaan Lain
                     </Badge>
                   </div>
                   {/* Area Info */}
                   <div className="flex items-center gap-2 bg-gray-50 p-2.5 rounded-lg border border-gray-200">
                     <span className="text-sm text-gray-600">
-                      Total Luas Lahan:
+                      Total Luas Lahan Target:
                     </span>
                     <span className="font-bold text-gray-900">
                       {city.totalArea.toLocaleString("id-ID", {

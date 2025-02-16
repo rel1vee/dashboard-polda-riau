@@ -15,8 +15,6 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Building2, Calendar, Phone, Target, User } from "lucide-react";
 import {
-  BarChart,
-  Bar,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -37,7 +35,7 @@ interface CompanyDetailProps {
   onClose: () => void;
 }
 
-const CompanyDetail: React.FC<CompanyDetailProps> = ({
+const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   company,
   isOpen,
   onClose,
@@ -47,16 +45,12 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
   const transformPeriodData = () => {
     return (["I", "II", "III", "IV"] as const).map((period) => ({
       periode: period,
-      monoTarget: (company.monokulturTargets ?? {})[
-        period as keyof typeof company.monokulturTargets
-      ],
+
       monoAchievement:
         company.monokulturAchievements[
           period as keyof typeof company.monokulturAchievements
         ],
-      tsTarget: (company.tumpangSariTargets ?? {})[
-        period as keyof typeof company.tumpangSariTargets
-      ],
+
       tsAchievement:
         company.tumpangSariAchievements[
           period as keyof typeof company.tumpangSariAchievements
@@ -72,20 +66,45 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
   // Data for pie chart
   const targetDistribution = [
     {
-      name: "2% Monokultur",
-      value: company.target2Percent,
+      name: "Total Capaian Monokultur",
+      value: Object.values(company.monokulturAchievements || {}).reduce(
+        (acc, val) => acc + val,
+        0
+      ),
       fill: "hsl(var(--chart-1))",
     },
     {
-      name: "7% Tumpang Sari",
-      value: company.target7Percent,
+      name: "Total Capaian Tumpang Sari",
+      value: Object.values(company.tumpangSariAchievements || {}).reduce(
+        (acc, val) => acc + val,
+        0
+      ),
+      fill: "hsl(var(--chart-2))",
+    },
+    {
+      name: "Total Capaian CSR",
+      value: Object.values(company.csrAchievements || {}).reduce(
+        (acc, val) => acc + val,
+        0
+      ),
       fill: "hsl(var(--chart-2))",
     },
     {
       name: "Sisa Lahan",
       value:
         company.area -
-        ((company.target2Percent ?? 0) + (company.target7Percent ?? 0)),
+        (Object.values(company.monokulturAchievements || {}).reduce(
+          (acc, val) => acc + val,
+          0
+        ) +
+          Object.values(company.tumpangSariAchievements || {}).reduce(
+            (acc, val) => acc + val,
+            0
+          ) +
+          Object.values(company.csrAchievements || {}).reduce(
+            (acc, val) => acc + val,
+            0
+          )),
       fill: "hsl(var(--chart-3))",
     },
   ];
@@ -270,13 +289,13 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
           </TabsList>
 
           <TabsContent value="overview">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4">
               <Card>
                 <CardHeader className="items-center">
                   <CardTitle className="text-sm font-medium">
                     Total Lahan
                   </CardTitle>
-                  <CardDescription>Distribusi Target Lahan</CardDescription>
+                  <CardDescription>Distribusi Lahan</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="h-[300px]">
@@ -365,13 +384,15 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                           style={{ backgroundColor: "hsl(var(--chart-1))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
-                          Target 2% Monokultur
+                          Total Capaian Monokultur
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.target2Percent?.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
+                        {Object.values(company.monokulturAchievements || {})
+                          .reduce((acc, val) => acc + val, 0)
+                          .toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
                         Ha
                       </span>
                     </div>
@@ -382,13 +403,34 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                           style={{ backgroundColor: "hsl(var(--chart-2))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
-                          Target 7% Tumpang Sari
+                          Total Capaian Tumpang Sari
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.target7Percent?.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
+                        {Object.values(company.tumpangSariAchievements || {})
+                          .reduce((acc, val) => acc + val, 0)
+                          .toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
+                        Ha
+                      </span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <div
+                          className="h-3 w-3 rounded-full"
+                          style={{ backgroundColor: "hsl(var(--chart-2))" }}
+                        ></div>
+                        <span className="text-sm text-muted-foreground">
+                          Total Capaian CSR
+                        </span>
+                      </div>
+                      <span className="text-sm font-medium">
+                        {Object.values(company.csrAchievements || {})
+                          .reduce((acc, val) => acc + val, 0)
+                          .toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
                         Ha
                       </span>
                     </div>
@@ -405,8 +447,16 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       <span className="text-sm font-medium">
                         {(
                           company.area -
-                          ((company.target2Percent ?? 0) +
-                            (company.target7Percent ?? 0))
+                          (Object.values(
+                            company.monokulturAchievements || {}
+                          ).reduce((acc, val) => acc + val, 0) +
+                            Object.values(
+                              company.tumpangSariAchievements || {}
+                            ).reduce((acc, val) => acc + val, 0) +
+                            Object.values(company.csrAchievements || {}).reduce(
+                              (acc, val) => acc + val,
+                              0
+                            ))
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
@@ -424,74 +474,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </div>
                       <span className="text-sm font-medium">
                         {company.area.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
-                      </span>
-                    </div>
-                  </div>
-                </CardFooter>
-              </Card>
-
-              <Card>
-                <CardHeader className="items-center">
-                  <CardTitle className="text-sm font-medium">
-                    Target Monokultur dan Tumpang Sari
-                  </CardTitle>
-                  <CardDescription>Target per Periode</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="h-[300px]">
-                    <ResponsiveContainer width="100%" height="100%">
-                      <BarChart data={periodData}>
-                        <CartesianGrid vertical={false} />
-                        <XAxis
-                          dataKey="periode"
-                          tickLine={false}
-                          tickMargin={10}
-                          axisLine={false}
-                        />
-                        <YAxis />
-                        <Tooltip
-                          cursor={false}
-                          contentStyle={{
-                            background: "hsl(var(--background))",
-                            border: "1px solid hsl(var(--border))",
-                            borderRadius: "var(--radius)",
-                            padding: "8px",
-                          }}
-                        />
-                        <Legend />
-                        <Bar
-                          dataKey="monoTarget"
-                          name="2% Monokultur"
-                          fill="#22c55e"
-                          radius={[4, 4, 0, 0]}
-                        />
-                        <Bar
-                          dataKey="tsTarget"
-                          name="7% Tumpang Sari"
-                          fill="#8b5cf6"
-                          radius={[4, 4, 0, 0]}
-                        />
-                      </BarChart>
-                    </ResponsiveContainer>
-                  </div>
-                </CardContent>
-                <CardFooter className="flex-col items-start gap-2 text-sm">
-                  <div className="w-full pt-2 border-t">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <Target className="h-4 w-4" />
-                        <span className="text-sm text-muted-foreground">
-                          Total Target
-                        </span>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {(
-                          (company.target2Percent ?? 0) +
-                          (company.target7Percent ?? 0)
-                        ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
                         Ha
@@ -527,13 +509,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                           stroke="#3b82f6"
                           strokeWidth={2}
                         />
-                        <Line
-                          type="monotone"
-                          dataKey="monoTarget"
-                          name="Target"
-                          stroke="#22c55e"
-                          strokeDasharray="5 5"
-                        />
                       </LineChart>
                     </ResponsiveContainer>
                   </div>
@@ -544,13 +519,15 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="flex items-center gap-2">
                         <Target className="h-4 w-4" />
                         <span className="text-sm text-muted-foreground">
-                          Total Target Monokultur
+                          Total Capaian Monokultur
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.target2Percent?.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
+                        {Object.values(company.monokulturAchievements || {})
+                          .reduce((acc, val) => acc + val, 0)
+                          .toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
                         Ha
                       </span>
                     </div>
@@ -579,13 +556,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                           stroke="#3b82f6"
                           strokeWidth={2}
                         />
-                        <Line
-                          type="monotone"
-                          dataKey="tsTarget"
-                          name="Target"
-                          stroke="#8b5cf6"
-                          strokeDasharray="5 5"
-                        />
                       </LineChart>
                     </ResponsiveContainer>
                   </div>
@@ -596,13 +566,15 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="flex items-center gap-2">
                         <Target className="h-4 w-4" />
                         <span className="text-sm text-muted-foreground">
-                          Total Target Tumpang Sari
+                          Total Capaian Tumpang Sari
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.target7Percent?.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
+                        {Object.values(company.tumpangSariAchievements || {})
+                          .reduce((acc, val) => acc + val, 0)
+                          .toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
                         Ha
                       </span>
                     </div>
@@ -779,4 +751,4 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
   );
 };
 
-export default CompanyDetail;
+export default OtherCompanyDetail;
