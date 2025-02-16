@@ -10,7 +10,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { Building2, Map, TargetIcon, Sprout, Trophy } from "lucide-react";
+import { Building2, Map, TargetIcon, Sprout } from "lucide-react";
 import { Table, TableBody, TableRow } from "@/components/ui/table";
 import { City, Company } from "@/types";
 import { riauCity } from "@/data/RiauCity";
