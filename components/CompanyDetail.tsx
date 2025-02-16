@@ -105,7 +105,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
   ) => {
     const progressData = [
       {
-        name: "Progres Tanam",
+        name: "Sudah Tanam",
         value: data.progresTanam.persentase,
         luas: data.progresTanam.luas,
         fill: "#22c55e",
@@ -149,12 +149,12 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                 <PieChart>
                   <Pie
                     data={progressData}
-                    dataKey="value"
+                    dataKey="luas"
                     nameKey="name"
                     cx="50%"
                     cy="50%"
-                    innerRadius={60}
-                    outerRadius={80}
+                    innerRadius={75}
+                    outerRadius={100}
                     label
                   />
                   <Tooltip
