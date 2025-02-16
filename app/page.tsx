@@ -10,12 +10,13 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { Building2, Map, TargetIcon, Sprout } from "lucide-react";
+import { Building2, Map, TargetIcon, Sprout, Trophy } from "lucide-react";
 import { Table, TableBody, TableRow } from "@/components/ui/table";
 import { City, Company } from "@/types";
 import { riauCity } from "@/data/RiauCity";
 import CompanyDetailsModal from "@/components/CompanyDetail";
 import OtherCompanyDetailsModal from "@/components/OtherCompanyDetail";
+import Ranking from "@/components/Ranking";
 
 const MapMarker = dynamic(() => import("@/components/MapMarker"), {
   ssr: false,
@@ -118,6 +119,7 @@ const DashboardRiauPage = () => {
         transition={{ duration: 0.5 }}
       >
         <div className="flex flex-col gap-6">
+          {/* Header Dashboard */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -193,27 +195,43 @@ const DashboardRiauPage = () => {
             ))}
           </motion.div>
           {/* Map and Table Section */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden border-none">
-              <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
-                <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
-                  <Map className="w-5 h-5 hidden md:block" />
-                  Peta Sebaran Kota di Wilayah Riau
-                </CardTitle>
-                <CardDescription>
-                  Pilih wilayah untuk melihat list dan detail perusahaan
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="p-0">
-                <MapMarker cities={riauCity} onCityClick={setSelectedCity} />
-              </CardContent>
-            </Card>
-          </motion.div>
-
+          <div className="grid grid-cols-12 gap-6">
+            <div className="col-span-12 lg:col-span-8">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }}
+              >
+                <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden border-none">
+                  <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
+                    <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
+                      <Map className="w-5 h-5 hidden md:block" />
+                      Peta Sebaran Kota di Wilayah Riau
+                    </CardTitle>
+                    <CardDescription>
+                      Pilih wilayah untuk melihat list dan detail perusahaan
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="p-0">
+                    <MapMarker
+                      cities={riauCity}
+                      onCityClick={setSelectedCity}
+                    />
+                  </CardContent>
+                </Card>
+              </motion.div>
+            </div>
+            <div className="col-span-12 lg:col-span-4">
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <Ranking cities={riauCity} />
+              </motion.div>
+            </div>
+          </div>
+          {/* Company Table */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
