@@ -238,7 +238,7 @@ const DashboardRiauPage = () => {
                 gradient: "from-orange-400 to-pink-500",
               },
               {
-                title: "Total Target",
+                title: "Total Capaian",
                 value: `${(
                   achievements.monokulturAchievement +
                   achievements.tumpangSariAchievement
