@@ -54,7 +54,7 @@ export interface Progress {
   namaPJ: string;
   nomorTelp: string;
   area: number;
-  coordinates: [number, number] | null;
+  coordinates?: [number, number] | null;
   photo: string | null;
   monokultur: {
     targetTanam: {

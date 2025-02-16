@@ -1,11 +1,9 @@
 import { City } from "../types";
 import { bengkalisCompanies } from "./company/Bengkalis";
-import { dumaiCompanies } from "./company/Dumai";
 import { inhilCompanies } from "./company/Inhil";
 import { inhuCompanies } from "./company/Inhu";
 import { KamparCompanies } from "./company/Kampar";
 import { kuansingCompanies } from "./company/Kuansing";
-import { merantiCompanies } from "./company/Meranti";
 import { pekanbaruCompanies } from "./company/Pekanbaru";
 import { PelalawanCompanies } from "./company/Pelalawan";
 import { rohilCompanies } from "./company/Rohil";
@@ -143,7 +141,7 @@ export const riauCity: City[] = [
     monokulturTarget: 0,
     tumpangSariTarget: 0,
     totalTarget: 0,
-    companies: merantiCompanies,
+    companies: [],
     otherCompanies: merantiOtherCompanies,
   },
   {
@@ -154,7 +152,7 @@ export const riauCity: City[] = [
     monokulturTarget: 0,
     tumpangSariTarget: 0,
     totalTarget: 0,
-    companies: dumaiCompanies,
+    companies: [],
     otherCompanies: dumaiOtherCompanies,
   },
 ];
