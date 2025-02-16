@@ -58,7 +58,7 @@ export interface Progress {
   photo: string | null;
   monokultur: {
     targetTanam: {
-      luas: number | null
+      luas: number | null;
       persentase: number | null;
     };
     waktuTanam: string;
@@ -99,7 +99,7 @@ export interface Progress {
   csr: {
     targetTanam: {
       luas: number | null;
-      persentase: number | null; 
+      persentase: number | null;
     };
     waktuTanam: string;
     progresTanam: {
