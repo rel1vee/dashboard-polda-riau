@@ -108,7 +108,7 @@ const DashboardRiauPage = () => {
   };
 
   return (
-    <div className="bg-gradient-to-l from-green-50 to-emerald-200">
+    <div className="bg-gradient-to-l from-emerald-50 to-emerald-200">
       <motion.div
         className="p-6"
         initial={{ opacity: 0 }}
@@ -169,7 +169,7 @@ const DashboardRiauPage = () => {
               <MotionCard
                 key={index}
                 variants={cardVariants}
-                className={`bg-gradient-to-r ${stat.gradient} text-white rounded-xl shadow-lg hover:shadow-xl transition-all`}
+                className={`bg-gradient-to-r ${stat.gradient} text-white border-none rounded-xl shadow-lg hover:shadow-xl transition-all`}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
@@ -197,7 +197,7 @@ const DashboardRiauPage = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden backdrop-blur-md">
+            <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden border-none">
               <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
                 <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
                   <Map className="w-5 h-5 hidden md:block" />
@@ -219,7 +219,7 @@ const DashboardRiauPage = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Card className="border-none rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
                   <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
                     <Building2 className="w-5 h-5 hidden md:block" />
@@ -295,7 +295,7 @@ const DashboardRiauPage = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all">
+              <Card className="border-none rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
                   <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
                     <Building2 className="w-5 h-5 hidden md:block" />
