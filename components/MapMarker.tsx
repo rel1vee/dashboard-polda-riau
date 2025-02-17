@@ -1,11 +1,11 @@
 "use client";
 
 import L from "leaflet";
+import { useRef } from "react";
 import "leaflet/dist/leaflet.css";
+import { Company } from "@/types";
 import { Badge } from "./ui/badge";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { useRef } from "react";
-import { Company } from "@/types";
 
 const pinIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
   <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
@@ -47,29 +47,25 @@ const calculateTotalAchievements = (
 
   return allCompanies.reduce(
     (totals, company) => {
-      // Menghitung capaian Monokultur pada Periode II saja
-      // const monoTotal = company.monokulturAchievements?.II ?? 0;
+      const monoTotal = company.monokulturAchievements?.II ?? 0;
+      const tumpangSariTotal = company.tumpangSariAchievements?.II ?? 0;
+      const csrTotal = company.csrAchievements?.II ?? 0;
 
-      // Menghitung capaian Tumpang Sari pada Periode II saja
-      // const tumpangSariTotal = company.tumpangSariAchievements?.II ?? 0;
+      // const monoTotal = Object.values(company.monokulturAchievements).reduce(
+      //   (sum, val) => sum + val,
+      //   0
+      // );
 
-      // Menghitung capaian CSR pada Periode II saja
-      // const csrTotal = company.csrAchievements?.II ?? 0;
+      // const tumpangSariTotal = Object.values(
+      //   company.tumpangSariAchievements
+      // ).reduce((sum, val) => sum + val, 0);
 
-      const monoTotal = Object.values(company.monokulturAchievements).reduce(
-        (sum, val) => sum + val,
-        0
-      );
-      const tumpangSariTotal = Object.values(
-        company.tumpangSariAchievements
-      ).reduce((sum, val) => sum + val, 0);
-
-      const csrTotal = company.csrAchievements
-        ? Object.values(company.csrAchievements).reduce(
-            (sum, val) => sum + val,
-            0
-          )
-        : 0;
+      // const csrTotal = company.csrAchievements
+      //   ? Object.values(company.csrAchievements).reduce(
+      //       (sum, val) => sum + val,
+      //       0
+      //     )
+      //   : 0;
 
       return {
         monokultur: totals.monokultur + monoTotal,
@@ -86,6 +82,7 @@ const calculateTotalArea = (
   otherCompanies: Company[]
 ) => {
   const allCompanies = [...companies, ...otherCompanies];
+
   return allCompanies.reduce((total, company) => total + company.area, 0);
 };
 
@@ -95,7 +92,7 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
   return (
     <div className="h-[500px] overflow-hidden">
       <MapContainer
-        center={[0.5070677, 101.5401725]} // Koordinat pusat peta
+        center={[0.5070677, 101.5401725]}
         zoom={8}
         className="w-full h-full z-0"
         zoomControl={true}
@@ -127,7 +124,7 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                   if (marker) {
                     marker.openPopup();
                   }
-                  onCityClick(city); // Panggil callback saat marker diklik
+                  onCityClick(city);
                 },
                 mouseover: () => {
                   const marker = markerRefs.current[city.id];
@@ -172,8 +169,7 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                       <span className="font-bold text-gray-900">
                         {totalArea.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
+                        })}
                       </span>
                     </div>
                     {/* Capaian Monokultur */}
@@ -188,8 +184,7 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         dari{" "}
                         {city.monokulturTarget.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
+                        })}
                       </span>
                     </div>
                     {/* Capaian Tumpang Sari */}
@@ -204,8 +199,7 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         dari{" "}
                         {city.tumpangSariTarget.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
+                        })}
                       </span>
                     </div>
                     {/* Capaian CSR */}
@@ -214,8 +208,28 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                       <span className="font-medium text-gray-900">
                         {achievements.csr.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
+                        })}
+                      </span>
+                    </div>
+                    {/* Total Capaian */}
+                    <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
+                      <span className="text-sm text-gray-600">
+                        Total Capaian:
+                      </span>
+                      <span className="font-medium text-gray-900">
+                        {(
+                          achievements.monokultur +
+                          achievements.tumpangSari +
+                          achievements.csr
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
                         })}{" "}
-                        Ha
+                        dari{" "}
+                        {(
+                          city.tumpangSariTarget + city.monokulturTarget
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}
                       </span>
                     </div>
                   </div>
