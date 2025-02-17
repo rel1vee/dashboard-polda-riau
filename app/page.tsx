@@ -1,8 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
+import { motion } from "framer-motion";
+import { City, Company } from "@/types";
+import { riauCity } from "@/data/RiauCity";
+import Ranking from "@/components/Ranking";
+import CompanyDetailsModal from "@/components/CompanyDetail";
+import { Building2, Map, TargetIcon, Sprout } from "lucide-react";
+import { Table, TableBody, TableRow } from "@/components/ui/table";
+import OtherCompanyDetailsModal from "@/components/OtherCompanyDetail";
 import {
   Card,
   CardContent,
@@ -10,19 +17,12 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { Building2, Map, TargetIcon, Sprout } from "lucide-react";
-import { Table, TableBody, TableRow } from "@/components/ui/table";
-import { City, Company } from "@/types";
-import { riauCity } from "@/data/RiauCity";
-import CompanyDetailsModal from "@/components/CompanyDetail";
-import OtherCompanyDetailsModal from "@/components/OtherCompanyDetail";
-import Ranking from "@/components/Ranking";
 
 const MapMarker = dynamic(() => import("@/components/MapMarker"), {
   ssr: false,
   loading: () => (
     <div className="h-[500px] flex items-center justify-center bg-gray-100">
-      <p>Loading...</p>
+      <p className="text-black">Loading...</p>
     </div>
   ),
 });
@@ -100,7 +100,6 @@ const DashboardRiauPage = () => {
           ...(polres.otherCompanies || []),
         ];
 
-        // Menghitung capaian Monokultur pada Periode II saja
         const monoAchievement = allCompanies.reduce((sum, company) => {
           if (company.monokulturAchievements?.II) {
             return sum + company.monokulturAchievements.II;
@@ -108,7 +107,6 @@ const DashboardRiauPage = () => {
           return sum;
         }, 0);
 
-        // Menghitung capaian Tumpang Sari pada Periode II saja
         const tumpangSariAchievement = allCompanies.reduce((sum, company) => {
           if (company.tumpangSariAchievements?.II) {
             return sum + company.tumpangSariAchievements.II;
@@ -116,7 +114,6 @@ const DashboardRiauPage = () => {
           return sum;
         }, 0);
 
-        // Menghitung capaian CSR pada Periode II saja
         const csrAchievement = allCompanies.reduce((sum, company) => {
           if (company.csrAchievements?.II) {
             return sum + company.csrAchievements.II;
@@ -175,10 +172,6 @@ const DashboardRiauPage = () => {
     );
   };
 
-  const stats = getTotalStats();
-
-  const achievements = getTotalAchievements();
-
   const handleCompanyClick = (company: Company) => {
     setSelectedCompany(company);
     setIsModalOpen(true);
@@ -194,6 +187,9 @@ const DashboardRiauPage = () => {
     setSelectedCompany(null);
     setSelectedOtherCompany(null);
   };
+
+  const stats = getTotalStats();
+  const achievements = getTotalAchievements();
 
   return (
     <div className="bg-gradient-to-l from-emerald-50 to-emerald-200">
@@ -228,7 +224,11 @@ const DashboardRiauPage = () => {
             {[
               {
                 title: "Luas Keseluruhan",
-                value: stats.totalArea + stats.otherTotalArea,
+                value: `${(
+                  stats.totalArea + stats.otherTotalArea
+                ).toLocaleString("id-ID", {
+                  maximumFractionDigits: 2,
+                })}`,
                 description: "Total lahan di Provinsi Riau",
                 icon: Map,
                 gradient: "from-purple-400 to-pink-500",
@@ -265,7 +265,8 @@ const DashboardRiauPage = () => {
                 title: "Total Capaian",
                 value: `${(
                   achievements.monokulturAchievement +
-                  achievements.tumpangSariAchievement
+                  achievements.tumpangSariAchievement +
+                  achievements.csrAchievement
                 ).toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })} dari ${(
@@ -273,7 +274,7 @@ const DashboardRiauPage = () => {
                 ).toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "2% monokultur + 7% tumpang sari",
+                description: "2% Monokultur + 7% Tumpang Sari + CSR",
                 icon: TargetIcon,
                 gradient: "from-green-400 to-emerald-500",
               },
@@ -292,11 +293,7 @@ const DashboardRiauPage = () => {
                   <stat.icon className="w-6 h-6 text-white opacity-80" />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">
-                    {stat.value.toLocaleString("id-ID", {
-                      maximumFractionDigits: 2,
-                    })}
-                  </div>
+                  <div className="text-2xl font-bold">{stat.value}</div>
                   <p className="text-xs opacity-80 mt-2">{stat.description}</p>
                 </CardContent>
               </MotionCard>
@@ -304,7 +301,7 @@ const DashboardRiauPage = () => {
           </motion.div>
           {/* Map and Table Section */}
           <div className="grid grid-cols-12 gap-6">
-            <div className="col-span-12 lg:col-span-8">
+            <div className="col-span-12 lg:col-span-6">
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -329,7 +326,7 @@ const DashboardRiauPage = () => {
                 </Card>
               </motion.div>
             </div>
-            <div className="col-span-12 lg:col-span-4">
+            <div className="col-span-12 lg:col-span-6">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -509,7 +506,6 @@ const DashboardRiauPage = () => {
             onClose={handleCloseModal}
           />
         )}
-
         {selectedOtherCompany && (
           <OtherCompanyDetailsModal
             company={selectedOtherCompany}
