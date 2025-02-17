@@ -19,6 +19,8 @@ import { Trophy } from "lucide-react";
 import { City } from "@/types";
 
 interface CityWithScore extends City {
+  totalAchievements: number;
+  totalPercentage: number;
   finalScore: number;
 }
 
@@ -35,31 +37,47 @@ const calculateRanking = (cities: City[]): CityWithScore[] => {
   const rankedCities = cities.map((city) => {
     // Hitung Total Capaian
     const totalMonokulturAchievements = city.companies.reduce(
-      (sum, company) =>
-        sum +
-        company.monokulturAchievements.I +
-        company.monokulturAchievements.II +
-        company.monokulturAchievements.III +
-        company.monokulturAchievements.IV,
+      (sum, company) => sum + company.monokulturAchievements.II,
       0
     );
+    const totalMonokulturAchievementsOther = city.otherCompanies?.reduce(
+      (sum, company) => sum + company.monokulturAchievements.II,
+      0
+    );
+    const totalMonokultur =
+      totalMonokulturAchievements + (totalMonokulturAchievementsOther || 0);
 
     const totalTumpangSariAchievements = city.companies.reduce(
-      (sum, company) =>
-        sum +
-        company.tumpangSariAchievements.I +
-        company.tumpangSariAchievements.II +
-        company.tumpangSariAchievements.III +
-        company.tumpangSariAchievements.IV,
+      (sum, company) => sum + company.tumpangSariAchievements.II,
       0
     );
+    const totalTumpangSariAchievementsOther = city.otherCompanies?.reduce(
+      (sum, company) => sum + company.tumpangSariAchievements.II,
+      0
+    );
+    const totalTumpangSari =
+      totalTumpangSariAchievements + (totalTumpangSariAchievementsOther || 0);
+
+    const totalCSRAchievements = city.companies.reduce(
+      (sum, company) => sum + (company.csrAchievements?.II || 0),
+      0
+    );
+    const totalCSRAchievementsOther = city.otherCompanies?.reduce(
+      (sum, company) => sum + (company.csrAchievements?.II || 0),
+      0
+    );
+    const totalCSR = totalCSRAchievements + (totalCSRAchievementsOther || 0);
+
+    const totalAchievements = totalMonokultur + totalTumpangSari + totalCSR;
+    const totalPercentage =
+      city.totalTarget > 0 ? (totalAchievements / city.totalTarget) * 100 : 0;
 
     // Hitung Persentase Capaian
     const monokulturPercentage = city.monokulturTarget
-      ? (totalMonokulturAchievements / city.monokulturTarget) * 100
+      ? (totalMonokultur / city.monokulturTarget) * 100
       : 0;
     const tumpangSariPercentage = city.tumpangSariTarget
-      ? (totalTumpangSariAchievements / city.tumpangSariTarget) * 100
+      ? (totalTumpangSari / city.tumpangSariTarget) * 100
       : 0;
 
     // Hitung Bobot Target
@@ -80,11 +98,12 @@ const calculateRanking = (cities: City[]): CityWithScore[] => {
 
     return {
       ...city,
+      totalAchievements,
+      totalPercentage,
       finalScore,
     };
   });
 
-  // Urutkan Berdasarkan Final Score
   rankedCities.sort((a, b) => b.finalScore - a.finalScore);
 
   return rankedCities;
@@ -94,7 +113,6 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
   const [rankedCities, setRankedCities] = useState<CityWithScore[]>([]);
 
   useEffect(() => {
-    // Kalkulasi Ranking dan Set State
     const ranking = calculateRanking(cities);
     setRankedCities(ranking);
   }, [cities]);
@@ -118,6 +136,12 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
                 <TableCell className="text-center font-semibold">No</TableCell>
                 <TableCell className="p-4 font-semibold">Kab/Kota</TableCell>
                 <TableCell className="p-4 text-center font-semibold">
+                  Total Capaian
+                </TableCell>
+                <TableCell className="p-4 text-center font-semibold">
+                  Persentase
+                </TableCell>
+                <TableCell className="p-4 text-center font-semibold">
                   Skor
                 </TableCell>
               </TableRow>
@@ -128,12 +152,27 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
                   key={city.id}
                   className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
                 >
-                  <TableCell className="text-center font-medium">
-                    {index + 1}
-                  </TableCell>
+                  <TableCell className="text-center">{index + 1}</TableCell>
                   <TableCell className="p-4">{city.nama}</TableCell>
                   <TableCell className="p-4 text-center">
-                    {city.finalScore.toFixed(2)}
+                    {city.totalAchievements.toLocaleString("id-ID", {
+                      maximumFractionDigits: 2,
+                    })}{" "}
+                    dari{" "}
+                    {city.totalTarget.toLocaleString("id-ID", {
+                      maximumFractionDigits: 2,
+                    })}
+                  </TableCell>
+                  <TableCell className="p-4 text-center">
+                    {city.totalPercentage.toLocaleString("id-ID", {
+                      maximumFractionDigits: 2,
+                    })}
+                    %
+                  </TableCell>
+                  <TableCell className="p-4 text-center">
+                    {city.finalScore.toLocaleString("id-ID", {
+                      maximumFractionDigits: 2,
+                    })}
                   </TableCell>
                 </TableRow>
               ))}
