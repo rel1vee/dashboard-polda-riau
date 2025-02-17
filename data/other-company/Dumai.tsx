@@ -4,7 +4,7 @@ export const dumaiOtherCompanies: Company[] = [
   {
     id: 1,
     name: "KELOMPOK TANI SIDODADI II",
-    area: 49.37,
+    area: 49.3717,
     monokulturAchievements: {
       I: 0,
       II: 0,
