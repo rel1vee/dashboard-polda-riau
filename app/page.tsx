@@ -229,7 +229,7 @@ const DashboardRiauPage = () => {
                 ).toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "Total lahan di Provinsi Riau",
+                description: "Total Lahan di Provinsi Riau",
                 icon: Map,
                 gradient: "from-purple-400 to-pink-500",
               },
@@ -243,7 +243,7 @@ const DashboardRiauPage = () => {
                 )} dari ${stats.monokulturTarget.toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "2% dari total lahan di Provinsi Riau",
+                description: "2% dari Total Lahan di Provinsi Riau",
                 icon: Sprout,
                 gradient: "from-sky-400 to-blue-500",
               },
@@ -257,7 +257,7 @@ const DashboardRiauPage = () => {
                 )} dari ${stats.tumpangSariTarget.toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "7% dari total lahan di Provinsi Riau",
+                description: "7% dari Total Lahan di Provinsi Riau",
                 icon: Sprout,
                 gradient: "from-orange-400 to-pink-500",
               },
