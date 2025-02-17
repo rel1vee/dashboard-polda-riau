@@ -13,7 +13,14 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Building2, Calendar, Phone, Target, User } from "lucide-react";
+import {
+  Building2,
+  Calendar,
+  Database,
+  Phone,
+  Target,
+  User,
+} from "lucide-react";
 import {
   XAxis,
   YAxis,
@@ -124,7 +131,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   ) => {
     const progressData = [
       {
-        name: "Progres Tanam",
+        name: "Sudah Tanam",
         value: data.progresTanam.persentase,
         luas: data.progresTanam.luas,
         fill: "#22c55e",
@@ -168,12 +175,12 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                 <PieChart>
                   <Pie
                     data={progressData}
-                    dataKey="value"
+                    dataKey="luas"
                     nameKey="name"
                     cx="50%"
                     cy="50%"
-                    innerRadius={60}
-                    outerRadius={80}
+                    innerRadius={75}
+                    outerRadius={100}
                     label
                   />
                   <Tooltip
@@ -636,113 +643,134 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
 
           <TabsContent value="progressTanam">
             <div className="space-y-4">
-              <Card className="w-full">
-                <CardHeader>
-                  <CardTitle className="text-sm font-medium">
-                    Informasi Penanggung Jawab
-                  </CardTitle>
-                </CardHeader>
+              {company.progress && company.progress.length > 0 ? (
+                <>
+                  <Card className="w-full">
+                    <CardHeader>
+                      <CardTitle className="text-sm font-medium">
+                        Informasi Penanggung Jawab
+                      </CardTitle>
+                    </CardHeader>
 
-                <CardContent>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex items-center gap-2">
-                      <User className="h-4 w-4 text-gray-500" />
-                      <span className="text-sm">
-                        PJ: {company.progress?.[0]?.namaPJ}
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Phone className="h-4 w-4 text-gray-500" />
-                      <span className="text-sm">
-                        No. Telp: {company.progress?.[0]?.nomorTelp}
-                      </span>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+                    <CardContent>
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="flex items-center gap-2">
+                          <User className="h-4 w-4 text-gray-500" />
+                          <span className="text-sm">
+                            PJ: {company.progress?.[0]?.namaPJ}
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <Phone className="h-4 w-4 text-gray-500" />
+                          <span className="text-sm">
+                            No. Telp: {company.progress?.[0]?.nomorTelp}
+                          </span>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
 
-              {company.progress?.[0]?.monokultur &&
-                renderProgressSection("Monokultur", {
-                  ...company.progress[0].monokultur,
-                  targetTanam: {
-                    luas: company.progress[0].monokultur.targetTanam.luas ?? 0,
-                    persentase:
-                      company.progress[0].monokultur.targetTanam.persentase ??
-                      0,
-                  },
-                  progresTanam: {
-                    luas: company.progress[0].monokultur.progresTanam.luas ?? 0,
-                    persentase:
-                      company.progress[0].monokultur.progresTanam.persentase ??
-                      0,
-                  },
-                  belumTanam: {
-                    luas: company.progress[0].monokultur.belumTanam.luas ?? 0,
-                    persentase:
-                      company.progress[0].monokultur.belumTanam.persentase ?? 0,
-                  },
-                  panen: {
-                    luas: company.progress[0].monokultur.panen.luas ?? 0,
-                    persentase:
-                      company.progress[0].monokultur.panen.persentase ?? 0,
-                  },
-                  keterangan: company.progress[0].monokultur.keterangan ?? "",
-                })}
+                  {company.progress?.[0]?.monokultur &&
+                    renderProgressSection("Monokultur", {
+                      ...company.progress[0].monokultur,
+                      targetTanam: {
+                        luas:
+                          company.progress[0].monokultur.targetTanam.luas ?? 0,
+                        persentase:
+                          company.progress[0].monokultur.targetTanam
+                            .persentase ?? 0,
+                      },
+                      progresTanam: {
+                        luas:
+                          company.progress[0].monokultur.progresTanam.luas ?? 0,
+                        persentase:
+                          company.progress[0].monokultur.progresTanam
+                            .persentase ?? 0,
+                      },
+                      belumTanam: {
+                        luas:
+                          company.progress[0].monokultur.belumTanam.luas ?? 0,
+                        persentase:
+                          company.progress[0].monokultur.belumTanam
+                            .persentase ?? 0,
+                      },
+                      panen: {
+                        luas: company.progress[0].monokultur.panen.luas ?? 0,
+                        persentase:
+                          company.progress[0].monokultur.panen.persentase ?? 0,
+                      },
+                      keterangan:
+                        company.progress[0].monokultur.keterangan ?? "",
+                    })}
 
-              {company.progress?.[0]?.tumpangSari &&
-                renderProgressSection("Tumpang Sari", {
-                  ...company.progress[0].tumpangSari,
-                  targetTanam: {
-                    luas: company.progress[0].tumpangSari.targetTanam.luas ?? 0,
-                    persentase:
-                      company.progress[0].tumpangSari.targetTanam.persentase ??
-                      0,
-                  },
-                  progresTanam: {
-                    luas:
-                      company.progress[0].tumpangSari.progresTanam.luas ?? 0,
-                    persentase:
-                      company.progress[0].tumpangSari.progresTanam.persentase ??
-                      0,
-                  },
-                  belumTanam: {
-                    luas: company.progress[0].tumpangSari.belumTanam.luas ?? 0,
-                    persentase:
-                      company.progress[0].tumpangSari.belumTanam.persentase ??
-                      0,
-                  },
-                  panen: {
-                    luas: company.progress[0].tumpangSari.panen.luas ?? 0,
-                    persentase:
-                      company.progress[0].tumpangSari.panen.persentase ?? 0,
-                  },
-                  keterangan: company.progress[0].tumpangSari.keterangan ?? "",
-                })}
+                  {company.progress?.[0]?.tumpangSari &&
+                    renderProgressSection("Tumpang Sari", {
+                      ...company.progress[0].tumpangSari,
+                      targetTanam: {
+                        luas:
+                          company.progress[0].tumpangSari.targetTanam.luas ?? 0,
+                        persentase:
+                          company.progress[0].tumpangSari.targetTanam
+                            .persentase ?? 0,
+                      },
+                      progresTanam: {
+                        luas:
+                          company.progress[0].tumpangSari.progresTanam.luas ??
+                          0,
+                        persentase:
+                          company.progress[0].tumpangSari.progresTanam
+                            .persentase ?? 0,
+                      },
+                      belumTanam: {
+                        luas:
+                          company.progress[0].tumpangSari.belumTanam.luas ?? 0,
+                        persentase:
+                          company.progress[0].tumpangSari.belumTanam
+                            .persentase ?? 0,
+                      },
+                      panen: {
+                        luas: company.progress[0].tumpangSari.panen.luas ?? 0,
+                        persentase:
+                          company.progress[0].tumpangSari.panen.persentase ?? 0,
+                      },
+                      keterangan:
+                        company.progress[0].tumpangSari.keterangan ?? "",
+                    })}
 
-              {company.progress?.[0]?.csr &&
-                renderProgressSection("CSR", {
-                  ...company.progress[0].csr,
-                  targetTanam: {
-                    luas: company.progress[0].csr.targetTanam.luas ?? 0,
-                    persentase:
-                      company.progress[0].csr.targetTanam.persentase ?? 0,
-                  },
-                  progresTanam: {
-                    luas: company.progress[0].csr.progresTanam.luas ?? 0,
-                    persentase:
-                      company.progress[0].csr.progresTanam.persentase ?? 0,
-                  },
-                  belumTanam: {
-                    luas: company.progress[0].csr.belumTanam.luas ?? 0,
-                    persentase:
-                      company.progress[0].csr.belumTanam.persentase ?? 0,
-                  },
-                  panen: {
-                    luas: company.progress[0].csr.panen.luas ?? 0,
-                    persentase: company.progress[0].csr.panen.persentase ?? 0,
-                  },
-                  keterangan: company.progress[0].csr.keterangan ?? "",
-                })}
+                  {company.progress?.[0]?.csr &&
+                    renderProgressSection("CSR", {
+                      ...company.progress[0].csr,
+                      targetTanam: {
+                        luas: company.progress[0].csr.targetTanam.luas ?? 0,
+                        persentase:
+                          company.progress[0].csr.targetTanam.persentase ?? 0,
+                      },
+                      progresTanam: {
+                        luas: company.progress[0].csr.progresTanam.luas ?? 0,
+                        persentase:
+                          company.progress[0].csr.progresTanam.persentase ?? 0,
+                      },
+                      belumTanam: {
+                        luas: company.progress[0].csr.belumTanam.luas ?? 0,
+                        persentase:
+                          company.progress[0].csr.belumTanam.persentase ?? 0,
+                      },
+                      panen: {
+                        luas: company.progress[0].csr.panen.luas ?? 0,
+                        persentase:
+                          company.progress[0].csr.panen.persentase ?? 0,
+                      },
+                      keterangan: company.progress[0].csr.keterangan ?? "",
+                    })}
+                </>
+              ) : (
+                <div className="h-[400px] flex items-center justify-center text-center flex-col gap-2">
+                  <Database className="h-10 w-10 text-emerald-800" />
+                  <span className="text-emerald-800 text-xl text-center">
+                    Data progress tanam belum dimasukkan...
+                  </span>
+                </div>
+              )}
             </div>
           </TabsContent>
         </Tabs>
