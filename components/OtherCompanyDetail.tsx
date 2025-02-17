@@ -336,7 +336,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         />
                         <Pie
                           data={targetDistribution}
-                          dataKey="value"
+                          dataKey="luas"
                           nameKey="name"
                           innerRadius={75}
                           outerRadius={100}
