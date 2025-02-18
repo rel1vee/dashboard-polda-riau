@@ -3,241 +3,11 @@ import { Company } from "@/types";
 export const siakOtherCompanies: Company[] = [
   {
     id: 1,
-    name: "KOPERASI PRODUSEN SENTRA MADANI SIAK (LOKASI 1)",
-    area: 298.1,
+    name: "Koperasi Air Kehidupan (KAK)",
+    area: 4000,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
       I: 0,
       II: 0,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 2,
-    name: "PT. BERLIAN MITRA INTI",
-    area: 148.8,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 3,
-    name: "PT. DUTA SWAKARYA INDAH",
-    area: 8000.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 5,
-      II: 5,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 4,
-    name: "PT. IVOMAS TUNGGAL (LIBO)",
-    area: 25053.28,
-    monokulturAchievements: {
-      I: 6.05,
-      II: 6.05,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 121,
-      II: 121,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 5,
-    name: "PT. KIMIA TIRTA UTAMA (LOKASI 1)",
-    area: 8002.48,
-    monokulturAchievements: {
-      I: 1.85,
-      II: 1.85,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 6,
-    name: "PT. LEKONINDO TAKE OVER PT. LANGGAM HARMONI",
-    area: 0.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 10,
-      II: 10,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 7,
-    name: "PT. PERKEBUNAN PALMAX SEJATI",
-    area: 309.93,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 8,
-    name: "PT. SURYA INTISARI RAYA",
-    area: 7600.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 30,
-      II: 30,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 9,
-    name: "PT. TRIOMAS FDI",
-    area: 7628.33,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 50,
-      II: 50,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 10,
-    name: "PT. UNISERAYA (SAGU)",
-    area: 9300.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 50,
-      II: 50,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 11,
-    name: "PT. WANA SUBUR SAWIT INDAH",
-    area: 5000.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
       III: 0,
       IV: 0,
     },
@@ -253,11 +23,573 @@ export const siakOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 1,
+        namaPJ: "Samosir",
+        nomorTelp: "08127526699",
+        area: 4000,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 20,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
-    id: 12,
-    name: "PT. SINARSIAK DIANPERMAI",
-    area: 1113.0,
+    id: 2,
+    name: "PT. Swasthi Sidhi Amagra",
+    area: 20,
+    monokulturAchievements: {
+      I: 2,
+      II: 2,
+      III: 0,
+      IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 9,
+      II: 9,
+      III: 0,
+      IV: 0,
+    },
+    csrAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    progress: [
+      {
+        id: 2,
+        namaPJ: "Roy Manurung",
+        nomorTelp: "082165665758",
+        area: 20,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 2,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 9,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "PT. Kai",
+    area: 0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0,
+      IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    csrAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    progress: [
+      {
+        id: 3,
+        namaPJ: "Oscar",
+        nomorTelp: "081371892226",
+        area: 0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
+  },
+  {
+    id: 4,
+    name: "PT. Lsp",
+    area: 0,
+    monokulturAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    csrAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    progress: [
+      {
+        id: 4,
+        namaPJ: "Dio Arieski",
+        nomorTelp: "082327571000",
+        area: 0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
+  },
+  {
+    id: 5,
+    name: "PT. Mal (Multisarana Agro Lestari)",
+    area: 0,
+    monokulturAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    csrAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    progress: [
+      {
+        id: 5,
+        namaPJ: "Pasaribu",
+        nomorTelp: "085363954577",
+        area: 0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: "PT. Ss",
+    area: 0.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -278,9 +610,9 @@ export const siakOtherCompanies: Company[] = [
     },
   },
   {
-    id: 13,
-    name: "PT. ANEKA INTI PERSADA",
-    area: 11134.0,
+    id: 7,
+    name: "PTPN IV Regional III Kebun Lubuk Dalam, Sei Buatan",
+    area: 7168,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -288,8 +620,8 @@ export const siakOtherCompanies: Company[] = [
       IV: 0,
     },
     tumpangSariAchievements: {
-      I: 15,
-      II: 15,
+      I: 72.64,
+      II: 72.64,
       III: 0,
       IV: 0,
     },
@@ -301,32 +633,9 @@ export const siakOtherCompanies: Company[] = [
     },
   },
   {
-    id: 14,
-    name: "PT. TEGUH KARSA WANA LESTARI",
-    area: 7094.0,
-    monokulturAchievements: {
-      I: 30.0,
-      II: 30.0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 15,
-    name: "PT. MERIDAN SEJATI SURYA PLANTATION",
-    area: 10826.05,
+    id: 8,
+    name: "Apkasindo Kab. Siak",
+    area: 7600.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -334,8 +643,8 @@ export const siakOtherCompanies: Company[] = [
       IV: 0,
     },
     tumpangSariAchievements: {
-      I: 50,
-      II: 50,
+      I: 84,
+      II: 84,
       III: 0,
       IV: 0,
     },

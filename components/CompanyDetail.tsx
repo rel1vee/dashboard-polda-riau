@@ -87,7 +87,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
   const periodData = transformPeriodData();
 
   const filterPeriodData = () => {
-    // Menghitung total untuk periode 1 saja (data yang sudah ada)
     const totalMonoTarget = Object.values(
       company.monokulturTargets || {}
     ).reduce((acc, val) => acc + (val ?? 0), 0);
@@ -131,7 +130,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
 
   const filteredPeriodData = filterPeriodData();
 
-  // Data for pie chart
   const targetDistribution = [
     {
       name: "2% Monokultur",
