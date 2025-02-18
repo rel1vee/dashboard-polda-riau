@@ -88,18 +88,14 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
 
   const filterPeriodData = () => {
     // Menghitung total untuk periode 1 saja (data yang sudah ada)
-    const totalMonoTarget = Object.values(
-      company.monokulturTargets || {}
-    ).reduce((acc, val) => acc + (val ?? 0), 0);
+    const totalMonoTarget = Object.values(company.monokulturTargets?.II || {});
     const totalMonoAchievement = Object.values(
       company.monokulturAchievements.II || {}
-    ).reduce((acc, val) => acc + (val ?? 0), 0);
-    const totalTsTarget = Object.values(
-      company.tumpangSariTargets || {}
-    ).reduce((acc, val) => acc + (val ?? 0), 0);
+    );
+    const totalTsTarget = Object.values(company.tumpangSariTargets?.II || {});
     const totalTsAchievement = Object.values(
       company.tumpangSariAchievements.II || {}
-    ).reduce((acc, val) => acc + (val ?? 0), 0);
+    );
 
     // Membuat array dengan 4 periode
     return [
@@ -696,27 +692,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                     </div>
                   </div>
                 </CardFooter>
-                {/* <CardFooter className="flex-col items-start gap-2 text-sm">
-                  <div className="w-full pt-2 border-t">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <Target className="h-4 w-4" />
-                        <span className="text-sm text-muted-foreground">
-                          Total Target
-                        </span>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {(
-                          (company.target2Percent ?? 0) +
-                          (company.target7Percent ?? 0)
-                        ).toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
-                      </span>
-                    </div>
-                  </div>
-                </CardFooter> */}
               </Card>
               {/* Target Monokultur dan Tumpang Sari */}
               {/* <Card>
