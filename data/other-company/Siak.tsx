@@ -635,7 +635,7 @@ export const siakOtherCompanies: Company[] = [
   {
     id: 8,
     name: "Apkasindo Kab. Siak",
-    area: 7600.0,
+    area: 134,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
