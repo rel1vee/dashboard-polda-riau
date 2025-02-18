@@ -103,7 +103,7 @@ const calculateRanking = (cities: City[]): CityWithScore[] => {
     };
   });
 
-  rankedCities.sort((a, b) => b.totalPercentage - a.totalPercentage);
+  rankedCities.sort((a, b) => b.totalAchievements - a.totalAchievements);
 
   return rankedCities;
 };
