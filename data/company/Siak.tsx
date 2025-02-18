@@ -37,6 +37,101 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 1,
+        namaPJ:
+          "polsek koto gasib sudah mencari nama penanggung jawab namun belum dapat",
+        nomorTelp: "belum dapat",
+        area: 298.1,
+        coordinates: null,
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 2,
@@ -74,6 +169,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 2,
+        namaPJ: "Said (Pimpinan)",
+        nomorTelp: "082169165448",
+        area: 148.8,
+        coordinates: [1.0041110449529012, 101.3373946068246],
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 3,
@@ -111,6 +300,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 3,
+        namaPJ: "Misno (Mandor)",
+        nomorTelp: "085376367273",
+        area: 8000.0,
+        coordinates: [0.7396552110443338, 101.89033812883663],
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 5.0,
+            persentase: 0.01,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 5.0,
+            persentase: 0.01,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 4,
@@ -148,6 +431,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 4,
+        namaPJ: "Agung (Penanggung Jawab Seluruh Kebun)",
+        nomorTelp: "082169558222",
+        area: 25053.28,
+        // coordinates: "7 kebun\r\nkebun sam sam estate (0.9252020947807491, 101.31607762698016)\r\nkebun palapa (0.940676 N 101.281226 E)\r\nkebun ujung tanjung (0.96072, 101.31931)\r\nkebun sei rokan ()\r\nkebun kandista ()\r\nkebun nenggala (0.52'17,028 N 101. 14'8,382\" E)\r\nkebun libo estate ()\r\n",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 6.05,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 6.05,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 121.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 121.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 5,
@@ -185,6 +562,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 5,
+        namaPJ: "Hardiman",
+        nomorTelp: "08127649756",
+        area: 8002.48,
+        coordinates: [0.675753572582699, 101.73271341901804],
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 1.85,
+            persentase: 0.0,
+          },
+          waktuTanam: "21 Januari 2025",
+          progresTanam: {
+            luas: 1.85,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 6,
@@ -222,6 +693,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 6,
+        namaPJ: "Ali Sabana Matondang (Asisten Kebun)",
+        nomorTelp: "085362441771",
+        area: 0,
+        // coordinates: "hasil verifikasi luas lahan 391 Ha\r\n0.46959419137230246, 101.6808446\r\n",
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 10.0,
+            persentase: 0.02,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 10.0,
+            persentase: 0.02,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 7,
@@ -259,6 +824,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 7,
+        namaPJ: "Budi",
+        nomorTelp: "08117601058",
+        area: 309.93,
+        coordinates: [0.692627249, 101.66602686],
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 8,
@@ -296,6 +955,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 8,
+        namaPJ: "Ibnu Sigit (Manager Kebun)",
+        nomorTelp: "085363755087",
+        area: 7600.0,
+        coordinates: [0.834409, 101.701268],
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 30.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "11 Februari 2025",
+          progresTanam: {
+            luas: 14.5,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 15.5,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 9,
@@ -333,6 +1086,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 9,
+        namaPJ: "Ronald Simanjuntak (Humas)",
+        nomorTelp: "082165014835",
+        area: 7628.33,
+        coordinates: [0.6985850247921032, 102.48391047116336],
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 50.0,
+            persentase: 0.01,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 50.0,
+            persentase: 0.01,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 10,
@@ -370,6 +1217,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 10,
+        namaPJ: "Ronald Simanjuntak (Humas)",
+        nomorTelp: "082165014835",
+        area: 9300.0,
+        coordinates: null,
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 50.0,
+            persentase: 0.01,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 50.0,
+            persentase: 0.01,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 11,
@@ -407,6 +1348,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 11,
+        namaPJ: "Pendi Tanjung (Korlap)",
+        nomorTelp: "082169434222",
+        area: 5000.0,
+        coordinates: [0.794039, 101.778865],
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 20.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 20.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 12,
@@ -444,6 +1479,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 12,
+        namaPJ: "Reza Restu",
+        nomorTelp: "082236226401",
+        area: 1113.0,
+        coordinates: [0.47888600704599, 101.72850288839018],
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 13,
@@ -481,6 +1610,101 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 13,
+        namaPJ: "Iwan Nuryanto",
+        nomorTelp: "082155530489",
+        area: 11134.0,
+        // coordinates: "0°35'5,886\"N101°39'13,086\"E",
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan:
+            "HGU (No.41/HGU/BPN/99)\r\nIUP (No.HK.350/185/Bun.5/III/2001)",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 15.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "10 Februari 2025",
+          progresTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 13.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 14,
@@ -518,6 +1742,100 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 14,
+        namaPJ: "Manajer Benny Purba",
+        nomorTelp: "082255718632",
+        area: 7094.0,
+        // coordinates: "hasil verifikasi total luas lahan yang di kab. Siak 3.448 Ha\r\n0.93038 N\r\n102.019494 E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 30.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 30.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "HGU (nomor 1 tahun 1998)\r\nIUP (754/Menhutbun-IV/2000)",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 15,
@@ -555,5 +1873,99 @@ export const siakCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 15,
+        namaPJ: "Randi (Manager Kebun) ",
+        nomorTelp: "082387242342",
+        area: 10826.05,
+        coordinates: [0.5130261544945655, 101.83261795767287],
+        photo: "",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "-",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 50.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "21 Januari 2025",
+          progresTanam: {
+            luas: 3.5,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
 ];
