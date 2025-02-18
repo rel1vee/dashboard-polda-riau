@@ -207,7 +207,7 @@ const DashboardRiauPage = () => {
             transition={{ duration: 0.5 }}
             className="bg-white p-6 rounded-xl shadow-lg"
           >
-            <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
               Dashboard Ketahanan Pangan Polda Riau
             </h1>
             <p className="text-gray-500 mt-1">

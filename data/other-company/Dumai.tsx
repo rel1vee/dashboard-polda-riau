@@ -50,6 +50,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         tumpangSari: {
           targetTanam: {
@@ -90,6 +98,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -143,6 +159,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         tumpangSari: {
           targetTanam: {
@@ -183,6 +207,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -256,6 +288,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
@@ -276,6 +316,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -349,6 +397,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
@@ -369,6 +425,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -442,6 +506,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
@@ -462,6 +534,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -535,6 +615,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
@@ -555,6 +643,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -608,6 +704,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         tumpangSari: {
           targetTanam: {
@@ -628,6 +732,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
@@ -648,6 +760,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -721,6 +841,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
@@ -741,6 +869,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -814,6 +950,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
@@ -834,6 +978,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -907,6 +1059,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
@@ -927,6 +1087,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -1000,6 +1168,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
@@ -1020,6 +1196,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
       },
     ],
@@ -1073,6 +1257,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         tumpangSari: {
           targetTanam: {
@@ -1093,6 +1285,14 @@ export const dumaiOtherCompanies: Company[] = [
             persentase: 0.0,
           },
           keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
         },
         csr: {
           targetTanam: {
