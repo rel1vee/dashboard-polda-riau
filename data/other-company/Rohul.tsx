@@ -23,6 +23,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 1,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 15.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 15.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 1.0,
+          },
+          waktuTanam: "21 JANUARI 2025",
+          progresTanam: {
+            luas: 2.0,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 1.5,
+            persentase: 1.0,
+          },
+          waktuTanam: "21 JANUARI 2025",
+          progresTanam: {
+            luas: 1.5,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 2,
@@ -46,6 +116,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 2,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 1.5,
+            persentase: 1.0,
+          },
+          waktuTanam: "21 JANUARI 2025",
+          progresTanam: {
+            luas: 1.5,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.16,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 3,
@@ -69,6 +209,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 3,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.5,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 1.0,
+            persentase: 1.0,
+          },
+          waktuTanam: "21 JANUARI 2025",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 4,
@@ -92,6 +302,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 4,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 3.0,
+            persentase: 1.0,
+          },
+          waktuTanam: "21 JANUARI 2025",
+          progresTanam: {
+            luas: 3.0,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 5,
@@ -115,6 +395,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 5,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 2.5,
+            persentase: 1.0,
+          },
+          waktuTanam: "21 JANUARI 2025",
+          progresTanam: {
+            luas: 2.5,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 6,
@@ -138,6 +488,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 6,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 1.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.16,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 7,
@@ -161,6 +581,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 7,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 2.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 2.0,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 8,
@@ -184,6 +674,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 8,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.1,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.1,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.1,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 15.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 15.0,
+            persentase: 1.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 9,
@@ -207,6 +767,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 9,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.25,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.25,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.25,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 15.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 15.0,
+            persentase: 1.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 10,
@@ -230,6 +860,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 10,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 1.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 11,
@@ -253,6 +953,76 @@ export const rohulOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 11,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.06,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.06,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.06,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 12,
