@@ -301,7 +301,7 @@ const DashboardRiauPage = () => {
           </motion.div>
           {/* Map and Table Section */}
           <div className="grid grid-cols-12 gap-6">
-            <div className="col-span-12 lg:col-span-6">
+            <div className="col-span-12 lg:col-span-7">
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -326,7 +326,7 @@ const DashboardRiauPage = () => {
                 </Card>
               </motion.div>
             </div>
-            <div className="col-span-12 lg:col-span-6">
+            <div className="col-span-12 lg:col-span-5">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}

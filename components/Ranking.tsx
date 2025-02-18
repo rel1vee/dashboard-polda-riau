@@ -21,17 +21,16 @@ import { City } from "@/types";
 interface CityWithScore extends City {
   totalAchievements: number;
   totalPercentage: number;
-  finalScore: number;
 }
 
 const calculateRanking = (cities: City[]): CityWithScore[] => {
   // Cari Target Maksimum
-  const maxMonokulturTarget = Math.max(
-    ...cities.map((city) => city.monokulturTarget)
-  );
-  const maxTumpangSariTarget = Math.max(
-    ...cities.map((city) => city.tumpangSariTarget)
-  );
+  // const maxMonokulturTarget = Math.max(
+  //   ...cities.map((city) => city.monokulturTarget)
+  // );
+  // const maxTumpangSariTarget = Math.max(
+  //   ...cities.map((city) => city.tumpangSariTarget)
+  // );
 
   // Hitung Skor untuk Setiap Kota
   const rankedCities = cities.map((city) => {
@@ -73,38 +72,38 @@ const calculateRanking = (cities: City[]): CityWithScore[] => {
       city.totalTarget > 0 ? (totalAchievements / city.totalTarget) * 100 : 0;
 
     // Hitung Persentase Capaian
-    const monokulturPercentage = city.monokulturTarget
-      ? (totalMonokultur / city.monokulturTarget) * 100
-      : 0;
-    const tumpangSariPercentage = city.tumpangSariTarget
-      ? (totalTumpangSari / city.tumpangSariTarget) * 100
-      : 0;
+    // const monokulturPercentage = city.monokulturTarget
+    //   ? (totalMonokultur / city.monokulturTarget) * 100
+    //   : 0;
+    // const tumpangSariPercentage = city.tumpangSariTarget
+    //   ? (totalTumpangSari / city.tumpangSariTarget) * 100
+    //   : 0;
 
     // Hitung Bobot Target
-    const monokulturTargetWeight = maxMonokulturTarget
-      ? city.monokulturTarget / maxMonokulturTarget
-      : 0;
-    const tumpangSariTargetWeight = maxTumpangSariTarget
-      ? city.tumpangSariTarget / maxTumpangSariTarget
-      : 0;
+    // const monokulturTargetWeight = maxMonokulturTarget
+    //   ? city.monokulturTarget / maxMonokulturTarget
+    //   : 0;
+    // const tumpangSariTargetWeight = maxTumpangSariTarget
+    //   ? city.tumpangSariTarget / maxTumpangSariTarget
+    //   : 0;
 
     // Hitung Skor Final
-    const finalScore =
-      (0.6 * monokulturPercentage +
-        0.4 * monokulturTargetWeight * 100 +
-        0.6 * tumpangSariPercentage +
-        0.4 * tumpangSariTargetWeight * 100) /
-      2;
+    // const finalScore =
+    //   (0.6 * monokulturPercentage +
+    //     0.4 * monokulturTargetWeight * 100 +
+    //     0.6 * tumpangSariPercentage +
+    //     0.4 * tumpangSariTargetWeight * 100) /
+    //   2;
 
     return {
       ...city,
       totalAchievements,
       totalPercentage,
-      finalScore,
+      // finalScore,
     };
   });
 
-  rankedCities.sort((a, b) => b.finalScore - a.finalScore);
+  rankedCities.sort((a, b) => b.totalPercentage - a.totalPercentage);
 
   return rankedCities;
 };
@@ -141,9 +140,9 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
                 <TableCell className="p-4 text-center font-bold">
                   Persentase
                 </TableCell>
-                <TableCell className="p-4 text-center font-bold">
+                {/* <TableCell className="p-4 text-center font-bold">
                   Skor
-                </TableCell>
+                </TableCell> */}
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -201,7 +200,7 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
                     })}
                     %
                   </TableCell>
-                  <TableCell
+                  {/* <TableCell
                     className={`p-4 text-center
                     ${index < 3 ? "font-bold" : ""}
                     ${index === 0 ? "text-yellow-500" : ""}
@@ -212,7 +211,7 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
                     {city.finalScore.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}
-                  </TableCell>
+                  </TableCell> */}
                 </TableRow>
               ))}
             </TableBody>
