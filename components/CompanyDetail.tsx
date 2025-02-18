@@ -88,14 +88,10 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
 
   const filterPeriodData = () => {
     // Menghitung total untuk periode 1 saja (data yang sudah ada)
-    const totalMonoTarget = Object.values(company.monokulturTargets?.II || {});
-    const totalMonoAchievement = Object.values(
-      company.monokulturAchievements.II || {}
-    );
-    const totalTsTarget = Object.values(company.tumpangSariTargets?.II || {});
-    const totalTsAchievement = Object.values(
-      company.tumpangSariAchievements.II || {}
-    );
+    const totalMonoTarget = company.monokulturTargets;
+    const totalMonoAchievement = company.monokulturAchievements.II;
+    const totalTsTarget = company.tumpangSariTargets;
+    const totalTsAchievement = company.tumpangSariAchievements.II;
 
     // Membuat array dengan 4 periode
     return [
