@@ -90,10 +90,10 @@ const calculateRanking = (cities: City[]): CityWithScore[] => {
 
     // Hitung Skor Final
     const finalScore =
-      (0.7 * monokulturPercentage +
-        0.3 * monokulturTargetWeight * 100 +
-        0.7 * tumpangSariPercentage +
-        0.3 * tumpangSariTargetWeight * 100) /
+      (0.6 * monokulturPercentage +
+        0.4 * monokulturTargetWeight * 100 +
+        0.6 * tumpangSariPercentage +
+        0.4 * tumpangSariTargetWeight * 100) /
       2;
 
     return {

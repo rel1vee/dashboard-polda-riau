@@ -86,6 +86,57 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
 
   const periodData = transformPeriodData();
 
+  const filterPeriodData = () => {
+    // Menghitung total untuk periode 1 saja (data yang sudah ada)
+    const totalMonoTarget = Object.values(
+      company.monokulturTargets || {}
+    ).reduce((acc, val) => acc + (val ?? 0), 0);
+    const totalMonoAchievement = Object.values(
+      company.monokulturAchievements || {}
+    ).reduce((acc, val) => acc + (val ?? 0), 0);
+    const totalTsTarget = Object.values(
+      company.tumpangSariTargets || {}
+    ).reduce((acc, val) => acc + (val ?? 0), 0);
+    const totalTsAchievement = Object.values(
+      company.tumpangSariAchievements || {}
+    ).reduce((acc, val) => acc + (val ?? 0), 0);
+
+    // Membuat array dengan 4 periode
+    return [
+      {
+        periode: "1",
+        monoTarget: totalMonoTarget,
+        monoAchievement: totalMonoAchievement,
+        tsTarget: totalTsTarget,
+        tsAchievement: totalTsAchievement,
+      },
+      {
+        periode: "2",
+        monoTarget: totalMonoTarget,
+        monoAchievement: 0,
+        tsTarget: totalTsTarget,
+        tsAchievement: 0,
+      },
+      {
+        periode: "3",
+        monoTarget: totalMonoTarget,
+        monoAchievement: 0,
+        tsTarget: totalTsTarget,
+        tsAchievement: 0,
+      },
+      {
+        periode: "4",
+        monoTarget: totalMonoTarget,
+        monoAchievement: 0,
+        tsTarget: totalTsTarget,
+        tsAchievement: 0,
+      },
+    ];
+  };
+
+  // Panggil fungsi untuk mendapatkan data
+  const filteredPeriodData = filterPeriodData();
+
   // Data for pie chart
   const targetDistribution = [
     {
@@ -507,7 +558,168 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                 </CardFooter>
               </Card>
               {/* Target Monokultur dan Tumpang Sari */}
-              <Card>
+              <Card className="w-full max-w-4xl">
+                <CardHeader className="items-center">
+                  <CardTitle className="text-sm font-medium">
+                    Target Monokultur dan Tumpang Sari
+                  </CardTitle>
+                  <CardDescription>Capaian per Bulan</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="h-[400px]">
+                    <ResponsiveContainer width="100%" height="100%">
+                      <ComposedChart data={filteredPeriodData}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis
+                          dataKey="periode"
+                          domain={["dataMin", "dataMax"]}
+                          padding={{ left: 0, right: 0 }}
+                          tickFormatter={(value) => {
+                            if (value === "5") {
+                              return " dst";
+                            }
+                            return `Bulan ${value}`;
+                          }}
+                        />
+                        <YAxis domain={[0, 10]} />
+                        <Tooltip
+                          content={({ active, payload }) => {
+                            if (active && payload && payload.length) {
+                              const {
+                                periode,
+                                monoTarget,
+                                monoAchievement,
+                                tsTarget,
+                                tsAchievement,
+                              } = payload[0].payload;
+
+                              const getMonthName = (period: string) => {
+                                switch (period) {
+                                  case "1":
+                                    return "Bulan 1";
+                                  case "2":
+                                    return "Bulan 2";
+                                  case "3":
+                                    return "Bulan 3";
+                                  case "4":
+                                    return "Bulan 4";
+                                  case "5":
+                                    return "dst";
+                                  default:
+                                    return "Periode Tidak Diketahui";
+                                }
+                              };
+
+                              return (
+                                <div className="p-4 bg-white border rounded shadow">
+                                  <p className="font-bold">
+                                    {getMonthName(periode)}
+                                  </p>
+                                  <p className="text-[#16a34a]">
+                                    Monokultur : {monoAchievement ?? 0} dari{" "}
+                                    {monoTarget ?? 0} Ha
+                                  </p>
+                                  <p className="text-[#00008B]">
+                                    Tumpang Sari : {tsAchievement ?? 0} dari{" "}
+                                    {tsTarget ?? 0} Ha
+                                  </p>
+                                </div>
+                              );
+                            }
+                            return null;
+                          }}
+                        />
+                        <Legend />
+                        <Line
+                          type="monotone"
+                          dataKey="monoTarget"
+                          name="Target Monokultur"
+                          stroke="#388E3C"
+                          strokeWidth={2}
+                          strokeDasharray="5 5"
+                          dot={true}
+                        />
+                        <Line
+                          type="monotone"
+                          dataKey="tsTarget"
+                          name="Target Tumpang Sari"
+                          stroke="#0D47A1"
+                          strokeWidth={2}
+                          strokeDasharray="5 5"
+                          dot={true}
+                        />
+                        <Bar
+                          dataKey="monoAchievement"
+                          name="Capaian Monokultur"
+                          fill="#8BC34A"
+                          barSize={80}
+                        />
+                        <Bar
+                          dataKey="tsAchievement"
+                          name="Capaian Tumpang Sari"
+                          fill="#03A9F4"
+                          barSize={80}
+                        />
+                      </ComposedChart>
+                    </ResponsiveContainer>
+                  </div>
+                </CardContent>
+                <CardFooter className="flex-col items-start gap-2 text-sm">
+                  <div className="w-full pt-2 border-t">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <Target className="h-4 w-4" />
+                        <span className="text-sm text-muted-foreground">
+                          Total Capaian
+                        </span>
+                      </div>
+                      <span className="text-sm font-medium">
+                        {(
+                          Object.values(
+                            company.monokulturAchievements || {}
+                          ).reduce((acc, val) => acc + val, 0) +
+                          Object.values(
+                            company.tumpangSariAchievements || {}
+                          ).reduce((acc, val) => acc + val, 0)
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        dari{" "}
+                        {(
+                          (company.target2Percent ?? 0) +
+                          (company.target7Percent ?? 0)
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        Ha
+                      </span>
+                    </div>
+                  </div>
+                </CardFooter>
+                {/* <CardFooter className="flex-col items-start gap-2 text-sm">
+                  <div className="w-full pt-2 border-t">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <Target className="h-4 w-4" />
+                        <span className="text-sm text-muted-foreground">
+                          Total Target
+                        </span>
+                      </div>
+                      <span className="text-sm font-medium">
+                        {(
+                          (company.target2Percent ?? 0) +
+                          (company.target7Percent ?? 0)
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        Ha
+                      </span>
+                    </div>
+                  </div>
+                </CardFooter> */}
+              </Card>
+              {/* Target Monokultur dan Tumpang Sari */}
+              {/* <Card>
                 <CardHeader className="items-center">
                   <CardTitle className="text-sm font-medium">
                     Target Monokultur dan Tumpang Sari
@@ -625,7 +837,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                     </div>
                   </div>
                 </CardFooter>
-              </Card>
+              </Card> */}
             </div>
           </TabsContent>
 
