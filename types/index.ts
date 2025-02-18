@@ -76,6 +76,14 @@ export interface Progress {
       persentase: number | null;
     };
     keterangan: string | null;
+    rencanaTanam?: {
+      tanggalTanam?: string | null; // Tanggal rencana tanam
+      luasTanam?: number | null; // Luas rencana tanam
+    };
+    rencanaPanen?: {
+      tanggalPanen?: string | null; // Tanggal rencana panen
+      perkiraanPanen?: number | null; // Perkiraan hasil panen
+    };
   };
   tumpangSari: {
     targetTanam: {
@@ -96,6 +104,14 @@ export interface Progress {
       persentase: number | null;
     };
     keterangan: string | null;
+    rencanaTanam?: {
+      tanggalTanam?: string | null; // Tanggal rencana tanam
+      luasTanam?: number | null; // Luas rencana tanam
+    };
+    rencanaPanen?: {
+      tanggalPanen?: string | null; // Tanggal rencana panen
+      perkiraanPanen?: number | null; // Perkiraan hasil panen
+    };
   };
   csr: {
     targetTanam: {
@@ -116,5 +132,13 @@ export interface Progress {
       persentase: number | null;
     };
     keterangan: string | null;
+    rencanaTanam?: {
+      tanggalTanam?: string | null; // Tanggal rencana tanam
+      luasTanam?: number | null; // Luas rencana tanam
+    };
+    rencanaPanen?: {
+      tanggalPanen?: string | null; // Tanggal rencana panen
+      perkiraanPanen?: number | null; // Perkiraan hasil panen
+    };
   };
 }

@@ -127,6 +127,8 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
       belumTanam: { luas: number; persentase: number };
       panen: { luas: number; persentase: number };
       keterangan: string;
+      rencanaTanam: { tanggalTanam: string; luasTanam: number };
+      rencanaPanen: { tanggalPanen: string; perkiraanPanen: number };
     }
   ) => {
     const progressData = [
@@ -292,7 +294,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
               Monokultur & Tumpang Sari
             </TabsTrigger>
             <TabsTrigger value="csr">CSR</TabsTrigger>
-            <TabsTrigger value="progressTanam">Progress Tanam</TabsTrigger>
+            <TabsTrigger value="prosesProduksi">Proses Produksi</TabsTrigger>
           </TabsList>
 
           <TabsContent value="overview">
@@ -641,7 +643,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
             </Card>
           </TabsContent>
 
-          <TabsContent value="progressTanam">
+          <TabsContent value="prosesProduksi">
             <div className="space-y-4">
               {company.progress && company.progress.length > 0 ? (
                 <>
@@ -651,22 +653,126 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         Informasi Penanggung Jawab
                       </CardTitle>
                     </CardHeader>
-
                     <CardContent>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="flex items-center gap-2">
-                          <User className="h-4 w-4 text-gray-500" />
-                          <span className="text-sm">
-                            PJ: {company.progress?.[0]?.namaPJ}
+                          <User className="h-4 w-4 text-gray-500 " />
+                          <span className="text-sm font-bold">
+                            Nama : {company.progress?.[0]?.namaPJ}
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
                           <Phone className="h-4 w-4 text-gray-500" />
-                          <span className="text-sm">
+                          <span className="text-sm font-bold">
                             No. Telp: {company.progress?.[0]?.nomorTelp}
                           </span>
                         </div>
                       </div>
+                    </CardContent>
+                  </Card>
+                  <Card>
+                    <CardHeader>
+                      <CardTitle>Progress Tanam</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      {/*                       
+                      <div>
+                        <h4>Target Tanam:</h4>
+                        <p>
+                          Luas:{" "}
+                          {data.targetTanam.luas.toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
+                          Ha (
+                          {data.targetTanam.persentase.toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}
+                          %)
+                        </p>
+                      </div>
+                      
+                      <div>
+                        <h4>Rencana Tanam:</h4>
+                        <p>
+                          Tanggal Tanam:{" "}
+                          {data.rencanaTanam?.tanggalTanam || "-"}
+                        </p>
+                        <p>
+                          Luas Tanam:{" "}
+                          {data.rencanaTanam?.luasTanam.toLocaleString(
+                            "id-ID",
+                            {
+                              maximumFractionDigits: 2,
+                            }
+                          )}{" "}
+                          Ha
+                        </p>
+                      </div>
+                      
+                      <div>
+                        <h4>Rencana Panen:</h4>
+                        <p>
+                          Tanggal Panen:{" "}
+                          {data.rencanaPanen?.tanggalPanen || "-"}
+                        </p>
+                        <p>
+                          Perkiraan Panen:{" "}
+                          {data.rencanaPanen?.perkiraanPanen.toLocaleString(
+                            "id-ID",
+                            {
+                              maximumFractionDigits: 2,
+                            }
+                          )}{" "}
+                          Ton
+                        </p>
+                      </div>
+
+                      <div>
+                        <h4>Progres Tanam:</h4>
+                        <p>
+                          Sudah Tanam:{" "}
+                          {data.progresTanam.luas.toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
+                          Ha (
+                          {data.progresTanam.persentase.toLocaleString(
+                            "id-ID",
+                            {
+                              maximumFractionDigits: 2,
+                            }
+                          )}
+                          %)
+                        </p>
+                        <p>
+                          Belum Tanam:{" "}
+                          {data.belumTanam.luas.toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
+                          Ha (
+                          {data.belumTanam.persentase.toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}
+                          %)
+                        </p>
+                        <p>
+                          Panen:{" "}
+                          {data.panen.luas.toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
+                          Ha (
+                          {data.panen.persentase.toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}
+                          %)
+                        </p>
+                      </div>
+
+                      
+                      <div>
+                        <h4>Keterangan:</h4>
+                        <p>{data.keterangan}</p>
+                      </div> 
+                       */}
                     </CardContent>
                   </Card>
 
@@ -701,6 +807,22 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       },
                       keterangan:
                         company.progress[0].monokultur.keterangan ?? "",
+                      rencanaTanam: {
+                        tanggalTanam:
+                          company.progress[0].monokultur.rencanaTanam
+                            ?.tanggalTanam ?? "",
+                        luasTanam:
+                          company.progress[0].monokultur.rencanaTanam
+                            ?.luasTanam ?? 0,
+                      },
+                      rencanaPanen: {
+                        tanggalPanen:
+                          company.progress[0].monokultur.rencanaPanen
+                            ?.tanggalPanen ?? "",
+                        perkiraanPanen:
+                          company.progress[0].monokultur.rencanaPanen
+                            ?.perkiraanPanen ?? 0,
+                      },
                     })}
 
                   {company.progress?.[0]?.tumpangSari &&
@@ -735,6 +857,22 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       },
                       keterangan:
                         company.progress[0].tumpangSari.keterangan ?? "",
+                      rencanaTanam: {
+                        tanggalTanam:
+                          company.progress[0].monokultur.rencanaTanam
+                            ?.tanggalTanam ?? "",
+                        luasTanam:
+                          company.progress[0].monokultur.rencanaTanam
+                            ?.luasTanam ?? 0,
+                      },
+                      rencanaPanen: {
+                        tanggalPanen:
+                          company.progress[0].monokultur.rencanaPanen
+                            ?.tanggalPanen ?? "",
+                        perkiraanPanen:
+                          company.progress[0].monokultur.rencanaPanen
+                            ?.perkiraanPanen ?? 0,
+                      },
                     })}
 
                   {company.progress?.[0]?.csr &&
@@ -761,13 +899,29 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           company.progress[0].csr.panen.persentase ?? 0,
                       },
                       keterangan: company.progress[0].csr.keterangan ?? "",
+                      rencanaTanam: {
+                        tanggalTanam:
+                          company.progress[0].monokultur.rencanaTanam
+                            ?.tanggalTanam ?? "",
+                        luasTanam:
+                          company.progress[0].monokultur.rencanaTanam
+                            ?.luasTanam ?? 0,
+                      },
+                      rencanaPanen: {
+                        tanggalPanen:
+                          company.progress[0].monokultur.rencanaPanen
+                            ?.tanggalPanen ?? "",
+                        perkiraanPanen:
+                          company.progress[0].monokultur.rencanaPanen
+                            ?.perkiraanPanen ?? 0,
+                      },
                     })}
                 </>
               ) : (
                 <div className="h-[400px] flex items-center justify-center text-center flex-col gap-2">
                   <Database className="h-10 w-10 text-emerald-800" />
                   <span className="text-emerald-800 text-xl text-center">
-                    Data progress tanam belum dimasukkan...
+                    Data proses produksi belum dimasukkan...
                   </span>
                 </div>
               )}
