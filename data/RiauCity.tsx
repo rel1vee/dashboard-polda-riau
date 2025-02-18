@@ -88,7 +88,7 @@ export const riauCity: City[] = [
     nama: "PELALAWAN",
     coordinates: [0.1952, 102.1654],
     totalArea: 173114.47,
-    otherTotalArea: 37837.09,
+    otherTotalArea: 37837.79,
     monokulturTarget: 3462.29,
     tumpangSariTarget: 12118.01,
     totalTarget: 15411.66,

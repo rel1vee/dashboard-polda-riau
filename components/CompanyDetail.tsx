@@ -92,13 +92,13 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
       company.monokulturTargets || {}
     ).reduce((acc, val) => acc + (val ?? 0), 0);
     const totalMonoAchievement = Object.values(
-      company.monokulturAchievements || {}
+      company.monokulturAchievements.II || {}
     ).reduce((acc, val) => acc + (val ?? 0), 0);
     const totalTsTarget = Object.values(
       company.tumpangSariTargets || {}
     ).reduce((acc, val) => acc + (val ?? 0), 0);
     const totalTsAchievement = Object.values(
-      company.tumpangSariAchievements || {}
+      company.tumpangSariAchievements.II || {}
     ).reduce((acc, val) => acc + (val ?? 0), 0);
 
     // Membuat array dengan 4 periode
