@@ -146,7 +146,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     return (
       <Card className="w-full">
         <CardHeader>
-          <CardTitle className="text-sm font-medium text-gray-500">
+          <CardTitle className="text-sm font-medium">
             Progress {title}
           </CardTitle>
           <CardDescription>
