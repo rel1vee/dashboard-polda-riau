@@ -443,17 +443,21 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         Ha
                       </span>
                     </div>
-                    <div className="flex items-center justify-between">
+                    {/* <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <div
                           className="h-3 w-3 rounded-full"
                           style={{ backgroundColor: "hsl(var(--chart-3))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
-                          Sisa Lahan
+                          Total Lahan
                         </span>
                       </div>
                       <span className="text-sm font-medium">
+                        {company.area.toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        Ha
                         {(
                           company.area -
                           (Object.values(
@@ -471,7 +475,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         })}{" "}
                         Ha
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="w-full pt-2 border-t">
                     <div className="flex items-center justify-between">

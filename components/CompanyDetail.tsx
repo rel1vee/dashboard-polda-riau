@@ -403,9 +403,42 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         Ha
                       </span>
                     </div>
+                    {/* <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <div
+                          className="h-3 w-3 rounded-full"
+                          style={{ backgroundColor: "hsl(var(--chart-3))" }}
+                        ></div>
+                        <span className="text-sm text-muted-foreground">
+                          Capaian CSR
+                        </span>
+                      </div>
+                      <span className="text-sm font-medium">
+                        {Object.values(company.csrAchievements || {})
+                          .reduce((acc, val) => acc + val, 0)
+                          .toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
+                        Ha
+                      </span>
+                    </div> */}
                   </div>
                   {/* Summary Section */}
                   <div className="w-full grid grid-cols-1 gap-2 pt-2 border-t">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <Map className="h-4 w-4" />
+                        <span className="text-sm text-muted-foreground">
+                          Total Lahan
+                        </span>
+                      </div>
+                      <span className="text-sm font-medium">
+                        {company.area.toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        Ha
+                      </span>
+                    </div>
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <Target className="h-4 w-4" />
@@ -420,7 +453,11 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                           ).reduce((acc, val) => acc + val, 0) +
                           Object.values(
                             company.tumpangSariAchievements || {}
-                          ).reduce((acc, val) => acc + val, 0)
+                          ).reduce((acc, val) => acc + val, 0) +
+                          Object.values(company.csrAchievements || {}).reduce(
+                            (acc, val) => acc + val,
+                            0
+                          )
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
@@ -430,7 +467,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                           (company.target7Percent ?? 0)
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
-                        })}
+                        })}{" "}
                         Ha
                       </span>
                     </div>
@@ -457,20 +494,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         Ha
                       </span>
                     </div> */}
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <Map className="h-4 w-4" />
-                        <span className="text-sm text-muted-foreground">
-                          Total Lahan
-                        </span>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {company.area.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
-                      </span>
-                    </div>
                   </div>
                 </CardFooter>
               </Card>
@@ -567,10 +590,21 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="flex items-center gap-2">
                         <Target className="h-4 w-4" />
                         <span className="text-sm text-muted-foreground">
-                          Total Target
+                          Total Capaian
                         </span>
                       </div>
                       <span className="text-sm font-medium">
+                        {(
+                          Object.values(
+                            company.monokulturAchievements || {}
+                          ).reduce((acc, val) => acc + val, 0) +
+                          Object.values(
+                            company.tumpangSariAchievements || {}
+                          ).reduce((acc, val) => acc + val, 0)
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        dari{" "}
                         {(
                           (company.target2Percent ?? 0) +
                           (company.target7Percent ?? 0)
@@ -627,10 +661,16 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="flex items-center gap-2">
                         <Target className="h-4 w-4" />
                         <span className="text-sm text-muted-foreground">
-                          Total Target Monokultur
+                          Total Capaian Monokultur
                         </span>
                       </div>
                       <span className="text-sm font-medium">
+                        {Object.values(company.monokulturAchievements || {})
+                          .reduce((acc, val) => acc + val, 0)
+                          .toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
+                        dari{" "}
                         {company.target2Percent?.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
@@ -679,10 +719,16 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="flex items-center gap-2">
                         <Target className="h-4 w-4" />
                         <span className="text-sm text-muted-foreground">
-                          Total Target Tumpang Sari
+                          Total Capaian Tumpang Sari
                         </span>
                       </div>
                       <span className="text-sm font-medium">
+                        {Object.values(company.tumpangSariAchievements || {})
+                          .reduce((acc, val) => acc + val, 0)
+                          .toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}{" "}
+                        dari{" "}
                         {company.target7Percent?.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
