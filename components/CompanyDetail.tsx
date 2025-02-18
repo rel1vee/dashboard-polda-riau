@@ -97,7 +97,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     ).reduce((acc, val) => acc + (val ?? 0), 0);
     const totalTsAchievement = company.tumpangSariAchievements.II;
 
-    // Membuat array dengan 4 periode
     return [
       {
         periode: "1",
@@ -503,16 +502,9 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </div>
                       <span className="text-sm font-medium">
                         {(
-                          Object.values(
-                            company.monokulturAchievements || {}
-                          ).reduce((acc, val) => acc + val, 0) +
-                          Object.values(
-                            company.tumpangSariAchievements || {}
-                          ).reduce((acc, val) => acc + val, 0) +
-                          Object.values(company.csrAchievements || {}).reduce(
-                            (acc, val) => acc + val,
-                            0
-                          )
+                          company.monokulturAchievements.II +
+                          company.tumpangSariAchievements.II +
+                          (company.csrAchievements?.II ?? 0)
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
@@ -526,29 +518,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         Ha
                       </span>
                     </div>
-                    {/* <div className="flex items-center justify-between">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <Database className="h-4 w-4" />
-                          <span className="text-sm text-muted-foreground">
-                            Total Capaian
-                          </span>
-                        </div>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {(
-                          Object.values(
-                            company.monokulturAchievements || {}
-                          ).reduce((acc, val) => acc + val, 0) +
-                          Object.values(
-                            company.tumpangSariAchievements || {}
-                          ).reduce((acc, val) => acc + val, 0)
-                        ).toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
-                      </span>
-                    </div> */}
                   </div>
                 </CardFooter>
               </Card>
@@ -670,12 +639,8 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </div>
                       <span className="text-sm font-medium">
                         {(
-                          Object.values(
-                            company.monokulturAchievements || {}
-                          ).reduce((acc, val) => acc + val, 0) +
-                          Object.values(
-                            company.tumpangSariAchievements || {}
-                          ).reduce((acc, val) => acc + val, 0)
+                          company.monokulturAchievements.II +
+                          company.tumpangSariAchievements.II
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
@@ -740,11 +705,12 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {Object.values(company.monokulturAchievements || {})
-                          .reduce((acc, val) => acc + val, 0)
-                          .toLocaleString("id-ID", {
+                        {company.monokulturAchievements.II.toLocaleString(
+                          "id-ID",
+                          {
                             maximumFractionDigits: 2,
-                          })}{" "}
+                          }
+                        )}{" "}
                         dari{" "}
                         {company.target2Percent?.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
@@ -798,11 +764,12 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {Object.values(company.tumpangSariAchievements || {})
-                          .reduce((acc, val) => acc + val, 0)
-                          .toLocaleString("id-ID", {
+                        {company.tumpangSariAchievements.II.toLocaleString(
+                          "id-ID",
+                          {
                             maximumFractionDigits: 2,
-                          })}{" "}
+                          }
+                        )}{" "}
                         dari{" "}
                         {company.target7Percent?.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
@@ -853,11 +820,9 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </span>
                     </div>
                     <span className="text-sm font-medium">
-                      {Object.values(company.csrAchievements || {})
-                        .reduce((acc, val) => acc + val, 0)
-                        .toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
+                      {company.csrAchievements?.II.toLocaleString("id-ID", {
+                        maximumFractionDigits: 2,
+                      })}{" "}
                       Ha
                     </span>
                   </div>
