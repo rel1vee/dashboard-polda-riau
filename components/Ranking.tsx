@@ -133,15 +133,15 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
           <Table>
             <TableHeader>
               <TableRow>
-                <TableCell className="text-center font-semibold">No</TableCell>
-                <TableCell className="p-4 font-semibold">Kab/Kota</TableCell>
-                <TableCell className="p-4 text-center font-semibold">
+                <TableCell className="text-center font-bold">No</TableCell>
+                <TableCell className="p-4 font-bold">Kab/Kota</TableCell>
+                <TableCell className="p-4 text-center font-bold">
                   Total Capaian
                 </TableCell>
-                <TableCell className="p-4 text-center font-semibold">
+                <TableCell className="p-4 text-center font-bold">
                   Persentase
                 </TableCell>
-                <TableCell className="p-4 text-center font-semibold">
+                <TableCell className="p-4 text-center font-bold">
                   Skor
                 </TableCell>
               </TableRow>
@@ -150,11 +150,36 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
               {rankedCities.map((city, index) => (
                 <TableRow
                   key={city.id}
-                  className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
+                  className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors "
                 >
-                  <TableCell className="text-center">{index + 1}</TableCell>
-                  <TableCell className="p-4">{city.nama}</TableCell>
-                  <TableCell className="p-4 text-center">
+                  <TableCell
+                    className={`text-center
+                    ${index < 3 ? "font-bold text-lg" : ""}
+                    ${index === 0 ? "text-yellow-500" : ""}
+                    ${index === 1 ? "text-[#89939A]" : ""}
+                    ${index === 2 ? "text-amber-700" : ""}
+                  `}
+                  >
+                    {index + 1}
+                  </TableCell>
+                  <TableCell
+                    className={`p-4
+                    ${index < 3 ? "font-bold" : ""}
+                    ${index === 0 ? "text-yellow-500" : ""}
+                    ${index === 1 ? "text-[#89939A]" : ""}
+                    ${index === 2 ? "text-amber-700" : ""}
+                  `}
+                  >
+                    {city.nama}
+                  </TableCell>
+                  <TableCell
+                    className={`p-4 text-center
+                    ${index < 3 ? "font-bold" : ""}
+                    ${index === 0 ? "text-yellow-500" : ""}
+                    ${index === 1 ? "text-[#89939A]" : ""}
+                    ${index === 2 ? "text-amber-700" : ""}
+                  `}
+                  >
                     {city.totalAchievements.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}{" "}
@@ -163,13 +188,27 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
                       maximumFractionDigits: 2,
                     })}
                   </TableCell>
-                  <TableCell className="p-4 text-center">
+                  <TableCell
+                    className={`p-4 text-center
+                    ${index < 3 ? "font-bold" : ""}
+                    ${index === 0 ? "text-yellow-500" : ""}
+                    ${index === 1 ? "text-[#89939A]" : ""}
+                    ${index === 2 ? "text-amber-700" : ""}
+                  `}
+                  >
                     {city.totalPercentage.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}
                     %
                   </TableCell>
-                  <TableCell className="p-4 text-center">
+                  <TableCell
+                    className={`p-4 text-center
+                    ${index < 3 ? "font-bold" : ""}
+                    ${index === 0 ? "text-yellow-500" : ""}
+                    ${index === 1 ? "text-[#89939A]" : ""}
+                    ${index === 2 ? "text-amber-700" : ""}
+                  `}
+                  >
                     {city.finalScore.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}

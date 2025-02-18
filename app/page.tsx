@@ -208,7 +208,7 @@ const DashboardRiauPage = () => {
             className="bg-white p-6 rounded-xl shadow-lg"
           >
             <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              Dashboard Provinsi Riau
+              Dashboard Ketahanan Pangan Polda Riau
             </h1>
             <p className="text-gray-500 mt-1">
               Overview Statistik dan Data Perusahaan Provinsi Riau

@@ -404,7 +404,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </span>
                     </div>
                   </div>
-
                   {/* Summary Section */}
                   <div className="w-full grid grid-cols-1 gap-2 pt-2 border-t">
                     <div className="flex items-center justify-between">
