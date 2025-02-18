@@ -814,13 +814,13 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="grid grid-cols-2 gap-4">
                         <div className="flex items-center gap-2">
                           <User className="h-4 w-4 text-gray-500 " />
-                          <span className="text-sm font-bold">
-                            Nama : {company.progress?.[0]?.namaPJ}
+                          <span className="text-sm">
+                            Nama: {company.progress?.[0]?.namaPJ}
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
                           <Phone className="h-4 w-4 text-gray-500" />
-                          <span className="text-sm font-bold">
+                          <span className="text-sm">
                             No. Telp: {company.progress?.[0]?.nomorTelp}
                           </span>
                         </div>
