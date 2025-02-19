@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dashboard Perusahaan Wilayah Riau",
-  description: "Dashboard Perusahaan Wilayah Riau",
+  title: "Dashboard Ketahanan Pangan Polda Riau",
+  description: "Dashboard Ketahanan Pangan Polda Riau",
 };
 
 export default function RootLayout({
