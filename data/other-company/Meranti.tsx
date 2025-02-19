@@ -23,6 +23,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 1,
+        namaPJ: "Purwanto",
+        nomorTelp: "085271235292",
+        area: 8.0,
+        // coordinates: "Alah Air Timur",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 8.0,
+            persentase: 100.0,
+          },
+          waktuTanam: "21 - 01 - 2025",
+          progresTanam: {
+            luas: 8.0,
+            persentase: 100.0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 2,
@@ -46,6 +116,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 2,
+        namaPJ: "Sudirman",
+        nomorTelp: "085364841364",
+        area: 30.0,
+        // coordinates: "Tanjung Gadai",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 30.0,
+            persentase: 100.0,
+          },
+          waktuTanam: "_",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 30.0,
+            persentase: 100.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 3,
@@ -69,6 +209,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 3,
+        namaPJ: "M. Fadli",
+        nomorTelp: "085271492453",
+        area: 5.0,
+        // coordinates: "Nipah Sendanu",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 5.0,
+            persentase: 100.0,
+          },
+          waktuTanam: "_",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 5.0,
+            persentase: 100.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 4,
@@ -92,6 +302,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 4,
+        namaPJ: "Izamri",
+        nomorTelp: "082283997570",
+        area: 30.0,
+        // coordinates: "Sungai Tohor",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 30.0,
+            persentase: 100.0,
+          },
+          waktuTanam: "_",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 30.0,
+            persentase: 100.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 5,
@@ -115,6 +395,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 5,
+        namaPJ: "Baharudin",
+        nomorTelp: "081359073246",
+        area: 30.0,
+        // coordinates: "Sungai Tohor Barat",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 30.0,
+            persentase: 100.0,
+          },
+          waktuTanam: "_",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 30.0,
+            persentase: 100.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 6,
@@ -138,6 +488,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 6,
+        namaPJ: "Muhammad Gustain",
+        nomorTelp: "085269820757",
+        area: 25.0,
+        // coordinates: "Sendanu Darul Iksan",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 25.0,
+            persentase: 100.0,
+          },
+          waktuTanam: "_",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 25.0,
+            persentase: 100.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 7,
@@ -161,6 +581,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 7,
+        namaPJ: "Abu Amar ",
+        nomorTelp: "082389148190",
+        area: 10.0,
+        // coordinates: "Sendanu Darul Iksan",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 10.0,
+            persentase: 100.0,
+          },
+          waktuTanam: "_",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 10.0,
+            persentase: 100.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 8,
@@ -184,6 +674,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 8,
+        namaPJ: "M. Khusni",
+        nomorTelp: "081364682078",
+        area: 2.0,
+        // coordinates: "Insit",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 100.0,
+          },
+          waktuTanam: "_",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 2.0,
+            persentase: 100.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 9,
@@ -207,6 +767,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 9,
+        namaPJ: "Syahridi",
+        nomorTelp: "083883748357",
+        area: 6.5,
+        // coordinates: "Insit",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 6.5,
+            persentase: 100.0,
+          },
+          waktuTanam: "_",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 6.5,
+            persentase: 100.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 10,
@@ -230,6 +860,76 @@ export const merantiOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 10,
+        namaPJ: "Hasan Basri",
+        nomorTelp: "085271232404",
+        area: 1.8,
+        // coordinates: "Insit",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 1.8,
+            persentase: 100.0,
+          },
+          waktuTanam: "_",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 1.8,
+            persentase: 100.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MILIK POKTAN / PERORANGAN",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 11,

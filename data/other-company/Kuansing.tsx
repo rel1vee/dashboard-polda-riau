@@ -23,6 +23,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 1,
+        namaPJ: "PAINO",
+        nomorTelp: "082172101972",
+        area: 2533.0,
+        coordinates: [-0.1638867, 101.4234171],
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 177.31,
+            persentase: 0.0,
+          },
+          waktuTanam: "28/02/2025",
+          progresTanam: {
+            luas: 5.0,
+            persentase: 2.82,
+          },
+          belumTanam: {
+            luas: 172.31,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 2,
@@ -46,6 +116,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 2,
+        namaPJ: "MARNOSAN HUTABARAT",
+        nomorTelp: "082383300829",
+        area: 1224.0,
+        coordinates: [-0.1766822, 101.2986156],
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "28/02/2025",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 85.68,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 85.68,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 3,
@@ -69,6 +209,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 3,
+        namaPJ: "MUNAFI",
+        nomorTelp: "081351215139",
+        area: 1368.0,
+        coordinates: [-0.1102609, 101.281927],
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 95.76,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 2.0,
+            persentase: 2.09,
+          },
+          belumTanam: {
+            luas: 93.76,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 4,
@@ -92,6 +302,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 4,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 3100.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 217.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 217.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 5,
@@ -115,6 +395,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 5,
+        namaPJ: "MUKHSEN",
+        nomorTelp: "081365942268",
+        area: 0.0,
+        coordinates: [0.6, 101.4228],
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU DANA DESA",
+          progresTanam: {
+            luas: 0.38,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU DANA DESA",
+          progresTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 6,
@@ -138,6 +488,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 6,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU DANA DESA",
+          progresTanam: {
+            luas: 4.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 7,
@@ -161,6 +581,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 7,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU DANA DESA",
+          progresTanam: {
+            luas: 0.75,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 8,
@@ -184,6 +674,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 8,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU DANA DESA",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 9,
@@ -207,6 +767,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 9,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU DANA DESA",
+          progresTanam: {
+            luas: 3.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 10,
@@ -230,6 +860,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 10,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU DANA DESA",
+          progresTanam: {
+            luas: 0.24,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 12,
@@ -253,6 +953,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 11,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU DANA DESA",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 13,
@@ -276,6 +1046,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 12,
+        namaPJ: "Eryuliana",
+        nomorTelp: "+62 823-8701-6652",
+        area: 0.0,
+        coordinates: [0.6881703333333333, 101.49757431666667],
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "menunggu dana desa",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 14,
@@ -299,6 +1139,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 13,
+        namaPJ: "Masdi",
+        nomorTelp: "085365108212",
+        area: 0.0,
+        // "coordinates": "-03658S 1012511E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "Tahap Pembersihan Lahan",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 15,
@@ -322,6 +1232,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 14,
+        namaPJ: "Syafriadi",
+        nomorTelp: "082289722401",
+        area: 0.0,
+        // coordinates: "-0398S 1012853E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: " menunggu pencairan Dana Desa tahun 2025",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 16,
@@ -345,6 +1325,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 15,
+        namaPJ: "Imilda",
+        nomorTelp: "081364287796",
+        area: 0.0,
+        // coordinates: "0.7716733356937766S 101.58511569723487E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: " menunggu dana desa",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 17,
@@ -368,6 +1418,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 16,
+        namaPJ: "Joni",
+        nomorTelp: "+62 822-7338-6891",
+        area: 0.0,
+        // coordinates: " 0.7633335S 101.6309405E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "menunggu dana desa",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 18,
@@ -391,6 +1511,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 17,
+        namaPJ: "AMRIZAL S.T",
+        nomorTelp: "085228644016",
+        area: 0.0,
+        // coordinates: "0,64731S 101,44079E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "Tahap Pembersihan Lahan",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 19,
@@ -414,6 +1604,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 18,
+        namaPJ: "Imilda",
+        nomorTelp: "081364287796",
+        area: 0.0,
+        // coordinates: "0.7716733356937766S 101.58511569723487E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: " menunggu dana desa",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 20,
@@ -437,6 +1697,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 19,
+        namaPJ: "Joni",
+        nomorTelp: "+62 822-7338-6891",
+        area: 0.0,
+        // coordinates: " 0.7633335S 101.6309405E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "menunggu dana desa",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 21,
@@ -460,6 +1790,76 @@ export const kuansingOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 20,
+        namaPJ: "Indra Suadi",
+        nomorTelp: "+62 822-8708-5711",
+        area: 0.0,
+        // coordinates: "-0.679598,101.474252",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "Menunggu anggaran dana desa",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 22,
