@@ -37,6 +37,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 1,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 7127.0,
+        // coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 2,
@@ -74,6 +168,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 2,
+        namaPJ: "SIDABUTAR",
+        nomorTelp: "085267563127",
+        area: 7860.95,
+        // coordinates: " ",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 3,
@@ -111,6 +299,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 3,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 4860.0,
+        // coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 2.5,
+            persentase: 0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "SK IUP\r\nNO 1 /BPMD&PPT/BP-IUP/XII2015",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 4,
@@ -148,6 +430,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 4,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 952.0,
+        // coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 5,
@@ -185,6 +561,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 5,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 6417.9,
+        // coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 6,
@@ -222,6 +692,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 6,
+        namaPJ: "EKMAL HAMIDI",
+        nomorTelp: "081378610849",
+        area: 4520.0,
+        // coordinates: "-0.452104,\r\n 101.933231",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "SK. BPN RI\r\nNO :12-HGU-BPN.RI2008",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 7,
@@ -259,6 +823,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 7,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 700.0,
+        // coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 1.2,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "SK IUP\r\nNO. 181 TAHUN 2010, TGL. 19 JULI 2010",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 8,
@@ -296,6 +954,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 8,
+        namaPJ: "SUBIANTO",
+        nomorTelp: "081364569272",
+        area: 5500.0,
+        // coordinates: "-0,661959\r\n101910740",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 4.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "200/Menhutbun - V11/2000",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 5.48,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "SK.KBPN RI NO ;\r\n28/HGU/BPN/1997",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 9,
@@ -333,6 +1085,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 9,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 0.0,
+        // coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "45701",
+          progresTanam: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "SK.BPN\r\nNO :42/HGU/BPN/99",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 10,
@@ -370,6 +1216,100 @@ export const inhuCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 10,
+        namaPJ: "",
+        nomorTelp: "",
+        area: 9176.0,
+        // coordinates: null,
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 11,
