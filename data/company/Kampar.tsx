@@ -37,6 +37,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 1,
+        namaPJ: "ANDI",
+        nomorTelp: "081275487858",
+        area: 0.0,
+        // coordinates: "0°4,3, 96\" N 101°25'54, 718 E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "NIHIL",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "HGU",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 2,
@@ -74,6 +168,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 2,
+        namaPJ: "H. ZUKRI",
+        nomorTelp: "082384099999",
+        area: 187.0,
+        // coordinates: "https://maps.app.goo.gl/BgaCLLNJtyLYF3w38",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "NIHIL",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "HGU",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 3,
@@ -111,6 +299,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 3,
+        namaPJ: "BERADA DI WILAYAH KABUN, ROKAN HULU",
+        nomorTelp: "BERADA DI WILAYAH KABUN, ROKAN HULU",
+        area: 0,
+        // coordinates: "BERADA DI WILAYAH KABUN, ROKAN HULU",
+        photo: "BERADA DI WILAYAH KABUN, ROKAN HULU",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0,
+          },
+          waktuTanam: "BERADA DI WILAYAH KABUN, ROKAN HULU",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "BERADA DI WILAYAH KABUN, ROKAN HULU",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0,
+          },
+          waktuTanam: "BERADA DI WILAYAH KABUN, ROKAN HULU",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "BERADA DI WILAYAH KABUN, ROKAN HULU",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 4,
@@ -148,6 +430,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 4,
+        namaPJ: "IMELDA",
+        nomorTelp: "081365252692",
+        area: 3317.15,
+        // coordinates: "0°14'34,775\"N 101°32'41,977\"E 221°SW",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 10.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 10.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 5,
@@ -185,6 +561,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 5,
+        namaPJ: "BERNADIN SIMAMORA",
+        nomorTelp: "081268890888",
+        area: 325.0,
+        // coordinates: "https://maps.app.goo.gl/ePxWZ5yjbapRYXzu9",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "Menunggu Keputusan Direksi",
+          progresTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 1.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "Menunggu Keputusan Direksi",
+          progresTanam: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 6,
@@ -222,6 +692,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 6,
+        namaPJ: "ARNOLD",
+        nomorTelp: "081271164851",
+        area: 200.0,
+        // coordinates: "0°24'33.1\"N 101°11'24.6\"E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "Belum Tanam",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 5.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MASIH MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 5.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 7,
@@ -259,6 +823,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 7,
+        namaPJ: "ASMADI HARUN",
+        nomorTelp: "081275114648",
+        area: 7000.0,
+        // coordinates: "0.70462N 100.87263E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "HGU ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "21-01-2025",
+          progresTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "HGU ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 8,
@@ -296,6 +954,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 8,
+        namaPJ: "TIDAK DITEMUKAN DI WILAYAH BKN KOTA",
+        nomorTelp: "TIDAK DITEMUKAN DI WILAYAH BKN KOTA",
+        area: 0,
+        // coordinates: "TIDAK DITEMUKAN DI WILAYAH BKN KOTA",
+        photo: "TIDAK DITEMUKAN DI WILAYAH BKN KOTA",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0,
+          },
+          waktuTanam: "TIDAK DITEMUKAN DI WILAYAH BKN KOTA",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "TIDAK DITEMUKAN DI WILAYAH BKN KOTA",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0,
+          },
+          waktuTanam: "TIDAK DITEMUKAN DI WILAYAH BKN KOTA",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "TIDAK DITEMUKAN DI WILAYAH BKN KOTA",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 9,
@@ -333,6 +1085,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 9,
+        namaPJ: "AGUS SUBAGIO",
+        nomorTelp: "081371382667",
+        area: 162.5,
+        // coordinates: "0°41'11.4\" N, 101°01'19.0\" E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 15.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MASIH MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 15.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 10,
@@ -370,6 +1216,100 @@ export const KamparCompanies: Company[] = [
       III: 0.0,
       IV: 0.0,
     },
+    progress: [
+      {
+        id: 10,
+        namaPJ: "RONI PANJAITAN",
+        nomorTelp: "081261168637",
+        area: 12277.89,
+        // coordinates: "0°48'48\"N 101°2'7\"E, 0°48'2,772\"N 101°10'8,088\"E ",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 4.25,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 4.25,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MASIH MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+          rencanaTanam: {
+            tanggalTanam: "",
+            luasTanam: 0,
+          },
+          rencanaPanen: {
+            tanggalPanen: "",
+            perkiraanPanen: 0,
+          },
+        },
+      },
+    ],
   },
   {
     id: 11,

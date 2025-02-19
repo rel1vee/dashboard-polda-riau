@@ -23,6 +23,76 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 1,
+        namaPJ: "BANJANAHOR",
+        nomorTelp: "085278622620",
+        area: 1043.0,
+        // coordinates: "https://goo.gl/maps/nstNk2Aayr4f1fSG7",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT ",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT ",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 2,
@@ -46,6 +116,77 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 2,
+        namaPJ: "GINTING ",
+        nomorTelp: "081361744133",
+        area: 1835.0,
+        // coordinates: "S 00°06'22.64\"\r\nE 101°21'01.53\"",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU \r\nKEPUTUSAN \r\nDARI PIHAK \r\nPERUSAHAAN ",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "HGU",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam:
+            "MENUNGGU KONFIRMASI \r\nDARI OWNER DAN \r\nPEMEGANG SAHAM",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "HGU",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 3,
@@ -69,6 +210,77 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 3,
+        namaPJ: "ASWIS ",
+        nomorTelp: "081371113897",
+        area: 2300.0,
+        // coordinates: "0.053167 101.217863",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU \r\nKEPUTUSAN \r\nDARI PIHAK \r\nPERUSAHAAN ",
+          progresTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "HGU",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam:
+            "MENUNGGU KONFIRMASI \r\nDARI OWNER DAN \r\nPEMEGANG SAHAM",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "HGU",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 4,
@@ -92,6 +304,77 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 4,
+        namaPJ: "ASWAR BATUBARA",
+        nomorTelp: "081268066010",
+        area: 2562.83,
+        // coordinates: "Sedang menunggu keputusan direksi",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU \r\nKEPUTUSAN \r\nDARI PIHAK \r\nPERUSAHAAN ",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam:
+            "MENUNGGU KONFIRMASI \r\nDARI OWNER DAN \r\nPEMEGANG SAHAM",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 5,
@@ -115,6 +398,77 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 5,
+        namaPJ: "Awaluddin Nasution",
+        nomorTelp: "081268119068",
+        area: 300.2,
+        // coordinates: "0.288788,100.718662",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MENUNGGU \r\nKEPUTUSAN \r\nDARI PIHAK \r\nPERUSAHAAN ",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam:
+            "MENUNGGU KONFIRMASI \r\nDARI OWNER DAN \r\nPEMEGANG SAHAM",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 6,
@@ -138,6 +492,76 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 6,
+        namaPJ: "P. SIAHAAN",
+        nomorTelp: "081351748816",
+        area: 0.0,
+        // coordinates: 'N : 0°3324,576"\r\nE : 100⁰47\'59,562"',
+        photo: "MENUNGGU DIREKS PUSAT",
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0,
+          },
+          waktuTanam: "MENUNGGU DIREKS PUSAT",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MENUNGGU DIREKS PUSAT",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0,
+          },
+          waktuTanam: "MENUNGGU DIREKS PUSAT",
+          progresTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          belumTanam: {
+            luas: 0,
+            persentase: 0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0,
+          },
+          keterangan: "MENUNGGU DIREKS PUSAT",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 7,
@@ -161,6 +585,76 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 7,
+        namaPJ: "EDI OSMER SIPAYUNG",
+        nomorTelp: "082268648080",
+        area: 675.0,
+        // coordinates: "0°24'2,748\"N 100⁰51'37,602\"E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MASIH MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MASIH MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LEGAL BERSERTIFIKAT",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 8,
@@ -184,6 +678,76 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 8,
+        namaPJ: "JAMIN",
+        nomorTelp: "085356023936",
+        area: 0.5,
+        // coordinates: "https://maps.app.goo.gl/jkg4HZiLveVCVEqz8 & https://maps.app.goo.gl/fiNJpksVeVuAirKq7",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.5,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.5,
+            persentase: 100,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/TIDAK",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MASIH MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LEGAL BERSERTIFIKAT",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 9,
@@ -207,6 +771,76 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 9,
+        namaPJ: "SUNARDI",
+        nomorTelp: "082391635941",
+        area: 0.25,
+        // coordinates: "https://maps.app.goo.gl/DK1RaoxWpEPgSBVL8 & https://maps.app.goo.gl/DK1RaoxWpEPgSBVL8",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 0.25,
+            persentase: 0.0,
+          },
+          waktuTanam: "06-11-2024",
+          progresTanam: {
+            luas: 0.25,
+            persentase: 100,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 100,
+          },
+          keterangan: "LAHAN BERSERTIFIKAT/TIDAK",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MASIH MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LEGAL BERSERTIFIKAT",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 10,
@@ -230,6 +864,76 @@ export const kamparOtherCompanies: Company[] = [
       III: 0,
       IV: 0,
     },
+    progress: [
+      {
+        id: 10,
+        namaPJ: "SUPRI",
+        nomorTelp: "085263971811",
+        area: 2.0,
+        // coordinates: "0°31'28,092\"N 101°9'28 89\" E",
+        photo: null,
+        monokultur: {
+          targetTanam: {
+            luas: 2.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "01-12-2024",
+          progresTanam: {
+            luas: 2.0,
+            persentase: 1.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "LAHAN TDK BERSERTIFIKAT",
+        },
+        tumpangSari: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "MASIH MENUNGGU",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0,
+            persentase: 0.0,
+          },
+          keterangan: "LEGAL BERSERTIFIKAT",
+        },
+        csr: {
+          targetTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          waktuTanam: "",
+          progresTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          belumTanam: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          panen: {
+            luas: 0.0,
+            persentase: 0.0,
+          },
+          keterangan: "",
+        },
+      },
+    ],
   },
   {
     id: 11,
