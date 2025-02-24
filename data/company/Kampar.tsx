@@ -1,6 +1,6 @@
 import { Company } from "@/types";
 
-export const KamparCompanies: Company[] = [
+export const kamparCompanies: Company[] = [
   {
     id: 1,
     name: "KELOMPOK TANI SAWIT HOLI MAKMUR LESTARI",

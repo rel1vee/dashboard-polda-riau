@@ -1,7 +1,7 @@
 export interface City {
   id: number;
   nama: string;
-  coordinates: [number, number]; // latitude, longitude
+  coordinates: [number, number];
   totalArea: number;
   otherTotalArea: number;
   monokulturTarget: number;
@@ -77,12 +77,12 @@ export interface Progress {
     };
     keterangan: string | null;
     rencanaTanam?: {
-      tanggalTanam?: string | null; // Tanggal rencana tanam
-      luasTanam?: number | null; // Luas rencana tanam
+      tanggalTanam?: string | null;
+      luasTanam?: number | null;
     };
     rencanaPanen?: {
-      tanggalPanen?: string | null; // Tanggal rencana panen
-      perkiraanPanen?: number | null; // Perkiraan hasil panen
+      tanggalPanen?: string | null;
+      perkiraanPanen?: number | null;
     };
   };
   tumpangSari: {
@@ -105,12 +105,12 @@ export interface Progress {
     };
     keterangan: string | null;
     rencanaTanam?: {
-      tanggalTanam?: string | null; // Tanggal rencana tanam
-      luasTanam?: number | null; // Luas rencana tanam
+      tanggalTanam?: string | null;
+      luasTanam?: number | null;
     };
     rencanaPanen?: {
-      tanggalPanen?: string | null; // Tanggal rencana panen
-      perkiraanPanen?: number | null; // Perkiraan hasil panen
+      tanggalPanen?: string | null;
+      perkiraanPanen?: number | null;
     };
   };
   csr: {
@@ -133,12 +133,12 @@ export interface Progress {
     };
     keterangan: string | null;
     rencanaTanam?: {
-      tanggalTanam?: string | null; // Tanggal rencana tanam
-      luasTanam?: number | null; // Luas rencana tanam
+      tanggalTanam?: string | null;
+      luasTanam?: number | null;
     };
     rencanaPanen?: {
-      tanggalPanen?: string | null; // Tanggal rencana panen
-      perkiraanPanen?: number | null; // Perkiraan hasil panen
+      tanggalPanen?: string | null;
+      perkiraanPanen?: number | null;
     };
   };
 }

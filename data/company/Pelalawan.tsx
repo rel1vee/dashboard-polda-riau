@@ -1,6 +1,6 @@
 import { Company } from "@/types";
 
-export const PelalawanCompanies: Company[] = [
+export const pelalawanCompanies: Company[] = [
   {
     id: 1,
     name: "PT. ADEI PLANTATION & INDUSTRY",
