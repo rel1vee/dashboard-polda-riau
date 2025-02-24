@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect, useState } from "react";
 import {
   Card,
@@ -115,7 +116,7 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
             <TabsTrigger value="week3">Minggu Ke-3</TabsTrigger>
           </TabsList>
           <TabsContent value="week2">
-            <div className="pb-2 px-4">
+            <div className="pb-4 px-4">
               <Table>
                 <TableHeader>
                   <TableRow>
@@ -187,7 +188,7 @@ const RankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
             </div>
           </TabsContent>
           <TabsContent value="week3">
-            <div className="pb-2 px-4">
+            <div className="pb-4 px-4">
               <Table>
                 <TableHeader>
                   <TableRow>
