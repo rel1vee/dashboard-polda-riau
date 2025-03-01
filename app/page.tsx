@@ -334,7 +334,7 @@ const DashboardRiauPage = () => {
                   Peta Sebaran di Provinsi Riau
                 </CardTitle>
                 <CardDescription>
-                  Pilih kab/kota untuk melihat daftar dan detail perusahaan
+                  Pilih Kab/Kota untuk Melihat Daftar dan Detail Perusahaan
                 </CardDescription>
               </CardHeader>
               <CardContent className="p-0">
@@ -367,12 +367,12 @@ const DashboardRiauPage = () => {
                   </CardTitle>
                   {selectedCity ? (
                     <CardDescription>
-                      Total {selectedCity.companies.length} perusahaan target.
-                      Pilih perusahaan untuk melihat detail.
+                      Total {selectedCity.companies.length} Perusahaan Target.
+                      Pilih Perusahaan untuk Melihat Detail.
                     </CardDescription>
                   ) : (
                     <CardDescription>
-                      Pilih kab/kota pada peta untuk melihat perusahaan target
+                      Pilih Kab/Kota untuk Melihat Perusahaan Target
                     </CardDescription>
                   )}
                 </CardHeader>
@@ -409,7 +409,7 @@ const DashboardRiauPage = () => {
                           transition={{ duration: 0.3 }}
                         >
                           <Building2 className="w-12 h-12 mb-4 opacity-50" />
-                          <p>Belum ada data perusahaan target...</p>
+                          <p>Belum Ada Data Perusahaan Target...</p>
                         </motion.div>
                       )}
                     </div>
@@ -421,7 +421,7 @@ const DashboardRiauPage = () => {
                       transition={{ duration: 0.3 }}
                     >
                       <Map className="w-12 h-12 mb-4 opacity-50" />
-                      <p>Pilih kab/kota pada peta...</p>
+                      <p>Pilih Kabupaten/Kota...</p>
                     </motion.div>
                   )}
                 </CardContent>
@@ -443,11 +443,11 @@ const DashboardRiauPage = () => {
                   {selectedCity ? (
                     <CardDescription>
                       Total {selectedCity.polsek.length} POLSEK. Pilih POLSEK
-                      untuk melihat detail.
+                      untuk Melihat Detail.
                     </CardDescription>
                   ) : (
                     <CardDescription>
-                      Pilih kab/kota pada peta untuk melihat POLSEK
+                      Pilih Kab/Kota untuk Melihat POLSEK
                     </CardDescription>
                   )}
                 </CardHeader>
@@ -484,7 +484,7 @@ const DashboardRiauPage = () => {
                           transition={{ duration: 0.3 }}
                         >
                           <Building2 className="w-12 h-12 mb-4 opacity-50" />
-                          <p>Belum ada data POLSEK...</p>
+                          <p>Belum Ada Data POLSEK...</p>
                         </motion.div>
                       )}
                     </div>
@@ -496,7 +496,7 @@ const DashboardRiauPage = () => {
                       transition={{ duration: 0.3 }}
                     >
                       <Map className="w-12 h-12 mb-4 opacity-50" />
-                      <p>Pilih kab/kota pada peta...</p>
+                      <p>Pilih Kabupaten/Kota...</p>
                     </motion.div>
                   )}
                 </CardContent>
@@ -517,12 +517,12 @@ const DashboardRiauPage = () => {
                   </CardTitle>
                   {selectedCity ? (
                     <CardDescription>
-                      Total {selectedCity.otherCompanies?.length} perusahaan
-                      lain. Pilih perusahaan untuk melihat detail.
+                      Total {selectedCity.otherCompanies?.length} Perusahaan
+                      Lain. Pilih Perusahaan untuk Melihat Detail.
                     </CardDescription>
                   ) : (
                     <CardDescription>
-                      Pilih kab/kota pada peta untuk melihat perusahaan lain
+                      Pilih Kab/Kota untuk Melihat Perusahaan Lain
                     </CardDescription>
                   )}
                 </CardHeader>
@@ -566,7 +566,7 @@ const DashboardRiauPage = () => {
                         >
                           <Building2 className="w-12 h-12 mb-4 opacity-50" />
                           <p>
-                            Belum ada data perusahaan lain/society/poktan...
+                            Belum Ada Data Perusahaan Lain/Society/Poktan...
                           </p>
                         </motion.div>
                       )}
@@ -579,7 +579,7 @@ const DashboardRiauPage = () => {
                       transition={{ duration: 0.3 }}
                     >
                       <Map className="w-12 h-12 mb-4 opacity-50" />
-                      <p>Pilih kab/kota pada peta...</p>
+                      <p>Pilih Kabupaten/Kota...</p>
                     </motion.div>
                   )}
                 </CardContent>

@@ -15,11 +15,11 @@ export interface City {
 export interface Polsek {
   id: number;
   name: string;
-  area: number;
-  coordinates: [number, number];
   villages: {
     id: number | null;
     name: string | null;
+    target?: number | null;
+    achievement?: number | null;
   }[];
 }
 

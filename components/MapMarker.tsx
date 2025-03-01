@@ -139,6 +139,12 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                       >
                         {city.companies.length} Perusahaan Target
                       </Badge>
+                      {/* <Badge
+                        variant="secondary"
+                        className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
+                      >
+                        {city.polsek.length} POLSEK
+                      </Badge> */}
                       <Badge
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
@@ -220,9 +226,11 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                     {/* Capaian Polsek*/}
                     <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
                       <span className="text-sm text-gray-600">
-                        Capaian POLSEK:
+                        Total Capaian POLSEK:
                       </span>
-                      <span className="font-medium text-gray-900">0</span>
+                      <span className="font-medium text-gray-900">
+                        0 dari 0
+                      </span>
                     </div>
                   </div>
                 </div>
