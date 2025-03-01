@@ -32,12 +32,12 @@ const MapMarker = dynamic(() => import("@/components/MapMarker"), {
 const MotionCard = motion.create(Card);
 
 const DashboardRiauPage = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedCity, setSelectedCity] = useState<City | null>(null);
   const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [selectedOtherCompany, setSelectedOtherCompany] =
     useState<Company | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -123,42 +123,6 @@ const DashboardRiauPage = () => {
           }
           return sum;
         }, 0);
-
-        // const monoAchievement = allCompanies.reduce((sum, company) => {
-        //   if (company.monokulturAchievements) {
-        //     return (
-        //       sum +
-        //       Object.values(company.monokulturAchievements).reduce(
-        //         (a, b) => a + b,
-        //         0
-        //       )
-        //     );
-        //   }
-        //   return sum;
-        // }, 0);
-
-        // const tumpangSariAchievement = allCompanies.reduce((sum, company) => {
-        //   if (company.tumpangSariAchievements) {
-        //     return (
-        //       sum +
-        //       Object.values(company.tumpangSariAchievements).reduce(
-        //         (a, b) => a + b,
-        //         0
-        //       )
-        //     );
-        //   }
-        //   return sum;
-        // }, 0);
-
-        // const csrAchievement = allCompanies.reduce((sum, company) => {
-        //   if (company.csrAchievements) {
-        //     return (
-        //       sum +
-        //       Object.values(company.csrAchievements).reduce((a, b) => a + b, 0)
-        //     );
-        //   }
-        //   return sum;
-        // }, 0);
 
         return {
           monokulturAchievement: acc.monokulturAchievement + monoAchievement,
@@ -334,7 +298,8 @@ const DashboardRiauPage = () => {
                   Peta Sebaran di Provinsi Riau
                 </CardTitle>
                 <CardDescription>
-                  Pilih Kab/Kota untuk Melihat Daftar dan Detail Perusahaan
+                  Pilih Kabupaten/Kota untuk Melihat Daftar dan Detail
+                  Perusahaan
                 </CardDescription>
               </CardHeader>
               <CardContent className="p-0">
@@ -372,7 +337,7 @@ const DashboardRiauPage = () => {
                     </CardDescription>
                   ) : (
                     <CardDescription>
-                      Pilih Kab/Kota untuk Melihat Perusahaan Target
+                      Pilih Kabupaten/Kota untuk Melihat Perusahaan Target
                     </CardDescription>
                   )}
                 </CardHeader>
@@ -409,7 +374,7 @@ const DashboardRiauPage = () => {
                           transition={{ duration: 0.3 }}
                         >
                           <Building2 className="w-12 h-12 mb-4 opacity-50" />
-                          <p>Belum Ada Data Perusahaan Target...</p>
+                          <p>Tidak Ada Perusahaan Target...</p>
                         </motion.div>
                       )}
                     </div>
@@ -447,7 +412,7 @@ const DashboardRiauPage = () => {
                     </CardDescription>
                   ) : (
                     <CardDescription>
-                      Pilih Kab/Kota untuk Melihat POLSEK
+                      Pilih Kabupaten/Kota untuk Melihat POLSEK
                     </CardDescription>
                   )}
                 </CardHeader>
@@ -522,7 +487,7 @@ const DashboardRiauPage = () => {
                     </CardDescription>
                   ) : (
                     <CardDescription>
-                      Pilih Kab/Kota untuk Melihat Perusahaan Lain
+                      Pilih Kabupaten/Kota untuk Melihat Perusahaan Lain
                     </CardDescription>
                   )}
                 </CardHeader>
@@ -565,9 +530,7 @@ const DashboardRiauPage = () => {
                           transition={{ duration: 0.3 }}
                         >
                           <Building2 className="w-12 h-12 mb-4 opacity-50" />
-                          <p>
-                            Belum Ada Data Perusahaan Lain/Society/Poktan...
-                          </p>
+                          <p>Tidak Ada Perusahaan Lain/Society/Poktan...</p>
                         </motion.div>
                       )}
                     </div>

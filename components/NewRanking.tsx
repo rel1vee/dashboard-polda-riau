@@ -149,6 +149,142 @@ const prepareChartData = () => {
   return rankedCities;
 };
 
+const getTotalAchievements = () => {
+  return riauCity.reduce(
+    (acc, polres) => {
+      const allCompanies = [
+        ...polres.companies,
+        ...(polres.otherCompanies || []),
+      ];
+
+      const monoAchievementI = allCompanies.reduce((sum, company) => {
+        if (company.monokulturAchievements?.I) {
+          return sum + company.monokulturAchievements.I;
+        }
+        return sum;
+      }, 0);
+
+      const tumpangSariAchievementI = allCompanies.reduce((sum, company) => {
+        if (company.tumpangSariAchievements?.I) {
+          return sum + company.tumpangSariAchievements.I;
+        }
+        return sum;
+      }, 0);
+
+      const csrAchievementI = allCompanies.reduce((sum, company) => {
+        if (company.csrAchievements?.I) {
+          return sum + company.csrAchievements.I;
+        }
+        return sum;
+      }, 0);
+
+      const monoAchievementII = allCompanies.reduce((sum, company) => {
+        if (company.monokulturAchievements?.II) {
+          return sum + company.monokulturAchievements.II;
+        }
+        return sum;
+      }, 0);
+
+      const tumpangSariAchievementII = allCompanies.reduce((sum, company) => {
+        if (company.tumpangSariAchievements?.II) {
+          return sum + company.tumpangSariAchievements.II;
+        }
+        return sum;
+      }, 0);
+
+      const csrAchievementII = allCompanies.reduce((sum, company) => {
+        if (company.csrAchievements?.II) {
+          return sum + company.csrAchievements.II;
+        }
+        return sum;
+      }, 0);
+
+      const monoAchievementIII = allCompanies.reduce((sum, company) => {
+        if (company.monokulturAchievements?.III) {
+          return sum + company.monokulturAchievements.III;
+        }
+        return sum;
+      }, 0);
+
+      const tumpangSariAchievementIII = allCompanies.reduce((sum, company) => {
+        if (company.tumpangSariAchievements?.III) {
+          return sum + company.tumpangSariAchievements.III;
+        }
+        return sum;
+      }, 0);
+
+      const csrAchievementIII = allCompanies.reduce((sum, company) => {
+        if (company.csrAchievements?.III) {
+          return sum + company.csrAchievements.III;
+        }
+        return sum;
+      }, 0);
+
+      // const monoAchievementIV = allCompanies.reduce((sum, company) => {
+      //   if (company.monokulturAchievements?.IV) {
+      //     return sum + company.monokulturAchievements.IV;
+      //   }
+      //   return sum;
+      // }, 0);
+
+      // const tumpangSariAchievementIV = allCompanies.reduce((sum, company) => {
+      //   if (company.tumpangSariAchievements?.IV) {
+      //     return sum + company.tumpangSariAchievements.IV;
+      //   }
+      //   return sum;
+      // }, 0);
+
+      // const csrAchievementIV = allCompanies.reduce((sum, company) => {
+      //   if (company.csrAchievements?.IV) {
+      //     return sum + company.csrAchievements.IV;
+      //   }
+      //   return sum;
+      // }, 0);
+
+      return {
+        monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
+        tumpangSariTarget: acc.tumpangSariTarget + polres.tumpangSariTarget,
+        monokulturAchievementI: acc.monokulturAchievementI + monoAchievementI,
+        tumpangSariAchievementI:
+          acc.tumpangSariAchievementI + tumpangSariAchievementI,
+        csrAchievementI: acc.csrAchievementI + csrAchievementI,
+        monokulturAchievementII:
+          acc.monokulturAchievementII + monoAchievementII,
+        tumpangSariAchievementII:
+          acc.tumpangSariAchievementII + tumpangSariAchievementII,
+        csrAchievementII: acc.csrAchievementII + csrAchievementII,
+        monokulturAchievementIII:
+          acc.monokulturAchievementIII + monoAchievementIII,
+        tumpangSariAchievementIII:
+          acc.tumpangSariAchievementIII + tumpangSariAchievementIII,
+        csrAchievementIII: acc.csrAchievementIII + csrAchievementIII,
+        // monokulturAchievementIV: acc.monokulturAchievementIV + monoAchievementIV,
+        // tumpangSariAchievementIV:
+        //   acc.tumpangSariAchievementI + tumpangSariAchievementIV,
+        // csrAchievementIV: acc.csrAchievementIV + csrAchievementIV,
+      };
+    },
+    {
+      monokulturTarget: 0,
+      tumpangSariTarget: 0,
+      monokulturAchievementI: 0,
+      tumpangSariAchievementI: 0,
+      csrAchievementI: 0,
+      monokulturAchievementII: 0,
+      tumpangSariAchievementII: 0,
+      csrAchievementII: 0,
+      monokulturAchievementIII: 0,
+      tumpangSariAchievementIII: 0,
+      csrAchievementIII: 0,
+      // monokulturAchievementIV: 0,
+      // tumpangSariAchievementIV: 0,
+      // csrAchievementIV: 0,
+    }
+  );
+};
+
+const achievements = getTotalAchievements();
+
 const NewRanking = () => {
   const tableData = prepareTableData();
   const chartData = prepareChartData();
@@ -420,6 +556,7 @@ const NewRanking = () => {
                           <TableCell className="text-center border bg-green-50">
                             {totals.phase1.percentage}%
                           </TableCell>
+
                           {/* TAHAP II */}
                           <TableCell className="text-center border bg-blue-50">
                             {formatNumber(0)}
@@ -439,6 +576,7 @@ const NewRanking = () => {
                           <TableCell className="text-center border bg-blue-50">
                             {formatNumber(0)}%
                           </TableCell>
+
                           {/* TAHAP III */}
                           <TableCell className="text-center border bg-purple-50">
                             {formatNumber(0)}
@@ -481,6 +619,79 @@ const NewRanking = () => {
                         </TableRow>
                       );
                     })}
+                    <TableRow>
+                      <TableCell className="text-center border"></TableCell>
+                      <TableCell className="text-center border font-medium">
+                        TOTAL
+                      </TableCell>
+                      {/* TAHAP I */}
+                      <TableCell className="text-center border bg-green-50">
+                        {formatNumber(
+                          achievements.monokulturAchievementI +
+                            achievements.tumpangSariAchievementI +
+                            achievements.csrAchievementI
+                        )}
+                      </TableCell>
+                      <TableCell className="text-center border bg-green-50">
+                        {formatNumber(
+                          achievements.monokulturAchievementII +
+                            achievements.tumpangSariAchievementII +
+                            achievements.csrAchievementII
+                        )}
+                      </TableCell>
+                      <TableCell className="text-center border bg-green-50">
+                        {formatNumber(
+                          achievements.monokulturAchievementIII +
+                            achievements.tumpangSariAchievementIII +
+                            achievements.csrAchievementIII
+                        )}
+                      </TableCell>
+                      <TableCell className="text-center border bg-green-50">
+                        {formatNumber(0)}
+                      </TableCell>
+                      <TableCell className="text-center border bg-green-50">
+                        {formatNumber(
+                          achievements.monokulturAchievementIII +
+                            achievements.tumpangSariAchievementIII +
+                            achievements.csrAchievementIII
+                        )}
+                      </TableCell>
+                      <TableCell className="text-center border bg-green-50">
+                        {formatNumber(
+                          ((achievements.monokulturAchievementIII +
+                            achievements.tumpangSariAchievementIII +
+                            achievements.csrAchievementIII) /
+                            (achievements.monokulturTarget +
+                              achievements.tumpangSariTarget)) *
+                            100
+                        )}
+                        %
+                      </TableCell>
+
+                      {/* TAHAP II */}
+                      <TableCell className="text-center border bg-blue-50"></TableCell>
+                      <TableCell className="text-center border bg-blue-50"></TableCell>
+                      <TableCell className="text-center border bg-blue-50"></TableCell>
+                      <TableCell className="text-center border bg-blue-50"></TableCell>
+                      <TableCell className="text-center border bg-blue-50"></TableCell>
+                      <TableCell className="text-center border bg-blue-50"></TableCell>
+
+                      {/* TAHAP III */}
+                      <TableCell className="text-center border bg-purple-50"></TableCell>
+                      <TableCell className="text-center border bg-purple-50"></TableCell>
+                      <TableCell className="text-center border bg-purple-50"></TableCell>
+                      <TableCell className="text-center border bg-purple-50"></TableCell>
+                      <TableCell className="text-center border bg-purple-50"></TableCell>
+                      <TableCell className="text-center border bg-purple-50"></TableCell>
+
+                      {/* TAHAP IV */}
+                      <TableCell className="text-center border bg-red-50"></TableCell>
+                      <TableCell className="text-center border bg-red-50"></TableCell>
+                      <TableCell className="text-center border bg-red-50"></TableCell>
+                      <TableCell className="text-center border bg-red-50"></TableCell>
+                      <TableCell className="text-center border bg-red-50"></TableCell>
+                      <TableCell className="text-center border bg-red-50"></TableCell>
+                    </TableRow>
                   </TableBody>
                   <TableCaption className="mt-4 text-sm text-gray-600 bg-blue-50 p-2 rounded">
                     Tabel Capaian & Perangkingan Kabupaten/Kota
