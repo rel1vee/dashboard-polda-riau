@@ -1,11 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
-import { City, Company } from "@/types";
 import { riauCity } from "@/data/RiauCity";
-import Ranking from "@/components/Ranking";
+import { City, Company, Polsek } from "@/types";
+import NewRanking from "@/components/NewRanking";
+import PolsekDetailModal from "@/components/PolsekDetail";
 import CompanyDetailsModal from "@/components/CompanyDetail";
 import { Building2, Map, TargetIcon, Sprout } from "lucide-react";
 import { Table, TableBody, TableRow } from "@/components/ui/table";
@@ -31,6 +33,7 @@ const MotionCard = motion.create(Card);
 
 const DashboardRiauPage = () => {
   const [selectedCity, setSelectedCity] = useState<City | null>(null);
+  const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [selectedOtherCompany, setSelectedOtherCompany] =
     useState<Company | null>(null);
@@ -177,6 +180,11 @@ const DashboardRiauPage = () => {
     setIsModalOpen(true);
   };
 
+  const handlePolsekClick = (polsek: Polsek) => {
+    setSelectedPolsek(polsek);
+    setIsModalOpen(true);
+  };
+
   const handleOtherCompanyClick = (company: Company) => {
     setSelectedOtherCompany(company);
     setIsModalOpen(true);
@@ -186,6 +194,7 @@ const DashboardRiauPage = () => {
     setIsModalOpen(false);
     setSelectedCompany(null);
     setSelectedOtherCompany(null);
+    setSelectedPolsek(null);
   };
 
   const stats = getTotalStats();
@@ -207,12 +216,25 @@ const DashboardRiauPage = () => {
             transition={{ duration: 0.5 }}
             className="bg-white p-6 rounded-xl shadow-lg"
           >
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              Dashboard Ketahanan Pangan Polda Riau
-            </h1>
-            <p className="text-gray-500 mt-1">
-              Overview Statistik dan Data Perusahaan Provinsi Riau
-            </p>
+            <div className="flex items-center md:gap-4 gap-0">
+              <div>
+                <Image
+                  src="/favicon.ico"
+                  alt="Polda Riau Logo"
+                  width={75}
+                  height={75}
+                  className="md:block hidden"
+                />
+              </div>
+              <div>
+                <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                  Dashboard Ketahanan Pangan Polda Riau
+                </h1>
+                <p className="text-gray-500 mt-1">
+                  Overview Statistik dan Data Perusahaan Provinsi Riau
+                </p>
+              </div>
+            </div>
           </motion.div>
           {/* Stats Summary */}
           <motion.div
@@ -299,45 +321,37 @@ const DashboardRiauPage = () => {
               </MotionCard>
             ))}
           </motion.div>
-          {/* Map and Table Section */}
-          <div className="grid grid-cols-12 gap-6">
-            <div className="col-span-12 lg:col-span-7">
-              <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 }}
-              >
-                <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden border-none">
-                  <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
-                    <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
-                      <Map className="w-5 h-5 hidden md:block" />
-                      Peta Sebaran di Provinsi Riau
-                    </CardTitle>
-                    <CardDescription>
-                      Pilih kab/kota untuk melihat daftar dan detail perusahaan
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="p-0">
-                    <MapMarker
-                      cities={riauCity}
-                      onCityClick={setSelectedCity}
-                    />
-                  </CardContent>
-                </Card>
-              </motion.div>
-            </div>
-            <div className="col-span-12 lg:col-span-5">
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-              >
-                <Ranking cities={riauCity} />
-              </motion.div>
-            </div>
-          </div>
-          {/* Company Table */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Map Section */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden border-none">
+              <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
+                <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
+                  <Map className="w-6 h-6 hidden md:block" />
+                  Peta Sebaran di Provinsi Riau
+                </CardTitle>
+                <CardDescription>
+                  Pilih kab/kota untuk melihat daftar dan detail perusahaan
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="p-0">
+                <MapMarker cities={riauCity} onCityClick={setSelectedCity} />
+              </CardContent>
+            </Card>
+          </motion.div>
+          {/* Ranking Section */}
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <NewRanking />
+          </motion.div>
+          {/* Company Section */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -362,7 +376,6 @@ const DashboardRiauPage = () => {
                     </CardDescription>
                   )}
                 </CardHeader>
-
                 <CardContent className="p-0 overflow-y-auto max-h-[500px]">
                   {selectedCity ? (
                     <div className="p-4">
@@ -397,6 +410,81 @@ const DashboardRiauPage = () => {
                         >
                           <Building2 className="w-12 h-12 mb-4 opacity-50" />
                           <p>Belum ada data perusahaan target...</p>
+                        </motion.div>
+                      )}
+                    </div>
+                  ) : (
+                    <motion.div
+                      className="flex flex-col items-center justify-center py-16 text-gray-500"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <Map className="w-12 h-12 mb-4 opacity-50" />
+                      <p>Pilih kab/kota pada peta...</p>
+                    </motion.div>
+                  )}
+                </CardContent>
+              </Card>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              <Card className="border-none rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
+                  <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
+                    <Building2 className="w-5 h-5 hidden md:block" />
+                    {selectedCity
+                      ? `POLSEK di ${selectedCity.nama}`
+                      : "Daftar POLSEK"}
+                  </CardTitle>
+                  {selectedCity ? (
+                    <CardDescription>
+                      Total {selectedCity.polsek.length} POLSEK. Pilih POLSEK
+                      untuk melihat detail.
+                    </CardDescription>
+                  ) : (
+                    <CardDescription>
+                      Pilih kab/kota pada peta untuk melihat POLSEK
+                    </CardDescription>
+                  )}
+                </CardHeader>
+                <CardContent className="p-0 overflow-y-auto max-h-[500px]">
+                  {selectedCity ? (
+                    <div className="p-4">
+                      {selectedCity.polsek.length > 0 ? (
+                        <Table>
+                          <TableBody>
+                            {selectedCity.polsek.map((polsek, index) => (
+                              <TableRow
+                                key={polsek.id}
+                                className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
+                                onClick={() => handlePolsekClick(polsek)}
+                              >
+                                <motion.td
+                                  variants={tableRowVariants}
+                                  initial="hidden"
+                                  animate="visible"
+                                  transition={{ delay: index * 0.1 }}
+                                  className="p-4 font-medium"
+                                >
+                                  {polsek.name}
+                                </motion.td>
+                              </TableRow>
+                            ))}
+                          </TableBody>
+                        </Table>
+                      ) : (
+                        <motion.div
+                          className="flex flex-col items-center justify-center py-16 text-gray-500"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <Building2 className="w-12 h-12 mb-4 opacity-50" />
+                          <p>Belum ada data POLSEK...</p>
                         </motion.div>
                       )}
                     </div>
@@ -502,6 +590,13 @@ const DashboardRiauPage = () => {
         {selectedCompany && (
           <CompanyDetailsModal
             company={selectedCompany}
+            isOpen={isModalOpen}
+            onClose={handleCloseModal}
+          />
+        )}
+        {selectedPolsek && (
+          <PolsekDetailModal
+            polsek={selectedPolsek}
             isOpen={isModalOpen}
             onClose={handleCloseModal}
           />

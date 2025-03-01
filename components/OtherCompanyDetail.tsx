@@ -924,7 +924,6 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
               )}
             </div>
           </TabsContent>
-
           {/* <TabsContent value="prosesProduksi">
             <div className="space-y-4">
               {company.progress && company.progress.length > 0 ? (
