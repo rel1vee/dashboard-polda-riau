@@ -533,14 +533,20 @@ const NewRanking = () => {
                             {formatNumber(
                               row.capaianMonokultur.ii +
                                 row.capaianTumpangSari.ii +
-                                row.capaianCSR.ii
+                                row.capaianCSR.ii -
+                                (row.capaianMonokultur.i +
+                                  row.capaianTumpangSari.i +
+                                  row.capaianCSR.i)
                             )}
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
                             {formatNumber(
                               row.capaianMonokultur.iii +
                                 row.capaianTumpangSari.iii +
-                                row.capaianCSR.iii
+                                row.capaianCSR.iii -
+                                (row.capaianMonokultur.ii +
+                                  row.capaianTumpangSari.ii +
+                                  row.capaianCSR.ii)
                             )}
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
@@ -636,14 +642,20 @@ const NewRanking = () => {
                         {formatNumber(
                           achievements.monokulturAchievementII +
                             achievements.tumpangSariAchievementII +
-                            achievements.csrAchievementII
+                            achievements.csrAchievementII -
+                            (achievements.monokulturAchievementI +
+                              achievements.tumpangSariAchievementI +
+                              achievements.csrAchievementI)
                         )}
                       </TableCell>
                       <TableCell className="text-center border bg-green-50">
                         {formatNumber(
                           achievements.monokulturAchievementIII +
                             achievements.tumpangSariAchievementIII +
-                            achievements.csrAchievementIII
+                            achievements.csrAchievementIII -
+                            (achievements.monokulturAchievementII +
+                              achievements.tumpangSariAchievementII +
+                              achievements.csrAchievementII)
                         )}
                       </TableCell>
                       <TableCell className="text-center border bg-green-50">

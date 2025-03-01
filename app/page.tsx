@@ -530,7 +530,7 @@ const DashboardRiauPage = () => {
                           transition={{ duration: 0.3 }}
                         >
                           <Building2 className="w-12 h-12 mb-4 opacity-50" />
-                          <p>Tidak Ada Perusahaan Lain/Society/Poktan...</p>
+                          <p>Tidak Ada Perusahaan Lain</p>
                         </motion.div>
                       )}
                     </div>
