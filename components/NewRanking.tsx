@@ -153,7 +153,12 @@ const NewRanking = () => {
   const tableData = prepareTableData();
   const chartData = prepareChartData();
 
-  const calculateTotals = (data: any) => {
+  const calculateTotals = (data: {
+    capaianMonokultur: { iii: number };
+    capaianTumpangSari: { iii: number };
+    capaianCSR: { iii: number };
+    totalTarget: number;
+  }) => {
     return {
       phase1: {
         total: (

@@ -3,8 +3,8 @@
 import L from "leaflet";
 import { useRef } from "react";
 import "leaflet/dist/leaflet.css";
-import { Company } from "@/types";
 import { Badge } from "./ui/badge";
+import { Company, Polsek } from "@/types";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 const pinIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
@@ -34,6 +34,7 @@ interface MapProps {
     totalTarget: number;
     companies: Company[];
     otherCompanies?: Company[];
+    polsek: Polsek[];
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onCityClick: (city: any) => void;
@@ -50,22 +51,6 @@ const calculateTotalAchievements = (
       const monoTotal = company.monokulturAchievements?.III ?? 0;
       const tumpangSariTotal = company.tumpangSariAchievements?.III ?? 0;
       const csrTotal = company.csrAchievements?.III ?? 0;
-
-      // const monoTotal = Object.values(company.monokulturAchievements).reduce(
-      //   (sum, val) => sum + val,
-      //   0
-      // );
-
-      // const tumpangSariTotal = Object.values(
-      //   company.tumpangSariAchievements
-      // ).reduce((sum, val) => sum + val, 0);
-
-      // const csrTotal = company.csrAchievements
-      //   ? Object.values(company.csrAchievements).reduce(
-      //       (sum, val) => sum + val,
-      //       0
-      //     )
-      //   : 0;
 
       return {
         monokultur: totals.monokultur + monoTotal,
@@ -231,6 +216,13 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                           maximumFractionDigits: 2,
                         })}
                       </span>
+                    </div>
+                    {/* Capaian Polsek*/}
+                    <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
+                      <span className="text-sm text-gray-600">
+                        Capaian POLSEK:
+                      </span>
+                      <span className="font-medium text-gray-900">0</span>
                     </div>
                   </div>
                 </div>
