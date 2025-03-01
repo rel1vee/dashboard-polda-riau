@@ -9,6 +9,18 @@ export interface City {
   totalTarget: number;
   companies: Company[];
   otherCompanies?: Company[];
+  polsek: Polsek[];
+}
+
+export interface Polsek {
+  id: number;
+  name: string;
+  area: number;
+  coordinates: [number, number];
+  villages: {
+    id: number | null;
+    name: string | null;
+  }[];
 }
 
 export interface Company {

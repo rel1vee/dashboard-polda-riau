@@ -21,6 +21,7 @@ import { pelalawanOtherCompanies } from "./other-company/Pelalawan";
 import { rohilOtherCompanies } from "./other-company/Rohil";
 import { rohulOtherCompanies } from "./other-company/Rohul";
 import { siakOtherCompanies } from "./other-company/Siak";
+import { inhilPolsek } from "./polsek/Inhil";
 
 export const riauCity: City[] = [
   {
@@ -34,6 +35,7 @@ export const riauCity: City[] = [
     totalTarget: 14054.19,
     companies: inhuCompanies,
     otherCompanies: inhuOtherCompanies,
+    polsek: [],
   },
   {
     id: 2,
@@ -46,6 +48,7 @@ export const riauCity: City[] = [
     totalTarget: 12823.86,
     companies: kamparCompanies,
     otherCompanies: kamparOtherCompanies,
+    polsek: [],
   },
   {
     id: 3,
@@ -58,6 +61,7 @@ export const riauCity: City[] = [
     totalTarget: 32474.14,
     companies: inhilCompanies,
     otherCompanies: inhilOtherCompanies,
+    polsek: inhilPolsek,
   },
   {
     id: 4,
@@ -70,6 +74,7 @@ export const riauCity: City[] = [
     totalTarget: 11913.13,
     companies: pekanbaruCompanies,
     otherCompanies: pekanbaruOtherCompanies,
+    polsek: [],
   },
   {
     id: 5,
@@ -82,6 +87,7 @@ export const riauCity: City[] = [
     totalTarget: 6741.32,
     companies: bengkalisCompanies,
     otherCompanies: bengkalisOtherCompanies,
+    polsek: [],
   },
   {
     id: 6,
@@ -94,6 +100,7 @@ export const riauCity: City[] = [
     totalTarget: 15580.3,
     companies: pelalawanCompanies,
     otherCompanies: pelalawanOtherCompanies,
+    polsek: [],
   },
   {
     id: 7,
@@ -106,6 +113,7 @@ export const riauCity: City[] = [
     totalTarget: 7488.9,
     companies: rohilCompanies,
     otherCompanies: rohilOtherCompanies,
+    polsek: [],
   },
   {
     id: 8,
@@ -118,6 +126,7 @@ export const riauCity: City[] = [
     totalTarget: 9189.51,
     companies: siakCompanies,
     otherCompanies: siakOtherCompanies,
+    polsek: [],
   },
   {
     id: 9,
@@ -130,6 +139,7 @@ export const riauCity: City[] = [
     totalTarget: 6687.44,
     companies: kuansingCompanies,
     otherCompanies: kuansingOtherCompanies,
+    polsek: [],
   },
   {
     id: 10,
@@ -142,6 +152,7 @@ export const riauCity: City[] = [
     totalTarget: 14983.74,
     companies: rohulCompanies,
     otherCompanies: rohulOtherCompanies,
+    polsek: [],
   },
   {
     id: 11,
@@ -154,6 +165,7 @@ export const riauCity: City[] = [
     totalTarget: 3245,
     companies: [],
     otherCompanies: merantiOtherCompanies,
+    polsek: [],
   },
   {
     id: 12,
@@ -166,5 +178,6 @@ export const riauCity: City[] = [
     totalTarget: 287.5,
     companies: [],
     otherCompanies: dumaiOtherCompanies,
+    polsek: [],
   },
 ];
