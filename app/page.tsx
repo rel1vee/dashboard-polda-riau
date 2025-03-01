@@ -477,8 +477,8 @@ const DashboardRiauPage = () => {
                   <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
                     <Building2 className="w-5 h-5 hidden md:block" />
                     {selectedCity
-                      ? `Perusahaan Lain/Society/Poktan di ${selectedCity.nama}`
-                      : "Daftar Perusahaan Lain/Society/Poktan"}
+                      ? `Perusahaan Lain di ${selectedCity.nama}`
+                      : "Daftar Perusahaan Lain"}
                   </CardTitle>
                   {selectedCity ? (
                     <CardDescription>
