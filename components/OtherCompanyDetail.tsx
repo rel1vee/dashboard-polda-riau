@@ -113,8 +113,8 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   const renderProgressSection = (
     title: string,
     data: {
-      targetTanam: { luas: number; persentase: number };
       waktuTanam: string;
+      targetTanam: { luas: number; persentase: number };
       progresTanam: { luas: number; persentase: number };
       belumTanam: { luas: number; persentase: number };
       panen: { luas: number; persentase: number };
