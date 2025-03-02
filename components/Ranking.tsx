@@ -1,6 +1,9 @@
 "use client";
 
+import { City } from "@/types";
+import { Trophy } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import {
   Card,
   CardHeader,
@@ -15,9 +18,6 @@ import {
   TableCell,
   TableHeader,
 } from "@/components/ui/table";
-import { Trophy } from "lucide-react";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { City } from "@/types";
 
 interface CityWithScore extends City {
   totalAchievements: number;
@@ -29,7 +29,6 @@ const calculateRanking = (
   week: "II" | "III"
 ): CityWithScore[] => {
   const rankedCities = cities.map((city) => {
-    // Pilih minggu berdasarkan parameter `week`
     const monokulturKey = week;
     const tumpangSariKey = week;
     const csrKey = week;

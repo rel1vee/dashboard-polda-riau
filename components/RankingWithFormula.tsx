@@ -1,5 +1,7 @@
 "use client";
 
+import { City } from "@/types";
+import { Trophy } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
   Card,
@@ -15,8 +17,6 @@ import {
   TableCell,
   TableHeader,
 } from "@/components/ui/table";
-import { Trophy } from "lucide-react";
-import { City } from "@/types";
 
 interface CityWithScore extends City {
   totalAchievements: number;

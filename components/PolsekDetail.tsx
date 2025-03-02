@@ -87,13 +87,11 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
             ></button>
           </div>
         </DialogHeader>
-
         <Tabs defaultValue="overview" className="w-full">
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="villages">Daftar Desa</TabsTrigger>
           </TabsList>
-
           {/* Overview Tab */}
           <TabsContent value="overview" className="p-6">
             <div className="grid grid-cols-1 gap-6">
@@ -261,7 +259,6 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
               </Card>
             </div>
           </TabsContent>
-
           {/* Villages Tab */}
           <TabsContent value="villages" className="p-6">
             <div className="bg-white rounded-lg border overflow-hidden">

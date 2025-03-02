@@ -1,3 +1,5 @@
+import { Company } from "@/types";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Dialog,
   DialogContent,
@@ -12,7 +14,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Building2,
   Calendar,
@@ -38,7 +39,6 @@ import {
   Legend,
   Label,
 } from "recharts";
-import { Company } from "@/types";
 import {
   Table,
   TableBody,
