@@ -85,17 +85,17 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     {
       name: "Total Capaian Monokultur",
       value: company.monokulturAchievements.III,
-      fill: "hsl(var(--chart-1))",
+      fill: "hsl(var(--chart-2))",
     },
     {
       name: "Total Capaian Tumpang Sari",
       value: company.tumpangSariAchievements.III,
-      fill: "hsl(var(--chart-2))",
+      fill: "hsl(var(--chart-3))",
     },
     {
       name: "Total Capaian CSR",
       value: company.csrAchievements?.III,
-      fill: "hsl(var(--chart-2))",
+      fill: "hsl(var(--chart-4))",
     },
     {
       name: "Sisa Lahan",
@@ -104,7 +104,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
         (company.monokulturAchievements.III +
           company.tumpangSariAchievements.III +
           (company.csrAchievements?.III ?? 0)),
-      fill: "hsl(var(--chart-3))",
+      fill: "hsl(var(--chart-1))",
     },
   ];
 
@@ -382,7 +382,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="flex items-center gap-2">
                         <div
                           className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-1))" }}
+                          style={{ backgroundColor: "hsl(var(--chart-2))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
                           Total Capaian Monokultur
@@ -402,7 +402,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="flex items-center gap-2">
                         <div
                           className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-2))" }}
+                          style={{ backgroundColor: "hsl(var(--chart-3))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
                           Total Capaian Tumpang Sari
@@ -422,7 +422,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="flex items-center gap-2">
                         <div
                           className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-2))" }}
+                          style={{ backgroundColor: "hsl(var(--chart-4))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
                           Total Capaian CSR
