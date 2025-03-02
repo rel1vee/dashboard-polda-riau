@@ -320,7 +320,7 @@ const NewRanking = () => {
   return (
     <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden border-none">
       <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
-        <CardTitle className="flex items-center gap-3 text-blue-600 text-2xl font-bold">
+        <CardTitle className="flex items-center md:gap-3 gap-0 text-blue-600 text-2xl font-bold">
           <Trophy className="w-8 h-8 hidden md:block" />
           Perankingan Kabupaten/Kota
         </CardTitle>
@@ -331,25 +331,19 @@ const NewRanking = () => {
       <CardContent className="p-4">
         <Tabs defaultValue="table" className="w-full">
           <TabsList className="grid w-full lg:max-w-5xl mx-auto grid-cols-2 md:grid-cols-4 mb-6 mt-2 bg-blue-100 h-auto">
-            <TabsTrigger value="table" className="flex items-center gap-2">
+            <TabsTrigger value="table" className="gap-2">
               <TableIcon className="h-4 w-4" />
               T1 POLRES
             </TabsTrigger>
-            <TabsTrigger value="chart" className="flex items-center gap-2">
+            <TabsTrigger value="chart" className="gap-2">
               <BarChart4 className="h-4 w-4" />
               G1 POLRES
             </TabsTrigger>
-            <TabsTrigger
-              value="tablePolsek"
-              className="flex items-center gap-2"
-            >
+            <TabsTrigger value="tablePolsek" className="gap-2">
               <TableIcon className="h-4 w-4" />
               T2 POLSEK
             </TabsTrigger>
-            <TabsTrigger
-              value="chartPolsek"
-              className="flex items-center gap-2"
-            >
+            <TabsTrigger value="chartPolsek" className="gap-2">
               <BarChart4 className="h-4 w-4" />
               G2 POLSEK
             </TabsTrigger>

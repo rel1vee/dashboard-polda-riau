@@ -74,21 +74,15 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="md:max-w-5xl max-h-[95%] w-[95%] overflow-y-auto p-0 rounded-lg border-0 shadow-lg">
-        <DialogHeader className="bg-white border-b px-6 py-4">
-          <div className="flex justify-between items-center">
-            <DialogTitle className="text-xl font-medium flex items-center gap-2">
-              <Building2 className="h-5 w-5 text-blue-500" />
-              {polsek.name}
-            </DialogTitle>
-            <button
-              onClick={onClose}
-              className="rounded-full p-1.5 hover:bg-gray-100 transition-colors"
-            ></button>
-          </div>
+      <DialogContent className="md:max-w-5xl max-h-[95%] w-[95%] overflow-y-auto rounded-xl">
+        <DialogHeader>
+          <DialogTitle className="text-xl flex items-center gap-0 md:gap-3">
+            <Building2 className="h-5 w-5 hidden md:block text-blue-500" />
+            {polsek.name}
+          </DialogTitle>
         </DialogHeader>
-        <Tabs defaultValue="overview" className="w-full px-4">
-          <TabsList className="grid w-full grid-cols-2 mb-4">
+        <Tabs defaultValue="overview" className="w-full">
+          <TabsList className="grid w-full grid-cols-2 mb-4 mt-1">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="villages">Daftar Desa</TabsTrigger>
           </TabsList>
@@ -260,7 +254,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
             </div>
           </TabsContent>
           {/* Villages Tab */}
-          <TabsContent value="villages" className="p-6">
+          <TabsContent value="villages">
             <div className="bg-white rounded-lg border overflow-hidden">
               <div className="p-4 border-b bg-blue-50 flex justify-between items-center">
                 <h3 className="text-blue-700 font-medium">
@@ -276,22 +270,22 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                   <Table>
                     <TableHeader>
                       <TableRow className="bg-gray-50">
-                        <TableHead className="font-medium pl-4">
+                        <TableHead className="font-medium pl-4 py-4">
                           Nama Desa
                         </TableHead>
-                        <TableHead className="font-medium text-center">
+                        <TableHead className="font-medium text-center py-4">
                           Waktu Tanam
                         </TableHead>
-                        <TableHead className="font-medium text-center">
+                        <TableHead className="font-medium text-center py-4">
                           Waktu Panen
                         </TableHead>
-                        <TableHead className="font-medium text-center">
+                        <TableHead className="font-medium text-center py-4">
                           Target (Ha)
                         </TableHead>
-                        <TableHead className="font-medium text-center">
+                        <TableHead className="font-medium text-center py-4">
                           Capaian (Ha)
                         </TableHead>
-                        <TableHead className="font-medium text-center">
+                        <TableHead className="font-medium text-center py-4">
                           Persentase
                         </TableHead>
                       </TableRow>

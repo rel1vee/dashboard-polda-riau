@@ -317,14 +317,14 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="md:max-w-6xl max-h-[95%] w-[95%] overflow-y-auto rounded-xl">
         <DialogHeader>
-          <DialogTitle className="flex items-center gap-2">
+          <DialogTitle className="text-xl flex items-center gap-0 md:gap-3">
             <Building2 className="hidden md:block w-5 h-5 text-blue-500" />
             {company.name}
           </DialogTitle>
         </DialogHeader>
 
         <Tabs defaultValue="overview" className="w-full">
-          <TabsList className="grid w-full h-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-0">
+          <TabsList className="grid w-full h-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mb-4 mt-1">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="progress">
               Monokultur & Tumpang Sari

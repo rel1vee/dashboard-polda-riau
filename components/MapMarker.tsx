@@ -85,7 +85,7 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='<a href="https://www.openstreetmap.org/copyright"></a>'
         />
-        {/* Render marker untuk setiap kota */}
+
         {cities.map((city) => {
           const achievements = calculateTotalAchievements(
             city.companies,
@@ -101,7 +101,7 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             (total, polsek) =>
               total +
               (polsek.villages?.reduce(
-                (villageTotal, village) => villageTotal + (village.target || 0),
+                (target, village) => target + (village.target || 0),
                 0
               ) || 0),
             0
@@ -111,8 +111,8 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             (total, polsek) =>
               total +
               (polsek.villages?.reduce(
-                (villageTotal, village) =>
-                  villageTotal + (village.achievement || 0),
+                (achievement, village) =>
+                  achievement + (village.achievement || 0),
                 0
               ) || 0),
             0
@@ -151,7 +151,6 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                     {city.nama}
                   </h3>
                   <div className="space-y-3">
-                    {/* Companies Badge */}
                     <div className="flex items-center gap-2">
                       <Badge
                         variant="secondary"
@@ -159,17 +158,18 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                       >
                         {city.companies.length} Pt. Target
                       </Badge>
-                      <Badge
-                        variant="secondary"
-                        className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
-                      >
-                        {city.polsek.length} POLSEK
-                      </Badge>
+
                       <Badge
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
                         {city.otherCompanies?.length} Pt. Lain
+                      </Badge>
+                      <Badge
+                        variant="secondary"
+                        className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
+                      >
+                        {city.polsek.length} POLSEK
                       </Badge>
                     </div>
                     {/* Area Info */}

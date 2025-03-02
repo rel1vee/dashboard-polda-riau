@@ -6,8 +6,8 @@ import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import { riauCity } from "@/data/RiauCity";
 import NewRanking from "@/components/NewRanking";
-import PolsekDetailModal from "@/components/PolsekDetail";
 import { City, Company, Polsek, Progress } from "@/types";
+import PolsekDetailModal from "@/components/PolsekDetail";
 import CompanyDetailsModal from "@/components/CompanyDetail";
 import { Building2, Map, TargetIcon, Sprout } from "lucide-react";
 import { Table, TableBody, TableRow } from "@/components/ui/table";
@@ -192,7 +192,7 @@ const DashboardRiauPage = () => {
             transition={{ duration: 0.5 }}
             className="bg-white p-6 rounded-xl shadow-lg"
           >
-            <div className="flex items-center md:gap-4 gap-0">
+            <div className="flex items-center md:gap-5 gap-0">
               <div>
                 <Image
                   src="/favicon.ico"
@@ -305,7 +305,7 @@ const DashboardRiauPage = () => {
           >
             <Card className="rounded-xl shadow-lg hover:shadow-xl transition-all overflow-hidden border-none">
               <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50">
-                <CardTitle className="flex items-center gap-2 text-xl text-blue-600">
+                <CardTitle className="flex items-center md:gap-3 gap-0 text-xl text-blue-600">
                   <Map className="w-6 h-6 hidden md:block" />
                   Peta Sebaran di Provinsi Riau
                 </CardTitle>
@@ -336,7 +336,7 @@ const DashboardRiauPage = () => {
             >
               <Card className="border-none rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
-                  <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
+                  <CardTitle className="flex items-center text-xl gap-0 md:gap-3 text-blue-600">
                     <Building2 className="w-5 h-5 hidden md:block" />
                     {selectedCity
                       ? `Perusahaan Target di ${selectedCity.nama}`
@@ -411,82 +411,7 @@ const DashboardRiauPage = () => {
             >
               <Card className="border-none rounded-xl shadow-lg hover:shadow-xl transition-all">
                 <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
-                  <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
-                    <Building2 className="w-5 h-5 hidden md:block" />
-                    {selectedCity
-                      ? `POLSEK di ${selectedCity.nama}`
-                      : "Daftar POLSEK"}
-                  </CardTitle>
-                  {selectedCity ? (
-                    <CardDescription>
-                      Total {selectedCity.polsek.length} POLSEK. Pilih POLSEK
-                      untuk Melihat Detail.
-                    </CardDescription>
-                  ) : (
-                    <CardDescription>
-                      Pilih Kabupaten/Kota untuk Melihat POLSEK
-                    </CardDescription>
-                  )}
-                </CardHeader>
-                <CardContent className="p-0 overflow-y-auto max-h-[500px]">
-                  {selectedCity ? (
-                    <div className="p-4">
-                      {selectedCity.polsek.length > 0 ? (
-                        <Table>
-                          <TableBody>
-                            {selectedCity.polsek.map((polsek, index) => (
-                              <TableRow
-                                key={polsek.id}
-                                className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
-                                onClick={() => handlePolsekClick(polsek)}
-                              >
-                                <motion.td
-                                  variants={tableRowVariants}
-                                  initial="hidden"
-                                  animate="visible"
-                                  transition={{ delay: index * 0.1 }}
-                                  className="p-4 font-medium"
-                                >
-                                  {polsek.name}
-                                </motion.td>
-                              </TableRow>
-                            ))}
-                          </TableBody>
-                        </Table>
-                      ) : (
-                        <motion.div
-                          className="flex flex-col items-center justify-center py-16 text-gray-500"
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{ duration: 0.3 }}
-                        >
-                          <Building2 className="w-12 h-12 mb-4 opacity-50" />
-                          <p>Belum Ada Data POLSEK...</p>
-                        </motion.div>
-                      )}
-                    </div>
-                  ) : (
-                    <motion.div
-                      className="flex flex-col items-center justify-center py-16 text-gray-500"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      <Map className="w-12 h-12 mb-4 opacity-50" />
-                      <p>Pilih Kabupaten/Kota...</p>
-                    </motion.div>
-                  )}
-                </CardContent>
-              </Card>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              <Card className="border-none rounded-xl shadow-lg hover:shadow-xl transition-all">
-                <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
-                  <CardTitle className="flex items-center text-xl gap-2 text-blue-600">
+                  <CardTitle className="flex items-center text-xl gap-0 md:gap-3 text-blue-600">
                     <Building2 className="w-5 h-5 hidden md:block" />
                     {selectedCity
                       ? `Perusahaan Lain di ${selectedCity.nama}`
@@ -543,6 +468,81 @@ const DashboardRiauPage = () => {
                         >
                           <Building2 className="w-12 h-12 mb-4 opacity-50" />
                           <p>Tidak Ada Perusahaan Lain</p>
+                        </motion.div>
+                      )}
+                    </div>
+                  ) : (
+                    <motion.div
+                      className="flex flex-col items-center justify-center py-16 text-gray-500"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <Map className="w-12 h-12 mb-4 opacity-50" />
+                      <p>Pilih Kabupaten/Kota...</p>
+                    </motion.div>
+                  )}
+                </CardContent>
+              </Card>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              <Card className="border-none rounded-xl shadow-lg hover:shadow-xl transition-all">
+                <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
+                  <CardTitle className="flex items-center text-xl gap-0 md:gap-3 text-blue-600">
+                    <Building2 className="w-5 h-5 hidden md:block" />
+                    {selectedCity
+                      ? `POLSEK di ${selectedCity.nama}`
+                      : "Daftar POLSEK"}
+                  </CardTitle>
+                  {selectedCity ? (
+                    <CardDescription>
+                      Total {selectedCity.polsek.length} POLSEK. Pilih POLSEK
+                      untuk Melihat Detail.
+                    </CardDescription>
+                  ) : (
+                    <CardDescription>
+                      Pilih Kabupaten/Kota untuk Melihat POLSEK
+                    </CardDescription>
+                  )}
+                </CardHeader>
+                <CardContent className="p-0 overflow-y-auto max-h-[500px]">
+                  {selectedCity ? (
+                    <div className="p-4">
+                      {selectedCity.polsek.length > 0 ? (
+                        <Table>
+                          <TableBody>
+                            {selectedCity.polsek.map((polsek, index) => (
+                              <TableRow
+                                key={polsek.id}
+                                className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
+                                onClick={() => handlePolsekClick(polsek)}
+                              >
+                                <motion.td
+                                  variants={tableRowVariants}
+                                  initial="hidden"
+                                  animate="visible"
+                                  transition={{ delay: index * 0.1 }}
+                                  className="p-4 font-medium"
+                                >
+                                  {polsek.name}
+                                </motion.td>
+                              </TableRow>
+                            ))}
+                          </TableBody>
+                        </Table>
+                      ) : (
+                        <motion.div
+                          className="flex flex-col items-center justify-center py-16 text-gray-500"
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <Building2 className="w-12 h-12 mb-4 opacity-50" />
+                          <p>Belum Ada Data POLSEK...</p>
                         </motion.div>
                       )}
                     </div>
