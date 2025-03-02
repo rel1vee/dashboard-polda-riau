@@ -125,36 +125,36 @@ const prepareTableData = () => {
   return rankedCities;
 };
 
-// const prepareTablePolsekData = () => {
-//   const rankedPolsek = riauCity.flatMap((city) => {
-//     return city.polsek.map((polsek) => {
-//       const totalTarget =
-//         polsek.villages?.reduce((sum, village) => sum + village.target, 0) || 0;
-//       const totalAchievement =
-//         polsek.villages?.reduce(
-//           (sum, village) => sum + village.achievement,
-//           0
-//         ) || 0;
-//       const percentage =
-//         totalTarget > 0
-//           ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
-//               maximumFractionDigits: 2,
-//             })
-//           : "0";
+const prepareTablePolsekData = () => {
+  const rankedPolsek = riauCity.flatMap((city) => {
+    return city.polsek.map((polsek) => {
+      const totalTarget =
+        polsek.villages?.reduce((sum, village) => sum + village.target, 0) || 0;
+      const totalAchievement =
+        polsek.villages?.reduce(
+          (sum, village) => sum + village.achievement,
+          0
+        ) || 0;
+      const percentage =
+        totalTarget > 0
+          ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
+              maximumFractionDigits: 2,
+            })
+          : "0";
 
-//       return {
-//         name: polsek.name,
-//         polres: polsek.polres || "-",
-//         totalAchievement,
-//         totalTarget,
-//         percentage: `${percentage}%`,
-//       };
-//     });
-//   });
+      return {
+        name: polsek.name,
+        polres: polsek.polres || "-",
+        totalAchievement,
+        totalTarget,
+        percentage: `${percentage}%`,
+      };
+    });
+  });
 
-//   rankedPolsek.sort((a, b) => b.totalAchievement - a.totalAchievement);
-//   return rankedPolsek;
-// };
+  rankedPolsek.sort((a, b) => b.totalAchievement - a.totalAchievement);
+  return rankedPolsek;
+};
 
 // const prepareChartWeekData = () => {
 //   const rankedCities = riauCity.map((city) => {
@@ -389,7 +389,7 @@ const achievements = getTotalAchievements();
 
 const NewRanking = () => {
   const tableData = prepareTableData();
-  // const tablePolsekData = prepareTablePolsekData();
+  const tablePolsekData = prepareTablePolsekData();
   // const chartWeekData = prepareChartWeekData();
 
   const calculateTotals = (data: {
@@ -894,7 +894,7 @@ const NewRanking = () => {
             </Card>
           </TabsContent>
 
-          {/* <TabsContent value="tablePolsek">
+          <TabsContent value="tablePolsek">
             <div className="rounded-md overflow-hidden">
               <div className="overflow-x-auto">
                 <Table>
@@ -982,48 +982,47 @@ const NewRanking = () => {
                   </HoverCard>
                 </div>
               </CardHeader>
-              <CardContent className="pt-8">
-                <div className="h-[44rem] w-full">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <BarChart
-                      data={tablePolsekData}
-                      margin={{ top: 10, right: 20, left: 20, bottom: 10 }}
-                    >
-                      <XAxis
-                        dataKey="name"
-                        angle={-75}
-                        textAnchor="end"
-                        height={220}
-                        interval={0}
-                        tick={{ fill: "#78350f", fontSize: 11 }}
-                      />
-                      <YAxis tick={{ fill: "#78350f" }} />
-                      <Tooltip
-                        contentStyle={{
-                          backgroundColor: "#fffbeb",
-                          borderColor: "#fbbf24",
-                          borderRadius: "6px",
-                        }}
-                      />
-                      <Legend wrapperStyle={{ paddingTop: "8px" }} />
-                      <Bar
-                        dataKey="totalAchievement"
-                        fill="#4ade80"
-                        name="Total Capaian"
-                        radius={[4, 4, 0, 0]}
-                      />
-                      <Bar
-                        dataKey="totalTarget"
-                        fill="#FCA5A5"
-                        name="Total Target"
-                        radius={[4, 4, 0, 0]}
-                      />
-                    </BarChart>
-                  </ResponsiveContainer>
-                </div>
+              <CardContent className="pt-8 h-[44rem] overflow-x-auto">
+                <ResponsiveContainer width="200%" height="100%">
+                  <BarChart
+                    data={tablePolsekData}
+                    margin={{ top: 10, right: 20, left: 20, bottom: 10 }}
+                  >
+                    <CartesianGrid strokeDasharray="2 2" />
+                    <XAxis
+                      dataKey="name"
+                      angle={-60}
+                      textAnchor="end"
+                      height={200}
+                      interval={0}
+                      tick={{ fill: "#78350f", fontSize: 11 }}
+                    />
+                    <YAxis tick={{ fill: "#78350f" }} />
+                    <Tooltip
+                      contentStyle={{
+                        backgroundColor: "#fffbeb",
+                        borderColor: "#fbbf24",
+                        borderRadius: "6px",
+                      }}
+                    />
+                    <Legend wrapperStyle={{ paddingTop: "8px" }} />
+                    <Bar
+                      dataKey="totalAchievement"
+                      fill="#4ade80"
+                      name="Total Capaian"
+                      radius={[4, 4, 0, 0]}
+                    />
+                    <Bar
+                      dataKey="totalTarget"
+                      fill="#FCA5A5"
+                      name="Total Target"
+                      radius={[4, 4, 0, 0]}
+                    />
+                  </BarChart>
+                </ResponsiveContainer>
               </CardContent>
             </Card>
-          </TabsContent> */}
+          </TabsContent>
         </Tabs>
       </CardContent>
     </Card>
