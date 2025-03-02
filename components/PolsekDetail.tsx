@@ -77,7 +77,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
       <DialogContent className="md:max-w-5xl max-h-[95%] w-[95%] overflow-y-auto rounded-xl">
         <DialogHeader>
           <DialogTitle className="text-xl flex items-center gap-0 md:gap-3">
-            <Building2 className="h-5 w-5 hidden md:block text-blue-500" />
+            <Building2 className="h-5 w-5 hidden md:block text-blue-500 uppercase" />
             {polsek.name}
           </DialogTitle>
         </DialogHeader>
@@ -384,7 +384,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                         const calculateHarvestTime = (
                           waktuTanam: string
                         ): string => {
-                          if (!waktuTanam) return "-";
+                          if (!waktuTanam) return "";
 
                           try {
                             // Parsing tanggal dengan format Indonesia
@@ -417,25 +417,25 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
 
                         return (
                           <TableRow key={village.id || index}>
-                            <TableCell className="font-semibold pl-4 text-base">
+                            <TableCell className="font-semibold pl-4 text-base uppercase">
                               {village.name}
                             </TableCell>
                             <TableCell className="text-sm text-center">
-                              {village.waktuTanam || "-"}
+                              {village.waktuTanam || ""}
                             </TableCell>
                             <TableCell className="text-sm text-center">
                               {calculateHarvestTime(village.waktuTanam ?? "") ||
-                                "-"}
+                                ""}
                             </TableCell>
                             <TableCell className="text-sm text-center">
                               {village.target
                                 ? village.target.toLocaleString("id-ID")
-                                : "-"}
+                                : ""}
                             </TableCell>
                             <TableCell className="text-sm text-center">
                               {village.achievement
                                 ? village.achievement.toLocaleString("id-ID")
-                                : "-"}
+                                : ""}
                             </TableCell>
                             <TableCell className="text-sm text-center">
                               {village.target && village.achievement ? (
@@ -453,7 +453,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                                   </span>
                                 </div>
                               ) : (
-                                "-"
+                                ""
                               )}
                             </TableCell>
                           </TableRow>

@@ -114,31 +114,7 @@ const prepareTableData = () => {
       capaianMonokultur: monokulturAchievements,
       capaianTumpangSari: tumpangSariAchievements,
       capaianCSR: csrAchievements,
-      totalAchievements,
-    };
-  });
-
-  rankedCities.sort((a, b) => b.totalAchievements - a.totalAchievements);
-  return rankedCities;
-};
-
-const prepareChartData = () => {
-  const rankedCities = riauCity.map((city) => {
-    const allCompanies = [...city.companies, ...(city.otherCompanies || [])];
-
-    const tahap1Total =
-      allCompanies.reduce(
-        (sum, company) =>
-          sum +
-          (company.monokulturAchievements?.III || 0) +
-          (company.tumpangSariAchievements?.III || 0) +
-          (company.csrAchievements?.III || 0),
-        0
-      ) || 0;
-
-    return {
-      name: city.nama,
-      TAHAP_I: tahap1Total,
+      TAHAP_I: totalAchievements,
       TAHAP_II: 0,
       TAHAP_III: 0,
       TAHAP_IV: 0,
@@ -148,6 +124,132 @@ const prepareChartData = () => {
   rankedCities.sort((a, b) => b.TAHAP_I - a.TAHAP_I);
   return rankedCities;
 };
+
+const prepareTablePolsekData = () => {
+  const rankedPolsek = riauCity.flatMap((city) => {
+    return city.polsek.map((polsek) => {
+      const totalTarget =
+        polsek.villages?.reduce((sum, village) => sum + village.target, 0) || 0;
+      const totalAchievement =
+        polsek.villages?.reduce(
+          (sum, village) => sum + village.achievement,
+          0
+        ) || 0;
+      const percentage =
+        totalTarget > 0
+          ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
+              maximumFractionDigits: 2,
+            })
+          : "0";
+
+      return {
+        name: polsek.name,
+        polres: polsek.polres || "-",
+        totalAchievement,
+        totalTarget,
+        percentage: `${percentage}%`,
+      };
+    });
+  });
+
+  rankedPolsek.sort((a, b) => b.totalAchievement - a.totalAchievement);
+  return rankedPolsek;
+};
+
+// const prepareChartWeekData = () => {
+//   const rankedCities = riauCity.map((city) => {
+//     const allCompanies = [...city.companies, ...(city.otherCompanies || [])];
+
+//     const monokulturAchievements = {
+//       i: allCompanies.reduce(
+//         (sum, company) => sum + (company.monokulturAchievements?.I || 0),
+//         0
+//       ),
+//       ii: allCompanies.reduce(
+//         (sum, company) => sum + (company.monokulturAchievements?.II || 0),
+//         0
+//       ),
+//       iii: allCompanies.reduce(
+//         (sum, company) => sum + (company.monokulturAchievements?.III || 0),
+//         0
+//       ),
+//       iv: allCompanies.reduce(
+//         (sum, company) => sum + (company.monokulturAchievements?.IV || 0),
+//         0
+//       ),
+//     };
+
+//     const tumpangSariAchievements = {
+//       i: allCompanies.reduce(
+//         (sum, company) => sum + (company.tumpangSariAchievements?.I || 0),
+//         0
+//       ),
+//       ii: allCompanies.reduce(
+//         (sum, company) => sum + (company.tumpangSariAchievements?.II || 0),
+//         0
+//       ),
+//       iii: allCompanies.reduce(
+//         (sum, company) => sum + (company.tumpangSariAchievements?.III || 0),
+//         0
+//       ),
+//       iv: allCompanies.reduce(
+//         (sum, company) => sum + (company.tumpangSariAchievements?.IV || 0),
+//         0
+//       ),
+//     };
+
+//     const csrAchievements = {
+//       i: allCompanies.reduce(
+//         (sum, company) => sum + (company.csrAchievements?.I || 0),
+//         0
+//       ),
+//       ii: allCompanies.reduce(
+//         (sum, company) => sum + (company.csrAchievements?.II || 0),
+//         0
+//       ),
+//       iii: allCompanies.reduce(
+//         (sum, company) => sum + (company.csrAchievements?.III || 0),
+//         0
+//       ),
+//       iv: allCompanies.reduce(
+//         (sum, company) => sum + (company.csrAchievements?.IV || 0),
+//         0
+//       ),
+//     };
+
+//     const totalAchievements =
+//       monokulturAchievements.iii +
+//       tumpangSariAchievements.iii +
+//       csrAchievements.iii;
+
+//     return {
+//       name: city.nama,
+//       I:
+//         monokulturAchievements.i +
+//         tumpangSariAchievements.i +
+//         csrAchievements.i,
+//       II:
+//         monokulturAchievements.ii +
+//         tumpangSariAchievements.ii +
+//         csrAchievements.ii -
+//         (monokulturAchievements.i +
+//           tumpangSariAchievements.i +
+//           csrAchievements.i),
+//       III:
+//         monokulturAchievements.iii +
+//         tumpangSariAchievements.iii +
+//         csrAchievements.iii -
+//         (monokulturAchievements.ii +
+//           tumpangSariAchievements.ii +
+//           csrAchievements.ii),
+//       IV: 0,
+//       totalAchievements,
+//     };
+//   });
+
+//   rankedCities.sort((a, b) => b.totalAchievements - a.totalAchievements);
+//   return rankedCities;
+// };
 
 const getTotalAchievements = () => {
   return riauCity.reduce(
@@ -287,7 +389,8 @@ const achievements = getTotalAchievements();
 
 const NewRanking = () => {
   const tableData = prepareTableData();
-  const chartData = prepareChartData();
+  // const tablePolsekData = prepareTablePolsekData();
+  // const chartWeekData = prepareChartWeekData();
 
   const calculateTotals = (data: {
     capaianMonokultur: { iii: number };
@@ -739,12 +842,12 @@ const NewRanking = () => {
                 <div className="h-[30rem] w-full">
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart
-                      data={chartData}
+                      data={tableData}
                       margin={{ top: 10, right: 20, left: 20, bottom: 10 }}
                     >
                       <CartesianGrid strokeDasharray="3 3" />
                       <XAxis
-                        dataKey="name"
+                        dataKey="nama"
                         angle={-45}
                         textAnchor="end"
                         height={100}
@@ -790,6 +893,137 @@ const NewRanking = () => {
               </CardContent>
             </Card>
           </TabsContent>
+
+          {/* <TabsContent value="tablePolsek">
+            <div className="rounded-md overflow-hidden">
+              <div className="overflow-x-auto">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead className="text-center border border-gray-200 font-bold text-gray-800 bg-gray-300">
+                        NO
+                      </TableHead>
+                      <TableHead className="text-center border border-gray-200 font-bold text-gray-800 bg-gray-300">
+                        NAMA POLSEK
+                      </TableHead>
+                      <TableHead className="text-center border border-blue-200 font-bold text-gray-800 bg-blue-300">
+                        NAMA POLRES
+                      </TableHead>
+                      <TableHead className="text-center border border-green-200 font-bold text-gray-800 bg-green-300">
+                        TOTAL CAPAIAN
+                      </TableHead>
+                      <TableHead className="text-center border border-red-200 font-bold text-gray-800 bg-red-300">
+                        TOTAL TARGET
+                      </TableHead>
+                      <TableHead className="text-center border border-purple-200 font-bold text-gray-800 bg-purple-300">
+                        %
+                      </TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {tablePolsekData.map((row, index) => {
+                      return (
+                        <TableRow key={index}>
+                          <TableCell className="text-center border uppercase">
+                            {index + 1}
+                          </TableCell>
+                          <TableCell className="text-center border font-medium uppercase">
+                            {row.name}
+                          </TableCell>
+                          <TableCell className="text-center border bg-blue-50">
+                            {row.polres}
+                          </TableCell>
+                          <TableCell className="text-center border bg-green-50">
+                            {row.totalAchievement}
+                          </TableCell>
+                          <TableCell className="text-center border bg-red-50">
+                            {row.totalTarget}
+                          </TableCell>
+                          <TableCell className="text-center border bg-purple-50">
+                            {row.percentage}
+                          </TableCell>
+                        </TableRow>
+                      );
+                    })}
+                  </TableBody>
+                  <TableCaption className="mt-4 text-sm text-gray-600 bg-blue-50 p-2 rounded">
+                    Tabel Capaian & Perangkingan POLSEK
+                  </TableCaption>
+                </Table>
+              </div>
+            </div>
+          </TabsContent>
+
+          <TabsContent value="chartPolsek">
+            <Card className="border-blue-200">
+              <CardHeader className="bg-blue-50 rounded-t-xl">
+                <div className="flex justify-between items-center">
+                  <CardTitle className="text-lg font-semibold text-blue-800">
+                    Visualisasi Capaian POLSEK
+                  </CardTitle>
+                  <HoverCard>
+                    <HoverCardTrigger asChild>
+                      <Button variant="ghost" size="sm" className="h-8 w-8">
+                        <Info className="h-4 w-4" />
+                        <span className="sr-only">Info</span>
+                      </Button>
+                    </HoverCardTrigger>
+                    <HoverCardContent className="w-80">
+                      <div className="space-y-2">
+                        <h4 className="text-sm font-semibold">
+                          Tentang Grafik
+                        </h4>
+                        <p className="text-sm">
+                          Grafik ini menampilkan perbandingan capaian dari
+                          setiap tahapan untuk semua POLSEK.
+                        </p>
+                      </div>
+                    </HoverCardContent>
+                  </HoverCard>
+                </div>
+              </CardHeader>
+              <CardContent className="pt-8">
+                <div className="h-[44rem] w-full">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <BarChart
+                      data={tablePolsekData}
+                      margin={{ top: 10, right: 20, left: 20, bottom: 10 }}
+                    >
+                      <XAxis
+                        dataKey="name"
+                        angle={-75}
+                        textAnchor="end"
+                        height={220}
+                        interval={0}
+                        tick={{ fill: "#78350f", fontSize: 11 }}
+                      />
+                      <YAxis tick={{ fill: "#78350f" }} />
+                      <Tooltip
+                        contentStyle={{
+                          backgroundColor: "#fffbeb",
+                          borderColor: "#fbbf24",
+                          borderRadius: "6px",
+                        }}
+                      />
+                      <Legend wrapperStyle={{ paddingTop: "8px" }} />
+                      <Bar
+                        dataKey="totalAchievement"
+                        fill="#4ade80"
+                        name="Total Capaian"
+                        radius={[4, 4, 0, 0]}
+                      />
+                      <Bar
+                        dataKey="totalTarget"
+                        fill="#FCA5A5"
+                        name="Total Target"
+                        radius={[4, 4, 0, 0]}
+                      />
+                    </BarChart>
+                  </ResponsiveContainer>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent> */}
         </Tabs>
       </CardContent>
     </Card>

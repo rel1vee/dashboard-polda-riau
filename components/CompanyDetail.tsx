@@ -317,7 +317,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="md:max-w-6xl max-h-[95%] w-[95%] overflow-y-auto rounded-xl">
         <DialogHeader>
-          <DialogTitle className="text-xl flex items-center gap-0 md:gap-3">
+          <DialogTitle className="text-xl flex items-center gap-0 md:gap-3 uppercase">
             <Building2 className="hidden md:block w-5 h-5 text-blue-500" />
             {company.name}
           </DialogTitle>
@@ -892,7 +892,8 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                                     Tanggal Tanam
                                   </TableCell>
                                   <TableCell className="text-right">
-                                    {/* {data.rencanaTanam?.tanggalTanam || "-"} */}
+                                    {progress.monokultur.rencanaTanam
+                                      ?.tanggalTanam || ""}
                                   </TableCell>
                                 </TableRow>
                                 <TableRow>
@@ -900,12 +901,8 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                                     Luas Lahan
                                   </TableCell>
                                   <TableCell className="text-right">
-                                    {/* {data.rencanaTanam?.luasTanam.toLocaleString(
-                                      "id-ID",
-                                      {
-                                        maximumFractionDigits: 2,
-                                      }
-                                    )}{" "} */}
+                                    {progress.monokultur.rencanaTanam
+                                      ?.luasTanam || ""}{" "}
                                     Ha
                                   </TableCell>
                                 </TableRow>
@@ -941,7 +938,8 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                                     Tanggal Panen
                                   </TableCell>
                                   <TableCell className="text-right">
-                                    {/* {data.rencanaPanen?.tanggalPanen || "-"} */}
+                                    {progress.monokultur.rencanaPanen
+                                      ?.tanggalPanen || ""}
                                   </TableCell>
                                 </TableRow>
                                 <TableRow>
@@ -949,12 +947,8 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                                     Perkiraan Panen
                                   </TableCell>
                                   <TableCell className="text-right">
-                                    {/* {data.rencanaPanen?.perkiraanPanen.toLocaleString(
-                                      "id-ID",
-                                      {
-                                        maximumFractionDigits: 2,
-                                      }
-                                    )}{" "} */}
+                                    {progress.monokultur.rencanaPanen
+                                      ?.perkiraanPanen || ""}{" "}
                                     Ton
                                   </TableCell>
                                 </TableRow>

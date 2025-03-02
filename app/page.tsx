@@ -370,7 +370,7 @@ const DashboardRiauPage = () => {
                                   initial="hidden"
                                   animate="visible"
                                   transition={{ delay: index * 0.1 }}
-                                  className="p-4 font-medium"
+                                  className="p-4 font-medium uppercase"
                                 >
                                   {company.name}
                                 </motion.td>
@@ -450,7 +450,7 @@ const DashboardRiauPage = () => {
                                     initial="hidden"
                                     animate="visible"
                                     transition={{ delay: index * 0.1 }}
-                                    className="p-4 font-medium"
+                                    className="p-4 font-medium uppercase"
                                   >
                                     {poktan.name}
                                   </motion.td>
@@ -526,7 +526,7 @@ const DashboardRiauPage = () => {
                                   initial="hidden"
                                   animate="visible"
                                   transition={{ delay: index * 0.1 }}
-                                  className="p-4 font-medium"
+                                  className="p-4 font-medium uppercase"
                                 >
                                   {polsek.name}
                                 </motion.td>
