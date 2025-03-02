@@ -355,10 +355,10 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                         const formatToIndonesianDate = (date: Date): string => {
                           if (!date) return "-";
 
-                          const day = date
-                            .getDate()
-                            .toString()
-                            .padStart(2, "0");
+                          // const day = date
+                          //   .getDate()
+                          //   .toString()
+                          //   .padStart(2, "0");
 
                           const monthNames = [
                             "Januari",
@@ -377,7 +377,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                           const month = monthNames[date.getMonth()];
                           const year = date.getFullYear();
 
-                          return `${day}-${month}-${year}`;
+                          return `${month} ${year}`;
                         };
 
                         // Fungsi yang diperbarui untuk menghitung waktu panen
