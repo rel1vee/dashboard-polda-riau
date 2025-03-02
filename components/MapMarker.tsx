@@ -158,19 +158,19 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
-                        {city.companies.length} Perusahaan Target
+                        {city.companies.length} Pt. Target
                       </Badge>
-                      {/* <Badge
-                        variant="secondary"
-                        className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
-                      >
-                        {city.polsek.length} POLSEK
-                      </Badge> */}
                       <Badge
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
-                        {city.otherCompanies?.length} Perusahaan Lain
+                        {city.polsek.length} POLSEK
+                      </Badge>
+                      <Badge
+                        variant="secondary"
+                        className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
+                      >
+                        {city.otherCompanies?.length} Pt. Lain
                       </Badge>
                     </div>
                     {/* Area Info */}
@@ -250,7 +250,13 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         Total Capaian POLSEK:
                       </span>
                       <span className="font-medium text-gray-900">
-                        {polsekAchievement} dari {polsekTarget}
+                        {polsekAchievement.toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        dari{" "}
+                        {polsekTarget.toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}
                       </span>
                     </div>
                   </div>
