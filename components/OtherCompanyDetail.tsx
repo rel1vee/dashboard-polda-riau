@@ -19,7 +19,6 @@ import {
   Calendar,
   Database,
   Phone,
-  Table,
   Target,
   User,
   Warehouse,
@@ -38,11 +37,12 @@ import {
   Label,
 } from "recharts";
 import {
-  TableHeader,
-  TableRow,
-  TableHead,
+  Table,
   TableBody,
   TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
 } from "@/components/ui/table";
 
 interface CompanyDetailProps {
