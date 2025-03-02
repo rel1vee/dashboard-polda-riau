@@ -125,36 +125,36 @@ const prepareTableData = () => {
   return rankedCities;
 };
 
-const prepareTablePolsekData = () => {
-  const rankedPolsek = riauCity.flatMap((city) => {
-    return city.polsek.map((polsek) => {
-      const totalTarget =
-        polsek.villages?.reduce((sum, village) => sum + village.target, 0) || 0;
-      const totalAchievement =
-        polsek.villages?.reduce(
-          (sum, village) => sum + village.achievement,
-          0
-        ) || 0;
-      const percentage =
-        totalTarget > 0
-          ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
-              maximumFractionDigits: 2,
-            })
-          : "0";
+// const prepareTablePolsekData = () => {
+//   const rankedPolsek = riauCity.flatMap((city) => {
+//     return city.polsek.map((polsek) => {
+//       const totalTarget =
+//         polsek.villages?.reduce((sum, village) => sum + village.target, 0) || 0;
+//       const totalAchievement =
+//         polsek.villages?.reduce(
+//           (sum, village) => sum + village.achievement,
+//           0
+//         ) || 0;
+//       const percentage =
+//         totalTarget > 0
+//           ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
+//               maximumFractionDigits: 2,
+//             })
+//           : "0";
 
-      return {
-        name: polsek.name,
-        polres: polsek.polres || "-",
-        totalAchievement,
-        totalTarget,
-        percentage: `${percentage}%`,
-      };
-    });
-  });
+//       return {
+//         name: polsek.name,
+//         polres: polsek.polres || "-",
+//         totalAchievement,
+//         totalTarget,
+//         percentage: `${percentage}%`,
+//       };
+//     });
+//   });
 
-  rankedPolsek.sort((a, b) => b.totalAchievement - a.totalAchievement);
-  return rankedPolsek;
-};
+//   rankedPolsek.sort((a, b) => b.totalAchievement - a.totalAchievement);
+//   return rankedPolsek;
+// };
 
 // const prepareChartWeekData = () => {
 //   const rankedCities = riauCity.map((city) => {
