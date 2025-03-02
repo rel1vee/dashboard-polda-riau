@@ -860,7 +860,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                   </Card>
                   <Card>
                     <CardHeader>
-                      <CardTitle>Progress Tanaman</CardTitle>
+                      <CardTitle>Progress Tanam</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
