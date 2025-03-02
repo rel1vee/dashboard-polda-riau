@@ -5,9 +5,9 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import { riauCity } from "@/data/RiauCity";
-import { City, Company, Polsek } from "@/types";
 import NewRanking from "@/components/NewRanking";
 import PolsekDetailModal from "@/components/PolsekDetail";
+import { City, Company, Polsek, Progress } from "@/types";
 import CompanyDetailsModal from "@/components/CompanyDetail";
 import { Building2, Map, TargetIcon, Sprout } from "lucide-react";
 import { Table, TableBody, TableRow } from "@/components/ui/table";
@@ -36,8 +36,12 @@ const DashboardRiauPage = () => {
   const [selectedCity, setSelectedCity] = useState<City | null>(null);
   const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
+  const [selectedCompanyProgress, setSelectedCompanyProgress] =
+    useState<Progress | null>(null);
   const [selectedOtherCompany, setSelectedOtherCompany] =
     useState<Company | null>(null);
+  const [selectedOtherCompanyProgress, setSelectedOtherCompanyProgress] =
+    useState<Progress | null>(null);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -83,14 +87,12 @@ const DashboardRiauPage = () => {
         otherTotalArea: acc.otherTotalArea + polres.otherTotalArea,
         monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
         tumpangSariTarget: acc.tumpangSariTarget + polres.tumpangSariTarget,
-        totalTarget: acc.totalTarget + polres.totalTarget,
       }),
       {
         totalArea: 0,
         otherTotalArea: 0,
         monokulturTarget: 0,
         tumpangSariTarget: 0,
-        totalTarget: 0,
       }
     );
   };
@@ -141,6 +143,11 @@ const DashboardRiauPage = () => {
 
   const handleCompanyClick = (company: Company) => {
     setSelectedCompany(company);
+
+    const progressData =
+      selectedCity?.progress?.find((p) => p.id === company.id) || null;
+
+    setSelectedCompanyProgress(progressData);
     setIsModalOpen(true);
   };
 
@@ -151,6 +158,11 @@ const DashboardRiauPage = () => {
 
   const handleOtherCompanyClick = (company: Company) => {
     setSelectedOtherCompany(company);
+
+    const otherProgressData =
+      selectedCity?.otherProgress?.find((p) => p.id === company.id) || null;
+
+    setSelectedOtherCompanyProgress(otherProgressData);
     setIsModalOpen(true);
   };
 
@@ -553,6 +565,7 @@ const DashboardRiauPage = () => {
         {selectedCompany && (
           <CompanyDetailsModal
             company={selectedCompany}
+            progress={selectedCompanyProgress}
             isOpen={isModalOpen}
             onClose={handleCloseModal}
           />
@@ -567,6 +580,7 @@ const DashboardRiauPage = () => {
         {selectedOtherCompany && (
           <OtherCompanyDetailsModal
             company={selectedOtherCompany}
+            progress={selectedOtherCompanyProgress}
             isOpen={isModalOpen}
             onClose={handleCloseModal}
           />

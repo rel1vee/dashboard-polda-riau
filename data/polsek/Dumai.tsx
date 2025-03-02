@@ -1,6 +1,7 @@
 import { Polsek } from "@/types";
 
-export const dumaiPolsek: Polsek[] = [
+export const dumaiPolsek: Polsek[] = 
+[
   {
     id: 1,
     name: "Polsek Bukit Kapur",

@@ -39,7 +39,7 @@ const calculateRanking = (cities: City[]): CityWithScore[] => {
       (sum, company) => sum + company.monokulturAchievements.II,
       0
     );
-    const totalMonokulturAchievementsOther = city.otherCompanies?.reduce(
+    const totalMonokulturAchievementsOther = city.otherCompanies.reduce(
       (sum, company) => sum + company.monokulturAchievements.II,
       0
     );
@@ -50,7 +50,7 @@ const calculateRanking = (cities: City[]): CityWithScore[] => {
       (sum, company) => sum + company.tumpangSariAchievements.II,
       0
     );
-    const totalTumpangSariAchievementsOther = city.otherCompanies?.reduce(
+    const totalTumpangSariAchievementsOther = city.otherCompanies.reduce(
       (sum, company) => sum + company.tumpangSariAchievements.II,
       0
     );
@@ -61,15 +61,17 @@ const calculateRanking = (cities: City[]): CityWithScore[] => {
       (sum, company) => sum + (company.csrAchievements?.II || 0),
       0
     );
-    const totalCSRAchievementsOther = city.otherCompanies?.reduce(
+    const totalCSRAchievementsOther = city.otherCompanies.reduce(
       (sum, company) => sum + (company.csrAchievements?.II || 0),
       0
     );
     const totalCSR = totalCSRAchievements + (totalCSRAchievementsOther || 0);
 
     const totalAchievements = totalMonokultur + totalTumpangSari + totalCSR;
+
     const totalPercentage =
-      city.totalTarget > 0 ? (totalAchievements / city.totalTarget) * 100 : 0;
+      (totalAchievements / (city.monokulturTarget + city.tumpangSariTarget)) *
+      100;
 
     // Hitung Persentase Capaian
     // const monokulturPercentage = city.monokulturTarget
@@ -183,7 +185,9 @@ const OldRankingComponent: React.FC<{ cities: City[] }> = ({ cities }) => {
                       maximumFractionDigits: 2,
                     })}{" "}
                     dari{" "}
-                    {city.totalTarget.toLocaleString("id-ID", {
+                    {(
+                      city.monokulturTarget + city.tumpangSariTarget
+                    ).toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}
                   </TableCell>

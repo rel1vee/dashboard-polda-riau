@@ -1,4 +1,4 @@
-import { Company } from "@/types";
+import { Company, Progress } from "@/types";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Dialog,
@@ -47,12 +47,14 @@ import {
 
 interface CompanyDetailProps {
   company: Company;
+  progress: Progress | null;
   isOpen: boolean;
   onClose: () => void;
 }
 
 const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   company,
+  progress,
   isOpen,
   onClose,
 }) => {
@@ -118,7 +120,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
       panen: { luas: number; persentase: number };
       keterangan: string;
       rencanaTanam: { tanggalTanam: string; luasTanam: number };
-      rencanaPanen: { tanggalPanen: string; perkiraanPanen: number };
+      rencanaPanen: { tanggalPanen: string; perkiraanPanen: string };
     }
   ) => {
     const progressData = [
@@ -639,7 +641,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
 
           <TabsContent value="prosesProduksi">
             <div className="space-y-4">
-              {company.progress && company.progress.length > 0 ? (
+              {progress ? (
                 <>
                   <Card className="w-full">
                     <CardHeader>
@@ -652,13 +654,13 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         <div className="flex items-center gap-2">
                           <User className="h-4 w-4 text-gray-500 " />
                           <span className="text-sm">
-                            Nama: {company.progress?.[0]?.namaPJ}
+                            Nama: {progress.namaPJ}
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
                           <Phone className="h-4 w-4 text-gray-500" />
                           <span className="text-sm">
-                            No. Telp: {company.progress?.[0]?.nomorTelp}
+                            No. Telp: {progress.nomorTelp}
                           </span>
                         </div>
                       </div>
@@ -773,143 +775,137 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                     </CardContent>
                   </Card>
 
-                  {company.progress?.[0]?.monokultur &&
+                  {progress.monokultur &&
                     renderProgressSection("Monokultur", {
-                      ...company.progress[0].monokultur,
+                      ...progress.monokultur,
                       targetTanam: {
-                        luas:
-                          company.progress[0].monokultur.targetTanam.luas ?? 0,
+                        luas: Number(progress.monokultur.targetTanam.luas) ?? 0,
                         persentase:
-                          company.progress[0].monokultur.targetTanam
-                            .persentase ?? 0,
-                      },
-                      progresTanam: {
-                        luas:
-                          company.progress[0].monokultur.progresTanam.luas ?? 0,
-                        persentase:
-                          company.progress[0].monokultur.progresTanam
-                            .persentase ?? 0,
-                      },
-                      belumTanam: {
-                        luas:
-                          company.progress[0].monokultur.belumTanam.luas ?? 0,
-                        persentase:
-                          company.progress[0].monokultur.belumTanam
-                            .persentase ?? 0,
-                      },
-                      panen: {
-                        luas: company.progress[0].monokultur.panen.luas ?? 0,
-                        persentase:
-                          company.progress[0].monokultur.panen.persentase ?? 0,
-                      },
-                      keterangan:
-                        company.progress[0].monokultur.keterangan ?? "",
-                      rencanaTanam: {
-                        tanggalTanam:
-                          company.progress[0].monokultur.rencanaTanam
-                            ?.tanggalTanam ?? "",
-                        luasTanam:
-                          company.progress[0].monokultur.rencanaTanam
-                            ?.luasTanam ?? 0,
-                      },
-                      rencanaPanen: {
-                        tanggalPanen:
-                          company.progress[0].monokultur.rencanaPanen
-                            ?.tanggalPanen ?? "",
-                        perkiraanPanen:
-                          company.progress[0].monokultur.rencanaPanen
-                            ?.perkiraanPanen ?? 0,
-                      },
-                    })}
-
-                  {company.progress?.[0]?.tumpangSari &&
-                    renderProgressSection("Tumpang Sari", {
-                      ...company.progress[0].tumpangSari,
-                      targetTanam: {
-                        luas:
-                          company.progress[0].tumpangSari.targetTanam.luas ?? 0,
-                        persentase:
-                          company.progress[0].tumpangSari.targetTanam
-                            .persentase ?? 0,
-                      },
-                      progresTanam: {
-                        luas:
-                          company.progress[0].tumpangSari.progresTanam.luas ??
+                          Number(progress.monokultur.targetTanam.persentase) ??
                           0,
+                      },
+                      waktuTanam: String(progress.tumpangSari.waktuTanam) ?? "",
+                      progresTanam: {
+                        luas:
+                          Number(progress.monokultur.progresTanam.luas) ?? 0,
                         persentase:
-                          company.progress[0].tumpangSari.progresTanam
-                            .persentase ?? 0,
+                          Number(progress.monokultur.progresTanam.persentase) ??
+                          0,
                       },
                       belumTanam: {
-                        luas:
-                          company.progress[0].tumpangSari.belumTanam.luas ?? 0,
+                        luas: Number(progress.monokultur.belumTanam.luas) ?? 0,
                         persentase:
-                          company.progress[0].tumpangSari.belumTanam
-                            .persentase ?? 0,
+                          Number(progress.monokultur.belumTanam.persentase) ??
+                          0,
                       },
                       panen: {
-                        luas: company.progress[0].tumpangSari.panen.luas ?? 0,
+                        luas: Number(progress.monokultur.panen.luas) ?? 0,
                         persentase:
-                          company.progress[0].tumpangSari.panen.persentase ?? 0,
+                          Number(progress.monokultur.panen.persentase) ?? 0,
                       },
-                      keterangan:
-                        company.progress[0].tumpangSari.keterangan ?? "",
+                      keterangan: String(progress.monokultur.keterangan) ?? "",
                       rencanaTanam: {
                         tanggalTanam:
-                          company.progress[0].tumpangSari.rencanaTanam
-                            ?.tanggalTanam ?? "",
+                          progress.monokultur.rencanaTanam?.tanggalTanam ?? "",
                         luasTanam:
-                          company.progress[0].tumpangSari.rencanaTanam
-                            ?.luasTanam ?? 0,
+                          Number(progress.monokultur.rencanaTanam?.luasTanam) ??
+                          0,
                       },
                       rencanaPanen: {
                         tanggalPanen:
-                          company.progress[0].tumpangSari.rencanaPanen
-                            ?.tanggalPanen ?? "",
+                          progress.monokultur.rencanaPanen?.tanggalPanen ?? "",
                         perkiraanPanen:
-                          company.progress[0].tumpangSari.rencanaPanen
-                            ?.perkiraanPanen ?? 0,
+                          String(
+                            progress.monokultur.rencanaPanen?.perkiraanPanen
+                          ) ?? "",
                       },
                     })}
 
-                  {company.progress?.[0]?.csr &&
-                    renderProgressSection("CSR", {
-                      ...company.progress[0].csr,
+                  {progress.tumpangSari &&
+                    renderProgressSection("Tumpang Sari", {
+                      ...progress.tumpangSari,
                       targetTanam: {
-                        luas: company.progress[0].csr.targetTanam.luas ?? 0,
+                        luas:
+                          Number(progress.tumpangSari.targetTanam.luas) ?? 0,
                         persentase:
-                          company.progress[0].csr.targetTanam.persentase ?? 0,
+                          Number(progress.tumpangSari.targetTanam.persentase) ??
+                          0,
                       },
+                      waktuTanam: String(progress.tumpangSari.waktuTanam) ?? "",
                       progresTanam: {
-                        luas: company.progress[0].csr.progresTanam.luas ?? 0,
+                        luas:
+                          Number(progress.tumpangSari.progresTanam.luas) ?? 0,
                         persentase:
-                          company.progress[0].csr.progresTanam.persentase ?? 0,
+                          Number(
+                            progress.tumpangSari.progresTanam.persentase
+                          ) ?? 0,
                       },
                       belumTanam: {
-                        luas: company.progress[0].csr.belumTanam.luas ?? 0,
+                        luas: Number(progress.tumpangSari.belumTanam.luas) ?? 0,
                         persentase:
-                          company.progress[0].csr.belumTanam.persentase ?? 0,
+                          Number(progress.tumpangSari.belumTanam.persentase) ??
+                          0,
                       },
                       panen: {
-                        luas: company.progress[0].csr.panen.luas ?? 0,
+                        luas: Number(progress.tumpangSari.panen.luas) ?? 0,
                         persentase:
-                          company.progress[0].csr.panen.persentase ?? 0,
+                          Number(progress.tumpangSari.panen.persentase) ?? 0,
                       },
-                      keterangan: company.progress[0].csr.keterangan ?? "",
+                      keterangan: String(progress.tumpangSari.keterangan) ?? "",
                       rencanaTanam: {
                         tanggalTanam:
-                          company.progress[0].csr.rencanaTanam?.tanggalTanam ??
-                          "",
+                          progress.tumpangSari.rencanaTanam?.tanggalTanam ?? "",
                         luasTanam:
-                          company.progress[0].csr.rencanaTanam?.luasTanam ?? 0,
+                          Number(
+                            progress.tumpangSari.rencanaTanam?.luasTanam
+                          ) ?? 0,
                       },
                       rencanaPanen: {
                         tanggalPanen:
-                          company.progress[0].csr.rencanaPanen?.tanggalPanen ??
-                          "",
+                          progress.tumpangSari.rencanaPanen?.tanggalPanen ?? "",
                         perkiraanPanen:
-                          company.progress[0].csr.rencanaPanen
-                            ?.perkiraanPanen ?? 0,
+                          String(
+                            progress.tumpangSari.rencanaPanen?.perkiraanPanen
+                          ) ?? 0,
+                      },
+                    })}
+
+                  {progress.csr &&
+                    renderProgressSection("CSR", {
+                      ...progress.csr,
+                      targetTanam: {
+                        luas: Number(progress.csr.targetTanam.luas) ?? 0,
+                        persentase:
+                          Number(progress.csr.targetTanam.persentase) ?? 0,
+                      },
+                      waktuTanam: String(progress.tumpangSari.waktuTanam) ?? "",
+                      progresTanam: {
+                        luas: Number(progress.csr.progresTanam.luas) ?? 0,
+                        persentase:
+                          Number(progress.csr.progresTanam.persentase) ?? 0,
+                      },
+                      belumTanam: {
+                        luas: Number(progress.csr.belumTanam.luas) ?? 0,
+                        persentase:
+                          Number(progress.csr.belumTanam.persentase) ?? 0,
+                      },
+                      panen: {
+                        luas: Number(progress.csr.panen.luas) ?? 0,
+                        persentase: Number(progress.csr.panen.persentase) ?? 0,
+                      },
+                      keterangan: String(progress.csr.keterangan) ?? "",
+                      rencanaTanam: {
+                        tanggalTanam:
+                          progress.csr.rencanaTanam?.tanggalTanam ?? "",
+                        luasTanam:
+                          Number(progress.csr.rencanaTanam?.luasTanam) ?? 0,
+                      },
+                      rencanaPanen: {
+                        tanggalPanen:
+                          progress.csr.rencanaPanen?.tanggalPanen ?? "",
+                        perkiraanPanen:
+                          String(progress.csr.rencanaPanen?.perkiraanPanen) ??
+                          0,
                       },
                     })}
                 </>

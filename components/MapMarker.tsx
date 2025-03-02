@@ -31,9 +31,8 @@ interface MapProps {
     otherTotalArea: number;
     monokulturTarget: number;
     tumpangSariTarget: number;
-    totalTarget: number;
     companies: Company[];
-    otherCompanies?: Company[];
+    otherCompanies: Company[];
     polsek: Polsek[];
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
