@@ -15,12 +15,20 @@ export interface City {
 export interface Polsek {
   id: number;
   name: string;
-  villages: {
-    id: number | null;
-    name: string | null;
-    target?: number | null;
-    achievement?: number | null;
-  }[];
+  villages?: Village[];
+}
+
+export interface Village {
+  id?: string | number;
+  name: string;
+  target?: number;
+  percontohanStatus?: string;
+  chief?: string;
+  rank?: string;
+  nrp?: string;
+  position?: string;
+  contact?: string;
+  achievement?: number;
 }
 
 export interface Company {

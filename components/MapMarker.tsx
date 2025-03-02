@@ -98,6 +98,27 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             city.otherCompanies || []
           );
 
+          const polsekTarget = city.polsek.reduce(
+            (total, polsek) =>
+              total +
+              (polsek.villages?.reduce(
+                (villageTotal, village) => villageTotal + (village.target || 0),
+                0
+              ) || 0),
+            0
+          );
+
+          const polsekAchievement = city.polsek.reduce(
+            (total, polsek) =>
+              total +
+              (polsek.villages?.reduce(
+                (villageTotal, village) =>
+                  villageTotal + (village.achievement || 0),
+                0
+              ) || 0),
+            0
+          );
+
           return (
             <Marker
               key={city.id}
@@ -229,7 +250,7 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         Total Capaian POLSEK:
                       </span>
                       <span className="font-medium text-gray-900">
-                        0 dari 0
+                        {polsekAchievement} dari {polsekTarget}
                       </span>
                     </div>
                   </div>
