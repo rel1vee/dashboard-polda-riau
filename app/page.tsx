@@ -9,7 +9,15 @@ import NewRanking from "@/components/NewRanking";
 import { City, Company, Polsek, Progress } from "@/types";
 import PolsekDetailModal from "@/components/PolsekDetail";
 import CompanyDetailsModal from "@/components/CompanyDetail";
-import { Building2, Map, TargetIcon, Sprout } from "lucide-react";
+import {
+  Building2,
+  Map,
+  TargetIcon,
+  Sprout,
+  Leaf,
+  HandHeart,
+  LeafIcon,
+} from "lucide-react";
 import { Table, TableBody, TableRow } from "@/components/ui/table";
 import OtherCompanyDetailsModal from "@/components/OtherCompanyDetail";
 import {
@@ -82,17 +90,27 @@ const DashboardRiauPage = () => {
 
   const getTotalStats = () => {
     return riauCity.reduce(
-      (acc, polres) => ({
-        totalArea: acc.totalArea + polres.totalArea,
-        otherTotalArea: acc.otherTotalArea + polres.otherTotalArea,
-        monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
-        tumpangSariTarget: acc.tumpangSariTarget + polres.tumpangSariTarget,
-      }),
+      (acc, polres) => {
+        const polsekTarget = polres.polsek.reduce(
+          (total, polsek) =>
+            total +
+            (polsek.villages?.reduce(
+              (target, village) => target + (village.target || 0),
+              0
+            ) || 0),
+          0
+        );
+
+        return {
+          monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
+          tumpangSariTarget: acc.tumpangSariTarget + polres.tumpangSariTarget,
+          polsekTarget: acc.polsekTarget + polsekTarget,
+        };
+      },
       {
-        totalArea: 0,
-        otherTotalArea: 0,
         monokulturTarget: 0,
         tumpangSariTarget: 0,
+        polsekTarget: 0,
       }
     );
   };
@@ -126,17 +144,30 @@ const DashboardRiauPage = () => {
           return sum;
         }, 0);
 
+        const polsekAchievement = polres.polsek.reduce(
+          (total, polsek) =>
+            total +
+            (polsek.villages?.reduce(
+              (achievement, village) =>
+                achievement + (village.achievement || 0),
+              0
+            ) || 0),
+          0
+        );
+
         return {
           monokulturAchievement: acc.monokulturAchievement + monoAchievement,
           tumpangSariAchievement:
             acc.tumpangSariAchievement + tumpangSariAchievement,
           csrAchievement: acc.csrAchievement + csrAchievement,
+          polsekAchievement: acc.polsekAchievement + polsekAchievement,
         };
       },
       {
         monokulturAchievement: 0,
         tumpangSariAchievement: 0,
         csrAchievement: 0,
+        polsekAchievement: 0,
       }
     );
   };
@@ -214,23 +245,12 @@ const DashboardRiauPage = () => {
           </motion.div>
           {/* Stats Summary */}
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+            className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
           >
             {[
-              {
-                title: "Luas Keseluruhan",
-                value: `${(
-                  stats.totalArea + stats.otherTotalArea
-                ).toLocaleString("id-ID", {
-                  maximumFractionDigits: 2,
-                })}`,
-                description: "Total Lahan di Provinsi Riau",
-                icon: Map,
-                gradient: "from-purple-400 to-pink-500",
-              },
               {
                 title: "Monokultur",
                 value: `${achievements.monokulturAchievement.toLocaleString(
@@ -242,8 +262,8 @@ const DashboardRiauPage = () => {
                   maximumFractionDigits: 2,
                 })}`,
                 description: "2% dari Total Lahan di Provinsi Riau",
-                icon: Sprout,
-                gradient: "from-sky-400 to-blue-500",
+                icon: Leaf,
+                gradient: "from-blue-500 to-sky-400",
               },
               {
                 title: "Tumpang Sari",
@@ -260,19 +280,45 @@ const DashboardRiauPage = () => {
                 gradient: "from-orange-400 to-pink-500",
               },
               {
+                title: "CSR",
+                value: `${achievements.csrAchievement.toLocaleString("id-ID", {
+                  maximumFractionDigits: 2,
+                })}`,
+                description: "Capaian CSR di Provinsi Riau",
+                icon: LeafIcon,
+                gradient: "from-purple-400 to-pink-500",
+              },
+              {
+                title: "POLSEK",
+                value: `${achievements.polsekAchievement.toLocaleString(
+                  "id-ID",
+                  {
+                    maximumFractionDigits: 2,
+                  }
+                )} dari ${stats.polsekTarget.toLocaleString("id-ID", {
+                  maximumFractionDigits: 2,
+                })}`,
+                description: "Capaian dari Seluruh Target Desa",
+                icon: HandHeart,
+                gradient: "from-sky-400 to-purple-600",
+              },
+              {
                 title: "Total Capaian",
                 value: `${(
                   achievements.monokulturAchievement +
                   achievements.tumpangSariAchievement +
-                  achievements.csrAchievement
+                  achievements.csrAchievement +
+                  achievements.polsekAchievement
                 ).toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })} dari ${(
-                  stats.monokulturTarget + stats.tumpangSariTarget
+                  stats.monokulturTarget +
+                  stats.tumpangSariTarget +
+                  stats.polsekTarget
                 ).toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "2% Monokultur + 7% Tumpang Sari + CSR",
+                description: "2% Monokultur + 7% Tumpang Sari + CSR + POLSEK",
                 icon: TargetIcon,
                 gradient: "from-green-400 to-emerald-500",
               },

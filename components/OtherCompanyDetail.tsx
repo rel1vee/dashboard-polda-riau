@@ -277,12 +277,48 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     });
   };
 
-  // Fungsi parsing untuk format "DD-MM-YYYY"
+  // Pemetaan nama bulan dalam berbagai bahasa
+  const monthMap: { [key: string]: number } = {
+    januari: 0,
+    january: 0,
+    jan: 0,
+    februari: 1,
+    february: 1,
+    feb: 1,
+    maret: 2,
+    march: 2,
+    mar: 2,
+    april: 3,
+    apr: 3,
+    mei: 4,
+    may: 4,
+    juni: 5,
+    june: 5,
+    jun: 5,
+    juli: 6,
+    july: 6,
+    jul: 6,
+    agustus: 7,
+    august: 7,
+    aug: 7,
+    september: 8,
+    sep: 8,
+    oktober: 9,
+    october: 9,
+    oct: 9,
+    november: 10,
+    nov: 10,
+    desember: 11,
+    december: 11,
+    dec: 11,
+  };
+
+  // Fungsi parsing untuk format "DD-MM-YYYY" dan "DD/MM/YYYY"
   const parseDDMMYYYY = (dateStr: string): Date | null => {
-    const parts = dateStr.split("-");
+    const parts = dateStr.split(/[-/]/);
     if (parts.length === 3) {
       const day = parseInt(parts[0], 10);
-      const month = parseInt(parts[1], 10) - 1; // JS months are 0-based
+      const month = parseInt(parts[1], 10) - 1;
       const year = parseInt(parts[2], 10);
 
       const parsedDate = new Date(year, month, day);
@@ -291,7 +327,21 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     return null;
   };
 
-  // Fungsi parsing untuk format "DD MMMM YYYY" (misalnya "13 December 1899")
+  // Fungsi parsing untuk format "YYYY-MM-DD" dan "YYYY/MM/DD"
+  const parseYYYYMMDD = (dateStr: string): Date | null => {
+    const parts = dateStr.split(/[-/]/);
+    if (parts.length === 3) {
+      const year = parseInt(parts[0], 10);
+      const month = parseInt(parts[1], 10) - 1;
+      const day = parseInt(parts[2], 10);
+
+      const parsedDate = new Date(year, month, day);
+      return isNaN(parsedDate.getTime()) ? null : parsedDate;
+    }
+    return null;
+  };
+
+  // Fungsi parsing untuk format "DD MMM YYYY" dan "DD MMMM YYYY" (contoh: "13 Dec 1899", "13 December 1899")
   const parseDDMMMMYYYY = (dateStr: string): Date | null => {
     const parts = dateStr.split(" ");
     if (parts.length === 3) {
@@ -299,32 +349,20 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
       const monthStr = parts[1].toLowerCase().trim();
       const year = parseInt(parts[2], 10);
 
-      const monthMap: { [key: string]: number } = {
-        januari: 0,
-        january: 0,
-        februari: 1,
-        february: 1,
-        maret: 2,
-        march: 2,
-        april: 3,
-        April: 3,
-        mei: 4,
-        may: 4,
-        juni: 5,
-        june: 5,
-        juli: 6,
-        july: 6,
-        agustus: 7,
-        august: 7,
-        september: 8,
-        September: 8,
-        oktober: 9,
-        october: 9,
-        november: 10,
-        November: 10,
-        desember: 11,
-        december: 11,
-      };
+      if (!isNaN(day) && !isNaN(year) && monthMap[monthStr] !== undefined) {
+        return new Date(year, monthMap[monthStr], day);
+      }
+    }
+    return null;
+  };
+
+  // Fungsi parsing untuk format "MMM DD, YYYY" dan "MMMM DD, YYYY" (contoh: "Dec 13, 1899", "December 13, 1899")
+  const parseMMMMDDYYYY = (dateStr: string): Date | null => {
+    const parts = dateStr.replace(",", "").split(" ");
+    if (parts.length === 3) {
+      const monthStr = parts[0].toLowerCase().trim();
+      const day = parseInt(parts[1], 10);
+      const year = parseInt(parts[2], 10);
 
       if (!isNaN(day) && !isNaN(year) && monthMap[monthStr] !== undefined) {
         return new Date(year, monthMap[monthStr], day);
@@ -338,12 +376,14 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     if (!waktuTanam || waktuTanam.trim() === "") return " ";
 
     try {
-      // Coba parsing format "DD-MM-YYYY"
-      let parsedDate = parseDDMMYYYY(waktuTanam);
-      if (!parsedDate) {
-        // Coba parsing format "DD MMMM YYYY"
-        parsedDate = parseDDMMMMYYYY(waktuTanam);
-      }
+      let parsedDate: Date | null = null;
+
+      // Cek berbagai format tanggal
+      parsedDate =
+        parseDDMMYYYY(waktuTanam) ||
+        parseYYYYMMDD(waktuTanam) ||
+        parseDDMMMMYYYY(waktuTanam) ||
+        parseMMMMDDYYYY(waktuTanam);
 
       if (parsedDate) {
         parsedDate.setMonth(parsedDate.getMonth() + 4); // Tambah 4 bulan

@@ -47,6 +47,14 @@ const prepareTableData = () => {
   const rankedCities = riauCity.map((city) => {
     const allCompanies = [...city.companies, ...(city.otherCompanies || [])];
 
+    let polsekAchievement = 0;
+
+    city.polsek.forEach((polsek) => {
+      polsek.villages?.forEach((village) => {
+        polsekAchievement += village.achievement;
+      });
+    });
+
     const monokulturAchievements = {
       i: allCompanies.reduce(
         (sum, company) => sum + (company.monokulturAchievements?.I || 0),
@@ -109,6 +117,14 @@ const prepareTableData = () => {
       tumpangSariAchievements.iv +
       csrAchievements.iv;
 
+    const achievementsIV =
+      monokulturAchievements.iv +
+      tumpangSariAchievements.iv +
+      csrAchievements.iv -
+      (monokulturAchievements.iii +
+        tumpangSariAchievements.iii +
+        csrAchievements.iii);
+
     return {
       no: city.id,
       nama: city.nama,
@@ -116,14 +132,16 @@ const prepareTableData = () => {
       capaianMonokultur: monokulturAchievements,
       capaianTumpangSari: tumpangSariAchievements,
       capaianCSR: csrAchievements,
-      TAHAP_I: totalAchievements,
+      polsekAchievement,
+      achievementsIV: achievementsIV + polsekAchievement,
+      TAHAP_I: totalAchievements + polsekAchievement,
       TAHAP_II: 0,
       TAHAP_III: 0,
       TAHAP_IV: 0,
     };
   });
 
-  rankedCities.sort((a, b) => b.TAHAP_I - a.TAHAP_I);
+  rankedCities.sort((a, b) => b.achievementsIV - a.achievementsIV);
   return rankedCities;
 };
 
@@ -163,7 +181,9 @@ const getTotalPolsekData = (
     (sum, city) => sum + city.totalAchievement,
     0
   );
+
   const totalTarget = data.reduce((sum, city) => sum + city.totalTarget, 0);
+
   const percentage =
     totalTarget > 0
       ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
@@ -271,6 +291,16 @@ const getTotalAchievements = () => {
         return sum;
       }, 0);
 
+      const polsekAchievement = polres.polsek.reduce(
+        (total, polsek) =>
+          total +
+          (polsek.villages?.reduce(
+            (achievement, village) => achievement + (village.achievement || 0),
+            0
+          ) || 0),
+        0
+      );
+
       return {
         monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
         tumpangSariTarget: acc.tumpangSariTarget + polres.tumpangSariTarget,
@@ -293,6 +323,7 @@ const getTotalAchievements = () => {
         tumpangSariAchievementIV:
           acc.tumpangSariAchievementIV + tumpangSariAchievementIV,
         csrAchievementIV: acc.csrAchievementIV + csrAchievementIV,
+        polsekAchievement: acc.polsekAchievement + polsekAchievement,
       };
     },
     {
@@ -310,6 +341,7 @@ const getTotalAchievements = () => {
       monokulturAchievementIV: 0,
       tumpangSariAchievementIV: 0,
       csrAchievementIV: 0,
+      polsekAchievement: 0,
     }
   );
 };
@@ -326,21 +358,24 @@ const NewRanking = () => {
     capaianTumpangSari: { iv: number };
     capaianCSR: { iv: number };
     totalTarget: number;
+    polsekAchievement: number;
   }) => {
     return {
       phase1: {
         total: (
           data.capaianMonokultur.iv +
           data.capaianTumpangSari.iv +
-          data.capaianCSR.iv
+          data.capaianCSR.iv +
+          data.polsekAchievement
         ).toLocaleString("id-ID", {
           maximumFractionDigits: 2,
         }),
         percentage: (
           ((data.capaianMonokultur.iv +
             data.capaianTumpangSari.iv +
-            data.capaianCSR.iv) /
-            data.totalTarget) *
+            data.capaianCSR.iv +
+            data.polsekAchievement) /
+            (data.totalTarget / 4)) *
           100
         ).toLocaleString("id-ID", {
           maximumFractionDigits: 2,
@@ -579,7 +614,8 @@ const NewRanking = () => {
                             {formatNumber(
                               row.capaianMonokultur.iv +
                                 row.capaianTumpangSari.iv +
-                                row.capaianCSR.iv -
+                                row.capaianCSR.iv +
+                                row.polsekAchievement -
                                 (row.capaianMonokultur.iii +
                                   row.capaianTumpangSari.iii +
                                   row.capaianCSR.iii)
@@ -691,7 +727,8 @@ const NewRanking = () => {
                         {formatNumber(
                           achievements.monokulturAchievementIV +
                             achievements.tumpangSariAchievementIV +
-                            achievements.csrAchievementIV -
+                            achievements.csrAchievementIV +
+                            achievements.polsekAchievement -
                             (achievements.monokulturAchievementIII +
                               achievements.tumpangSariAchievementIII +
                               achievements.csrAchievementIII)
@@ -701,14 +738,16 @@ const NewRanking = () => {
                         {formatNumber(
                           achievements.monokulturAchievementIV +
                             achievements.tumpangSariAchievementIV +
-                            achievements.csrAchievementIV
+                            achievements.csrAchievementIV +
+                            achievements.polsekAchievement
                         )}
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
                           ((achievements.monokulturAchievementIV +
                             achievements.tumpangSariAchievementIV +
-                            achievements.csrAchievementIV) /
+                            achievements.csrAchievementIV +
+                            achievements.polsekAchievement) /
                             (achievements.monokulturTarget +
                               achievements.tumpangSariTarget)) *
                             100
@@ -872,7 +911,7 @@ const NewRanking = () => {
                           <TableCell className="text-center border bg-red-50">
                             {row.totalTarget}
                           </TableCell>
-                          <TableCell className="text-center border bg-purple-50">
+                          <TableCell className="text-center border font-bold bg-purple-50">
                             {row.percentage}
                           </TableCell>
                         </TableRow>
