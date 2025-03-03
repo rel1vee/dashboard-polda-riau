@@ -268,6 +268,95 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   const periodData = transformPeriodData();
   const totalArea = company.area;
 
+  // Fungsi untuk memformat tanggal dalam format "DD-MM-YYYY"
+  const formatToIndonesianDate = (date: Date): string => {
+    return date.toLocaleDateString("id-ID", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+    });
+  };
+
+  // Fungsi parsing untuk format "DD-MM-YYYY"
+  const parseDDMMYYYY = (dateStr: string): Date | null => {
+    const parts = dateStr.split("-");
+    if (parts.length === 3) {
+      const day = parseInt(parts[0], 10);
+      const month = parseInt(parts[1], 10) - 1; // JS months are 0-based
+      const year = parseInt(parts[2], 10);
+
+      const parsedDate = new Date(year, month, day);
+      return isNaN(parsedDate.getTime()) ? null : parsedDate;
+    }
+    return null;
+  };
+
+  // Fungsi parsing untuk format "DD MMMM YYYY" (misalnya "13 December 1899")
+  const parseDDMMMMYYYY = (dateStr: string): Date | null => {
+    const parts = dateStr.split(" ");
+    if (parts.length === 3) {
+      const day = parseInt(parts[0], 10);
+      const monthStr = parts[1].toLowerCase().trim();
+      const year = parseInt(parts[2], 10);
+
+      const monthMap: { [key: string]: number } = {
+        januari: 0,
+        january: 0,
+        februari: 1,
+        february: 1,
+        maret: 2,
+        march: 2,
+        april: 3,
+        April: 3,
+        mei: 4,
+        may: 4,
+        juni: 5,
+        june: 5,
+        juli: 6,
+        july: 6,
+        agustus: 7,
+        august: 7,
+        september: 8,
+        September: 8,
+        oktober: 9,
+        october: 9,
+        november: 10,
+        November: 10,
+        desember: 11,
+        december: 11,
+      };
+
+      if (!isNaN(day) && !isNaN(year) && monthMap[monthStr] !== undefined) {
+        return new Date(year, monthMap[monthStr], day);
+      }
+    }
+    return null;
+  };
+
+  // Fungsi utama untuk menghitung waktu panen
+  const calculateHarvestTime = (waktuTanam: string): string => {
+    if (!waktuTanam || waktuTanam.trim() === "") return " ";
+
+    try {
+      // Coba parsing format "DD-MM-YYYY"
+      let parsedDate = parseDDMMYYYY(waktuTanam);
+      if (!parsedDate) {
+        // Coba parsing format "DD MMMM YYYY"
+        parsedDate = parseDDMMMMYYYY(waktuTanam);
+      }
+
+      if (parsedDate) {
+        parsedDate.setMonth(parsedDate.getMonth() + 4); // Tambah 4 bulan
+        return formatToIndonesianDate(parsedDate);
+      }
+
+      return waktuTanam; // Jika format tidak dikenali, kembalikan apa adanya
+    } catch (error) {
+      console.log(`Error menghitung waktu panen untuk: ${waktuTanam}`, error);
+      return waktuTanam;
+    }
+  };
+
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="md:max-w-6xl max-h-[95%] w-[95%] overflow-y-auto rounded-xl">
@@ -656,14 +745,14 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                                     Parameter
                                   </TableHead>
                                   <TableHead className="text-right">
-                                    Nilai
+                                    Waktu Tanam
                                   </TableHead>
                                 </TableRow>
                               </TableHeader>
                               <TableBody>
                                 <TableRow>
                                   <TableCell className="font-medium">
-                                    Tanggal Tanam
+                                    Monokultur
                                   </TableCell>
                                   <TableCell className="text-right">
                                     {progress.monokultur.waktuTanam || ""}
@@ -671,12 +760,18 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                                 </TableRow>
                                 <TableRow>
                                   <TableCell className="font-medium">
-                                    Luas Lahan
+                                    Tumpang Sari
                                   </TableCell>
                                   <TableCell className="text-right">
-                                    {progress.monokultur.rencanaTanam
-                                      ?.luasTanam || ""}{" "}
-                                    Ha
+                                    {progress.tumpangSari.waktuTanam || ""}
+                                  </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                  <TableCell className="font-medium">
+                                    CSR
+                                  </TableCell>
+                                  <TableCell className="text-right">
+                                    {progress.csr.waktuTanam || ""}
                                   </TableCell>
                                 </TableRow>
                               </TableBody>
@@ -701,28 +796,39 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                                     Parameter
                                   </TableHead>
                                   <TableHead className="text-right">
-                                    Nilai
+                                    Waktu Panen
                                   </TableHead>
                                 </TableRow>
                               </TableHeader>
                               <TableBody>
                                 <TableRow>
                                   <TableCell className="font-medium">
-                                    Tanggal Panen
+                                    Monokultur
                                   </TableCell>
                                   <TableCell className="text-right">
-                                    {progress.monokultur.rencanaPanen
-                                      ?.tanggalPanen || ""}
+                                    {calculateHarvestTime(
+                                      String(progress.monokultur.waktuTanam)
+                                    )}
                                   </TableCell>
                                 </TableRow>
                                 <TableRow>
                                   <TableCell className="font-medium">
-                                    Perkiraan Panen
+                                    Tumpang Sari
                                   </TableCell>
                                   <TableCell className="text-right">
-                                    {progress.monokultur.rencanaPanen
-                                      ?.perkiraanPanen || ""}{" "}
-                                    Ton
+                                    {calculateHarvestTime(
+                                      String(progress.tumpangSari.waktuTanam)
+                                    )}
+                                  </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                  <TableCell className="font-medium">
+                                    CSR
+                                  </TableCell>
+                                  <TableCell className="text-right">
+                                    {calculateHarvestTime(
+                                      String(progress.csr.waktuTanam)
+                                    )}
                                   </TableCell>
                                 </TableRow>
                               </TableBody>
