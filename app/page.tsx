@@ -106,22 +106,22 @@ const DashboardRiauPage = () => {
         ];
 
         const monoAchievement = allCompanies.reduce((sum, company) => {
-          if (company.monokulturAchievements?.III) {
-            return sum + company.monokulturAchievements.III;
+          if (company.monokulturAchievements?.IV) {
+            return sum + company.monokulturAchievements.IV;
           }
           return sum;
         }, 0);
 
         const tumpangSariAchievement = allCompanies.reduce((sum, company) => {
-          if (company.tumpangSariAchievements?.III) {
-            return sum + company.tumpangSariAchievements.III;
+          if (company.tumpangSariAchievements?.IV) {
+            return sum + company.tumpangSariAchievements.IV;
           }
           return sum;
         }, 0);
 
         const csrAchievement = allCompanies.reduce((sum, company) => {
-          if (company.csrAchievements?.III) {
-            return sum + company.csrAchievements.III;
+          if (company.csrAchievements?.IV) {
+            return sum + company.csrAchievements.IV;
           }
           return sum;
         }, 0);

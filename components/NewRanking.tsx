@@ -650,9 +650,7 @@ const NewRanking = () => {
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
                             {formatNumber(
-                              row.capaianMonokultur.iv +
-                                row.capaianTumpangSari.iv +
-                                row.capaianCSR.iv
+                              0
                             )}
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
