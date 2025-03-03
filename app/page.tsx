@@ -9,6 +9,8 @@ import NewRanking from "@/components/NewRanking";
 import { City, Company, Polsek, Progress } from "@/types";
 import PolsekDetailModal from "@/components/PolsekDetail";
 import CompanyDetailsModal from "@/components/CompanyDetail";
+import { Table, TableBody, TableRow } from "@/components/ui/table";
+import OtherCompanyDetailsModal from "@/components/OtherCompanyDetail";
 import {
   Building2,
   Map,
@@ -16,10 +18,8 @@ import {
   Sprout,
   Leaf,
   HandHeart,
-  LeafIcon,
+  LandPlot,
 } from "lucide-react";
-import { Table, TableBody, TableRow } from "@/components/ui/table";
-import OtherCompanyDetailsModal from "@/components/OtherCompanyDetail";
 import {
   Card,
   CardContent,
@@ -285,7 +285,7 @@ const DashboardRiauPage = () => {
                   maximumFractionDigits: 2,
                 })}`,
                 description: "Capaian CSR",
-                icon: LeafIcon,
+                icon: LandPlot,
                 gradient: "from-purple-400 to-pink-500",
               },
               {
