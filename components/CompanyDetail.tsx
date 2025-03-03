@@ -86,8 +86,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     }));
   };
 
-  const periodData = transformPeriodData();
-
   const filterPeriodData = () => {
     const totalMonoTarget = Object.values(
       company.monokulturTargets || {}
@@ -130,8 +128,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     ];
   };
 
-  const filteredPeriodData = filterPeriodData();
-
   const targetDistribution = [
     {
       name: "2% Monokultur",
@@ -151,8 +147,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
       fill: "hsl(var(--chart-3))",
     },
   ];
-
-  const totalArea = company.area;
 
   const renderProgressSection = (
     title: string,
@@ -313,6 +307,10 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     );
   };
 
+  const periodData = transformPeriodData();
+  const filteredPeriodData = filterPeriodData();
+  const totalArea = company.area;
+
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="md:max-w-6xl max-h-[95%] w-[95%] overflow-y-auto rounded-xl">
@@ -332,7 +330,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
             <TabsTrigger value="csr">CSR</TabsTrigger>
             <TabsTrigger value="prosesProduksi">Proses Produksi</TabsTrigger>
           </TabsList>
-
           <TabsContent value="overview">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Card>
@@ -457,25 +454,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         Ha
                       </span>
                     </div>
-                    {/* <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <div
-                          className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-3))" }}
-                        ></div>
-                        <span className="text-sm text-muted-foreground">
-                          Capaian CSR
-                        </span>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {Object.values(company.csrAchievements || {})
-                          .reduce((acc, val) => acc + val, 0)
-                          .toLocaleString("id-ID", {
-                            maximumFractionDigits: 2,
-                          })}{" "}
-                        Ha
-                      </span>
-                    </div> */}
                   </div>
                   {/* Summary Section */}
                   <div className="w-full grid grid-cols-1 gap-2 pt-2 border-t">
@@ -659,7 +637,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
               </Card>
             </div>
           </TabsContent>
-
           <TabsContent value="progress">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Card>
@@ -782,7 +759,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
               </Card>
             </div>
           </TabsContent>
-
           <TabsContent value="csr">
             <Card>
               <CardHeader>
@@ -830,7 +806,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
               </CardFooter>
             </Card>
           </TabsContent>
-
           <TabsContent value="prosesProduksi">
             <div className="space-y-4">
               {progress ? (

@@ -127,7 +127,7 @@ const prepareTableData = () => {
   return rankedCities;
 };
 
-const prepareTablePolsek = () => {
+const prepareTablePolsekData = () => {
   const rankedPolsek = riauCity.map((city) => {
     let totalAchievement = 0;
     let totalTarget = 0;
@@ -156,7 +156,7 @@ const prepareTablePolsek = () => {
   return rankedPolsek;
 };
 
-const getTotalPolsek = (
+const getTotalPolsekData = (
   data: { totalAchievement: number; totalTarget: number }[]
 ) => {
   const totalAchievement = data.reduce(
@@ -166,7 +166,9 @@ const getTotalPolsek = (
   const totalTarget = data.reduce((sum, city) => sum + city.totalTarget, 0);
   const percentage =
     totalTarget > 0
-      ? ((totalAchievement / totalTarget) * 100).toFixed(2) + "%"
+      ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
+          maximumFractionDigits: 2,
+        }) + "%"
       : "0%";
 
   return {
@@ -176,134 +178,6 @@ const getTotalPolsek = (
     percentage,
   };
 };
-
-// const prepareTablePolsekData = () => {
-//   const rankedPolsek = riauCity.flatMap((city) => {
-//     return city.polsek.map((polsek) => {
-//       const totalTarget =
-//         polsek.villages?.reduce((sum, village) => sum + village.target, 0) || 0;
-
-//       const totalAchievement =
-//         polsek.villages?.reduce(
-//           (sum, village) => sum + village.achievement,
-//           0
-//         ) || 0;
-
-//       const percentage =
-//         totalTarget > 0
-//           ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
-//               maximumFractionDigits: 2,
-//             })
-//           : "0";
-
-//       return {
-//         name: polsek.name,
-//         polres: polsek.polres || "-",
-//         totalAchievement,
-//         totalTarget,
-//         percentage: `${percentage}%`,
-//       };
-//     });
-//   });
-
-//   rankedPolsek.sort((a, b) => b.totalAchievement - a.totalAchievement);
-//   return rankedPolsek;
-// };
-
-// const prepareChartWeekData = () => {
-//   const rankedCities = riauCity.map((city) => {
-//     const allCompanies = [...city.companies, ...(city.otherCompanies || [])];
-
-//     const monokulturAchievements = {
-//       i: allCompanies.reduce(
-//         (sum, company) => sum + (company.monokulturAchievements?.I || 0),
-//         0
-//       ),
-//       ii: allCompanies.reduce(
-//         (sum, company) => sum + (company.monokulturAchievements?.II || 0),
-//         0
-//       ),
-//       iii: allCompanies.reduce(
-//         (sum, company) => sum + (company.monokulturAchievements?.III || 0),
-//         0
-//       ),
-//       iv: allCompanies.reduce(
-//         (sum, company) => sum + (company.monokulturAchievements?.IV || 0),
-//         0
-//       ),
-//     };
-
-//     const tumpangSariAchievements = {
-//       i: allCompanies.reduce(
-//         (sum, company) => sum + (company.tumpangSariAchievements?.I || 0),
-//         0
-//       ),
-//       ii: allCompanies.reduce(
-//         (sum, company) => sum + (company.tumpangSariAchievements?.II || 0),
-//         0
-//       ),
-//       iii: allCompanies.reduce(
-//         (sum, company) => sum + (company.tumpangSariAchievements?.III || 0),
-//         0
-//       ),
-//       iv: allCompanies.reduce(
-//         (sum, company) => sum + (company.tumpangSariAchievements?.IV || 0),
-//         0
-//       ),
-//     };
-
-//     const csrAchievements = {
-//       i: allCompanies.reduce(
-//         (sum, company) => sum + (company.csrAchievements?.I || 0),
-//         0
-//       ),
-//       ii: allCompanies.reduce(
-//         (sum, company) => sum + (company.csrAchievements?.II || 0),
-//         0
-//       ),
-//       iii: allCompanies.reduce(
-//         (sum, company) => sum + (company.csrAchievements?.III || 0),
-//         0
-//       ),
-//       iv: allCompanies.reduce(
-//         (sum, company) => sum + (company.csrAchievements?.IV || 0),
-//         0
-//       ),
-//     };
-
-//     const totalAchievements =
-//       monokulturAchievements.iii +
-//       tumpangSariAchievements.iii +
-//       csrAchievements.iii;
-
-//     return {
-//       name: city.nama,
-//       I:
-//         monokulturAchievements.i +
-//         tumpangSariAchievements.i +
-//         csrAchievements.i,
-//       II:
-//         monokulturAchievements.ii +
-//         tumpangSariAchievements.ii +
-//         csrAchievements.ii -
-//         (monokulturAchievements.i +
-//           tumpangSariAchievements.i +
-//           csrAchievements.i),
-//       III:
-//         monokulturAchievements.iii +
-//         tumpangSariAchievements.iii +
-//         csrAchievements.iii -
-//         (monokulturAchievements.ii +
-//           tumpangSariAchievements.ii +
-//           csrAchievements.ii),
-//       IV: 0,
-//       totalAchievements,
-//     };
-//   });
-
-//   rankedCities.sort((a, b) => b.totalAchievements - a.totalAchievements);
-//   return rankedCities;
-// };
 
 const getTotalAchievements = () => {
   return riauCity.reduce(
@@ -444,9 +318,8 @@ const achievements = getTotalAchievements();
 
 const NewRanking = () => {
   const tableData = prepareTableData();
-  const tablePolsekData = prepareTablePolsek();
-  const totalRow = getTotalPolsek(tablePolsekData);
-  // const chartWeekData = prepareChartWeekData();
+  const tablePolsekData = prepareTablePolsekData();
+  const totalRow = getTotalPolsekData(tablePolsekData);
 
   const calculateTotals = (data: {
     capaianMonokultur: { iv: number };
@@ -1014,7 +887,7 @@ const NewRanking = () => {
                         {formatNumber(totalRow.totalAchievement)}
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-red-50">
-                        {totalRow.totalTarget}
+                        {formatNumber(totalRow.totalTarget)}
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-purple-50">
                         {totalRow.percentage}

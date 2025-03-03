@@ -47,6 +47,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
 }) => {
   if (!polsek) return null;
 
+  // Calculate total target and achievements from all villages
   const totalTarget =
     polsek.villages?.reduce(
       (total, village) => total + (village.target || 0),
@@ -59,17 +60,31 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
       0
     ) || 0;
 
-  const pieChartData = [
-    { name: "Total Capaian", value: totalAchievement },
-    {
-      name: "Target Belum Tercapai",
-      value: Math.max(0, totalTarget - totalAchievement),
-    },
-  ];
+  const pieChartData =
+    totalAchievement <= totalTarget
+      ? [
+          { name: "Total Capaian", value: totalAchievement },
+          {
+            name: "Target Belum Tercapai",
+            value: Math.max(0, totalTarget - totalAchievement),
+          },
+        ]
+      : [
+          { name: "Total Capaian (Sesuai Target)", value: totalTarget },
+          { name: "Kelebihan Capaian", value: totalAchievement - totalTarget },
+        ];
 
-  const COLORS = ["#4caf50", "#f5f5f5"];
+  const COLORS =
+    totalAchievement <= totalTarget
+      ? ["#4caf50", "#f5f5f5"]
+      : ["#4caf50", "#2196f3"];
 
-  const achievementPercentage =
+  const displayAchievementPercentage =
+    totalTarget > 0
+      ? Math.min(100, Math.round((totalAchievement / totalTarget) * 100))
+      : 0;
+
+  const actualAchievementPercentage =
     totalTarget > 0 ? Math.round((totalAchievement / totalTarget) * 100) : 0;
 
   return (
@@ -157,7 +172,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                                       y={viewBox.cy}
                                       className="fill-foreground text-3xl font-bold"
                                     >
-                                      {achievementPercentage}%
+                                      {displayAchievementPercentage}%
                                     </tspan>
                                     <tspan
                                       x={viewBox.cx}
@@ -179,43 +194,89 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                 <CardFooter className="flex-col gap-3">
                   {/* Legend Section */}
                   <div className="w-full grid grid-cols-1 gap-2">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <div
-                          className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: COLORS[0] }}
-                        ></div>
-                        <span className="text-sm text-muted-foreground">
-                          Total Capaian
-                        </span>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {totalAchievement.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
-                      </span>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <div
-                          className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: COLORS[1] }}
-                        ></div>
-                        <span className="text-sm text-muted-foreground">
-                          Target Belum Tercapai
-                        </span>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {Math.max(
-                          0,
-                          totalTarget - totalAchievement
-                        ).toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
-                      </span>
-                    </div>
+                    {totalAchievement <= totalTarget ? (
+                      // Standard legend when achievement is less than or equal to target
+                      <>
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <div
+                              className="h-3 w-3 rounded-full"
+                              style={{ backgroundColor: COLORS[0] }}
+                            ></div>
+                            <span className="text-sm text-muted-foreground">
+                              Total Capaian
+                            </span>
+                          </div>
+                          <span className="text-sm font-medium">
+                            {totalAchievement.toLocaleString("id-ID", {
+                              maximumFractionDigits: 2,
+                            })}{" "}
+                            Ha
+                          </span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <div
+                              className="h-3 w-3 rounded-full"
+                              style={{ backgroundColor: COLORS[1] }}
+                            ></div>
+                            <span className="text-sm text-muted-foreground">
+                              Target Belum Tercapai
+                            </span>
+                          </div>
+                          <span className="text-sm font-medium">
+                            {Math.max(
+                              0,
+                              totalTarget - totalAchievement
+                            ).toLocaleString("id-ID", {
+                              maximumFractionDigits: 2,
+                            })}{" "}
+                            Ha
+                          </span>
+                        </div>
+                      </>
+                    ) : (
+                      // Alternative legend when achievement exceeds target
+                      <>
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <div
+                              className="h-3 w-3 rounded-full"
+                              style={{ backgroundColor: COLORS[0] }}
+                            ></div>
+                            <span className="text-sm text-muted-foreground">
+                              Target Tercapai
+                            </span>
+                          </div>
+                          <span className="text-sm font-medium">
+                            {totalTarget.toLocaleString("id-ID", {
+                              maximumFractionDigits: 2,
+                            })}{" "}
+                            Ha
+                          </span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <div
+                              className="h-3 w-3 rounded-full"
+                              style={{ backgroundColor: COLORS[1] }}
+                            ></div>
+                            <span className="text-sm text-muted-foreground">
+                              Kelebihan Capaian
+                            </span>
+                          </div>
+                          <span className="text-sm font-medium">
+                            {(totalAchievement - totalTarget).toLocaleString(
+                              "id-ID",
+                              {
+                                maximumFractionDigits: 2,
+                              }
+                            )}{" "}
+                            Ha
+                          </span>
+                        </div>
+                      </>
+                    )}
                   </div>
                   {/* Summary Section */}
                   <div className="w-full grid grid-cols-1 gap-2 pt-2 border-t">
@@ -245,7 +306,12 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {achievementPercentage}%
+                        {displayAchievementPercentage}%
+                        {actualAchievementPercentage > 100 && (
+                          <span className="text-xs text-green-600 ml-1">
+                            (Melebihi target {actualAchievementPercentage}%)
+                          </span>
+                        )}
                       </span>
                     </div>
                   </div>
@@ -293,12 +359,22 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                     <TableBody>
                       {polsek.villages.map((village, index) => {
                         // Calculate percentage of achievement vs target
-                        const achievementPercentage =
+                        const rawAchievementPercentage =
                           village.target && village.achievement
                             ? Math.round(
                                 (village.achievement / village.target) * 100
                               )
                             : 0;
+
+                        // Display percentage - capped at 100% for visual consistency
+                        const displayPercentage = Math.min(
+                          100,
+                          rawAchievementPercentage
+                        );
+
+                        // Is this an overachievement?
+                        const isOverachievement =
+                          rawAchievementPercentage > 100;
 
                         // Calculate harvest time (waktu panen) by adding 4 months to planting time
                         const convertIndonesianMonthToNumber = (
@@ -332,7 +408,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
 
                           try {
                             // Memisahkan tanggal, bulan, dan tahun
-                            const parts = dateStr.split("-");
+                            const parts = dateStr.split(" ");
                             if (parts.length !== 3) return null;
 
                             const day = parseInt(parts[0], 10);
@@ -353,7 +429,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
 
                         // Fungsi untuk memformat Date ke format Indonesia '01-Januari-2025'
                         const formatToIndonesianDate = (date: Date): string => {
-                          if (!date) return "-";
+                          if (!date) return " ";
 
                           // const day = date
                           //   .getDate()
@@ -384,34 +460,121 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                         const calculateHarvestTime = (
                           waktuTanam: string
                         ): string => {
-                          if (!waktuTanam) return "";
+                          if (!waktuTanam || waktuTanam.trim() === "")
+                            return " ";
 
                           try {
-                            // Parsing tanggal dengan format Indonesia
-                            const plantDate = parseIndonesianDate(waktuTanam);
+                            // Khusus untuk format sederhana "bulan tahun"
+                            const parts = waktuTanam.trim().split(/\s+/); // Split by one or more whitespaces
 
-                            // Jika tanggal tidak dapat di-parse, coba cara lain
-                            if (!plantDate) {
-                              // Coba parse sebagai tanggal standar jika format berbeda
-                              const stdDate = new Date(waktuTanam);
-                              if (!isNaN(stdDate.getTime())) {
-                                const harvestDate = new Date(stdDate);
-                                harvestDate.setMonth(
-                                  harvestDate.getMonth() + 4
-                                );
-                                return formatToIndonesianDate(harvestDate);
+                            if (parts.length === 2) {
+                              // Format: "bulan tahun" (misalnya "mei 2023")
+                              const monthStr = parts[0].toLowerCase().trim();
+                              const year = parseInt(parts[1], 10);
+
+                              if (!isNaN(year)) {
+                                // Map bulan ke indeks (0-11)
+                                const monthMap: { [key: string]: number } = {
+                                  januari: 0,
+                                  jan: 0,
+                                  JANUARI: 0,
+                                  februari: 1,
+                                  feb: 1,
+                                  FEBRUARI: 1,
+                                  maret: 2,
+                                  mar: 2,
+                                  MARET: 2,
+                                  april: 3,
+                                  apr: 3,
+                                  APRIL: 3,
+                                  mei: 4,
+                                  may: 4,
+                                  MEI: 4,
+                                  juni: 5,
+                                  jun: 5,
+                                  JUNI: 5,
+                                  juli: 6,
+                                  jul: 6,
+                                  JULI: 6,
+                                  agustus: 7,
+                                  agu: 7,
+                                  aug: 7,
+                                  AGUSTUS: 7,
+                                  september: 8,
+                                  sep: 8,
+                                  SEPTEMBER: 8,
+                                  oktober: 9,
+                                  okt: 9,
+                                  oct: 9,
+                                  OKTOBER: 9,
+                                  november: 10,
+                                  nov: 10,
+                                  NOVEMBER: 10,
+                                  desember: 11,
+                                  des: 11,
+                                  dec: 11,
+                                  DESEMBER: 11,
+                                };
+
+                                // Cek jika nama bulan dikenali
+                                if (monthMap[monthStr] !== undefined) {
+                                  // Buat tanggal awal bulan
+                                  const plantDate = new Date(
+                                    year,
+                                    monthMap[monthStr],
+                                    1
+                                  );
+
+                                  // Tambah 4 bulan untuk waktu panen
+                                  const harvestDate = new Date(plantDate);
+                                  harvestDate.setMonth(
+                                    harvestDate.getMonth() + 4
+                                  );
+
+                                  // Format nama bulan dengan huruf kapital di awal
+                                  const monthNames = [
+                                    "Januari",
+                                    "Februari",
+                                    "Maret",
+                                    "April",
+                                    "Mei",
+                                    "Juni",
+                                    "Juli",
+                                    "Agustus",
+                                    "September",
+                                    "Oktober",
+                                    "November",
+                                    "Desember",
+                                  ];
+
+                                  // Return format bulan dan tahun (contoh: "September 2023")
+                                  return `${
+                                    monthNames[harvestDate.getMonth()]
+                                  } ${harvestDate.getFullYear()}`;
+                                }
                               }
-                              return waktuTanam + " + 4 bulan";
                             }
 
-                            // Menambahkan 4 bulan ke tanggal tanam
+                            // Jika format tidak cocok dengan "bulan tahun", coba metode parsing lain (gunakan kode parsing yang sudah ada)
+                            const plantDate = parseIndonesianDate(waktuTanam);
+
+                            if (!plantDate) {
+                              // Fallback: tambahkan "+ 4 bulan" jika parsing gagal
+                              return `${waktuTanam} + 4 bulan`;
+                            }
+
+                            // Tambah 4 bulan
                             const harvestDate = new Date(plantDate);
                             harvestDate.setMonth(harvestDate.getMonth() + 4);
 
-                            // Memformat tanggal panen ke format Indonesia
+                            // Format hasil
                             return formatToIndonesianDate(harvestDate);
-                          } catch {
-                            return waktuTanam + " + 4 bulan";
+                          } catch (error) {
+                            console.log(
+                              `Error menghitung waktu panen untuk: ${waktuTanam}`,
+                              error
+                            );
+                            return `${waktuTanam} + 4 bulan`;
                           }
                         };
 
@@ -425,35 +588,40 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                             </TableCell>
                             <TableCell className="text-sm text-center">
                               {calculateHarvestTime(village.waktuTanam ?? "") ||
-                                ""}
+                                " "}
                             </TableCell>
                             <TableCell className="text-sm text-center">
                               {village.target
                                 ? village.target.toLocaleString("id-ID")
-                                : ""}
+                                : " "}
                             </TableCell>
                             <TableCell className="text-sm text-center">
                               {village.achievement
                                 ? village.achievement.toLocaleString("id-ID")
-                                : ""}
+                                : " "}
                             </TableCell>
                             <TableCell className="text-sm text-center">
                               {village.target && village.achievement ? (
                                 <div className="flex items-center justify-center gap-1">
                                   <span
                                     className={`${
-                                      achievementPercentage >= 80
+                                      displayPercentage >= 80
                                         ? "text-green-600"
-                                        : achievementPercentage >= 50
+                                        : displayPercentage >= 50
                                         ? "text-amber-600"
                                         : "text-red-600"
                                     } font-medium`}
                                   >
-                                    {achievementPercentage}%
+                                    {displayPercentage}%
+                                    {isOverachievement && (
+                                      <span className="text-xs text-amber-600 ml-1">
+                                        ({rawAchievementPercentage}%)
+                                      </span>
+                                    )}
                                   </span>
                                 </div>
                               ) : (
-                                ""
+                                " "
                               )}
                             </TableCell>
                           </TableRow>

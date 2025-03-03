@@ -79,8 +79,6 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     }));
   };
 
-  const periodData = transformPeriodData();
-
   const targetDistribution = [
     {
       name: "Total Capaian Monokultur",
@@ -107,8 +105,6 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
       fill: "hsl(var(--chart-1))",
     },
   ];
-
-  const totalArea = company.area;
 
   const renderProgressSection = (
     title: string,
@@ -268,6 +264,9 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
       </Card>
     );
   };
+
+  const periodData = transformPeriodData();
+  const totalArea = company.area;
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
@@ -435,39 +434,6 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         Ha
                       </span>
                     </div>
-                    {/* <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <div
-                          className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-3))" }}
-                        ></div>
-                        <span className="text-sm text-muted-foreground">
-                          Total Lahan
-                        </span>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {company.area.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
-                        {(
-                          company.area -
-                          (Object.values(
-                            company.monokulturAchievements || {}
-                          ).reduce((acc, val) => acc + val, 0) +
-                            Object.values(
-                              company.tumpangSariAchievements || {}
-                            ).reduce((acc, val) => acc + val, 0) +
-                            Object.values(company.csrAchievements || {}).reduce(
-                              (acc, val) => acc + val,
-                              0
-                            ))
-                        ).toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
-                      </span>
-                    </div> */}
                   </div>
                   <div className="w-full pt-2 border-t">
                     <div className="flex items-center justify-between">

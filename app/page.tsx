@@ -359,23 +359,35 @@ const DashboardRiauPage = () => {
                       {selectedCity.companies.length > 0 ? (
                         <Table>
                           <TableBody>
-                            {selectedCity.companies.map((company, index) => (
-                              <TableRow
-                                key={company.id}
-                                className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
-                                onClick={() => handleCompanyClick(company)}
-                              >
-                                <motion.td
-                                  variants={tableRowVariants}
-                                  initial="hidden"
-                                  animate="visible"
-                                  transition={{ delay: index * 0.1 }}
-                                  className="p-4 font-medium uppercase"
+                            {selectedCity.companies
+                              .map((company) => ({
+                                ...company,
+                                totalAchievements:
+                                  company.monokulturAchievements.IV +
+                                  company.tumpangSariAchievements.IV +
+                                  (company.csrAchievements?.IV || 0),
+                              }))
+                              .sort(
+                                (a, b) =>
+                                  b.totalAchievements - a.totalAchievements
+                              )
+                              .map((company, index) => (
+                                <TableRow
+                                  key={company.id}
+                                  className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
+                                  onClick={() => handleCompanyClick(company)}
                                 >
-                                  {company.name}
-                                </motion.td>
-                              </TableRow>
-                            ))}
+                                  <motion.td
+                                    variants={tableRowVariants}
+                                    initial="hidden"
+                                    animate="visible"
+                                    transition={{ delay: index * 0.1 }}
+                                    className="p-4 font-medium uppercase"
+                                  >
+                                    {company.name}
+                                  </motion.td>
+                                </TableRow>
+                              ))}
                           </TableBody>
                         </Table>
                       ) : (
@@ -436,8 +448,19 @@ const DashboardRiauPage = () => {
                       selectedCity.otherCompanies.length > 0 ? (
                         <Table>
                           <TableBody>
-                            {selectedCity.otherCompanies.map(
-                              (poktan, index) => (
+                            {selectedCity.otherCompanies
+                              .map((company) => ({
+                                ...company,
+                                totalAchievements:
+                                  company.monokulturAchievements.IV +
+                                  company.tumpangSariAchievements.IV +
+                                  (company.csrAchievements?.IV || 0),
+                              }))
+                              .sort(
+                                (a, b) =>
+                                  b.totalAchievements - a.totalAchievements
+                              )
+                              .map((poktan, index) => (
                                 <TableRow
                                   key={poktan.id}
                                   className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
@@ -455,8 +478,7 @@ const DashboardRiauPage = () => {
                                     {poktan.name}
                                   </motion.td>
                                 </TableRow>
-                              )
-                            )}
+                              ))}
                           </TableBody>
                         </Table>
                       ) : (
@@ -515,23 +537,38 @@ const DashboardRiauPage = () => {
                       {selectedCity.polsek.length > 0 ? (
                         <Table>
                           <TableBody>
-                            {selectedCity.polsek.map((polsek, index) => (
-                              <TableRow
-                                key={polsek.id}
-                                className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
-                                onClick={() => handlePolsekClick(polsek)}
-                              >
-                                <motion.td
-                                  variants={tableRowVariants}
-                                  initial="hidden"
-                                  animate="visible"
-                                  transition={{ delay: index * 0.1 }}
-                                  className="p-4 font-medium uppercase"
+                            {selectedCity.polsek
+                              .map((polsek) => ({
+                                ...polsek,
+                                totalAchievements: polsek.villages
+                                  ? polsek.villages.reduce(
+                                      (total, village) =>
+                                        total + village.achievement,
+                                      0
+                                    )
+                                  : 0,
+                              }))
+                              .sort(
+                                (a, b) =>
+                                  b.totalAchievements - a.totalAchievements
+                              )
+                              .map((polsek, index) => (
+                                <TableRow
+                                  key={polsek.id}
+                                  className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
+                                  onClick={() => handlePolsekClick(polsek)}
                                 >
-                                  {polsek.name}
-                                </motion.td>
-                              </TableRow>
-                            ))}
+                                  <motion.td
+                                    variants={tableRowVariants}
+                                    initial="hidden"
+                                    animate="visible"
+                                    transition={{ delay: index * 0.1 }}
+                                    className="p-4 font-medium uppercase"
+                                  >
+                                    {polsek.name}
+                                  </motion.td>
+                                </TableRow>
+                              ))}
                           </TableBody>
                         </Table>
                       ) : (
@@ -570,17 +607,17 @@ const DashboardRiauPage = () => {
             onClose={handleCloseModal}
           />
         )}
-        {selectedPolsek && (
-          <PolsekDetailModal
-            polsek={selectedPolsek}
-            isOpen={isModalOpen}
-            onClose={handleCloseModal}
-          />
-        )}
         {selectedOtherCompany && (
           <OtherCompanyDetailsModal
             company={selectedOtherCompany}
             progress={selectedOtherCompanyProgress}
+            isOpen={isModalOpen}
+            onClose={handleCloseModal}
+          />
+        )}
+        {selectedPolsek && (
+          <PolsekDetailModal
+            polsek={selectedPolsek}
             isOpen={isModalOpen}
             onClose={handleCloseModal}
           />
