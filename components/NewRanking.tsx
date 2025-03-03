@@ -28,6 +28,8 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
+  Line,
+  ComposedChart,
 } from "recharts";
 import {
   HoverCard,
@@ -983,8 +985,8 @@ const NewRanking = () => {
                 </div>
               </CardHeader>
               <CardContent className="pt-8 h-[44rem] overflow-x-auto">
-                <ResponsiveContainer width="200%" height="100%">
-                  <BarChart
+                <ResponsiveContainer width="250%" height="100%">
+                  <ComposedChart
                     data={tablePolsekData}
                     margin={{ top: 10, right: 20, left: 20, bottom: 10 }}
                   >
@@ -993,6 +995,7 @@ const NewRanking = () => {
                       dataKey="name"
                       angle={-60}
                       textAnchor="end"
+                      className="uppercase"
                       height={200}
                       interval={0}
                       tick={{ fill: "#78350f", fontSize: 11 }}
@@ -1011,14 +1014,17 @@ const NewRanking = () => {
                       fill="#4ade80"
                       name="Total Capaian"
                       radius={[4, 4, 0, 0]}
+                      barSize={11}
                     />
-                    <Bar
+                    <Line
+                      type="monotone"
                       dataKey="totalTarget"
-                      fill="#FCA5A5"
                       name="Total Target"
-                      radius={[4, 4, 0, 0]}
+                      stroke="#FCA5A5"
+                      strokeWidth={2}
+                      dot={true}
                     />
-                  </BarChart>
+                  </ComposedChart>
                 </ResponsiveContainer>
               </CardContent>
             </Card>
