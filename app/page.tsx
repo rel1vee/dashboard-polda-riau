@@ -318,7 +318,7 @@ const DashboardRiauPage = () => {
                 ).toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "Monokultur + Tumpang Sari + CSR + POLSEK",
+                description: "Monokultur + TS + CSR + POLSEK",
                 icon: TargetIcon,
                 gradient: "from-green-400 to-emerald-500",
               },
@@ -337,8 +337,8 @@ const DashboardRiauPage = () => {
                   <stat.icon className="w-6 h-6 text-white opacity-80" />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold">{stat.value}</div>
-                  <p className="text-xs opacity-80 mt-2">{stat.description}</p>
+                  <div className="text-2xl font-bold pr-2">{stat.value}</div>
+                  <p className="text-xs opacity-80 mt-3">{stat.description}</p>
                 </CardContent>
               </MotionCard>
             ))}
