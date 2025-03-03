@@ -649,9 +649,7 @@ const NewRanking = () => {
                             )}
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
-                            {formatNumber(
-                              0
-                            )}
+                            {formatNumber(0)}
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
                             {totals.phase1.total}
@@ -724,18 +722,18 @@ const NewRanking = () => {
                     })}
                     <TableRow>
                       <TableCell className="text-center border"></TableCell>
-                      <TableCell className="text-center border font-medium">
+                      <TableCell className="text-center border font-bold">
                         TOTAL
                       </TableCell>
                       {/* TAHAP I */}
-                      <TableCell className="text-center border bg-green-50">
+                      <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
                           achievements.monokulturAchievementI +
                             achievements.tumpangSariAchievementI +
                             achievements.csrAchievementI
                         )}
                       </TableCell>
-                      <TableCell className="text-center border bg-green-50">
+                      <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
                           achievements.monokulturAchievementII +
                             achievements.tumpangSariAchievementII +
@@ -745,7 +743,7 @@ const NewRanking = () => {
                               achievements.csrAchievementI)
                         )}
                       </TableCell>
-                      <TableCell className="text-center border bg-green-50">
+                      <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
                           achievements.monokulturAchievementIII +
                             achievements.tumpangSariAchievementIII +
@@ -755,17 +753,17 @@ const NewRanking = () => {
                               achievements.csrAchievementII)
                         )}
                       </TableCell>
-                      <TableCell className="text-center border bg-green-50">
+                      <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(0)}
                       </TableCell>
-                      <TableCell className="text-center border bg-green-50">
+                      <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
                           achievements.monokulturAchievementIII +
                             achievements.tumpangSariAchievementIII +
                             achievements.csrAchievementIII
                         )}
                       </TableCell>
-                      <TableCell className="text-center border bg-green-50">
+                      <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
                           ((achievements.monokulturAchievementIII +
                             achievements.tumpangSariAchievementIII +
