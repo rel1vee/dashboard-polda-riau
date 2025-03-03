@@ -3,7 +3,7 @@ import { Progress } from "@/types";
 export const rohulProgress: Progress[] = [
   {
     id: 1,
-    namaPJ: "gabung dengan pisp 2",
+    namaPJ: "Gabung dengan pisp 2",
     nomorTelp: "",
     area: 1109.0,
     monokultur: {
@@ -183,7 +183,7 @@ export const rohulProgress: Progress[] = [
   },
   {
     id: 3,
-    namaPJ: "gabung dengan pisp 2",
+    namaPJ: "Gabung dengan pisp 2",
     nomorTelp: "",
     area: 1055.43,
     monokultur: {
@@ -273,7 +273,7 @@ export const rohulProgress: Progress[] = [
   },
   {
     id: 4,
-    namaPJ: "gabung dengan pisp 2",
+    namaPJ: "Gabung dengan pisp 2",
     nomorTelp: "",
     area: 526.92,
     monokultur: {
@@ -4056,7 +4056,7 @@ export const rohulProgress: Progress[] = [
 // export const rohulProgress: Progress[] = [
 //   {
 //     id: 1,
-//     namaPJ: "gabung dengan pisp 2",
+//     namaPJ: "Gabung dengan pisp 2",
 //     nomorTelp: "",
 //     area: 1109.0,
 //     coordinates: null,
@@ -4240,7 +4240,7 @@ export const rohulProgress: Progress[] = [
 //   },
 //   {
 //     id: 3,
-//     namaPJ: "gabung dengan pisp 2",
+//     namaPJ: "Gabung dengan pisp 2",
 //     nomorTelp: "",
 //     area: 1055.43,
 //     coordinates: null,
@@ -4332,7 +4332,7 @@ export const rohulProgress: Progress[] = [
 //   },
 //   {
 //     id: 4,
-//     namaPJ: "gabung dengan pisp 2",
+//     namaPJ: "Gabung dengan pisp 2",
 //     nomorTelp: "",
 //     area: 526.92,
 //     coordinates: null,

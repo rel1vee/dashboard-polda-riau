@@ -11,7 +11,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 4.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-02-28",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 2.0,
         persentase: 0.0,
@@ -101,7 +101,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 2.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-25",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 2.0,
         persentase: 0.0,
@@ -219,7 +219,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 8.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-24",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 6.0,
         persentase: 0.75,
@@ -281,7 +281,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-01-21",
+      waktuTanam: "21/1/2025",
       progresTanam: {
         luas: 1.0,
         persentase: 1.0,
@@ -399,7 +399,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 1.49,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-10",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 1.49,
         persentase: 1.0,
@@ -551,7 +551,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 5.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-03",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 1.0,
         persentase: 0.2,
@@ -731,7 +731,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 1.5,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-05",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -821,7 +821,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 2.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-05",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -911,7 +911,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-15",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1001,7 +1001,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 2.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-06",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1181,7 +1181,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-07",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1299,7 +1299,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 6.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-10",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 6.0,
         persentase: 1.0,
@@ -1361,7 +1361,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-06",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1659,7 +1659,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-26",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 1.0,
         persentase: 1.0,
@@ -1721,7 +1721,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 10.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-21",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1839,7 +1839,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 2.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-27",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 2.0,
         persentase: 1.0,
@@ -1901,7 +1901,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-05",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2109,7 +2109,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 7.6,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-11",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 0.5,
         persentase: 0.07,
@@ -2199,7 +2199,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 6.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-11",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 1.0,
         persentase: 0.17,
@@ -2261,7 +2261,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 12.5,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-13",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 2.0,
         persentase: 0.16,
@@ -2351,7 +2351,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 3.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-15",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2441,7 +2441,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-15",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2531,7 +2531,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 14.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-14",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 3.0,
         persentase: 0.21,
@@ -2559,7 +2559,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 3.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-02-14",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 3.0,
         persentase: 1.0,
@@ -2649,7 +2649,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 20.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-06-01",
+      waktuTanam: "1/6/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2711,7 +2711,7 @@ export const pelalawanProgress: Progress[] = [
         luas: 5.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-03-05",
+      waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,

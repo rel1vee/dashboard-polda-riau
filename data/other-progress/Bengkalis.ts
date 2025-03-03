@@ -737,7 +737,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1001,7 +1001,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1067,7 +1067,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 0.4,
         persentase: 1.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1199,7 +1199,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1549,7 +1549,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-02-27",
+      waktuTanam: "27/02/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1661,7 +1661,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 1.4,
         persentase: 1.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1727,7 +1727,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 1.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1793,7 +1793,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1879,7 +1879,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1925,7 +1925,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2011,7 +2011,7 @@ export const bengkalisOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-02",
+      waktuTanam: "02/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,

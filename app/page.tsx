@@ -261,7 +261,7 @@ const DashboardRiauPage = () => {
                 )} dari ${stats.monokulturTarget.toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "2% dari Total Lahan di Provinsi Riau",
+                description: "Capaian dari Target Monokultur",
                 icon: Leaf,
                 gradient: "from-blue-500 to-sky-400",
               },
@@ -275,7 +275,7 @@ const DashboardRiauPage = () => {
                 )} dari ${stats.tumpangSariTarget.toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "7% dari Total Lahan di Provinsi Riau",
+                description: "Capaian dari Target Tumpang Sari",
                 icon: Sprout,
                 gradient: "from-orange-400 to-pink-500",
               },
@@ -284,7 +284,7 @@ const DashboardRiauPage = () => {
                 value: `${achievements.csrAchievement.toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "Capaian CSR di Provinsi Riau",
+                description: "Capaian CSR",
                 icon: LeafIcon,
                 gradient: "from-purple-400 to-pink-500",
               },
@@ -298,7 +298,7 @@ const DashboardRiauPage = () => {
                 )} dari ${stats.polsekTarget.toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "Capaian dari Seluruh Target Desa",
+                description: "Capaian dari Target POLSEK",
                 icon: HandHeart,
                 gradient: "from-sky-400 to-purple-600",
               },
@@ -318,7 +318,7 @@ const DashboardRiauPage = () => {
                 ).toLocaleString("id-ID", {
                   maximumFractionDigits: 2,
                 })}`,
-                description: "2% Monokultur + 7% Tumpang Sari + CSR + POLSEK",
+                description: "Monokultur + Tumpang Sari + CSR + POLSEK",
                 icon: TargetIcon,
                 gradient: "from-green-400 to-emerald-500",
               },

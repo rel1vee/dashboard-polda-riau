@@ -3,7 +3,7 @@ import { Progress } from "@/types";
 export const pekanbaruOtherProgress: Progress[] = [
   {
     id: 1,
-    namaPJ: "RIDWAN YAHYA  ",
+    namaPJ: "RIDWAN YAHYA",
     nomorTelp: "081249889129",
     area: 0.12,
     monokultur: {

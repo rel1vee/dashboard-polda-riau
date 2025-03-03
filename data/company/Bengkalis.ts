@@ -225,7 +225,7 @@ export const bengkalisCompanies: Company[] = [
   },
   {
     id: 7,
-    name: "PT. SURYA DUMAI AGRINDO/                  PT. RIAU MAKMUR SENTOSA",
+    name: "PT. SURYA DUMAI AGRINDO/PT. RIAU MAKMUR SENTOSA",
     area: 8200,
     target2Percent: 164,
     target7Percent: 574,

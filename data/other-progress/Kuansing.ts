@@ -11,7 +11,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -77,7 +77,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -163,7 +163,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -209,7 +209,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -275,7 +275,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -341,7 +341,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -407,7 +407,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -473,7 +473,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -539,7 +539,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -605,7 +605,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -671,7 +671,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -737,7 +737,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -803,7 +803,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -869,7 +869,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -935,7 +935,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1001,7 +1001,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1067,7 +1067,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1133,7 +1133,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1199,7 +1199,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1285,7 +1285,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1331,7 +1331,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1397,7 +1397,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1463,7 +1463,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1529,7 +1529,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1595,7 +1595,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1661,7 +1661,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1727,7 +1727,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1813,7 +1813,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1859,7 +1859,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1925,7 +1925,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1991,7 +1991,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2057,7 +2057,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2209,7 +2209,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2275,7 +2275,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 7.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2387,7 +2387,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2453,7 +2453,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2519,7 +2519,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2605,7 +2605,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2651,7 +2651,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2717,7 +2717,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.3,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2783,7 +2783,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: '" APRIL 2025',
+      waktuTanam: "APRIL 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2849,7 +2849,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2915,7 +2915,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -2981,7 +2981,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3067,7 +3067,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3113,7 +3113,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3179,7 +3179,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 1.0,
         persentase: 0.0,
@@ -3245,7 +3245,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 0.25,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3311,7 +3311,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 1.0,
         persentase: 0.0,
@@ -3377,7 +3377,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3463,7 +3463,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.5,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3529,7 +3529,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.5,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3575,7 +3575,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3661,7 +3661,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 3.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3707,7 +3707,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3773,7 +3773,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3905,7 +3905,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.25,
         persentase: 0.0,
       },
-      waktuTanam: '" APRIL 2025',
+      waktuTanam: "APRIL 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4037,7 +4037,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4103,7 +4103,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4169,7 +4169,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4255,7 +4255,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4301,7 +4301,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4387,7 +4387,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.5,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4433,7 +4433,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4499,7 +4499,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4585,7 +4585,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 0.65,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4651,7 +4651,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 0.5,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4697,7 +4697,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4763,7 +4763,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: '" APRIL 2025',
+      waktuTanam: "APRIL 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4849,7 +4849,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4895,7 +4895,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4961,7 +4961,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5027,7 +5027,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5159,7 +5159,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5225,7 +5225,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 1.0,
         persentase: 0.0,
@@ -5357,7 +5357,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5443,7 +5443,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.5,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5555,7 +5555,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5621,7 +5621,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5707,7 +5707,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5753,7 +5753,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5819,7 +5819,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5885,7 +5885,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -5951,7 +5951,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6017,7 +6017,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6169,7 +6169,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 4.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6215,7 +6215,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6479,7 +6479,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: '" APRIL 2025',
+      waktuTanam: "APRIL 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6565,7 +6565,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6631,7 +6631,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6697,7 +6697,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6829,7 +6829,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6875,7 +6875,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -6941,7 +6941,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7007,7 +7007,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: '" APRIL 2025',
+      waktuTanam: "APRIL 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7093,7 +7093,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.5,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7159,7 +7159,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7225,7 +7225,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.5,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7271,7 +7271,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7357,7 +7357,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7423,7 +7423,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 0.75,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7489,7 +7489,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7535,7 +7535,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7621,7 +7621,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 0.24,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7687,7 +7687,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7733,7 +7733,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: '" APRIL 2025 ',
+      waktuTanam: "APRIL 2025 ",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7799,7 +7799,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7865,7 +7865,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -7997,7 +7997,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8063,7 +8063,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8129,7 +8129,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8261,7 +8261,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8327,7 +8327,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8393,7 +8393,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8545,7 +8545,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-08-02",
+      waktuTanam: "02/08/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8591,7 +8591,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8657,7 +8657,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8723,7 +8723,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8789,7 +8789,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8855,7 +8855,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -8941,7 +8941,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 10.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9053,7 +9053,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9119,7 +9119,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9185,7 +9185,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9317,7 +9317,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9383,7 +9383,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9535,7 +9535,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9601,7 +9601,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.5,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9667,7 +9667,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.5,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9799,7 +9799,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9845,7 +9845,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9931,7 +9931,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -9977,7 +9977,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10043,7 +10043,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10109,7 +10109,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10439,7 +10439,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10525,7 +10525,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10571,7 +10571,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10657,7 +10657,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10703,7 +10703,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10769,7 +10769,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10901,7 +10901,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -10967,7 +10967,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11033,7 +11033,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 4.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11099,7 +11099,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 2.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11165,7 +11165,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11231,7 +11231,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11317,7 +11317,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11363,7 +11363,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11429,7 +11429,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11495,7 +11495,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11627,7 +11627,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.2,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11713,7 +11713,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11759,7 +11759,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -11845,7 +11845,7 @@ export const kuansingOtherProgress: Progress[] = [
         luas: 1.0,
         persentase: 0.0,
       },
-      waktuTanam: "2025-04-01",
+      waktuTanam: "01/04/2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,

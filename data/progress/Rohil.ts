@@ -495,7 +495,7 @@ export const rohilProgress: Progress[] = [
         persentase: 0.0,
       },
       belumTanam: {
-        luas: "20 Ha",
+        luas: 20,
         persentase: 0.0,
       },
       panen: {
@@ -917,7 +917,7 @@ export const rohilProgress: Progress[] = [
         persentase: 0.0,
       },
       belumTanam: {
-        luas: "15 Ha",
+        luas: 15,
         persentase: 0.0,
       },
       panen: {
@@ -945,7 +945,7 @@ export const rohilProgress: Progress[] = [
         persentase: 0.0,
       },
       belumTanam: {
-        luas: "3 Ha",
+        luas: 3,
         persentase: 0.0,
       },
       panen: {
@@ -1125,7 +1125,7 @@ export const rohilProgress: Progress[] = [
         persentase: 0.0,
       },
       belumTanam: {
-        luas: "1 Ha",
+        luas: 1,
         persentase: 0.0,
       },
       panen: {

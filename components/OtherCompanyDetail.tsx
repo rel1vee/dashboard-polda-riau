@@ -320,9 +320,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
       const day = parseInt(parts[0], 10);
       const month = parseInt(parts[1], 10) - 1;
       const year = parseInt(parts[2], 10);
-
-      const parsedDate = new Date(year, month, day);
-      return isNaN(parsedDate.getTime()) ? null : parsedDate;
+      return new Date(year, month, day);
     }
     return null;
   };
@@ -334,21 +332,18 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
       const year = parseInt(parts[0], 10);
       const month = parseInt(parts[1], 10) - 1;
       const day = parseInt(parts[2], 10);
-
-      const parsedDate = new Date(year, month, day);
-      return isNaN(parsedDate.getTime()) ? null : parsedDate;
+      return new Date(year, month, day);
     }
     return null;
   };
 
-  // Fungsi parsing untuk format "DD MMM YYYY" dan "DD MMMM YYYY" (contoh: "13 Dec 1899", "13 December 1899")
+  // Fungsi parsing untuk format "DD MMMM YYYY" atau "DD MMM YYYY"
   const parseDDMMMMYYYY = (dateStr: string): Date | null => {
     const parts = dateStr.split(" ");
     if (parts.length === 3) {
       const day = parseInt(parts[0], 10);
       const monthStr = parts[1].toLowerCase().trim();
       const year = parseInt(parts[2], 10);
-
       if (!isNaN(day) && !isNaN(year) && monthMap[monthStr] !== undefined) {
         return new Date(year, monthMap[monthStr], day);
       }
@@ -356,22 +351,20 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     return null;
   };
 
-  // Fungsi parsing untuk format "MMM DD, YYYY" dan "MMMM DD, YYYY" (contoh: "Dec 13, 1899", "December 13, 1899")
-  const parseMMMMDDYYYY = (dateStr: string): Date | null => {
-    const parts = dateStr.replace(",", "").split(" ");
-    if (parts.length === 3) {
+  // Fungsi parsing untuk format "MMMM YYYY"
+  const parseMMMMYYYY = (dateStr: string): Date | null => {
+    const parts = dateStr.split(" ");
+    if (parts.length === 2) {
       const monthStr = parts[0].toLowerCase().trim();
-      const day = parseInt(parts[1], 10);
-      const year = parseInt(parts[2], 10);
-
-      if (!isNaN(day) && !isNaN(year) && monthMap[monthStr] !== undefined) {
-        return new Date(year, monthMap[monthStr], day);
+      const year = parseInt(parts[1], 10);
+      if (!isNaN(year) && monthMap[monthStr] !== undefined) {
+        return new Date(year, monthMap[monthStr], 1);
       }
     }
     return null;
   };
 
-  // Fungsi utama untuk menghitung waktu panen
+  // Fungsi utama untuk menambahkan 4 bulan
   const calculateHarvestTime = (waktuTanam: string): string => {
     if (!waktuTanam || waktuTanam.trim() === "") return " ";
 
@@ -383,16 +376,15 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
         parseDDMMYYYY(waktuTanam) ||
         parseYYYYMMDD(waktuTanam) ||
         parseDDMMMMYYYY(waktuTanam) ||
-        parseMMMMDDYYYY(waktuTanam);
+        parseMMMMYYYY(waktuTanam);
 
       if (parsedDate) {
-        parsedDate.setMonth(parsedDate.getMonth() + 4); // Tambah 4 bulan
+        parsedDate.setMonth(parsedDate.getMonth() + 4);
         return formatToIndonesianDate(parsedDate);
       }
-
       return waktuTanam; // Jika format tidak dikenali, kembalikan apa adanya
     } catch (error) {
-      console.log(`Error menghitung waktu panen untuk: ${waktuTanam}`, error);
+      console.error(`Error menambahkan 4 bulan ke: ${waktuTanam}`, error);
       return waktuTanam;
     }
   };
@@ -888,7 +880,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           Number(progress.monokultur.targetTanam.persentase) ??
                           0,
                       },
-                      waktuTanam: String(progress.tumpangSari.waktuTanam) ?? "",
+                      waktuTanam: String(progress.monokultur.waktuTanam) ?? "",
                       progresTanam: {
                         luas:
                           Number(progress.monokultur.progresTanam.luas) ?? 0,
@@ -982,7 +974,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         persentase:
                           Number(progress.csr.targetTanam.persentase) ?? 0,
                       },
-                      waktuTanam: String(progress.tumpangSari.waktuTanam) ?? "",
+                      waktuTanam: String(progress.csr.waktuTanam) ?? "",
                       progresTanam: {
                         luas: Number(progress.csr.progresTanam.luas) ?? 0,
                         persentase:
