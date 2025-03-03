@@ -96,7 +96,7 @@ export const bengkalisProgress: Progress[] = [
   },
   {
     id: 2,
-    namaPJ: " ARBEN TOBING",
+    namaPJ: "ARBEN TOBING",
     nomorTelp: "081365670467 ",
     area: 2090.79,
     // "coordinates": null,
@@ -189,7 +189,7 @@ export const bengkalisProgress: Progress[] = [
   },
   {
     id: 3,
-    namaPJ: " G simaremare\r\n",
+    namaPJ: "G simaremare\r\n",
     nomorTelp: "082174485852 ",
     area: 13415.7,
     // "coordinates": "0.5348782305565828, 101.42584377048435",
@@ -374,7 +374,7 @@ export const bengkalisProgress: Progress[] = [
   },
   {
     id: 5,
-    namaPJ: "Reza ",
+    namaPJ: "Reza",
     nomorTelp: "082236226401",
     area: 2200.13,
     // "coordinates": null,
