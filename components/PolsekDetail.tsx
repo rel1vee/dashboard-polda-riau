@@ -47,7 +47,6 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
 }) => {
   if (!polsek) return null;
 
-  // Calculate total target and achievements from all villages
   const totalTarget =
     polsek.villages?.reduce(
       (total, village) => total + (village.target || 0),
@@ -309,7 +308,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                         {displayAchievementPercentage}%
                         {actualAchievementPercentage > 100 && (
                           <span className="text-xs text-green-600 ml-1">
-                            (Melebihi target {actualAchievementPercentage}%)
+                            (Melebihi Target {actualAchievementPercentage}%)
                           </span>
                         )}
                       </span>
