@@ -105,9 +105,9 @@ const prepareTableData = () => {
     };
 
     const totalAchievements =
-      monokulturAchievements.iii +
-      tumpangSariAchievements.iii +
-      csrAchievements.iii;
+      monokulturAchievements.iv +
+      tumpangSariAchievements.iv +
+      csrAchievements.iv;
 
     return {
       no: city.id,
@@ -127,36 +127,88 @@ const prepareTableData = () => {
   return rankedCities;
 };
 
-const prepareTablePolsekData = () => {
-  const rankedPolsek = riauCity.flatMap((city) => {
-    return city.polsek.map((polsek) => {
-      const totalTarget =
-        polsek.villages?.reduce((sum, village) => sum + village.target, 0) || 0;
-      const totalAchievement =
-        polsek.villages?.reduce(
-          (sum, village) => sum + village.achievement,
-          0
-        ) || 0;
-      const percentage =
+const prepareTablePolsek = () => {
+  const rankedPolsek = riauCity.map((city) => {
+    let totalAchievement = 0;
+    let totalTarget = 0;
+
+    city.polsek.forEach((polsek) => {
+      polsek.villages?.forEach((village) => {
+        totalAchievement += village.achievement;
+        totalTarget += village.target;
+      });
+    });
+
+    return {
+      name: city.nama,
+      totalAchievement,
+      totalTarget,
+      percentage:
         totalTarget > 0
           ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
               maximumFractionDigits: 2,
-            })
-          : "0";
-
-      return {
-        name: polsek.name,
-        polres: polsek.polres || "-",
-        totalAchievement,
-        totalTarget,
-        percentage: `${percentage}%`,
-      };
-    });
+            }) + "%"
+          : "0%",
+    };
   });
 
   rankedPolsek.sort((a, b) => b.totalAchievement - a.totalAchievement);
   return rankedPolsek;
 };
+
+const getTotalPolsek = (
+  data: { totalAchievement: number; totalTarget: number }[]
+) => {
+  const totalAchievement = data.reduce(
+    (sum, city) => sum + city.totalAchievement,
+    0
+  );
+  const totalTarget = data.reduce((sum, city) => sum + city.totalTarget, 0);
+  const percentage =
+    totalTarget > 0
+      ? ((totalAchievement / totalTarget) * 100).toFixed(2) + "%"
+      : "0%";
+
+  return {
+    name: "TOTAL",
+    totalAchievement,
+    totalTarget,
+    percentage,
+  };
+};
+
+// const prepareTablePolsekData = () => {
+//   const rankedPolsek = riauCity.flatMap((city) => {
+//     return city.polsek.map((polsek) => {
+//       const totalTarget =
+//         polsek.villages?.reduce((sum, village) => sum + village.target, 0) || 0;
+
+//       const totalAchievement =
+//         polsek.villages?.reduce(
+//           (sum, village) => sum + village.achievement,
+//           0
+//         ) || 0;
+
+//       const percentage =
+//         totalTarget > 0
+//           ? ((totalAchievement / totalTarget) * 100).toLocaleString("id-ID", {
+//               maximumFractionDigits: 2,
+//             })
+//           : "0";
+
+//       return {
+//         name: polsek.name,
+//         polres: polsek.polres || "-",
+//         totalAchievement,
+//         totalTarget,
+//         percentage: `${percentage}%`,
+//       };
+//     });
+//   });
+
+//   rankedPolsek.sort((a, b) => b.totalAchievement - a.totalAchievement);
+//   return rankedPolsek;
+// };
 
 // const prepareChartWeekData = () => {
 //   const rankedCities = riauCity.map((city) => {
@@ -324,26 +376,26 @@ const getTotalAchievements = () => {
         return sum;
       }, 0);
 
-      // const monoAchievementIV = allCompanies.reduce((sum, company) => {
-      //   if (company.monokulturAchievements?.IV) {
-      //     return sum + company.monokulturAchievements.IV;
-      //   }
-      //   return sum;
-      // }, 0);
+      const monoAchievementIV = allCompanies.reduce((sum, company) => {
+        if (company.monokulturAchievements?.IV) {
+          return sum + company.monokulturAchievements.IV;
+        }
+        return sum;
+      }, 0);
 
-      // const tumpangSariAchievementIV = allCompanies.reduce((sum, company) => {
-      //   if (company.tumpangSariAchievements?.IV) {
-      //     return sum + company.tumpangSariAchievements.IV;
-      //   }
-      //   return sum;
-      // }, 0);
+      const tumpangSariAchievementIV = allCompanies.reduce((sum, company) => {
+        if (company.tumpangSariAchievements?.IV) {
+          return sum + company.tumpangSariAchievements.IV;
+        }
+        return sum;
+      }, 0);
 
-      // const csrAchievementIV = allCompanies.reduce((sum, company) => {
-      //   if (company.csrAchievements?.IV) {
-      //     return sum + company.csrAchievements.IV;
-      //   }
-      //   return sum;
-      // }, 0);
+      const csrAchievementIV = allCompanies.reduce((sum, company) => {
+        if (company.csrAchievements?.IV) {
+          return sum + company.csrAchievements.IV;
+        }
+        return sum;
+      }, 0);
 
       return {
         monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
@@ -362,10 +414,11 @@ const getTotalAchievements = () => {
         tumpangSariAchievementIII:
           acc.tumpangSariAchievementIII + tumpangSariAchievementIII,
         csrAchievementIII: acc.csrAchievementIII + csrAchievementIII,
-        // monokulturAchievementIV: acc.monokulturAchievementIV + monoAchievementIV,
-        // tumpangSariAchievementIV:
-        //   acc.tumpangSariAchievementI + tumpangSariAchievementIV,
-        // csrAchievementIV: acc.csrAchievementIV + csrAchievementIV,
+        monokulturAchievementIV:
+          acc.monokulturAchievementIV + monoAchievementIV,
+        tumpangSariAchievementIV:
+          acc.tumpangSariAchievementIV + tumpangSariAchievementIV,
+        csrAchievementIV: acc.csrAchievementIV + csrAchievementIV,
       };
     },
     {
@@ -380,9 +433,9 @@ const getTotalAchievements = () => {
       monokulturAchievementIII: 0,
       tumpangSariAchievementIII: 0,
       csrAchievementIII: 0,
-      // monokulturAchievementIV: 0,
-      // tumpangSariAchievementIV: 0,
-      // csrAchievementIV: 0,
+      monokulturAchievementIV: 0,
+      tumpangSariAchievementIV: 0,
+      csrAchievementIV: 0,
     }
   );
 };
@@ -391,28 +444,29 @@ const achievements = getTotalAchievements();
 
 const NewRanking = () => {
   const tableData = prepareTableData();
-  const tablePolsekData = prepareTablePolsekData();
+  const tablePolsekData = prepareTablePolsek();
+  const totalRow = getTotalPolsek(tablePolsekData);
   // const chartWeekData = prepareChartWeekData();
 
   const calculateTotals = (data: {
-    capaianMonokultur: { iii: number };
-    capaianTumpangSari: { iii: number };
-    capaianCSR: { iii: number };
+    capaianMonokultur: { iv: number };
+    capaianTumpangSari: { iv: number };
+    capaianCSR: { iv: number };
     totalTarget: number;
   }) => {
     return {
       phase1: {
         total: (
-          data.capaianMonokultur.iii +
-          data.capaianTumpangSari.iii +
-          data.capaianCSR.iii
+          data.capaianMonokultur.iv +
+          data.capaianTumpangSari.iv +
+          data.capaianCSR.iv
         ).toLocaleString("id-ID", {
           maximumFractionDigits: 2,
         }),
         percentage: (
-          ((data.capaianMonokultur.iii +
-            data.capaianTumpangSari.iii +
-            data.capaianCSR.iii) /
+          ((data.capaianMonokultur.iv +
+            data.capaianTumpangSari.iv +
+            data.capaianCSR.iv) /
             data.totalTarget) *
           100
         ).toLocaleString("id-ID", {
@@ -649,12 +703,19 @@ const NewRanking = () => {
                             )}
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
-                            {formatNumber(0)}
+                            {formatNumber(
+                              row.capaianMonokultur.iv +
+                                row.capaianTumpangSari.iv +
+                                row.capaianCSR.iv -
+                                (row.capaianMonokultur.iii +
+                                  row.capaianTumpangSari.iii +
+                                  row.capaianCSR.iii)
+                            )}
                           </TableCell>
-                          <TableCell className="text-center border bg-green-50">
+                          <TableCell className="text-center border font-bold bg-green-50">
                             {totals.phase1.total}
                           </TableCell>
-                          <TableCell className="text-center border bg-green-50">
+                          <TableCell className="text-center border font-bold bg-green-50">
                             {totals.phase1.percentage}%
                           </TableCell>
 
@@ -754,20 +815,27 @@ const NewRanking = () => {
                         )}
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-green-50">
-                        {formatNumber(0)}
-                      </TableCell>
-                      <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
-                          achievements.monokulturAchievementIII +
-                            achievements.tumpangSariAchievementIII +
-                            achievements.csrAchievementIII
+                          achievements.monokulturAchievementIV +
+                            achievements.tumpangSariAchievementIV +
+                            achievements.csrAchievementIV -
+                            (achievements.monokulturAchievementIII +
+                              achievements.tumpangSariAchievementIII +
+                              achievements.csrAchievementIII)
                         )}
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
-                          ((achievements.monokulturAchievementIII +
-                            achievements.tumpangSariAchievementIII +
-                            achievements.csrAchievementIII) /
+                          achievements.monokulturAchievementIV +
+                            achievements.tumpangSariAchievementIV +
+                            achievements.csrAchievementIV
+                        )}
+                      </TableCell>
+                      <TableCell className="text-center border font-bold bg-green-50">
+                        {formatNumber(
+                          ((achievements.monokulturAchievementIV +
+                            achievements.tumpangSariAchievementIV +
+                            achievements.csrAchievementIV) /
                             (achievements.monokulturTarget +
                               achievements.tumpangSariTarget)) *
                             100
@@ -902,9 +970,6 @@ const NewRanking = () => {
                         NO
                       </TableHead>
                       <TableHead className="text-center border border-gray-200 font-bold text-gray-800 bg-gray-300">
-                        NAMA POLSEK
-                      </TableHead>
-                      <TableHead className="text-center border border-blue-200 font-bold text-gray-800 bg-blue-300">
                         NAMA POLRES
                       </TableHead>
                       <TableHead className="text-center border border-green-200 font-bold text-gray-800 bg-green-300">
@@ -928,11 +993,8 @@ const NewRanking = () => {
                           <TableCell className="text-center border font-medium uppercase">
                             {row.name}
                           </TableCell>
-                          <TableCell className="text-center border bg-blue-50">
-                            {row.polres}
-                          </TableCell>
                           <TableCell className="text-center border bg-green-50">
-                            {row.totalAchievement}
+                            {formatNumber(row.totalAchievement)}
                           </TableCell>
                           <TableCell className="text-center border bg-red-50">
                             {row.totalTarget}
@@ -943,6 +1005,21 @@ const NewRanking = () => {
                         </TableRow>
                       );
                     })}
+                    <TableRow>
+                      <TableCell className="text-center border uppercase"></TableCell>
+                      <TableCell className="text-center border font-bold uppercase">
+                        {totalRow.name}
+                      </TableCell>
+                      <TableCell className="text-center border font-bold bg-green-50">
+                        {formatNumber(totalRow.totalAchievement)}
+                      </TableCell>
+                      <TableCell className="text-center border font-bold bg-red-50">
+                        {totalRow.totalTarget}
+                      </TableCell>
+                      <TableCell className="text-center border font-bold bg-purple-50">
+                        {totalRow.percentage}
+                      </TableCell>
+                    </TableRow>
                   </TableBody>
                   <TableCaption className="mt-4 text-sm text-gray-600 bg-blue-50 p-2 rounded">
                     Tabel Capaian & Perangkingan POLSEK
@@ -981,7 +1058,7 @@ const NewRanking = () => {
                 </div>
               </CardHeader>
               <CardContent className="pt-8 h-[44rem] overflow-x-auto">
-                <ResponsiveContainer width="250%" height="100%">
+                <ResponsiveContainer width="100%" height="100%">
                   <ComposedChart
                     data={tablePolsekData}
                     margin={{ top: 10, right: 20, left: 20, bottom: 10 }}
@@ -992,7 +1069,7 @@ const NewRanking = () => {
                       angle={-60}
                       textAnchor="end"
                       className="uppercase"
-                      height={200}
+                      height={100}
                       interval={0}
                       tick={{ fill: "#78350f", fontSize: 11 }}
                     />
@@ -1010,7 +1087,7 @@ const NewRanking = () => {
                       fill="#4ade80"
                       name="Total Capaian"
                       radius={[4, 4, 0, 0]}
-                      barSize={11}
+                      barSize={35}
                     />
                     <Line
                       type="monotone"

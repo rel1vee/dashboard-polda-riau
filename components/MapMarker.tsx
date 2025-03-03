@@ -47,9 +47,9 @@ const calculateTotalAchievements = (
 
   return allCompanies.reduce(
     (totals, company) => {
-      const monoTotal = company.monokulturAchievements?.III ?? 0;
-      const tumpangSariTotal = company.tumpangSariAchievements?.III ?? 0;
-      const csrTotal = company.csrAchievements?.III ?? 0;
+      const monoTotal = company.monokulturAchievements?.IV ?? 0;
+      const tumpangSariTotal = company.tumpangSariAchievements?.IV ?? 0;
+      const csrTotal = company.csrAchievements?.IV ?? 0;
 
       return {
         monokultur: totals.monokultur + monoTotal,
