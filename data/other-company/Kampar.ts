@@ -3,53 +3,7 @@ import { Company } from "@/types";
 export const kamparOtherCompanies: Company[] = [
   {
     id: 1,
-    name: "KEBUN KELOMPOK TANI HERI SANTOSO",
-    area: 0.4,
-    monokulturAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 0.4,
-      II: 0.4,
-      III: 0.4,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 2,
-    name: "KEBUN KELOMPOK TANI SAWINDO",
-    area: 0.16,
-    monokulturAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 0.16,
-      II: 0.16,
-      III: 0.16,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 3,
-    name: "KEBUN NIZHAM",
+    name: "KEBUN AN-NIZHAM",
     area: 1,
     monokulturAchievements: {
       I: 0,
@@ -61,7 +15,7 @@ export const kamparOtherCompanies: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     csrAchievements: {
       I: 0,
@@ -71,7 +25,7 @@ export const kamparOtherCompanies: Company[] = [
     },
   },
   {
-    id: 4,
+    id: 2,
     name: "KEBUN PAK KUNCORO",
     area: 0.25,
     monokulturAchievements: {
@@ -84,7 +38,7 @@ export const kamparOtherCompanies: Company[] = [
       I: 0.25,
       II: 0.25,
       III: 0.25,
-      IV: 0,
+      IV: 0.25,
     },
     csrAchievements: {
       I: 0,
@@ -94,14 +48,14 @@ export const kamparOtherCompanies: Company[] = [
     },
   },
   {
-    id: 5,
+    id: 3,
     name: "KEBUN SAID USMAN EKS. KEBUN PAK RAHMAT",
     area: 0.5,
     monokulturAchievements: {
       I: 0,
       II: 0,
       III: 0.5,
-      IV: 0,
+      IV: 0.5,
     },
     tumpangSariAchievements: {
       I: 0.5,
@@ -117,14 +71,60 @@ export const kamparOtherCompanies: Company[] = [
     },
   },
   {
-    id: 6,
-    name: "KEL TANI KEMBOJA",
-    area: 1,
+    id: 4,
+    name: "LAHAN PAK JAMIN",
+    area: 0.5,
     monokulturAchievements: {
-      I: 1,
-      II: 1,
-      III: 1,
+      I: 0.5,
+      II: 0.5,
+      III: 0.5,
+      IV: 0.5,
+    },
+    tumpangSariAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
       IV: 0,
+    },
+    csrAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+  },
+  {
+    id: 5,
+    name: "LAHAN PAK SUNARDI",
+    area: 0.25,
+    monokulturAchievements: {
+      I: 0.25,
+      II: 0.25,
+      III: 0.25,
+      IV: 0.25,
+    },
+    tumpangSariAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    csrAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+  },
+  {
+    id: 6,
+    name: "LAHAN SATBRIMOBDA RIAU",
+    area: 20,
+    monokulturAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 20,
     },
     tumpangSariAchievements: {
       I: 0,
@@ -141,8 +141,8 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 7,
-    name: "KELOMPOK TANI BAROKAH",
-    area: 0,
+    name: "PEKARANGAN KANTOR CAMAT SIAK HULU",
+    area: 0.5,
     monokulturAchievements: {
       I: 0,
       II: 0,
@@ -150,10 +150,10 @@ export const kamparOtherCompanies: Company[] = [
       IV: 0,
     },
     tumpangSariAchievements: {
-      I: 3,
-      II: 3,
-      III: 3,
-      IV: 0,
+      I: 0,
+      II: 0,
+      III: 0.5,
+      IV: 0.5,
     },
     csrAchievements: {
       I: 0,
@@ -164,7 +164,7 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 8,
-    name: "KELOMPOK TANI BENGKOANG TETAP JAYA",
+    name: "POKTAN BAROKAH",
     area: 3,
     monokulturAchievements: {
       I: 0,
@@ -176,7 +176,7 @@ export const kamparOtherCompanies: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     csrAchievements: {
       I: 0,
@@ -187,7 +187,7 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 9,
-    name: "KELOMPOK TANI CAMPUR SARI",
+    name: "POKTAN BENGKOANG TETAP JAYA",
     area: 3,
     monokulturAchievements: {
       I: 0,
@@ -199,7 +199,7 @@ export const kamparOtherCompanies: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     csrAchievements: {
       I: 0,
@@ -210,8 +210,8 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 10,
-    name: "KELOMPOK TANI DESA SENAMA NENEK",
-    area: 4,
+    name: "POKTAN CAMPUR SARI",
+    area: 3,
     monokulturAchievements: {
       I: 0,
       II: 0,
@@ -219,10 +219,10 @@ export const kamparOtherCompanies: Company[] = [
       IV: 0,
     },
     tumpangSariAchievements: {
-      I: 4,
-      II: 4,
-      III: 4,
-      IV: 0,
+      I: 3,
+      II: 3,
+      III: 3,
+      IV: 3,
     },
     csrAchievements: {
       I: 0,
@@ -233,18 +233,18 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 11,
-    name: "KELOMPOK TANI MAJU BERSAMA",
-    area: 0,
+    name: "POKTAN DESA KUBANG JAYA",
+    area: 4,
     monokulturAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 4,
     },
     tumpangSariAchievements: {
-      I: 12,
-      II: 12,
-      III: 12,
+      I: 0,
+      II: 0,
+      III: 0,
       IV: 0,
     },
     csrAchievements: {
@@ -256,8 +256,8 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 12,
-    name: "KELOMPOK TANI SARI MURNI",
-    area: 3,
+    name: "POKTAN DESA SENAMA NENEK",
+    area: 4,
     monokulturAchievements: {
       I: 0,
       II: 0,
@@ -265,10 +265,10 @@ export const kamparOtherCompanies: Company[] = [
       IV: 0,
     },
     tumpangSariAchievements: {
-      I: 3,
-      II: 3,
-      III: 3,
-      IV: 0,
+      I: 4,
+      II: 4,
+      III: 4,
+      IV: 4,
     },
     csrAchievements: {
       I: 0,
@@ -279,18 +279,18 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 13,
-    name: "KELOMPOK TANI SEPAKAT JAYA TANI",
-    area: 0,
+    name: "POKTAN DESA TANAH DATAR",
+    area: 12,
     monokulturAchievements: {
+      I: 12,
+      II: 12,
+      III: 12,
+      IV: 12,
+    },
+    tumpangSariAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
-      I: 2,
-      II: 2,
-      III: 2,
       IV: 0,
     },
     csrAchievements: {
@@ -302,19 +302,19 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 14,
-    name: "KUD DESA TANAH DATAR",
-    area: 12,
+    name: "POKTAN HERI SANTOSO",
+    area: 0.4,
     monokulturAchievements: {
-      I: 12,
-      II: 12,
-      III: 12,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
       I: 0,
       II: 0,
       III: 0,
       IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 0.4,
+      II: 0.4,
+      III: 0.4,
+      IV: 0.4,
     },
     csrAchievements: {
       I: 0,
@@ -325,13 +325,13 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 15,
-    name: "LAHAN PAK JAMIN",
-    area: 0.5,
+    name: "POKTAN KARYA INDAH",
+    area: 2,
     monokulturAchievements: {
-      I: 0.5,
-      II: 0.5,
-      III: 0.5,
-      IV: 0,
+      I: 2,
+      II: 2,
+      III: 2,
+      IV: 2,
     },
     tumpangSariAchievements: {
       I: 0,
@@ -348,13 +348,13 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 16,
-    name: "LAHAN PAK SUNARDI",
-    area: 0.25,
+    name: "POKTAN KEMBOJA",
+    area: 1,
     monokulturAchievements: {
-      I: 0.25,
-      II: 0.25,
-      III: 0.25,
-      IV: 0,
+      I: 1,
+      II: 1,
+      III: 1,
+      IV: 1,
     },
     tumpangSariAchievements: {
       I: 0,
@@ -371,8 +371,8 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 17,
-    name: "PEKARANGAN KANTOR CAMAT SIAK HULU",
-    area: 0.5,
+    name: "POKTAN MAJU BERSAMA",
+    area: 12,
     monokulturAchievements: {
       I: 0,
       II: 0,
@@ -380,10 +380,10 @@ export const kamparOtherCompanies: Company[] = [
       IV: 0,
     },
     tumpangSariAchievements: {
-      I: 0,
-      II: 0,
-      III: 0.5,
-      IV: 0,
+      I: 12,
+      II: 12,
+      III: 12,
+      IV: 12,
     },
     csrAchievements: {
       I: 0,
@@ -394,19 +394,19 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 18,
-    name: "POKTAN KARYA INDAH",
-    area: 2,
+    name: "POKTAN SARI MURNI",
+    area: 3,
     monokulturAchievements: {
-      I: 2,
-      II: 2,
-      III: 2,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
       I: 0,
       II: 0,
       III: 0,
       IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 3,
+      II: 3,
+      III: 3,
+      IV: 3,
     },
     csrAchievements: {
       I: 0,
@@ -417,19 +417,19 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 19,
-    name: "POLSEK BANGKINANG KOTA",
-    area: 0.5,
+    name: "POKTAN SAWINDO",
+    area: 0.16,
     monokulturAchievements: {
-      I: 0.5,
-      II: 0.5,
-      III: 0.5,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
       I: 0,
       II: 0,
       III: 0,
       IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 0.16,
+      II: 0.16,
+      III: 0.16,
+      IV: 0.16,
     },
     csrAchievements: {
       I: 0,
@@ -440,19 +440,19 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 20,
-    name: "PT AGRO ABADI I (SIAK HULU)",
-    area: 1675,
+    name: "POKTAN SEPAKAT JAYA TANI",
+    area: 2,
     monokulturAchievements: {
-      I: 3,
-      II: 3,
-      III: 3,
-      IV: 0,
-    },
-    tumpangSariAchievements: {
       I: 0,
       II: 0,
       III: 0,
       IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 2,
+      II: 2,
+      III: 2,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -463,18 +463,18 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 21,
-    name: "PT CWIM KOPERASI AKUB",
-    area: 300.2,
+    name: "POLSEK BANGKINANG KOTA",
+    area: 0.5,
     monokulturAchievements: {
-      I: 2,
-      II: 2,
-      III: 2,
-      IV: 0,
+      I: 0.5,
+      II: 0.5,
+      III: 0.5,
+      IV: 0.5,
     },
     tumpangSariAchievements: {
-      I: 2,
-      II: 2,
-      III: 2,
+      I: 0,
+      II: 0,
+      III: 0,
       IV: 0,
     },
     csrAchievements: {
@@ -486,17 +486,17 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 22,
-    name: "PT SARINDO AGRI LESTARI",
-    area: 1500,
+    name: "PT AGRO ABADI I (SIAK HULU)",
+    area: 1672.27,
     monokulturAchievements: {
-      I: 0,
-      II: 0,
-      III: 2,
-      IV: 0,
+      I: 3,
+      II: 3,
+      III: 3,
+      IV: 3,
     },
     tumpangSariAchievements: {
-      I: 2,
-      II: 2,
+      I: 0,
+      II: 0,
       III: 0,
       IV: 0,
     },
@@ -509,8 +509,8 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 23,
-    name: "PT. ADIMULYA AGRO LESTARI",
-    area: 1835,
+    name: "PT CWIM KOPERASI AKUB",
+    area: 300.2,
     monokulturAchievements: {
       I: 2,
       II: 2,
@@ -518,10 +518,10 @@ export const kamparOtherCompanies: Company[] = [
       IV: 0,
     },
     tumpangSariAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
+      I: 2,
+      II: 2,
+      III: 2,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -532,13 +532,13 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 24,
-    name: "PT. CENTRAL WARISAN INDAH MAKMUR",
-    area: 1043,
+    name: "PT. ADIMULYA AGRO LESTARI",
+    area: 1835,
     monokulturAchievements: {
-      I: 0,
-      II: 0,
+      I: 2,
+      II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariAchievements: {
       I: 0,
@@ -555,18 +555,18 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 25,
-    name: "PT. KEBUN PANTAI RAJA",
-    area: 2300,
+    name: "PT. CENTRAL WARISAN INDAH MAKMUR",
+    area: 1043,
     monokulturAchievements: {
-      I: 2,
-      II: 2,
-      III: 1,
-      IV: 0,
+      I: 0,
+      II: 0,
+      III: 2,
+      IV: 105,
     },
     tumpangSariAchievements: {
       I: 0,
       II: 0,
-      III: 1,
+      III: 0,
       IV: 0,
     },
     csrAchievements: {
@@ -578,18 +578,18 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 26,
-    name: "PT. PADASA ENAM UTAMA (TAPUNG)",
-    area: 0,
+    name: "PT. KEBUN PANTAI RAJA",
+    area: 2300,
     monokulturAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
+      I: 2,
+      II: 2,
+      III: 1,
+      IV: 2,
     },
     tumpangSariAchievements: {
       I: 0,
       II: 0,
-      III: 0,
+      III: 1,
       IV: 0,
     },
     csrAchievements: {
@@ -601,6 +601,29 @@ export const kamparOtherCompanies: Company[] = [
   },
   {
     id: 27,
+    name: "PT. PADASA ENAM UTAMA (XIII KOTO KAMPAR)",
+    area: 7719.15,
+    monokulturAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 1,
+    },
+    csrAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+  },
+  {
+    id: 28,
     name: "PT. PN IV REG III SEI GALUH",
     area: 2562.83,
     monokulturAchievements: {
@@ -623,9 +646,9 @@ export const kamparOtherCompanies: Company[] = [
     },
   },
   {
-    id: 28,
+    id: 29,
     name: "PT. RIMBUN SAWIT SEJAHTERA",
-    area: 1647,
+    area: 2298,
     monokulturAchievements: {
       I: 0,
       II: 0,
@@ -642,18 +665,41 @@ export const kamparOtherCompanies: Company[] = [
       I: 0,
       II: 2,
       III: 0,
+      IV: 4,
+    },
+  },
+  {
+    id: 30,
+    name: "PT. SARINDO AGRI LESTARI",
+    area: 1500,
+    monokulturAchievements: {
+      I: 0,
+      II: 0,
+      III: 2,
+      IV: 0,
+    },
+    tumpangSariAchievements: {
+      I: 2,
+      II: 2,
+      III: 0,
+      IV: 2,
+    },
+    csrAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
       IV: 0,
     },
   },
   {
-    id: 29,
+    id: 31,
     name: "PT. SIMASSAWIT ALIANTAN",
     area: 675,
     monokulturAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariAchievements: {
       I: 0,
@@ -669,7 +715,7 @@ export const kamparOtherCompanies: Company[] = [
     },
   },
   {
-    id: 30,
+    id: 32,
     name: "PT. SMS ( DIREKTUR JONI )",
     area: 1,
     monokulturAchievements: {
@@ -682,7 +728,7 @@ export const kamparOtherCompanies: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     csrAchievements: {
       I: 0,
@@ -692,7 +738,7 @@ export const kamparOtherCompanies: Company[] = [
     },
   },
   {
-    id: 31,
+    id: 33,
     name: "PT. ZAS ( PENGAWAS MULYADI )",
     area: 2,
     monokulturAchievements: {
@@ -705,7 +751,7 @@ export const kamparOtherCompanies: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -715,14 +761,14 @@ export const kamparOtherCompanies: Company[] = [
     },
   },
   {
-    id: 32,
+    id: 34,
     name: "TANAH KAS DESA BUKIT KRATAI",
     area: 0.5,
     monokulturAchievements: {
       I: 0,
       II: 0,
       III: 0.5,
-      IV: 0,
+      IV: 0.5,
     },
     tumpangSariAchievements: {
       I: 0.5,
@@ -738,6 +784,745 @@ export const kamparOtherCompanies: Company[] = [
     },
   },
 ];
+
+// export const kamparOtherCompanies: Company[] = [
+//   {
+//     id: 1,
+//     name: "KEBUN KELOMPOK TANI HERI SANTOSO",
+//     area: 0.4,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0.4,
+//       II: 0.4,
+//       III: 0.4,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 2,
+//     name: "KEBUN KELOMPOK TANI SAWINDO",
+//     area: 0.16,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0.16,
+//       II: 0.16,
+//       III: 0.16,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 3,
+//     name: "KEBUN NIZHAM",
+//     area: 1,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 1,
+//       II: 1,
+//       III: 1,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 4,
+//     name: "KEBUN PAK KUNCORO",
+//     area: 0.25,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0.25,
+//       II: 0.25,
+//       III: 0.25,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 5,
+//     name: "KEBUN SAID USMAN EKS. KEBUN PAK RAHMAT",
+//     area: 0.5,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0.5,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0.5,
+//       II: 0.5,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 6,
+//     name: "KEL TANI KEMBOJA",
+//     area: 1,
+//     monokulturAchievements: {
+//       I: 1,
+//       II: 1,
+//       III: 1,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 7,
+//     name: "KELOMPOK TANI BAROKAH",
+//     area: 0,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 3,
+//       II: 3,
+//       III: 3,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 8,
+//     name: "KELOMPOK TANI BENGKOANG TETAP JAYA",
+//     area: 3,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 3,
+//       II: 3,
+//       III: 3,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 9,
+//     name: "KELOMPOK TANI CAMPUR SARI",
+//     area: 3,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 3,
+//       II: 3,
+//       III: 3,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 10,
+//     name: "KELOMPOK TANI DESA SENAMA NENEK",
+//     area: 4,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 4,
+//       II: 4,
+//       III: 4,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 11,
+//     name: "KELOMPOK TANI MAJU BERSAMA",
+//     area: 0,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 12,
+//       II: 12,
+//       III: 12,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 12,
+//     name: "KELOMPOK TANI SARI MURNI",
+//     area: 3,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 3,
+//       II: 3,
+//       III: 3,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 13,
+//     name: "KELOMPOK TANI SEPAKAT JAYA TANI",
+//     area: 0,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 2,
+//       II: 2,
+//       III: 2,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 14,
+//     name: "KUD DESA TANAH DATAR",
+//     area: 12,
+//     monokulturAchievements: {
+//       I: 12,
+//       II: 12,
+//       III: 12,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 15,
+//     name: "LAHAN PAK JAMIN",
+//     area: 0.5,
+//     monokulturAchievements: {
+//       I: 0.5,
+//       II: 0.5,
+//       III: 0.5,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 16,
+//     name: "LAHAN PAK SUNARDI",
+//     area: 0.25,
+//     monokulturAchievements: {
+//       I: 0.25,
+//       II: 0.25,
+//       III: 0.25,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 17,
+//     name: "PEKARANGAN KANTOR CAMAT SIAK HULU",
+//     area: 0.5,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0.5,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 18,
+//     name: "POKTAN KARYA INDAH",
+//     area: 2,
+//     monokulturAchievements: {
+//       I: 2,
+//       II: 2,
+//       III: 2,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 19,
+//     name: "POLSEK BANGKINANG KOTA",
+//     area: 0.5,
+//     monokulturAchievements: {
+//       I: 0.5,
+//       II: 0.5,
+//       III: 0.5,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 20,
+//     name: "PT AGRO ABADI I (SIAK HULU)",
+//     area: 1675,
+//     monokulturAchievements: {
+//       I: 3,
+//       II: 3,
+//       III: 3,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 21,
+//     name: "PT CWIM KOPERASI AKUB",
+//     area: 300.2,
+//     monokulturAchievements: {
+//       I: 2,
+//       II: 2,
+//       III: 2,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 2,
+//       II: 2,
+//       III: 2,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 22,
+//     name: "PT SARINDO AGRI LESTARI",
+//     area: 1500,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 2,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 2,
+//       II: 2,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 23,
+//     name: "PT. ADIMULYA AGRO LESTARI",
+//     area: 1835,
+//     monokulturAchievements: {
+//       I: 2,
+//       II: 2,
+//       III: 2,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 24,
+//     name: "PT. CENTRAL WARISAN INDAH MAKMUR",
+//     area: 1043,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 2,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 25,
+//     name: "PT. KEBUN PANTAI RAJA",
+//     area: 2300,
+//     monokulturAchievements: {
+//       I: 2,
+//       II: 2,
+//       III: 1,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 1,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 26,
+//     name: "PT. PADASA ENAM UTAMA (TAPUNG)",
+//     area: 0,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 27,
+//     name: "PT. PN IV REG III SEI GALUH",
+//     area: 2562.83,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 2,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 28,
+//     name: "PT. RIMBUN SAWIT SEJAHTERA",
+//     area: 1647,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 2,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 2,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 29,
+//     name: "PT. SIMASSAWIT ALIANTAN",
+//     area: 675,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 30,
+//     name: "PT. SMS ( DIREKTUR JONI )",
+//     area: 1,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 1,
+//       II: 1,
+//       III: 1,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 31,
+//     name: "PT. ZAS ( PENGAWAS MULYADI )",
+//     area: 2,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 2,
+//       II: 2,
+//       III: 2,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+//   {
+//     id: 32,
+//     name: "TANAH KAS DESA BUKIT KRATAI",
+//     area: 0.5,
+//     monokulturAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0.5,
+//       IV: 0,
+//     },
+//     tumpangSariAchievements: {
+//       I: 0.5,
+//       II: 0.5,
+//       III: 0,
+//       IV: 0,
+//     },
+//     csrAchievements: {
+//       I: 0,
+//       II: 0,
+//       III: 0,
+//       IV: 0,
+//     },
+//   },
+// ];
 
 // export const kamparOtherCompanies: Company[] = [
 //   {
