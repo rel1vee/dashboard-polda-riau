@@ -666,8 +666,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                                     Tanggal Tanam
                                   </TableCell>
                                   <TableCell className="text-right">
-                                    {progress.monokultur.rencanaTanam
-                                      ?.tanggalTanam || ""}
+                                    {progress.monokultur.waktuTanam || ""}
                                   </TableCell>
                                 </TableRow>
                                 <TableRow>

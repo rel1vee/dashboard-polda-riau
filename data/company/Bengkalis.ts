@@ -262,7 +262,7 @@ export const bengkalisCompanies: Company[] = [
   },
   {
     id: 8,
-    name: "PT. SARPINDO GRAHA SAWIT TANI/                         PT. PRIATAMA RIAU",
+    name: "PT. SARPINDO GRAHA SAWIT TANI/PT. PRIATAMA RIAU",
     area: 7000,
     target2Percent: 140,
     target7Percent: 490.0,
@@ -409,6 +409,7 @@ export const bengkalisCompanies: Company[] = [
     },
   },
 ];
+
 // export const bengkalisCompanies: Company[] = [
 //   {
 //     id: 1,
