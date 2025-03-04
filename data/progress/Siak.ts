@@ -279,16 +279,16 @@ export const siakProgress: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 6.05,
+        persentase: 0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 25053.28,
-        persentase: 1.0,
+        luas: 0,
+        persentase: 0,
       },
       panen: {
         luas: 0.0,
@@ -306,18 +306,17 @@ export const siakProgress: Progress[] = [
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0.0,
-        persentase: 121.0,
+        luas: 127.05,
+        persentase: 0,
       },
-      waktuTanam:
-        "2 Ha, 17 Februari 2025\r\n\r\n\r\n\r\n\r\n\r\n1 Ha, 20 Februari 2025\r\n\r\n\r\n\r\n\r\n\r\n1 Ha, 21 Februari 2025",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 4.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 25049.28,
-        persentase: 1.0,
+        luas: 123.05,
+        persentase: 0,
       },
       panen: {
         luas: 0,
@@ -338,14 +337,14 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 25053.28,
-        persentase: 1.0,
+        luas: 0,
+        persentase: 0,
       },
       panen: {
         luas: 0.0,

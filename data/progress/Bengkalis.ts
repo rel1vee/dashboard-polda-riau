@@ -945,8 +945,7 @@ export const bengkalisProgress: Progress[] = [
         luas: 50.0,
         persentase: 0.0,
       },
-      waktuTanam:
-        "12/2/2025\r\n\r\n 6/02/2025\r\n\r\n18/02/2025\r\n\r\n21/02/2025\r\n\r\n28/02/2025",
+      waktuTanam: "FEBRUARI 2025",
       progresTanam: {
         luas: 20.0,
         persentase: 0.0,

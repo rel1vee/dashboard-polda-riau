@@ -5,19 +5,19 @@ export const inhuOtherProgress: Progress[] = [
     id: 1,
     namaPJ: "ALEX CANDRA",
     nomorTelp: "085274046438",
-    area: 0.5,
+    area: 20,
     monokultur: {
       targetTanam: {
-        luas: 0.5,
+        luas: 20,
         persentase: 0.0,
       },
-      waktuTanam: "01/04/2025",
+      waktuTanam: "01/01/2025",
       progresTanam: {
-        luas: 0.0,
+        luas: 10,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 0.0,
+        luas: 10,
         persentase: 0.0,
       },
       panen: {
@@ -203,19 +203,19 @@ export const inhuOtherProgress: Progress[] = [
     id: 4,
     namaPJ: "PRISTIWANTO",
     nomorTelp: "0812-6336-3170",
-    area: 0.25,
+    area: 20,
     monokultur: {
       targetTanam: {
-        luas: 0.25,
+        luas: 20,
         persentase: 0.0,
       },
-      waktuTanam: "01/04/2025",
+      waktuTanam: "21/02/2025",
       progresTanam: {
-        luas: 0.0,
+        luas: 1.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 0.0,
+        luas: 19.0,
         persentase: 0.0,
       },
       panen: {

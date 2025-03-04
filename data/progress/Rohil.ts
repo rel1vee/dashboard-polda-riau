@@ -491,11 +491,11 @@ export const rohilProgress: Progress[] = [
       },
       waktuTanam: "28 FEBRUARI 2025",
       progresTanam: {
-        luas: 0.0,
+        luas: 20,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 20,
+        luas: 0,
         persentase: 0.0,
       },
       panen: {

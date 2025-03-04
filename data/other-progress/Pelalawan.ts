@@ -343,7 +343,7 @@ export const pelalawanOtherProgress: Progress[] = [
       },
       waktuTanam: "20/4/2025",
       progresTanam: {
-        luas: 25.0,
+        luas: 0,
         persentase: 0.0,
       },
       belumTanam: {

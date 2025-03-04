@@ -849,13 +849,13 @@ export const rohulProgress: Progress[] = [
         luas: 24.0,
         persentase: "",
       },
-      waktuTanam: '"2025"',
+      waktuTanam: "2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 0.0,
+        luas: 24.0,
         persentase: 0.0,
       },
       panen: {
@@ -1299,13 +1299,13 @@ export const rohulProgress: Progress[] = [
         luas: 15.0,
         persentase: "",
       },
-      waktuTanam: '"45762"',
+      waktuTanam: "APRIL 2025",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 10.0,
+        luas: 15.0,
         persentase: 0.0,
       },
       panen: {
