@@ -122,13 +122,19 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     const progressData = [
       {
         name: "Sudah Tanam",
-        value: data.progresTanam.persentase,
+        value:
+          data.targetTanam.luas === 0
+            ? 0
+            : (data.progresTanam.luas / data.targetTanam.luas) * 100,
         luas: data.progresTanam.luas,
         fill: "#22c55e",
       },
       {
         name: "Belum Tanam",
-        value: data.belumTanam.persentase,
+        value:
+          data.targetTanam.luas === 0
+            ? 0
+            : (data.belumTanam.luas / data.targetTanam.luas) * 100,
         luas: data.belumTanam.luas,
         fill: "#ef4444",
       },
@@ -151,11 +157,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
             {data.targetTanam.luas.toLocaleString("id-ID", {
               maximumFractionDigits: 2,
             })}{" "}
-            Ha (
-            {data.targetTanam.persentase.toLocaleString("id-ID", {
-              maximumFractionDigits: 2,
-            })}
-            %)
+            Ha
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -219,9 +221,10 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       maximumFractionDigits: 2,
                     })}{" "}
                     Ha (
-                    {data.progresTanam.persentase.toLocaleString("id-ID", {
-                      maximumFractionDigits: 2,
-                    })}
+                    {(data.targetTanam.luas === 0
+                      ? 0
+                      : (data.progresTanam.luas / data.targetTanam.luas) * 100
+                    ).toLocaleString("id-ID", { maximumFractionDigits: 2 })}
                     %)
                   </span>
                 </div>
@@ -232,9 +235,10 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       maximumFractionDigits: 2,
                     })}{" "}
                     Ha (
-                    {data.belumTanam.persentase.toLocaleString("id-ID", {
-                      maximumFractionDigits: 2,
-                    })}
+                    {(data.targetTanam.luas === 0
+                      ? 0
+                      : (data.belumTanam.luas / data.targetTanam.luas) * 100
+                    ).toLocaleString("id-ID", { maximumFractionDigits: 2 })}
                     %)
                   </span>
                 </div>
