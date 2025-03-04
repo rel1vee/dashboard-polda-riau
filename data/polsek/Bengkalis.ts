@@ -261,7 +261,7 @@ export const bengkalisPolsek: Polsek[] = [
       {
         id: 13,
         name: "TELUK LATAK",
-        waktuTanam: "POLDA RIAU",
+        waktuTanam: "",
         achievement: 2.0,
         target: 2.0,
       },
