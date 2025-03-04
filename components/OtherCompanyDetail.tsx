@@ -400,7 +400,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
         </DialogHeader>
 
         <Tabs defaultValue="overview" className="w-full">
-          <TabsList className="grid w-full h-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mb-4 mt-1">
+          <TabsList className="grid w-full h-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-blue-100 gap-2 mb-4 mt-1">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="progress">
               Monokultur & Tumpang Sari

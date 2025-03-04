@@ -96,7 +96,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
           </DialogTitle>
         </DialogHeader>
         <Tabs defaultValue="overview" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 mb-4 mt-1">
+          <TabsList className="grid w-full grid-cols-2 mb-4 mt-1 bg-blue-100">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="villages">Daftar Desa</TabsTrigger>
           </TabsList>
