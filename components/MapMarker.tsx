@@ -222,6 +222,22 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         })}
                       </span>
                     </div>
+
+                    {/* Capaian Polsek*/}
+                    <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
+                      <span className="text-sm text-gray-600">
+                        Total POLSEK:
+                      </span>
+                      <span className="font-medium text-gray-900">
+                        {polsekAchievement.toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        dari{" "}
+                        {polsekTarget.toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}
+                      </span>
+                    </div>
                     {/* Total Capaian */}
                     <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
                       <span className="text-sm text-gray-600">
@@ -231,29 +247,17 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         {(
                           achievements.monokultur +
                           achievements.tumpangSari +
-                          achievements.csr
+                          achievements.csr +
+                          polsekAchievement
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
                         dari{" "}
                         {(
-                          city.tumpangSariTarget + city.monokulturTarget
+                          city.tumpangSariTarget +
+                          city.monokulturTarget +
+                          polsekTarget
                         ).toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}
-                      </span>
-                    </div>
-                    {/* Capaian Polsek*/}
-                    <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
-                      <span className="text-sm text-gray-600">
-                        Total Capaian POLSEK:
-                      </span>
-                      <span className="font-medium text-gray-900">
-                        {polsekAchievement.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}{" "}
-                        dari{" "}
-                        {polsekTarget.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>

@@ -117,14 +117,6 @@ const prepareTableData = () => {
       tumpangSariAchievements.iv +
       csrAchievements.iv;
 
-    const achievementsIV =
-      monokulturAchievements.iv +
-      tumpangSariAchievements.iv +
-      csrAchievements.iv -
-      (monokulturAchievements.iii +
-        tumpangSariAchievements.iii +
-        csrAchievements.iii);
-
     return {
       no: city.id,
       nama: city.nama,
@@ -133,7 +125,6 @@ const prepareTableData = () => {
       capaianTumpangSari: tumpangSariAchievements,
       capaianCSR: csrAchievements,
       polsekAchievement,
-      achievementsIV: achievementsIV + polsekAchievement,
       TAHAP_I: totalAchievements + polsekAchievement,
       TAHAP_II: 0,
       TAHAP_III: 0,
@@ -141,7 +132,7 @@ const prepareTableData = () => {
     };
   });
 
-  rankedCities.sort((a, b) => b.achievementsIV - a.achievementsIV);
+  rankedCities.sort((a, b) => b.TAHAP_I - a.TAHAP_I);
   return rankedCities;
 };
 

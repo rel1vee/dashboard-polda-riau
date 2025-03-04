@@ -337,7 +337,7 @@ const DashboardRiauPage = () => {
                   <stat.icon className="w-6 h-6 text-white opacity-80" />
                 </CardHeader>
                 <CardContent>
-                  <div className="text-2xl font-bold pr-4">{stat.value}</div>
+                  <div className="text-2xl font-bold pr-6">{stat.value}</div>
                   <p className="text-xs opacity-80 mt-3">{stat.description}</p>
                 </CardContent>
               </MotionCard>
