@@ -140,7 +140,10 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
       },
       {
         name: "Panen",
-        value: data.panen.persentase,
+        value:
+          data.targetTanam.luas === 0
+            ? 0
+            : (data.panen.luas / data.targetTanam.luas) * 100,
         luas: data.panen.luas,
         fill: "#eab308",
       },
@@ -249,9 +252,10 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       maximumFractionDigits: 2,
                     })}{" "}
                     Ha (
-                    {data.panen.persentase.toLocaleString("id-ID", {
-                      maximumFractionDigits: 2,
-                    })}
+                    {(data.targetTanam.luas === 0
+                      ? 0
+                      : (data.panen.luas / data.targetTanam.luas) * 100
+                    ).toLocaleString("id-ID", { maximumFractionDigits: 2 })}
                     %)
                   </span>
                 </div>
