@@ -928,7 +928,7 @@ export const inhilCompanies: Company[] = [
   },
   {
     id: 26,
-    name: "PT. TH INDO PLANTATIONS Take Over PT. MULTI GAMBUT INDUSTRI",
+    name: "PT. TH INDO PLANTATIONS Take over PT. MULTI GAMBUT INDUSTRI",
     area: 83878.76,
     target2Percent: 1677.58,
     target7Percent: 5871.51,

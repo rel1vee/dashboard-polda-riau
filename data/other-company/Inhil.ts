@@ -6,7 +6,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "KELOMPOK TANI ANGIN MAMIRI, KELOMPOK TANI SELAMAT, KELOMPOK TANI CINTA MEKAH (POLSEK BATANG TUAKA)",
     area: 24,
     monokulturAchievements: {
-      I: 24,
+      I: 0,
       II: 24,
       III: 24,
       IV: 24,
@@ -29,7 +29,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "M. IHSAN (POLSEK CONCONG)",
     area: 0.5,
     monokulturAchievements: {
-      I: 0.5,
+      I: 0,
       II: 0.5,
       III: 0.5,
       IV: 0.5,
@@ -52,7 +52,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "ABDUL QHADIR (POLSEK GAUNG)",
     area: 4,
     monokulturAchievements: {
-      I: 4,
+      I: 0,
       II: 4,
       III: 4,
       IV: 4,
@@ -75,7 +75,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "KARYA TANI (POLSEK GAUNG)",
     area: 1,
     monokulturAchievements: {
-      I: 1,
+      I: 0,
       II: 1,
       III: 1,
       IV: 1,
@@ -98,7 +98,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "ASNAWI (POLSEK GAUNG)",
     area: 1.5,
     monokulturAchievements: {
-      I: 1.5,
+      I: 0,
       II: 1.5,
       III: 1.5,
       IV: 1.5,
@@ -121,7 +121,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "DURIAN BERJAYA DYSYB DURIAN PARET 4 DESA TELUK MERBAU (POLSEK GAUNG)",
     area: 2,
     monokulturAchievements: {
-      I: 2,
+      I: 0,
       II: 2,
       III: 2,
       IV: 2,
@@ -144,7 +144,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "KEMANG  (POLSEK GAUNG)",
     area: 3,
     monokulturAchievements: {
-      I: 3,
+      I: 0,
       II: 3,
       III: 3,
       IV: 3,
@@ -167,7 +167,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "DARUSSALAM (POLSEK GAUNG ANAK SERKA)",
     area: 0.5,
     monokulturAchievements: {
-      I: 0.5,
+      I: 0,
       II: 0.5,
       III: 0.5,
       IV: 0.5,
@@ -190,7 +190,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "JUMRISAH (POLSEK GAUNG ANAK SERKA)",
     area: 0.5,
     monokulturAchievements: {
-      I: 0.5,
+      I: 0,
       II: 0.5,
       III: 0.5,
       IV: 0.5,
@@ -213,7 +213,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "INDAH PERTEMUAN (POLSEK GAUNG ANAK SERKA)",
     area: 2,
     monokulturAchievements: {
-      I: 2,
+      I: 0,
       II: 2,
       III: 2,
       IV: 2,
@@ -236,7 +236,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "INDAH PERTEMUAN 2 (POLSEK GAUNG ANAK SERKA)",
     area: 0.5,
     monokulturAchievements: {
-      I: 0.5,
+      I: 0,
       II: 0.5,
       III: 0.5,
       IV: 0.5,
@@ -305,7 +305,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "USAHA TANI (POLSEK KATEMAN)",
     area: 2.5,
     monokulturAchievements: {
-      I: 2.5,
+      I: 0,
       II: 2.5,
       III: 2.5,
       IV: 2.5,
@@ -374,7 +374,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "KEMUNING SAWIT UNGGUL (POLSEK KEMUNING)",
     area: 2,
     monokulturAchievements: {
-      I: 2,
+      I: 0,
       II: 2,
       III: 2,
       IV: 2,
@@ -397,7 +397,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "SYAMSUL MU'ARIF (POLSEK KERITANG)",
     area: 2,
     monokulturAchievements: {
-      I: 2,
+      I: 0,
       II: 2,
       III: 2,
       IV: 2,
@@ -420,7 +420,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "BENTENG MUDA (POLSEK SUNGAI BATANG)",
     area: 7,
     monokulturAchievements: {
-      I: 5,
+      I: 0,
       II: 7,
       III: 7,
       IV: 7,
@@ -443,7 +443,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "BATANG MUTIARA (POLSEK SUNGAI BATANG)",
     area: 6,
     monokulturAchievements: {
-      I: 6,
+      I: 0,
       II: 6,
       III: 6,
       IV: 6,
@@ -512,7 +512,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "HARAPAN MENANTI (POLSEK TEMBILAHAN HULU)",
     area: 1.5,
     monokulturAchievements: {
-      I: 1.5,
+      I: 0,
       II: 1.5,
       III: 1.5,
       IV: 1.5,
@@ -535,7 +535,7 @@ export const inhilOtherCompanies: Company[] = [
     name: "SUMBER REZEKI (POLSEK TEMPULING)",
     area: 1.2,
     monokulturAchievements: {
-      I: 1.2,
+      I: 0,
       II: 1.2,
       III: 1.2,
       IV: 1.2,
