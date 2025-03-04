@@ -458,12 +458,12 @@ export const kuansingProgress: Progress[] = [
     area: 3602.84,
     monokultur: {
       targetTanam: {
-        luas: 3.0,
+        luas: 2.0,
         persentase: 0.0,
       },
       waktuTanam: "25/02/2025",
       progresTanam: {
-        luas: 3.0,
+        luas: 2.0,
         persentase: 0.0,
       },
       belumTanam: {

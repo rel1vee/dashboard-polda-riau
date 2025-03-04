@@ -909,12 +909,12 @@ export const rohulProgress: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.5,
-        persentase: 1.0,
+        persentase: 0,
       },
-      waktuTanam: '"45748"',
+      waktuTanam: '',
       progresTanam: {
         luas: 2.5,
-        persentase: 1.0,
+        persentase: 0,
       },
       belumTanam: {
         luas: 0.0,
@@ -942,7 +942,7 @@ export const rohulProgress: Progress[] = [
       waktuTanam: "21 JANUARI 2025",
       progresTanam: {
         luas: 3.0,
-        persentase: 1.0,
+        persentase: 0,
       },
       belumTanam: {
         luas: 0.0,
@@ -1837,12 +1837,12 @@ export const rohulProgress: Progress[] = [
     tumpangSari: {
       targetTanam: {
         luas: 4.0,
-        persentase: 1.0,
+        persentase: 0,
       },
       waktuTanam: "21 JANUARI 2025",
       progresTanam: {
         luas: 4.0,
-        persentase: 1.0,
+        persentase: 0,
       },
       belumTanam: {
         luas: 0.0,
@@ -2559,7 +2559,7 @@ export const rohulProgress: Progress[] = [
         luas: 2.0,
         persentase: 100.0,
       },
-      waktuTanam: '"45748"',
+      waktuTanam: '',
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -3007,12 +3007,12 @@ export const rohulProgress: Progress[] = [
     tumpangSari: {
       targetTanam: {
         luas: 6.0,
-        persentase: 1.0,
+        persentase: 0,
       },
       waktuTanam: "21 JANUARI 2025",
       progresTanam: {
         luas: 6.0,
-        persentase: 1.0,
+        persentase: 0,
       },
       belumTanam: {
         luas: 0.0,
@@ -3249,7 +3249,7 @@ export const rohulProgress: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.5,
-        persentase: 1.0,
+        persentase: 0,
       },
       waktuTanam: "MEI 2025",
       progresTanam: {
@@ -3457,9 +3457,9 @@ export const rohulProgress: Progress[] = [
     tumpangSari: {
       targetTanam: {
         luas: 2.0,
-        persentase: 1.0,
+        persentase: 0,
       },
-      waktuTanam: '"45748"',
+      waktuTanam: '',
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -4984,12 +4984,12 @@ export const rohulProgress: Progress[] = [
 //     monokultur: {
 //       targetTanam: {
 //         luas: 2.5,
-//         persentase: 1.0,
+//         persentase: 0,
 //       },
 //       waktuTanam: 2025,
 //       progresTanam: {
 //         luas: 2.5,
-//         persentase: 1.0,
+//         persentase: 0,
 //       },
 //       belumTanam: {
 //         luas: 0.0,
@@ -5017,7 +5017,7 @@ export const rohulProgress: Progress[] = [
 //       waktuTanam: "21 JANUARI 2025",
 //       progresTanam: {
 //         luas: 3.0,
-//         persentase: 1.0,
+//         persentase: 0,
 //       },
 //       belumTanam: {
 //         luas: 0.0,
@@ -5932,12 +5932,12 @@ export const rohulProgress: Progress[] = [
 //     tumpangSari: {
 //       targetTanam: {
 //         luas: 4.0,
-//         persentase: 1.0,
+//         persentase: 0,
 //       },
 //       waktuTanam: "21 JANUARI 2025",
 //       progresTanam: {
 //         luas: 4.0,
-//         persentase: 1.0,
+//         persentase: 0,
 //       },
 //       belumTanam: {
 //         luas: 0.0,
@@ -7128,12 +7128,12 @@ export const rohulProgress: Progress[] = [
 //     tumpangSari: {
 //       targetTanam: {
 //         luas: 6.0,
-//         persentase: 1.0,
+//         persentase: 0,
 //       },
 //       waktuTanam: "21 JANUARI 2025",
 //       progresTanam: {
 //         luas: 6.0,
-//         persentase: 1.0,
+//         persentase: 0,
 //       },
 //       belumTanam: {
 //         luas: 0.0,
@@ -7376,7 +7376,7 @@ export const rohulProgress: Progress[] = [
 //     monokultur: {
 //       targetTanam: {
 //         luas: 1.5,
-//         persentase: 1.0,
+//         persentase: 0,
 //       },
 //       waktuTanam: 0,
 //       progresTanam: {
@@ -7588,7 +7588,7 @@ export const rohulProgress: Progress[] = [
 //     tumpangSari: {
 //       targetTanam: {
 //         luas: 2.0,
-//         persentase: 1.0,
+//         persentase: 0,
 //       },
 //       waktuTanam: 0,
 //       progresTanam: {

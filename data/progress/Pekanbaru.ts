@@ -155,9 +155,9 @@ export const pekanbaruProgress: Progress[] = [
     csr: {
       targetTanam: {
         luas: 18.0,
-        persentase: 9.0,
+        persentase: 0.0,
       },
-      waktuTanam: "17-02-2025, 28-02-2025 (2x tanam)",
+      waktuTanam: "17-02-2025",
       progresTanam: {
         luas: 4.0,
         persentase: 0.0,

@@ -9059,7 +9059,7 @@ export const kuansingOtherProgress: Progress[] = [
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 0.0,
+        luas: 1.0,
         persentase: 0.0,
       },
       panen: {

@@ -663,15 +663,15 @@ export const kamparOtherProgress: Progress[] = [
   },
   {
     id: 11,
-    namaPJ: "SUNANTO\r\nNURKHOLIS",
-    nomorTelp: "085375893943\r\n081268617990",
+    namaPJ: "SUNANTO/NURKHOLIS",
+    nomorTelp: "085375893943/081268617990",
     area: 4.0,
     monokultur: {
       targetTanam: {
         luas: 4.0,
         persentase: 0.0,
       },
-      waktuTanam: "10-02-2025\r\n25-01-2025",
+      waktuTanam: "25-2025",
       progresTanam: {
         luas: 4.0,
         persentase: 0.0,
@@ -691,7 +691,7 @@ export const kamparOtherProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "0",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -711,7 +711,7 @@ export const kamparOtherProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "0",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -724,7 +724,7 @@ export const kamparOtherProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      keterangan: "0",
+      keterangan: "",
     },
   },
   {
@@ -805,7 +805,7 @@ export const kamparOtherProgress: Progress[] = [
       },
       waktuTanam: "06-11-2024",
       progresTanam: {
-        luas: 8.0,
+        luas: 12.0,
         persentase: 0.0,
       },
       belumTanam: {
@@ -823,7 +823,7 @@ export const kamparOtherProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "0",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -843,7 +843,7 @@ export const kamparOtherProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "0",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -856,7 +856,7 @@ export const kamparOtherProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      keterangan: "0",
+      keterangan: "",
     },
   },
   {

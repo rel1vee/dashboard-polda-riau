@@ -11,7 +11,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -39,7 +39,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -67,7 +67,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -101,7 +101,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -129,7 +129,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -157,7 +157,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -191,7 +191,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -219,7 +219,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 5.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -247,7 +247,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -399,7 +399,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -427,7 +427,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -461,7 +461,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -490,7 +490,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 10.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -519,7 +519,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -553,7 +553,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -609,7 +609,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -640,16 +640,16 @@ export const siakProgress: Progress[] = [
     area: 7600.0,
     monokultur: {
       targetTanam: {
-        luas: 0.0,
+        luas: 16.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
-        luas: 0.0,
+        luas: 16.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 7600.0,
+        luas: 0.0,
         persentase: 0.0,
       },
       panen: {
@@ -672,14 +672,14 @@ export const siakProgress: Progress[] = [
         persentase: 30.0,
       },
       waktuTanam:
-        "14,5 Ha, 11 Februari 2025\r\n\r\n\r\n\r\n\r\n\r\n1,5, Ha 26 Februari 2025",
+        "26 Februari 2025",
       progresTanam: {
         luas: 16.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 7584.0,
-        persentase: 1.0,
+        luas: 0.0,
+        persentase: 0.0,
       },
       panen: {
         luas: 0,
@@ -700,14 +700,14 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 7600.0,
-        persentase: 1.0,
+        luas: 0.0,
+        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
@@ -734,7 +734,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -762,7 +762,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 50.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -790,7 +790,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -824,7 +824,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -852,7 +852,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 50.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -880,7 +880,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -914,7 +914,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -970,7 +970,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1004,7 +1004,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1032,7 +1032,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1060,7 +1060,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1095,7 +1095,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1153,7 +1153,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1188,7 +1188,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 30.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1216,7 +1216,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1244,7 +1244,7 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
@@ -1275,17 +1275,17 @@ export const siakProgress: Progress[] = [
     area: 10826.05,
     monokultur: {
       targetTanam: {
-        luas: 0.0,
+        luas: 3.5,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
-        luas: 0.0,
+        luas: 3.5,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 10826.05,
-        persentase: 1.0,
+        luas: 0,
+        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
@@ -1305,16 +1305,16 @@ export const siakProgress: Progress[] = [
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 50.0,
+        persentase: 0.0,
       },
       waktuTanam: "21 Januari 2025",
       progresTanam: {
-        luas: 3.5,
+        luas: 0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 10822.55,
-        persentase: 1.0,
+        luas: 0,
+        persentase: 0.0,
       },
       panen: {
         luas: 0,
@@ -1336,14 +1336,14 @@ export const siakProgress: Progress[] = [
         luas: 0.0,
         persentase: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
         persentase: 0.0,
       },
       belumTanam: {
-        luas: 10826.05,
-        persentase: 1.0,
+        luas: 0,
+        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
@@ -1375,7 +1375,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1403,7 +1403,7 @@ export const siakProgress: Progress[] = [
 //         luas: 298.1,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1431,7 +1431,7 @@ export const siakProgress: Progress[] = [
 //         luas: 298.1,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1467,7 +1467,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1495,7 +1495,7 @@ export const siakProgress: Progress[] = [
 //         luas: 148.8,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1523,7 +1523,7 @@ export const siakProgress: Progress[] = [
 //         luas: 148.8,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1559,7 +1559,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1587,7 +1587,7 @@ export const siakProgress: Progress[] = [
 //         luas: 8000.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1615,7 +1615,7 @@ export const siakProgress: Progress[] = [
 //         luas: 8000.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1651,7 +1651,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1708,7 +1708,7 @@ export const siakProgress: Progress[] = [
 //         luas: 25053.28,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1772,7 +1772,7 @@ export const siakProgress: Progress[] = [
 //         luas: 8002.48,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1800,7 +1800,7 @@ export const siakProgress: Progress[] = [
 //         luas: 8002.48,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1836,7 +1836,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1865,7 +1865,7 @@ export const siakProgress: Progress[] = [
 //         luas: 597.69,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1894,7 +1894,7 @@ export const siakProgress: Progress[] = [
 //         luas: 597.69,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1930,7 +1930,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1958,7 +1958,7 @@ export const siakProgress: Progress[] = [
 //         luas: 309.93,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -1986,7 +1986,7 @@ export const siakProgress: Progress[] = [
 //         luas: 309.93,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2022,7 +2022,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2078,7 +2078,7 @@ export const siakProgress: Progress[] = [
 //         luas: 7600.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2114,7 +2114,7 @@ export const siakProgress: Progress[] = [
 //         luas: 35.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2142,7 +2142,7 @@ export const siakProgress: Progress[] = [
 //         luas: 7628.33,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2170,7 +2170,7 @@ export const siakProgress: Progress[] = [
 //         luas: 7628.33,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2206,7 +2206,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2234,7 +2234,7 @@ export const siakProgress: Progress[] = [
 //         luas: 9300.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2262,7 +2262,7 @@ export const siakProgress: Progress[] = [
 //         luas: 9300.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2298,7 +2298,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2326,7 +2326,7 @@ export const siakProgress: Progress[] = [
 //         luas: 5000.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2354,7 +2354,7 @@ export const siakProgress: Progress[] = [
 //         luas: 5000.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2390,7 +2390,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2418,7 +2418,7 @@ export const siakProgress: Progress[] = [
 //         luas: 1113.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2446,7 +2446,7 @@ export const siakProgress: Progress[] = [
 //         luas: 1113.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2483,7 +2483,7 @@ export const siakProgress: Progress[] = [
 //         luas: 15.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2541,7 +2541,7 @@ export const siakProgress: Progress[] = [
 //         luas: 11134.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2578,7 +2578,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 3.15,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2606,7 +2606,7 @@ export const siakProgress: Progress[] = [
 //         luas: 7094.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2634,7 +2634,7 @@ export const siakProgress: Progress[] = [
 //         luas: 7094.0,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2670,7 +2670,7 @@ export const siakProgress: Progress[] = [
 //         luas: 0.0,
 //         persentase: 0.0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
@@ -2728,7 +2728,7 @@ export const siakProgress: Progress[] = [
 //         luas: 10826.05,
 //         persentase: 0,
 //       },
-//       waktuTanam: "Belum Tanam",
+//       waktuTanam: "",
 //       progresTanam: {
 //         luas: 0.0,
 //         persentase: 0.0,
