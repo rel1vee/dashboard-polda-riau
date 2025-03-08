@@ -6,12 +6,12 @@ import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import { riauCity } from "@/data/RiauCity";
 import { City, Company, Polsek, Progress } from "@/types";
-import NewRanking from "@/components/program-satu/NewRanking";
+import NewRanking from "@/components/program-dua/NewRanking";
 import { Table, TableBody, TableRow } from "@/components/ui/table";
-import PolsekDetailModal from "@/components/program-satu/PolsekDetail";
-import CompanyDetailsModal from "@/components/program-satu/CompanyDetail";
+import PolsekDetailModal from "@/components/program-dua/PolsekDetail";
+import CompanyDetailsModal from "@/components/program-dua/CompanyDetail";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import OtherCompanyDetailsModal from "@/components/program-satu/OtherCompanyDetail";
+import OtherCompanyDetailsModal from "@/components/program-dua/OtherCompanyDetail";
 import {
   Building2,
   Map,
@@ -29,7 +29,7 @@ import {
   CardDescription,
 } from "@/components/ui/card";
 
-const MapMarker = dynamic(() => import("@/components/program-satu/MapMarker"), {
+const MapMarker = dynamic(() => import("@/components/program-dua/MapMarker"), {
   ssr: false,
   loading: () => (
     <div className="h-[500px] flex items-center justify-center bg-gray-100">
@@ -250,7 +250,9 @@ const DashboardRiauPage = () => {
               <TabsTrigger value="program-satu">PROGRAM I</TabsTrigger>
               <TabsTrigger value="program-dua">PROGRAM II</TabsTrigger>
             </TabsList>
-            <TabsContent value="program-satu" className="gap-6">
+            <TabsContent value="program-satu" className="flex flex-col gap-6">
+
+
 
             </TabsContent>
             <TabsContent value="program-dua" className="flex flex-col gap-6">
