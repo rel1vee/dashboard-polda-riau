@@ -25,14 +25,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -53,14 +45,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -81,14 +65,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -115,14 +91,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -143,14 +111,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -171,14 +131,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -205,14 +157,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -233,14 +177,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK IUP\r\nNO 1 /BPMD&PPT/BP-IUP/XII2015",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -261,14 +197,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -295,14 +223,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -323,14 +243,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -351,14 +263,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -385,14 +289,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -413,14 +309,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -441,14 +329,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -475,14 +355,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK. BPN RI\r\nNO :12-HGU-BPN.RI2008",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -503,14 +375,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -531,14 +395,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -565,14 +421,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -593,14 +441,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -621,14 +461,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK IUP\r\nNO. 181 TAHUN 2010, TGL. 19 JULI 2010",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -655,14 +487,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "200/Menhutbun -\u00a0V11/2000",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -683,14 +507,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK.KBPN RI NO ;\r\n28/HGU/BPN/1997",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -711,14 +527,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -745,14 +553,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -773,14 +573,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -801,14 +593,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK.BPN\r\nNO :42/HGU/BPN/99",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -835,14 +619,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -863,14 +639,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -891,14 +659,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -925,14 +685,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK IUP\r\nDIREVISI NO. 325.A TAHUN 2006",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -953,14 +705,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -981,14 +725,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1015,14 +751,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1043,14 +771,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1071,14 +791,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1105,14 +817,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1133,14 +837,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1161,14 +857,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1195,14 +883,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1223,14 +903,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1251,14 +923,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1285,14 +949,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1313,14 +969,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1341,14 +989,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1375,14 +1015,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1403,14 +1035,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1431,14 +1055,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1465,14 +1081,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1493,14 +1101,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1521,14 +1121,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK IUP\r\nNO. 87 TAHUN 2007, TGL. 27 FEBRUARI 2007",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1555,14 +1147,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1583,14 +1167,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1611,14 +1187,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1646,14 +1214,6 @@ export const inhuProgress: Progress[] = [
       },
       keterangan:
         "SURAT PENDAFTARAN USA PERKEBUNAN \r\nNO : HK.350/94/Dj.Bun.5/II/2002",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1674,14 +1234,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1702,14 +1254,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1736,14 +1280,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1764,14 +1300,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1792,14 +1320,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1826,14 +1346,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK. IUPPERUBAN NO. 41C TAHUN 2007, TGL. 26 FEBRUARI 2007",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1854,14 +1366,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1882,14 +1386,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1916,14 +1412,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1944,14 +1432,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1972,14 +1452,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2006,14 +1478,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2034,14 +1498,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2063,14 +1519,6 @@ export const inhuProgress: Progress[] = [
       },
       keterangan:
         "SK IUP\r\nPERUBAN N0. 525/DISBUN-S/III/2010/7, TGL. 25 MARET 2010",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2097,14 +1545,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2125,14 +1565,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2153,14 +1585,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2187,14 +1611,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK. IUP\r\nREVISI NO. 90 TAHUN 2011, TGL. 10 MARET 2011",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2215,14 +1631,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2243,14 +1651,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2277,14 +1677,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2305,14 +1697,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2333,14 +1717,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2367,14 +1743,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2395,14 +1763,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2423,14 +1783,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2457,14 +1809,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2485,14 +1829,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2513,14 +1849,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2547,14 +1875,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK.MENTERI NEGARA AGRARIA\r\nNOMOR : IUPB 357 /X/2012",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2575,14 +1895,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2603,14 +1915,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2637,14 +1941,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2665,14 +1961,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2693,14 +1981,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2727,14 +2007,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SK. IUP\r\nREVISI NO. 376 TAHUN 2013, TGL. 5 SEPTEMBER 2013",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2755,14 +2027,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2783,14 +2047,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2817,14 +2073,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2845,14 +2093,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2873,14 +2113,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2907,14 +2139,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2935,14 +2159,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2963,14 +2179,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2997,14 +2205,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3025,14 +2225,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3053,14 +2245,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3087,14 +2271,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "IUPB NO : \r\n503.525.B.349/2002",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3115,14 +2291,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3143,14 +2311,6 @@ export const inhuProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
 ];

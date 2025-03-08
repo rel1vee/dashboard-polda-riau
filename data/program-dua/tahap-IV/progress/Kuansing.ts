@@ -25,14 +25,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -53,14 +45,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -81,14 +65,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -115,14 +91,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -143,14 +111,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -171,14 +131,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -205,14 +157,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -233,14 +177,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -261,14 +197,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -295,14 +223,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -323,14 +243,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -351,14 +263,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -385,14 +289,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -413,14 +309,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -441,14 +329,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -475,14 +355,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -503,14 +375,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -531,14 +395,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -565,14 +421,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -593,14 +441,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "PROSES TANAM BARU 2 HA",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -621,14 +461,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -655,14 +487,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -683,14 +507,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -711,14 +527,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -745,14 +553,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -773,14 +573,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -801,14 +593,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -835,14 +619,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -863,14 +639,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -891,14 +659,6 @@ export const kuansingProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
 ];

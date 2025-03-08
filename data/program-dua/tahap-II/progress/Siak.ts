@@ -25,14 +25,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -53,14 +45,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -81,14 +65,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -115,14 +91,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -143,14 +111,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -171,14 +131,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -205,14 +157,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -233,14 +177,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -261,14 +197,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -295,14 +223,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -323,14 +243,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -351,14 +263,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -385,14 +289,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -413,14 +309,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -441,14 +329,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -476,14 +356,6 @@ export const siakProgress: Progress[] = [
       },
       keterangan:
         "HGU = 05.020.01.01.1.00001 & 05.020.01.01.2.00002 iup = 02/DPMPTSP/IUPB/2021",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -505,14 +377,6 @@ export const siakProgress: Progress[] = [
       },
       keterangan:
         "HGU = 05.020.01.01.1.00001 & 05.020.01.01.2.00002 iup = 02/DPMPTSP/IUPB/2021",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -533,14 +397,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -567,14 +423,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -595,14 +443,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGB No.00037 tanggal 25 Septembe 2019 Luas 14,99 Ha",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -623,14 +463,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -657,22 +489,13 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
         persentase: 30.0,
       },
-      waktuTanam:
-        "26 Februari 2025",
+      waktuTanam: "26 Februari 2025",
       progresTanam: {
         luas: 16.0,
         persentase: 0.0,
@@ -686,14 +509,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -714,14 +529,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -748,14 +555,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -776,14 +575,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -804,14 +595,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -838,14 +621,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -866,14 +641,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -894,14 +661,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -928,14 +687,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -956,14 +707,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -984,14 +727,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1018,14 +753,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1046,14 +773,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1075,14 +794,6 @@ export const siakProgress: Progress[] = [
       },
       keterangan:
         "Nomor Hgu=HGU on progres PIKIR Nomor IUP= 218.a/HK/KPTS/2006",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1110,14 +821,6 @@ export const siakProgress: Progress[] = [
       },
       keterangan:
         "HGU (No.41/HGU/BPN/99)\r\nIUP (No.HK.350/185/Bun.5/III/2001)",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1139,14 +842,6 @@ export const siakProgress: Progress[] = [
       },
       keterangan:
         "HGU (No.41/HGU/BPN/99)\r\nIUP (No.HK.350/185/Bun.5/III/2001)",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1168,14 +863,6 @@ export const siakProgress: Progress[] = [
       },
       keterangan:
         "HGU (No.41/HGU/BPN/99)\r\nIUP (No.HK.350/185/Bun.5/III/2001)",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1202,14 +889,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU (nomor 1 tahun 1998)\r\nIUP (754/Menhutbun-IV/2000)",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1230,14 +909,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU (nomor 1 tahun 1998)\r\nIUP (754/Menhutbun-IV/2000)",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1258,14 +929,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU (nomor 1 tahun 1998)\r\nIUP (754/Menhutbun-IV/2000)",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1293,14 +956,6 @@ export const siakProgress: Progress[] = [
       },
       keterangan:
         "HGU = PBT SIAK 4 MARET 2022 IUP = 945 / MENHUTBUN - VII/2000/TGL 8-8-2000",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1322,14 +977,6 @@ export const siakProgress: Progress[] = [
       },
       keterangan:
         "HGU = PBT SIAK 4 MARET 2022 IUP = 945 / MENHUTBUN - VII/2000/TGL 8-8-2000",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1350,14 +997,6 @@ export const siakProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "-",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
 ];

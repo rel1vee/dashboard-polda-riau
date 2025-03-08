@@ -25,14 +25,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -53,14 +45,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -81,14 +65,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -115,14 +91,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -143,14 +111,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -171,14 +131,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -205,14 +157,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "BERADA DI WILAYAH KABUN, ROKAN HULU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -233,14 +177,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "BERADA DI WILAYAH KABUN, ROKAN HULU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -261,14 +197,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "BERADA DI WILAYAH KABUN, ROKAN HULU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -295,14 +223,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -323,14 +243,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -351,14 +263,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -385,14 +289,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -413,14 +309,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -441,14 +329,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -475,14 +355,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -503,14 +375,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -531,14 +395,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -565,14 +421,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -593,14 +441,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -621,14 +461,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -655,14 +487,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -683,14 +507,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -711,14 +527,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -745,14 +553,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -773,14 +573,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -801,14 +593,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -835,14 +619,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -863,14 +639,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -891,14 +659,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -925,14 +685,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "MENUNGGU KEPUTUSAN DIREKSI",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -953,14 +705,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "MENUNGGU KEPUTUSAN DIREKSI",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -981,14 +725,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1015,14 +751,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1043,14 +771,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1071,14 +791,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1105,14 +817,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1133,14 +837,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1161,14 +857,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1195,14 +883,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "DITANAM DI KAB. SIAK",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1223,14 +903,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1251,14 +923,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "DITANAM DI KAB. SIAK",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1285,14 +949,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1314,14 +970,6 @@ export const kamparProgress: Progress[] = [
       },
       keterangan:
         "TIDAK ADA LAHAN KOSONG DAN TUMPANG SARI, AKAN DIARAHKAN KE CSR SERTA MENUNGGU KEPUTUSAN DIREKSI",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1342,14 +990,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1376,14 +1016,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1404,14 +1036,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1432,14 +1056,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1466,14 +1082,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1494,14 +1102,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1522,14 +1122,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1556,14 +1148,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "KGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1584,14 +1168,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1612,14 +1188,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1646,14 +1214,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1674,14 +1234,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1702,14 +1254,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1736,14 +1280,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1764,14 +1300,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT / TIDAK",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1792,14 +1320,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1826,14 +1346,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1854,14 +1366,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1882,14 +1386,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -1916,14 +1412,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -1944,14 +1432,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -1972,14 +1452,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2006,14 +1478,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "LAHAN TIDAK ADA HANYA PABRIK",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2034,14 +1498,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "LAHAN TIDAK ADA HANYA PABRIK",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2062,14 +1518,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "LAHAN TIDAK ADA HANYA PABRIK",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2100,14 +1548,6 @@ export const kamparProgress: Progress[] = [
       },
       keterangan:
         "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2130,14 +1570,6 @@ export const kamparProgress: Progress[] = [
       },
       keterangan:
         "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2160,14 +1592,6 @@ export const kamparProgress: Progress[] = [
       },
       keterangan:
         "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2194,14 +1618,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2222,14 +1638,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2250,14 +1658,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2284,14 +1684,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2312,14 +1704,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2340,14 +1724,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2374,14 +1750,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2402,14 +1770,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2430,14 +1790,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2464,14 +1816,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2492,14 +1836,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2520,14 +1856,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2554,14 +1882,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2582,14 +1902,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2610,14 +1922,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2644,14 +1948,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2672,14 +1968,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2700,14 +1988,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2734,14 +2014,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2762,14 +2034,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2790,14 +2054,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2824,14 +2080,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "PERUSAHAAN MASUK KE WILAYAH MINAS",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2852,14 +2100,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "PERUSAHAAN MASUK KE WILAYAH MINAS",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2880,14 +2120,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "PERUSAHAAN MASUK KE WILAYAH MINAS",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -2914,14 +2146,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -2942,14 +2166,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -2970,14 +2186,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3006,14 +2214,6 @@ export const kamparProgress: Progress[] = [
       },
       keterangan:
         "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3036,14 +2236,6 @@ export const kamparProgress: Progress[] = [
       },
       keterangan:
         "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3066,14 +2258,6 @@ export const kamparProgress: Progress[] = [
       },
       keterangan:
         "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3100,14 +2284,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3128,14 +2304,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3156,14 +2324,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3190,14 +2350,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3218,14 +2370,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3246,14 +2390,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3280,14 +2416,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3308,14 +2436,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3336,14 +2456,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3370,14 +2482,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3398,14 +2502,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3426,14 +2522,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3460,14 +2548,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3488,14 +2568,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3516,14 +2588,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3550,14 +2614,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3578,14 +2634,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3606,14 +2654,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3640,14 +2680,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3668,14 +2700,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3696,14 +2720,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3730,14 +2746,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3758,14 +2766,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3786,14 +2786,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3820,14 +2812,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SKT",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3848,14 +2832,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SKT",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3876,14 +2852,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -3910,14 +2878,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -3938,14 +2898,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -3966,14 +2918,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4000,14 +2944,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4028,14 +2964,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4056,14 +2984,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4090,14 +3010,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT /TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4118,14 +3030,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4146,14 +3050,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4180,14 +3076,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4208,14 +3096,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4236,14 +3116,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4270,14 +3142,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4298,14 +3162,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4326,14 +3182,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4360,14 +3208,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4388,14 +3228,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4416,14 +3248,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4450,14 +3274,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4478,14 +3294,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SKT",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4506,14 +3314,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4540,14 +3340,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "PERUSAHAAN MASUK WILKUM KUANSING",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4568,14 +3360,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "PT MASUK WILKUM KUANSING",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4596,14 +3380,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "PERUSAHAAN MASUK WILKUM KUANSING",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4630,14 +3406,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4658,14 +3426,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4686,14 +3446,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4720,14 +3472,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4748,14 +3492,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4776,14 +3512,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4810,14 +3538,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4838,14 +3558,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4866,14 +3578,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4900,14 +3604,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -4928,14 +3624,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -4956,14 +3644,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -4990,14 +3670,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SUDAH TANAM DI KABUPATEN INHU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -5018,14 +3690,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "SUDAH TANAM DI KABUPATEN INHU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -5046,14 +3710,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -5080,14 +3736,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -5108,14 +3756,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -5136,14 +3776,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN MILIK PEMPROV",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -5170,14 +3802,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -5198,14 +3822,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -5226,14 +3842,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -5260,14 +3868,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "PT. SAMA DENGAN NOMOR URUT 48",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -5288,14 +3888,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "PT. SAMA DENGAN NOMOR URUT 48",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -5316,14 +3908,6 @@ export const kamparProgress: Progress[] = [
         persentase: "",
       },
       keterangan: "PT. SAMA DENGAN NOMOR URUT 48",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -5350,14 +3934,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -5378,14 +3954,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -5406,14 +3974,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
   {
@@ -5440,14 +4000,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     tumpangSari: {
       targetTanam: {
@@ -5468,14 +4020,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: "HGU ",
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
     csr: {
       targetTanam: {
@@ -5496,14 +4040,6 @@ export const kamparProgress: Progress[] = [
         persentase: 0.0,
       },
       keterangan: 0,
-      rencanaTanam: {
-        tanggalTanam: "",
-        luasTanam: 0,
-      },
-      rencanaPanen: {
-        tanggalPanen: "",
-        perkiraanPanen: 0,
-      },
     },
   },
 ];

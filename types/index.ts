@@ -8,23 +8,23 @@ export interface City {
   tumpangSariTarget: number;
   companies: Company[];
   otherCompanies: Company[];
+  progress: Progress[];
+  otherProgress: Progress[];
   polsek: Polsek[];
-  progress?: Progress[];
-  otherProgress?: Progress[];
 }
 
 export interface Polsek {
   id: number;
   name: string;
   polres?: string;
-  villages?: Village[];
+  villages: Village[];
 }
 
 export interface Village {
   id: string | number;
   name: string;
   target: number;
-  waktuTanam?: string;
+  waktuTanam: string;
   achievement: number;
 }
 
@@ -58,7 +58,7 @@ export interface Company {
     III: number;
     IV: number;
   };
-  csrAchievements?: {
+  csrAchievements: {
     I: number;
     II: number;
     III: number;
@@ -71,90 +71,64 @@ export interface Progress {
   namaPJ: string;
   nomorTelp: string | number;
   area: number;
-  coordinates?: [number, number] | null;
-  photo?: string | null;
   monokultur: {
     targetTanam: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     waktuTanam: string | number;
     progresTanam: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     belumTanam: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     panen: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     keterangan: string | number;
-    rencanaTanam?: {
-      tanggalTanam?: string | null;
-      luasTanam?: number | string;
-    };
-    rencanaPanen?: {
-      tanggalPanen?: string | null;
-      perkiraanPanen?: string | number;
-    };
   };
   tumpangSari: {
     targetTanam: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     waktuTanam: string | number;
     progresTanam: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     belumTanam: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     panen: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     keterangan: string | number;
-    rencanaTanam?: {
-      tanggalTanam?: string | null;
-      luasTanam?: number | string;
-    };
-    rencanaPanen?: {
-      tanggalPanen?: string | null;
-      perkiraanPanen?: string | number;
-    };
   };
   csr: {
     targetTanam: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     waktuTanam: string | number;
     progresTanam: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     belumTanam: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     panen: {
       luas: number | string;
-      persentase: number | string;
+      persentase?: number | string;
     };
     keterangan: string | number;
-    rencanaTanam?: {
-      tanggalTanam?: string | null;
-      luasTanam?: number | string;
-    };
-    rencanaPanen?: {
-      tanggalPanen?: string | null;
-      perkiraanPanen?: string | number;
-    };
   };
 }
