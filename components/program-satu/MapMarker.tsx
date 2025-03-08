@@ -3,7 +3,7 @@
 import L from "leaflet";
 import { useRef } from "react";
 import "leaflet/dist/leaflet.css";
-import { Badge } from "./ui/badge";
+import { Badge } from "../ui/badge";
 import { Company, Polsek } from "@/types";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 

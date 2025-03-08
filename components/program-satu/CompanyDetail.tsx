@@ -21,9 +21,12 @@ import {
   Phone,
   Target,
   User,
+  Map,
   Warehouse,
 } from "lucide-react";
 import {
+  ComposedChart,
+  Bar,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -52,7 +55,7 @@ interface CompanyDetailProps {
   onClose: () => void;
 }
 
-const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
+const CompanyDetail: React.FC<CompanyDetailProps> = ({
   company,
   progress,
   isOpen,
@@ -63,12 +66,16 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   const transformPeriodData = () => {
     return (["I", "II", "III", "IV"] as const).map((period) => ({
       periode: period,
-
+      monoTarget: (company.monokulturTargets ?? {})[
+        period as keyof typeof company.monokulturTargets
+      ],
       monoAchievement:
         company.monokulturAchievements[
           period as keyof typeof company.monokulturAchievements
         ],
-
+      tsTarget: (company.tumpangSariTargets ?? {})[
+        period as keyof typeof company.tumpangSariTargets
+      ],
       tsAchievement:
         company.tumpangSariAchievements[
           period as keyof typeof company.tumpangSariAchievements
@@ -79,30 +86,65 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     }));
   };
 
+  const filterPeriodData = () => {
+    const totalMonoTarget = Object.values(
+      company.monokulturTargets || {}
+    ).reduce((acc, val) => acc + (val ?? 0), 0);
+    const totalMonoAchievement = company.monokulturAchievements.IV;
+    const totalTsTarget = Object.values(
+      company.tumpangSariTargets || {}
+    ).reduce((acc, val) => acc + (val ?? 0), 0);
+    const totalTsAchievement = company.tumpangSariAchievements.IV;
+
+    return [
+      {
+        periode: "1",
+        monoTarget: totalMonoTarget,
+        monoAchievement: totalMonoAchievement,
+        tsTarget: totalTsTarget,
+        tsAchievement: totalTsAchievement,
+      },
+      {
+        periode: "2",
+        monoTarget: totalMonoTarget,
+        monoAchievement: 0,
+        tsTarget: totalTsTarget,
+        tsAchievement: 0,
+      },
+      {
+        periode: "3",
+        monoTarget: totalMonoTarget,
+        monoAchievement: 0,
+        tsTarget: totalTsTarget,
+        tsAchievement: 0,
+      },
+      {
+        periode: "4",
+        monoTarget: totalMonoTarget,
+        monoAchievement: 0,
+        tsTarget: totalTsTarget,
+        tsAchievement: 0,
+      },
+    ];
+  };
+
   const targetDistribution = [
     {
-      name: "Total Capaian Monokultur",
-      value: company.monokulturAchievements.IV,
+      name: "2% Monokultur",
+      value: company.target2Percent,
+      fill: "hsl(var(--chart-1))",
+    },
+    {
+      name: "7% Tumpang Sari",
+      value: company.target7Percent,
       fill: "hsl(var(--chart-2))",
-    },
-    {
-      name: "Total Capaian Tumpang Sari",
-      value: company.tumpangSariAchievements.IV,
-      fill: "hsl(var(--chart-3))",
-    },
-    {
-      name: "Total Capaian CSR",
-      value: company.csrAchievements?.IV,
-      fill: "hsl(var(--chart-4))",
     },
     {
       name: "Sisa Lahan",
       value:
         company.area -
-        (company.monokulturAchievements.IV +
-          company.tumpangSariAchievements.IV +
-          (company.csrAchievements?.IV ?? 0)),
-      fill: "hsl(var(--chart-1))",
+        ((company.target2Percent ?? 0) + (company.target7Percent ?? 0)),
+      fill: "hsl(var(--chart-3))",
     },
   ];
 
@@ -272,6 +314,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   };
 
   const periodData = transformPeriodData();
+  const filteredPeriodData = filterPeriodData();
   const totalArea = company.area;
 
   // Fungsi untuk memformat tanggal dalam format "DD-MM-YYYY"
@@ -404,9 +447,8 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
             {company.name}
           </DialogTitle>
         </DialogHeader>
-
         <Tabs defaultValue="overview" className="w-full">
-          <TabsList className="grid w-full h-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-blue-100 gap-2 mb-4 mt-1">
+          <TabsList className="grid w-full bg-blue-100 h-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mb-4 mt-1">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="progress">
               Monokultur & Tumpang Sari
@@ -414,15 +456,14 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
             <TabsTrigger value="csr">CSR</TabsTrigger>
             <TabsTrigger value="prosesProduksi">Proses Produksi</TabsTrigger>
           </TabsList>
-
           <TabsContent value="overview">
-            <div className="grid grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Card>
                 <CardHeader className="items-center">
                   <CardTitle className="text-sm font-medium">
                     Total Lahan
                   </CardTitle>
-                  <CardDescription>Distribusi Lahan</CardDescription>
+                  <CardDescription>Distribusi Target Lahan</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="h-[300px]">
@@ -503,7 +544,25 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                   </div>
                 </CardContent>
                 <CardFooter className="flex-col gap-3">
+                  {/* Target Section */}
                   <div className="w-full grid grid-cols-1 gap-2">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <div
+                          className="h-3 w-3 rounded-full"
+                          style={{ backgroundColor: "hsl(var(--chart-1))" }}
+                        ></div>
+                        <span className="text-sm text-muted-foreground">
+                          Target 2% Monokultur
+                        </span>
+                      </div>
+                      <span className="text-sm font-medium">
+                        {company.target2Percent?.toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        Ha
+                      </span>
+                    </div>
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <div
@@ -511,61 +570,22 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           style={{ backgroundColor: "hsl(var(--chart-2))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
-                          Total Capaian Monokultur
+                          Target 7% Tumpang Sari
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.monokulturAchievements.IV.toLocaleString(
-                          "id-ID",
-                          {
-                            maximumFractionDigits: 2,
-                          }
-                        )}{" "}
-                        Ha
-                      </span>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <div
-                          className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-3))" }}
-                        ></div>
-                        <span className="text-sm text-muted-foreground">
-                          Total Capaian Tumpang Sari
-                        </span>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {company.tumpangSariAchievements.IV.toLocaleString(
-                          "id-ID",
-                          {
-                            maximumFractionDigits: 2,
-                          }
-                        )}{" "}
-                        Ha
-                      </span>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <div
-                          className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-4))" }}
-                        ></div>
-                        <span className="text-sm text-muted-foreground">
-                          Total Capaian CSR
-                        </span>
-                      </div>
-                      <span className="text-sm font-medium">
-                        {company.csrAchievements?.IV.toLocaleString("id-ID", {
+                        {company.target7Percent?.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
                         Ha
                       </span>
                     </div>
                   </div>
-                  <div className="w-full pt-2 border-t">
+                  {/* Summary Section */}
+                  <div className="w-full grid grid-cols-1 gap-2 pt-2 border-t">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
-                        <Target className="h-4 w-4" />
+                        <Map className="h-4 w-4" />
                         <span className="text-sm text-muted-foreground">
                           Total Lahan
                         </span>
@@ -577,12 +597,172 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         Ha
                       </span>
                     </div>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <Target className="h-4 w-4" />
+                        <span className="text-sm text-muted-foreground">
+                          Total Capaian
+                        </span>
+                      </div>
+                      <span className="text-sm font-medium">
+                        {(
+                          company.monokulturAchievements.IV +
+                          company.tumpangSariAchievements.IV +
+                          (company.csrAchievements?.IV ?? 0)
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        dari{" "}
+                        {(
+                          (company.target2Percent ?? 0) +
+                          (company.target7Percent ?? 0)
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        Ha
+                      </span>
+                    </div>
+                  </div>
+                </CardFooter>
+              </Card>
+              {/* Target Monokultur dan Tumpang Sari */}
+              <Card className="w-full max-w-4xl">
+                <CardHeader className="items-center">
+                  <CardTitle className="text-sm font-medium">
+                    Target Monokultur dan Tumpang Sari
+                  </CardTitle>
+                  <CardDescription>Capaian per Bulan</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="h-[400px]">
+                    <ResponsiveContainer width="100%" height="100%">
+                      <ComposedChart data={filteredPeriodData}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis
+                          dataKey="periode"
+                          domain={["dataMin", "dataMax"]}
+                          padding={{ left: 0, right: 0 }}
+                          tickFormatter={(value) => {
+                            if (value === "5") {
+                              return " dst";
+                            }
+                            return `Bulan ${value}`;
+                          }}
+                        />
+                        <YAxis domain={[0, 10]} />
+                        <Tooltip
+                          content={({ active, payload }) => {
+                            if (active && payload && payload.length) {
+                              const {
+                                periode,
+                                monoTarget,
+                                monoAchievement,
+                                tsTarget,
+                                tsAchievement,
+                              } = payload[0].payload;
+
+                              const getMonthName = (period: string) => {
+                                switch (period) {
+                                  case "1":
+                                    return "Bulan 1";
+                                  case "2":
+                                    return "Bulan 2";
+                                  case "3":
+                                    return "Bulan 3";
+                                  case "4":
+                                    return "Bulan 4";
+                                  case "5":
+                                    return "dst";
+                                  default:
+                                    return "Periode Tidak Diketahui";
+                                }
+                              };
+
+                              return (
+                                <div className="p-4 bg-white border rounded shadow">
+                                  <p className="font-bold">
+                                    {getMonthName(periode)}
+                                  </p>
+                                  <p className="text-[#16a34a]">
+                                    Monokultur : {monoAchievement ?? 0} dari{" "}
+                                    {monoTarget ?? 0} Ha
+                                  </p>
+                                  <p className="text-[#00008B]">
+                                    Tumpang Sari : {tsAchievement ?? 0} dari{" "}
+                                    {tsTarget ?? 0} Ha
+                                  </p>
+                                </div>
+                              );
+                            }
+                            return null;
+                          }}
+                        />
+                        <Legend />
+                        <Line
+                          type="monotone"
+                          dataKey="monoTarget"
+                          name="Target Monokultur"
+                          stroke="#8BC34A"
+                          strokeWidth={2}
+                          strokeDasharray="5 5"
+                          dot={true}
+                        />
+                        <Line
+                          type="monotone"
+                          dataKey="tsTarget"
+                          name="Target Tumpang Sari"
+                          stroke="#03A9F4"
+                          strokeWidth={2}
+                          strokeDasharray="5 5"
+                          dot={true}
+                        />
+                        <Bar
+                          dataKey="monoAchievement"
+                          name="Capaian Monokultur"
+                          fill="#8BC34A"
+                          barSize={80}
+                        />
+                        <Bar
+                          dataKey="tsAchievement"
+                          name="Capaian Tumpang Sari"
+                          fill="#03A9F4"
+                          barSize={80}
+                        />
+                      </ComposedChart>
+                    </ResponsiveContainer>
+                  </div>
+                </CardContent>
+                <CardFooter className="flex-col items-start gap-2 text-sm">
+                  <div className="w-full pt-2 border-t">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <Target className="h-4 w-4" />
+                        <span className="text-sm text-muted-foreground">
+                          Total Capaian
+                        </span>
+                      </div>
+                      <span className="text-sm font-medium">
+                        {(
+                          company.monokulturAchievements.IV +
+                          company.tumpangSariAchievements.IV
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        dari{" "}
+                        {(
+                          (company.target2Percent ?? 0) +
+                          (company.target7Percent ?? 0)
+                        ).toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
+                        Ha
+                      </span>
+                    </div>
                   </div>
                 </CardFooter>
               </Card>
             </div>
           </TabsContent>
-
           <TabsContent value="progress">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Card>
@@ -607,6 +787,13 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           stroke="#3b82f6"
                           strokeWidth={2}
                         />
+                        <Line
+                          type="monotone"
+                          dataKey="monoTarget"
+                          name="Target"
+                          stroke="#22c55e"
+                          strokeDasharray="5 5"
+                        />
                       </LineChart>
                     </ResponsiveContainer>
                   </div>
@@ -627,6 +814,10 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             maximumFractionDigits: 2,
                           }
                         )}{" "}
+                        dari{" "}
+                        {company.target2Percent?.toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
                         Ha
                       </span>
                     </div>
@@ -655,6 +846,13 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           stroke="#3b82f6"
                           strokeWidth={2}
                         />
+                        <Line
+                          type="monotone"
+                          dataKey="tsTarget"
+                          name="Target"
+                          stroke="#8b5cf6"
+                          strokeDasharray="5 5"
+                        />
                       </LineChart>
                     </ResponsiveContainer>
                   </div>
@@ -675,6 +873,10 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             maximumFractionDigits: 2,
                           }
                         )}{" "}
+                        dari{" "}
+                        {company.target7Percent?.toLocaleString("id-ID", {
+                          maximumFractionDigits: 2,
+                        })}{" "}
                         Ha
                       </span>
                     </div>
@@ -683,7 +885,6 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
               </Card>
             </div>
           </TabsContent>
-
           <TabsContent value="csr">
             <Card>
               <CardHeader>
@@ -731,7 +932,6 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
               </CardFooter>
             </Card>
           </TabsContent>
-
           <TabsContent value="prosesProduksi">
             <div className="space-y-4">
               {progress ? (
@@ -953,4 +1153,4 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   );
 };
 
-export default OtherCompanyDetail;
+export default CompanyDetail;

@@ -1,4 +1,4 @@
-import { riauCity } from "../data/RiauCity";
+import { riauCity } from "../../data/RiauCity";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Trophy, BarChart4, Table as TableIcon, Info } from "lucide-react";
