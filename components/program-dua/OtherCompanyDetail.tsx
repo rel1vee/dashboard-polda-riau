@@ -73,9 +73,9 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
         company.tumpangSariAchievements[
           period as keyof typeof company.tumpangSariAchievements
         ],
-      csrAchievement: (company.csrAchievements ?? {})[
-        period as keyof typeof company.csrAchievements
-      ],
+
+      csrAchievement:
+        company.csrAchievements[period as keyof typeof company.csrAchievements],
     }));
   };
 
@@ -83,17 +83,17 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     {
       name: "Total Capaian Monokultur",
       value: company.monokulturAchievements.IV,
-      fill: "hsl(var(--chart-2))",
+      fill: "hsl(var(--chart-1))",
     },
     {
       name: "Total Capaian Tumpang Sari",
       value: company.tumpangSariAchievements.IV,
-      fill: "hsl(var(--chart-3))",
+      fill: "hsl(var(--chart-2))",
     },
     {
       name: "Total Capaian CSR",
       value: company.csrAchievements?.IV,
-      fill: "hsl(var(--chart-4))",
+      fill: "hsl(var(--chart-3))",
     },
     {
       name: "Sisa Lahan",
@@ -101,8 +101,8 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
         company.area -
         (company.monokulturAchievements.IV +
           company.tumpangSariAchievements.IV +
-          (company.csrAchievements?.IV ?? 0)),
-      fill: "hsl(var(--chart-1))",
+          company.csrAchievements?.IV),
+      fill: "hsl(var(--chart-4))",
     },
   ];
 
@@ -157,8 +157,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
             Target Tanam:{" "}
             {data.targetTanam.luas.toLocaleString("id-ID", {
               maximumFractionDigits: 2,
-            })}{" "}
-            Ha
+            })}
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -194,8 +193,8 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                                   % (
                                   {data.luas.toLocaleString("id-ID", {
                                     maximumFractionDigits: 2,
-                                  })}{" "}
-                                  Ha)
+                                  })}
+                                  )
                                 </span>
                               </div>
                             </div>
@@ -221,7 +220,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                     {data.progresTanam.luas.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}{" "}
-                    Ha (
+                    (
                     {(data.targetTanam.luas === 0
                       ? 0
                       : (data.progresTanam.luas / data.targetTanam.luas) * 100
@@ -235,7 +234,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                     {data.belumTanam.luas.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}{" "}
-                    Ha (
+                    (
                     {(data.targetTanam.luas === 0
                       ? 0
                       : (data.belumTanam.luas / data.targetTanam.luas) * 100
@@ -249,7 +248,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                     {data.panen.luas.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}{" "}
-                    Ha (
+                    (
                     {(data.targetTanam.luas === 0
                       ? 0
                       : (data.panen.luas / data.targetTanam.luas) * 100
@@ -441,8 +440,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                                           Number(payload[0]?.value) ?? 0
                                         ).toLocaleString("id-ID", {
                                           maximumFractionDigits: 2,
-                                        })}{" "}
-                                        Ha
+                                        })}
                                       </span>
                                     </div>
                                   </div>
@@ -456,8 +454,8 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           data={targetDistribution}
                           dataKey="value"
                           nameKey="name"
-                          innerRadius={75}
-                          outerRadius={100}
+                          innerRadius={85}
+                          outerRadius={110}
                           strokeWidth={5}
                         >
                           <Label
@@ -488,7 +486,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                                       y={(viewBox.cy || 0) + 24}
                                       className="fill-muted-foreground"
                                     >
-                                      Total (Ha)
+                                      Total Lahan
                                     </tspan>
                                   </text>
                                 );
@@ -506,7 +504,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       <div className="flex items-center gap-2">
                         <div
                           className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-2))" }}
+                          style={{ backgroundColor: "hsl(var(--chart-1))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
                           Total Capaian Monokultur
@@ -518,15 +516,14 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           {
                             maximumFractionDigits: 2,
                           }
-                        )}{" "}
-                        Ha
+                        )}
                       </span>
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <div
                           className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-3))" }}
+                          style={{ backgroundColor: "hsl(var(--chart-2))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
                           Total Capaian Tumpang Sari
@@ -538,15 +535,14 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           {
                             maximumFractionDigits: 2,
                           }
-                        )}{" "}
-                        Ha
+                        )}
                       </span>
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <div
                           className="h-3 w-3 rounded-full"
-                          style={{ backgroundColor: "hsl(var(--chart-4))" }}
+                          style={{ backgroundColor: "hsl(var(--chart-3))" }}
                         ></div>
                         <span className="text-sm text-muted-foreground">
                           Total Capaian CSR
@@ -555,8 +551,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       <span className="text-sm font-medium">
                         {company.csrAchievements?.IV.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
+                        })}
                       </span>
                     </div>
                   </div>
@@ -571,8 +566,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                       <span className="text-sm font-medium">
                         {company.area.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
+                        })}
                       </span>
                     </div>
                   </div>
@@ -623,8 +617,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           {
                             maximumFractionDigits: 2,
                           }
-                        )}{" "}
-                        Ha
+                        )}
                       </span>
                     </div>
                   </div>
@@ -671,8 +664,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           {
                             maximumFractionDigits: 2,
                           }
-                        )}{" "}
-                        Ha
+                        )}
                       </span>
                     </div>
                   </div>
@@ -719,8 +711,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                     <span className="text-sm font-medium">
                       {company.csrAchievements?.IV.toLocaleString("id-ID", {
                         maximumFractionDigits: 2,
-                      })}{" "}
-                      Ha
+                      })}
                     </span>
                   </div>
                 </div>
