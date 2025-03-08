@@ -1045,7 +1045,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                                   </TableCell>
                                   <TableCell className="text-right">
                                     {calculateHarvestTime(
-                                      String(progress.monokultur.waktuTanam)
+                                      progress.monokultur.waktuTanam
                                     )}
                                   </TableCell>
                                 </TableRow>
@@ -1055,7 +1055,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                                   </TableCell>
                                   <TableCell className="text-right">
                                     {calculateHarvestTime(
-                                      String(progress.tumpangSari.waktuTanam)
+                                      progress.tumpangSari.waktuTanam
                                     )}
                                   </TableCell>
                                 </TableRow>
@@ -1065,7 +1065,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                                   </TableCell>
                                   <TableCell className="text-right">
                                     {calculateHarvestTime(
-                                      String(progress.csr.waktuTanam)
+                                      progress.csr.waktuTanam
                                     )}
                                   </TableCell>
                                 </TableRow>
@@ -1081,60 +1081,57 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                     renderProgressSection("Monokultur", {
                       ...progress.monokultur,
                       targetTanam: {
-                        luas: Number(progress.monokultur.targetTanam.luas) ?? 0,
+                        luas: progress.monokultur.targetTanam.luas ?? 0,
                       },
-                      waktuTanam: String(progress.monokultur.waktuTanam) ?? "",
+                      waktuTanam: progress.monokultur.waktuTanam ?? "",
                       progresTanam: {
-                        luas:
-                          Number(progress.monokultur.progresTanam.luas) ?? 0,
+                        luas: progress.monokultur.progresTanam.luas ?? 0,
                       },
                       belumTanam: {
-                        luas: Number(progress.monokultur.belumTanam.luas) ?? 0,
+                        luas: progress.monokultur.belumTanam.luas ?? 0,
                       },
                       panen: {
-                        luas: Number(progress.monokultur.panen.luas) ?? 0,
+                        luas: progress.monokultur.panen.luas ?? 0,
                       },
-                      keterangan: String(progress.monokultur.keterangan) ?? "",
+                      keterangan: progress.monokultur.keterangan ?? "",
                     })}
 
                   {progress.tumpangSari &&
                     renderProgressSection("Tumpang Sari", {
                       ...progress.tumpangSari,
                       targetTanam: {
-                        luas:
-                          Number(progress.tumpangSari.targetTanam.luas) ?? 0,
+                        luas: progress.tumpangSari.targetTanam.luas ?? 0,
                       },
-                      waktuTanam: String(progress.tumpangSari.waktuTanam) ?? "",
+                      waktuTanam: progress.tumpangSari.waktuTanam ?? "",
                       progresTanam: {
-                        luas:
-                          Number(progress.tumpangSari.progresTanam.luas) ?? 0,
+                        luas: progress.tumpangSari.progresTanam.luas ?? 0,
                       },
                       belumTanam: {
-                        luas: Number(progress.tumpangSari.belumTanam.luas) ?? 0,
+                        luas: progress.tumpangSari.belumTanam.luas ?? 0,
                       },
                       panen: {
-                        luas: Number(progress.tumpangSari.panen.luas) ?? 0,
+                        luas: progress.tumpangSari.panen.luas ?? 0,
                       },
-                      keterangan: String(progress.tumpangSari.keterangan) ?? "",
+                      keterangan: progress.tumpangSari.keterangan ?? "",
                     })}
 
                   {progress.csr &&
                     renderProgressSection("CSR", {
                       ...progress.csr,
                       targetTanam: {
-                        luas: Number(progress.csr.targetTanam.luas) ?? 0,
+                        luas: progress.csr.targetTanam.luas ?? 0,
                       },
-                      waktuTanam: String(progress.csr.waktuTanam) ?? "",
+                      waktuTanam: progress.csr.waktuTanam ?? "",
                       progresTanam: {
-                        luas: Number(progress.csr.progresTanam.luas) ?? 0,
+                        luas: progress.csr.progresTanam.luas ?? 0,
                       },
                       belumTanam: {
-                        luas: Number(progress.csr.belumTanam.luas) ?? 0,
+                        luas: progress.csr.belumTanam.luas ?? 0,
                       },
                       panen: {
-                        luas: Number(progress.csr.panen.luas) ?? 0,
+                        luas: progress.csr.panen.luas ?? 0,
                       },
-                      keterangan: String(progress.csr.keterangan) ?? "",
+                      keterangan: progress.csr.keterangan ?? "",
                     })}
                 </>
               ) : (

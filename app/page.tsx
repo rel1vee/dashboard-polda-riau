@@ -250,11 +250,10 @@ const DashboardRiauPage = () => {
               <TabsTrigger value="program-satu">PROGRAM I</TabsTrigger>
               <TabsTrigger value="program-dua">PROGRAM II</TabsTrigger>
             </TabsList>
-            <TabsContent value="program-satu" className="flex flex-col gap-6">
-
-
-
-            </TabsContent>
+            <TabsContent
+              value="program-satu"
+              className="flex flex-col gap-6"
+            ></TabsContent>
             <TabsContent value="program-dua" className="flex flex-col gap-6">
               {/* Stats Summary */}
               <motion.div

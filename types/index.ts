@@ -21,7 +21,7 @@ export interface Polsek {
 }
 
 export interface Village {
-  id: string | number;
+  id: number;
   name: string;
   target: number;
   waktuTanam: string;
@@ -45,6 +45,7 @@ export interface Company {
     II: number;
     III: number;
     IV: number;
+    V?: number;
   };
   tumpangSariTargets?: {
     I: number;
@@ -57,12 +58,14 @@ export interface Company {
     II: number;
     III: number;
     IV: number;
+    V?: number;
   };
   csrAchievements: {
     I: number;
     II: number;
     III: number;
     IV: number;
+    V?: number;
   };
 }
 
@@ -73,62 +76,62 @@ export interface Progress {
   area: number;
   monokultur: {
     targetTanam: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
-    waktuTanam: string | number;
+    waktuTanam: string;
     progresTanam: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
     belumTanam: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
     panen: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
-    keterangan: string | number;
+    keterangan: string;
   };
   tumpangSari: {
     targetTanam: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
-    waktuTanam: string | number;
+    waktuTanam: string;
     progresTanam: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
     belumTanam: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
     panen: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
-    keterangan: string | number;
+    keterangan: string;
   };
   csr: {
     targetTanam: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
-    waktuTanam: string | number;
+    waktuTanam: string;
     progresTanam: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
     belumTanam: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
     panen: {
-      luas: number | string;
-      persentase?: number | string;
+      luas: number;
+      persentase?: number;
     };
-    keterangan: string | number;
+    keterangan: string;
   };
 }
