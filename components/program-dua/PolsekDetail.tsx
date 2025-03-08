@@ -128,8 +128,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                                         Number(payload[0]?.value) ?? 0
                                       ).toLocaleString("id-ID", {
                                         maximumFractionDigits: 2,
-                                      })}{" "}
-                                      Ha
+                                      })}
                                     </span>
                                   </div>
                                 </div>
@@ -209,8 +208,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                           <span className="text-sm font-medium">
                             {totalAchievement.toLocaleString("id-ID", {
                               maximumFractionDigits: 2,
-                            })}{" "}
-                            Ha
+                            })}
                           </span>
                         </div>
                         <div className="flex items-center justify-between">
@@ -229,8 +227,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                               totalTarget - totalAchievement
                             ).toLocaleString("id-ID", {
                               maximumFractionDigits: 2,
-                            })}{" "}
-                            Ha
+                            })}
                           </span>
                         </div>
                       </>
@@ -250,8 +247,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                           <span className="text-sm font-medium">
                             {totalTarget.toLocaleString("id-ID", {
                               maximumFractionDigits: 2,
-                            })}{" "}
-                            Ha
+                            })}
                           </span>
                         </div>
                         <div className="flex items-center justify-between">
@@ -270,8 +266,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                               {
                                 maximumFractionDigits: 2,
                               }
-                            )}{" "}
-                            Ha
+                            )}
                           </span>
                         </div>
                       </>
@@ -293,8 +288,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
                         dari{" "}
                         {totalTarget.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
-                        })}{" "}
-                        Ha
+                        })}
                       </span>
                     </div>
                     <div className="flex items-center justify-between">

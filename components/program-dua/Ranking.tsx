@@ -1,6 +1,6 @@
-import { riauCity } from "../../data/RiauCity";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { programDua } from "../../data/ProgramDua";
 import { Trophy, BarChart4, Table as TableIcon, Info } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -44,7 +44,7 @@ const formatNumber = (num: number) => {
 };
 
 const prepareTableData = () => {
-  const rankedCities = riauCity.map((city) => {
+  const rankedCities = programDua.map((city) => {
     const allCompanies = [...city.companies, ...(city.otherCompanies || [])];
 
     let polsekAchievement = 0;
@@ -137,7 +137,7 @@ const prepareTableData = () => {
 };
 
 const prepareTablePolsekData = () => {
-  const rankedPolsek = riauCity.map((city) => {
+  const rankedPolsek = programDua.map((city) => {
     let totalAchievement = 0;
     let totalTarget = 0;
 
@@ -191,7 +191,7 @@ const getTotalPolsekData = (
 };
 
 const getTotalAchievements = () => {
-  return riauCity.reduce(
+  return programDua.reduce(
     (acc, polres) => {
       const allCompanies = [
         ...polres.companies,
@@ -339,7 +339,7 @@ const getTotalAchievements = () => {
 
 const achievements = getTotalAchievements();
 
-const NewRanking = () => {
+const ProgramDuaRanking = () => {
   const tableData = prepareTableData();
   const tablePolsekData = prepareTablePolsekData();
   const totalRow = getTotalPolsekData(tablePolsekData);
@@ -1011,4 +1011,4 @@ const NewRanking = () => {
   );
 };
 
-export default NewRanking;
+export default ProgramDuaRanking;

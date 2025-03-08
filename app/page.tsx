@@ -4,9 +4,9 @@ import Image from "next/image";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
-import { riauCity } from "@/data/RiauCity";
-import { City, Company, Polsek, Progress } from "@/types";
-import NewRanking from "@/components/program-dua/NewRanking";
+import { programDua } from "@/data/ProgramDua";
+import { ProgramDua, Company, Polsek, Progress } from "@/types";
+import ProgramDuaRanking from "@/components/program-dua/Ranking";
 import { Table, TableBody, TableRow } from "@/components/ui/table";
 import PolsekDetailModal from "@/components/program-dua/PolsekDetail";
 import CompanyDetailsModal from "@/components/program-dua/CompanyDetail";
@@ -29,20 +29,23 @@ import {
   CardDescription,
 } from "@/components/ui/card";
 
-const MapMarker = dynamic(() => import("@/components/program-dua/MapMarker"), {
-  ssr: false,
-  loading: () => (
-    <div className="h-[500px] flex items-center justify-center bg-gray-100">
-      <p className="text-black">Loading...</p>
-    </div>
-  ),
-});
+const ProgramDuaMapMarker = dynamic(
+  () => import("@/components/program-dua/MapMarker"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-[500px] flex items-center justify-center bg-gray-100">
+        <p className="text-black">Loading...</p>
+      </div>
+    ),
+  }
+);
 
 const MotionCard = motion.create(Card);
 
 const DashboardRiauPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedCity, setSelectedCity] = useState<City | null>(null);
+  const [selectedCity, setSelectedCity] = useState<ProgramDua | null>(null);
   const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [selectedCompanyProgress, setSelectedCompanyProgress] =
@@ -90,7 +93,7 @@ const DashboardRiauPage = () => {
   };
 
   const getTotalTargets = () => {
-    return riauCity.reduce(
+    return programDua.reduce(
       (acc, polres) => {
         const polsekTarget = polres.polsek.reduce(
           (total, polsek) =>
@@ -117,7 +120,7 @@ const DashboardRiauPage = () => {
   };
 
   const getTotalAchievements = () => {
-    return riauCity.reduce(
+    return programDua.reduce(
       (acc, polres) => {
         const allCompanies = [
           ...polres.companies,
@@ -250,10 +253,12 @@ const DashboardRiauPage = () => {
               <TabsTrigger value="program-satu">PROGRAM I</TabsTrigger>
               <TabsTrigger value="program-dua">PROGRAM II</TabsTrigger>
             </TabsList>
+            {/* Program Satu*/}
             <TabsContent
               value="program-satu"
               className="flex flex-col gap-6"
             ></TabsContent>
+            {/* Program Dua*/}
             <TabsContent value="program-dua" className="flex flex-col gap-6">
               {/* Stats Summary */}
               <motion.div
@@ -383,8 +388,8 @@ const DashboardRiauPage = () => {
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="p-0">
-                    <MapMarker
-                      cities={riauCity}
+                    <ProgramDuaMapMarker
+                      cities={programDua}
                       onCityClick={setSelectedCity}
                     />
                   </CardContent>
@@ -396,7 +401,7 @@ const DashboardRiauPage = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                <NewRanking />
+                <ProgramDuaRanking />
               </motion.div>
               {/* Company Section */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

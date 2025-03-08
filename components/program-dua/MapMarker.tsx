@@ -70,7 +70,7 @@ const calculateTotalArea = (
   return allCompanies.reduce((total, company) => total + company.area, 0);
 };
 
-const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
+const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
   const markerRefs = useRef<{ [key: string]: L.Marker | null }>({});
 
   return (
@@ -273,4 +273,4 @@ const MapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
   );
 };
 
-export default MapMarker;
+export default ProgramDuaMapMarker;

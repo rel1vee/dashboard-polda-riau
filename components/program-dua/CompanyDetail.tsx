@@ -63,7 +63,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
 }) => {
   if (!company) return null;
 
-  const transformPeriodData = () => {
+  const transformWeekData = () => {
     return (["I", "II", "III", "IV"] as const).map((period) => ({
       periode: period,
       monoTarget: company.target2Percent,
@@ -298,8 +298,8 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     );
   };
 
-  const periodData = transformPeriodData();
-  const filteredPeriodData = filterPeriodData();
+  const weekData = transformWeekData();
+  const periodData = filterPeriodData();
   const totalArea = company.area;
 
   // Fungsi untuk memformat tanggal dalam format "DD-MM-YYYY"
@@ -616,7 +616,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                 <CardContent>
                   <div className="h-[400px]">
                     <ResponsiveContainer width="100%" height="100%">
-                      <ComposedChart data={filteredPeriodData}>
+                      <ComposedChart data={periodData}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis
                           dataKey="periode"
@@ -748,7 +748,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                 <CardContent>
                   <div className="h-[400px]">
                     <ResponsiveContainer width="100%" height="100%">
-                      <LineChart data={periodData}>
+                      <LineChart data={weekData}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="periode" />
                         <YAxis />
@@ -806,7 +806,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                 <CardContent>
                   <div className="h-[400px]">
                     <ResponsiveContainer width="100%" height="100%">
-                      <LineChart data={periodData}>
+                      <LineChart data={weekData}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="periode" />
                         <YAxis />
@@ -867,7 +867,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
               <CardContent>
                 <div className="h-[400px]">
                   <ResponsiveContainer width="100%" height="100%">
-                    <LineChart data={periodData}>
+                    <LineChart data={weekData}>
                       <CartesianGrid strokeDasharray="3 3" />
                       <XAxis dataKey="periode" />
                       <YAxis />

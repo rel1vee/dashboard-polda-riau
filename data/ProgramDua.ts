@@ -1,4 +1,4 @@
-import { City } from "../types";
+import { ProgramDua } from "../types";
 import { bengkalisCompanies } from "./program-dua/company/Bengkalis";
 import { inhilCompanies } from "./program-dua/company/Inhil";
 import { inhuCompanies } from "./program-dua/company/Inhu";
@@ -56,7 +56,7 @@ import { rohilProgress } from "./program-dua/progress/Rohil";
 import { rohulProgress } from "./program-dua/progress/Rohul";
 import { siakProgress } from "./program-dua/progress/Siak";
 
-export const riauCity: City[] = [
+export const programDua: ProgramDua[] = [
   {
     id: 1,
     nama: "INDRAGIRI HULU",

@@ -1,4 +1,36 @@
-export interface City {
+export interface ProgramSatu {
+  id: number;
+  nama: string;
+  coordinates?: [number, number];
+  jumlahDesa: number;
+  jumlahKecamatan: number;
+  jumlahPolisiPenggerak: number;
+  jumlahTitikPekarangan: number;
+  desaPercontohan: number;
+  desaNonPercontohan: number;
+  perikanan: number;
+  peternakan: number;
+  holtikultura: number;
+  luasLahanII: number;
+  luasLahanIII: number;
+  luasLahanIV: number;
+  pertambahanTitik: number;
+  pertambahanLuas: number;
+  pekarangan?: Pekarangan[];
+}
+
+export interface Pekarangan {
+  id: number;
+  kecamatan: string;
+  desa: string;
+  namaPolisi: string;
+  pangkat: string;
+  jabatan: string;
+  percontohan: string;
+  keterangan: string;
+}
+
+export interface ProgramDua {
   id: number;
   nama: string;
   coordinates: [number, number];
