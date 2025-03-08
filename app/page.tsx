@@ -89,7 +89,7 @@ const DashboardRiauPage = () => {
     },
   };
 
-  const getTotalStats = () => {
+  const getTotalTargets = () => {
     return riauCity.reduce(
       (acc, polres) => {
         const polsekTarget = polres.polsek.reduce(
@@ -205,7 +205,7 @@ const DashboardRiauPage = () => {
     setSelectedPolsek(null);
   };
 
-  const stats = getTotalStats();
+  const targets = getTotalTargets();
   const achievements = getTotalAchievements();
 
   return (
@@ -270,7 +270,7 @@ const DashboardRiauPage = () => {
                       {
                         maximumFractionDigits: 2,
                       }
-                    )} dari ${stats.monokulturTarget.toLocaleString("id-ID", {
+                    )} dari ${targets.monokulturTarget.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}`,
                     description: "Capaian dari Target Monokultur",
@@ -284,9 +284,12 @@ const DashboardRiauPage = () => {
                       {
                         maximumFractionDigits: 2,
                       }
-                    )} dari ${stats.tumpangSariTarget.toLocaleString("id-ID", {
-                      maximumFractionDigits: 2,
-                    })}`,
+                    )} dari ${targets.tumpangSariTarget.toLocaleString(
+                      "id-ID",
+                      {
+                        maximumFractionDigits: 2,
+                      }
+                    )}`,
                     description: "Capaian dari Target Tumpang Sari",
                     icon: Sprout,
                     gradient: "from-orange-400 to-pink-500",
@@ -310,7 +313,7 @@ const DashboardRiauPage = () => {
                       {
                         maximumFractionDigits: 2,
                       }
-                    )} dari ${stats.polsekTarget.toLocaleString("id-ID", {
+                    )} dari ${targets.polsekTarget.toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}`,
                     description: "Capaian dari Target POLSEK",
@@ -327,9 +330,9 @@ const DashboardRiauPage = () => {
                     ).toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })} dari ${(
-                      stats.monokulturTarget +
-                      stats.tumpangSariTarget +
-                      stats.polsekTarget
+                      targets.monokulturTarget +
+                      targets.tumpangSariTarget +
+                      targets.polsekTarget
                     ).toLocaleString("id-ID", {
                       maximumFractionDigits: 2,
                     })}`,
