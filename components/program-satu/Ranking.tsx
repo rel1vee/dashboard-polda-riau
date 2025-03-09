@@ -124,54 +124,63 @@ const ProgramSatuRanking = () => {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {programSatu.map((row) => (
-              <TableRow key={row.id}>
-                <TableCell className="text-center border">{row.id}</TableCell>
-                <TableCell className="text-center border">{row.nama}</TableCell>
-                <TableCell className="text-center border bg-purple-50">
-                  {row.jumlahDesa}
-                </TableCell>
-                <TableCell className="text-center border bg-blue-50">
-                  {row.jumlahKecamatan}
-                </TableCell>
-                <TableCell className="text-center border bg-orange-50">
-                  {row.jumlahPolisiPenggerak}
-                </TableCell>
-                <TableCell className="text-center border bg-green-50">
-                  {row.desaPercontohan}
-                </TableCell>
-                <TableCell className="text-center border bg-green-50">
-                  {row.desaNonPercontohan}
-                </TableCell>
-                <TableCell className="text-center border font-bold bg-red-50">
-                  {row.jumlahTitikIII}
-                </TableCell>
-                <TableCell className="text-center border font-bold bg-red-50">
-                  {row.jumlahTitikIV}
-                </TableCell>
-                <TableCell className="text-center border font-bold bg-red-50">
-                  {row.jumlahTitikIV - row.jumlahTitikIII}
-                </TableCell>
-                <TableCell className="text-center border bg-amber-50">
-                  {row.perikanan}
-                </TableCell>
-                <TableCell className="text-center border bg-amber-50">
-                  {row.peternakan}
-                </TableCell>
-                <TableCell className="text-center border bg-amber-50">
-                  {row.holtikultura}
-                </TableCell>
-                <TableCell className="text-center border font-bold bg-indigo-50">
-                  {formatNumber(row.luasLahanIII)}
-                </TableCell>
-                <TableCell className="text-center border font-bold bg-indigo-50">
-                  {formatNumber(row.luasLahanIV)}
-                </TableCell>
-                <TableCell className="text-center border font-bold bg-indigo-50">
-                  {formatNumber(row.luasLahanIV - row.luasLahanIII)}
-                </TableCell>
-              </TableRow>
-            ))}
+            {[...programSatu]
+              .sort(
+                (a, b) =>
+                  b.luasLahanIV -
+                  b.luasLahanIII -
+                  (a.luasLahanIV - a.luasLahanIII)
+              )
+              .map((row) => (
+                <TableRow key={row.id}>
+                  <TableCell className="text-center border">{row.id}</TableCell>
+                  <TableCell className="text-center border">
+                    {row.nama}
+                  </TableCell>
+                  <TableCell className="text-center border bg-purple-50">
+                    {row.jumlahDesa}
+                  </TableCell>
+                  <TableCell className="text-center border bg-blue-50">
+                    {row.jumlahKecamatan}
+                  </TableCell>
+                  <TableCell className="text-center border bg-orange-50">
+                    {row.jumlahPolisiPenggerak}
+                  </TableCell>
+                  <TableCell className="text-center border bg-green-50">
+                    {row.desaPercontohan}
+                  </TableCell>
+                  <TableCell className="text-center border bg-green-50">
+                    {row.desaNonPercontohan}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-red-50">
+                    {row.jumlahTitikIII}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-red-50">
+                    {row.jumlahTitikIV}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-red-50">
+                    {row.jumlahTitikIV - row.jumlahTitikIII}
+                  </TableCell>
+                  <TableCell className="text-center border bg-amber-50">
+                    {row.perikanan}
+                  </TableCell>
+                  <TableCell className="text-center border bg-amber-50">
+                    {row.peternakan}
+                  </TableCell>
+                  <TableCell className="text-center border bg-amber-50">
+                    {row.holtikultura}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-indigo-50">
+                    {formatNumber(row.luasLahanIII)}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-indigo-50">
+                    {formatNumber(row.luasLahanIV)}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-indigo-50">
+                    {formatNumber(row.luasLahanIV - row.luasLahanIII)}
+                  </TableCell>
+                </TableRow>
+              ))}
             <TableRow>
               <TableCell className="text-center border"></TableCell>
               <TableCell className="text-center border font-bold">
