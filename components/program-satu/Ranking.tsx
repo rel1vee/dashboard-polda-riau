@@ -131,9 +131,11 @@ const ProgramSatuRanking = () => {
                   b.luasLahanIII -
                   (a.luasLahanIV - a.luasLahanIII)
               )
-              .map((row) => (
+              .map((row, index) => (
                 <TableRow key={row.id}>
-                  <TableCell className="text-center border">{row.id}</TableCell>
+                  <TableCell className="text-center border">
+                    {index + 1}
+                  </TableCell>
                   <TableCell className="text-center border">
                     {row.nama}
                   </TableCell>
