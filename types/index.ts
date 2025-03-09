@@ -1,22 +1,26 @@
 export interface ProgramSatu {
   id: number;
   nama: string;
-  coordinates?: [number, number];
+  coordinates: [number, number];
   jumlahDesa: number;
   jumlahKecamatan: number;
   jumlahPolisiPenggerak: number;
-  jumlahTitikPekarangan: number;
+  jumlahTitikI?: number;
+  jumlahTitikII?: number;
+  jumlahTitikIII: number;
+  jumlahTitikIV: number;
+  jumlahTitikV?: number;
   desaPercontohan: number;
   desaNonPercontohan: number;
   perikanan: number;
   peternakan: number;
   holtikultura: number;
-  luasLahanII: number;
+  luasLahanI?: number;
+  luasLahanII?: number;
   luasLahanIII: number;
   luasLahanIV: number;
-  pertambahanTitik: number;
-  pertambahanLuas: number;
-  pekarangan?: Pekarangan[];
+  luasLahanV?: number;
+  pekarangan: Pekarangan[];
 }
 
 export interface Pekarangan {
