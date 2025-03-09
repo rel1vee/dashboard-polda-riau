@@ -178,37 +178,37 @@ const ProgramSatuRanking = () => {
                 {totalRow.nama}
               </TableCell>
               <TableCell className="text-center border font-bold bg-purple-50">
-                {totalRow.jumlahDesa}
+                {formatNumber(totalRow.jumlahDesa)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-blue-50">
-                {totalRow.jumlahKecamatan}
+                {formatNumber(totalRow.jumlahKecamatan)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-orange-50">
-                {totalRow.jumlahPolisiPenggerak}
+                {formatNumber(totalRow.jumlahPolisiPenggerak)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-green-50">
-                {totalRow.desaPercontohan}
+                {formatNumber(totalRow.desaPercontohan)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-green-50">
-                {totalRow.desaNonPercontohan}
+                {formatNumber(totalRow.desaNonPercontohan)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-red-50">
-                {totalRow.jumlahTitikIII}
+                {formatNumber(totalRow.jumlahTitikIII)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-red-50">
-                {totalRow.jumlahTitikIV}
+                {formatNumber(totalRow.jumlahTitikIV)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-red-50">
-                {totalRow.jumlahTitikIV - totalRow.jumlahTitikIII}
+                {formatNumber(totalRow.jumlahTitikIV - totalRow.jumlahTitikIII)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-amber-50">
-                {totalRow.perikanan}
+                {formatNumber(totalRow.perikanan)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-amber-50">
-                {totalRow.peternakan}
+                {formatNumber(totalRow.peternakan)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-amber-50">
-                {totalRow.holtikultura}
+                {formatNumber(totalRow.holtikultura)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-indigo-50">
                 {formatNumber(totalRow.luasLahanIII)}

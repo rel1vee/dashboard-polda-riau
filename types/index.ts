@@ -32,6 +32,7 @@ export interface Pekarangan {
   jabatan: string;
   percontohan: string;
   keterangan: string;
+  titikKoordinat?: string;
 }
 
 export interface ProgramDua {

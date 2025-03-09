@@ -335,7 +335,7 @@ const DashboardPoldaRiauPage = () => {
                       </CardDescription>
                     )}
                   </CardHeader>
-                  <CardContent className="p-0 overflow-y-auto max-h-[800px]">
+                  <CardContent className="p-0 overflow-y-auto max-h-[1000px]">
                     {selectedProgramSatuCity ? (
                       <div className="p-4">
                         {selectedProgramSatuCity.pekarangan.length > 0 ? (
