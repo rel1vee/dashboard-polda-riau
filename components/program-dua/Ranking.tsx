@@ -207,7 +207,10 @@ const prepareTableData = () => {
       polsekAchievement,
       polsekAchievement1,
       TAHAP_I: totalAchievements1 + polsekAchievement1,
-      TAHAP_II: totalAchievements2 + (polsekAchievement - polsekAchievement1),
+      TAHAP_II:
+        totalAchievements2 +
+        (polsekAchievement - polsekAchievement1) -
+        totalAchievements1,
       TAHAP_III: 0,
       TAHAP_IV: 0,
     };
