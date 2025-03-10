@@ -213,10 +213,11 @@ const prepareTableData = () => {
         totalAchievements1,
       TAHAP_III: 0,
       TAHAP_IV: 0,
+      FINAL: totalAchievements2 + polsekAchievement,
     };
   });
 
-  rankedCities.sort((a, b) => b.TAHAP_II - a.TAHAP_II);
+  rankedCities.sort((a, b) => b.FINAL - a.FINAL);
   return rankedCities;
 };
 
