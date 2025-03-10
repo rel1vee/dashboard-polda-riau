@@ -921,7 +921,7 @@ const ProgramDuaRanking = () => {
                             achievements.polsekAchievement) /
                             ((achievements.monokulturTarget +
                               achievements.tumpangSariTarget) /
-                              2)) *
+                              4)) *
                             100
                         )}
                         %
