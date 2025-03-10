@@ -121,7 +121,7 @@ const DashboardPoldaRiauPage = () => {
         const polsekTarget = polres.polsek.reduce(
           (total, polsek) =>
             total +
-            (polsek.villages?.reduce(
+            (polsek.villages.reduce(
               (target, village) => target + (village.target || 0),
               0
             ) || 0),
@@ -146,27 +146,27 @@ const DashboardPoldaRiauPage = () => {
     return programDua.reduce(
       (acc, polres) => {
         const allCompanies = [
-          ...polres.companies,
-          ...(polres.otherCompanies || []),
+          ...polres.tahapII.companies,
+          ...(polres.tahapII.otherCompanies || []),
         ];
 
         const monoAchievement = allCompanies.reduce((sum, company) => {
-          if (company.monokulturAchievements?.IV) {
-            return sum + company.monokulturAchievements.IV;
+          if (company.monokulturAchievements.I) {
+            return sum + company.monokulturAchievements.I;
           }
           return sum;
         }, 0);
 
         const tumpangSariAchievement = allCompanies.reduce((sum, company) => {
-          if (company.tumpangSariAchievements?.IV) {
-            return sum + company.tumpangSariAchievements.IV;
+          if (company.tumpangSariAchievements.I) {
+            return sum + company.tumpangSariAchievements.I;
           }
           return sum;
         }, 0);
 
         const csrAchievement = allCompanies.reduce((sum, company) => {
-          if (company.csrAchievements?.IV) {
-            return sum + company.csrAchievements.IV;
+          if (company.csrAchievements.I) {
+            return sum + company.csrAchievements.I;
           }
           return sum;
         }, 0);
@@ -174,7 +174,7 @@ const DashboardPoldaRiauPage = () => {
         const polsekAchievement = polres.polsek.reduce(
           (total, polsek) =>
             total +
-            (polsek.villages?.reduce(
+            (polsek.villages.reduce(
               (achievement, village) =>
                 achievement + (village.achievement || 0),
               0
@@ -203,7 +203,7 @@ const DashboardPoldaRiauPage = () => {
     setSelectedCompany(company);
 
     const progressData =
-      selectedCity?.progress?.find((p) => p.id === company.id) || null;
+      selectedCity?.tahapII.progress.find((p) => p.id === company.id) || null;
 
     setSelectedCompanyProgress(progressData);
     setIsModalOpen(true);
@@ -218,7 +218,8 @@ const DashboardPoldaRiauPage = () => {
     setSelectedOtherCompany(company);
 
     const otherProgressData =
-      selectedCity?.otherProgress?.find((p) => p.id === company.id) || null;
+      selectedCity?.tahapII.otherProgress.find((p) => p.id === company.id) ||
+      null;
 
     setSelectedOtherCompanyProgress(otherProgressData);
     setIsModalOpen(true);
@@ -598,8 +599,9 @@ const DashboardPoldaRiauPage = () => {
                       </CardTitle>
                       {selectedCity ? (
                         <CardDescription>
-                          Total {selectedCity.companies.length} Perusahaan
-                          Target. Pilih Perusahaan untuk Melihat Detail.
+                          Total {selectedCity.tahapII.companies.length}{" "}
+                          Perusahaan Target. Pilih Perusahaan untuk Melihat
+                          Detail.
                         </CardDescription>
                       ) : (
                         <CardDescription>
@@ -610,16 +612,16 @@ const DashboardPoldaRiauPage = () => {
                     <CardContent className="p-0 overflow-y-auto max-h-[500px]">
                       {selectedCity ? (
                         <div className="p-4">
-                          {selectedCity.companies.length > 0 ? (
+                          {selectedCity.tahapII.companies.length > 0 ? (
                             <Table>
                               <TableBody>
-                                {selectedCity.companies
+                                {selectedCity.tahapII.companies
                                   .map((company) => ({
                                     ...company,
                                     totalAchievements:
-                                      company.monokulturAchievements.IV +
-                                      company.tumpangSariAchievements.IV +
-                                      (company.csrAchievements?.IV || 0),
+                                      company.monokulturAchievements.I +
+                                      company.tumpangSariAchievements.I +
+                                      company.csrAchievements.I,
                                   }))
                                   .sort(
                                     (a, b) =>
@@ -687,8 +689,9 @@ const DashboardPoldaRiauPage = () => {
                       </CardTitle>
                       {selectedCity ? (
                         <CardDescription>
-                          Total {selectedCity.otherCompanies?.length} Perusahaan
-                          Lain. Pilih Perusahaan untuk Melihat Detail.
+                          Total {selectedCity.tahapII.otherCompanies?.length}{" "}
+                          Perusahaan Lain. Pilih Perusahaan untuk Melihat
+                          Detail.
                         </CardDescription>
                       ) : (
                         <CardDescription>
@@ -700,17 +703,17 @@ const DashboardPoldaRiauPage = () => {
                     <CardContent className="p-0 overflow-y-auto max-h-[500px]">
                       {selectedCity ? (
                         <div className="p-4">
-                          {selectedCity.otherCompanies &&
-                          selectedCity.otherCompanies.length > 0 ? (
+                          {selectedCity.tahapII.otherCompanies &&
+                          selectedCity.tahapII.otherCompanies.length > 0 ? (
                             <Table>
                               <TableBody>
-                                {selectedCity.otherCompanies
+                                {selectedCity.tahapII.otherCompanies
                                   .map((company) => ({
                                     ...company,
                                     totalAchievements:
-                                      company.monokulturAchievements.IV +
-                                      company.tumpangSariAchievements.IV +
-                                      (company.csrAchievements?.IV || 0),
+                                      company.monokulturAchievements.I +
+                                      company.tumpangSariAchievements.I +
+                                      company.csrAchievements.I,
                                   }))
                                   .sort(
                                     (a, b) =>

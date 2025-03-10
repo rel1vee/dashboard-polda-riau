@@ -66,12 +66,12 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
   const transformWeekData = () => {
     return (["I", "II", "III", "IV"] as const).map((period) => ({
       periode: period,
-      monoTarget: company.target2Percent,
+      monoTarget: (company.target2Percent ?? 0) / 4,
       monoAchievement:
         company.monokulturAchievements[
           period as keyof typeof company.monokulturAchievements
         ],
-      tsTarget: company.target7Percent,
+      tsTarget: (company.target7Percent ?? 0) / 4,
       tsAchievement:
         company.tumpangSariAchievements[
           period as keyof typeof company.tumpangSariAchievements
@@ -86,16 +86,16 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
       {
         periode: "1",
         monoTarget: (company.target2Percent ?? 0) / 4,
-        monoAchievement: company.monokulturAchievements.IV,
+        monoAchievement: company.monokulturAchievements.I,
         tsTarget: (company.target7Percent ?? 0) / 4,
-        tsAchievement: company.tumpangSariAchievements.IV,
+        tsAchievement: company.tumpangSariAchievements.I,
       },
       {
         periode: "2",
         monoTarget: (company.target2Percent ?? 0) / 2,
-        monoAchievement: 0,
+        monoAchievement: company.monokulturAchievements.I,
         tsTarget: (company.target7Percent ?? 0) / 2,
-        tsAchievement: 0,
+        tsAchievement: company.tumpangSariAchievements.I,
       },
       {
         periode: "3",
@@ -587,9 +587,9 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </div>
                       <span className="text-sm font-medium">
                         {(
-                          company.monokulturAchievements.IV +
-                          company.tumpangSariAchievements.IV +
-                          (company.csrAchievements?.IV ?? 0)
+                          company.monokulturAchievements.I +
+                          company.tumpangSariAchievements.I +
+                          (company.csrAchievements?.I ?? 0)
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
@@ -718,8 +718,8 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </div>
                       <span className="text-sm font-medium">
                         {(
-                          company.monokulturAchievements.IV +
-                          company.tumpangSariAchievements.IV
+                          company.monokulturAchievements.I +
+                          company.tumpangSariAchievements.I
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
@@ -782,7 +782,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.monokulturAchievements.IV.toLocaleString(
+                        {company.monokulturAchievements.I.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -840,7 +840,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.tumpangSariAchievements.IV.toLocaleString(
+                        {company.tumpangSariAchievements.I.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -894,7 +894,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </span>
                     </div>
                     <span className="text-sm font-medium">
-                      {company.csrAchievements?.IV.toLocaleString("id-ID", {
+                      {company.csrAchievements?.I.toLocaleString("id-ID", {
                         maximumFractionDigits: 2,
                       })}
                     </span>

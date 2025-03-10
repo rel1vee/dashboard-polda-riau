@@ -1,38 +1,38 @@
 import { ProgramDua } from "../types";
-import { bengkalisCompanies } from "./program-dua/company/Bengkalis";
-import { inhilCompanies } from "./program-dua/company/Inhil";
-import { inhuCompanies } from "./program-dua/company/Inhu";
-import { kamparCompanies } from "./program-dua/company/Kampar";
-import { kuansingCompanies } from "./program-dua/company/Kuansing";
-import { pekanbaruCompanies } from "./program-dua/company/Pekanbaru";
-import { pelalawanCompanies } from "./program-dua/company/Pelalawan";
-import { rohilCompanies } from "./program-dua/company/Rohil";
-import { rohulCompanies } from "./program-dua/company/Rohul";
-import { siakCompanies } from "./program-dua/company/Siak";
-import { bengkalisOtherCompanies } from "./program-dua/other-company/Bengkalis";
-import { dumaiOtherCompanies } from "./program-dua/other-company/Dumai";
-import { inhilOtherCompanies } from "./program-dua/other-company/Inhil";
-import { inhuOtherCompanies } from "./program-dua/other-company/Inhu";
-import { kamparOtherCompanies } from "./program-dua/other-company/Kampar";
-import { kuansingOtherCompanies } from "./program-dua/other-company/Kuansing";
-import { merantiOtherCompanies } from "./program-dua/other-company/Meranti";
-import { pekanbaruOtherCompanies } from "./program-dua/other-company/Pekanbaru";
-import { pelalawanOtherCompanies } from "./program-dua/other-company/Pelalawan";
-import { rohilOtherCompanies } from "./program-dua/other-company/Rohil";
-import { rohulOtherCompanies } from "./program-dua/other-company/Rohul";
-import { siakOtherCompanies } from "./program-dua/other-company/Siak";
-import { bengkalisOtherProgress } from "./program-dua/other-progress/Bengkalis";
-import { dumaiOtherProgress } from "./program-dua/other-progress/Dumai";
-import { inhilOtherProgress } from "./program-dua/other-progress/Inhil";
-import { inhuOtherProgress } from "./program-dua/other-progress/Inhu";
-import { kamparOtherProgress } from "./program-dua/other-progress/Kampar";
-import { kuansingOtherProgress } from "./program-dua/other-progress/Kuansing";
-import { merantiOtherProgress } from "./program-dua/other-progress/Meranti";
-import { pekanbaruOtherProgress } from "./program-dua/other-progress/Pekanbaru";
-import { pelalawanOtherProgress } from "./program-dua/other-progress/Pelalawan";
-import { rohilOtherProgress } from "./program-dua/other-progress/Rohil";
-import { rohulOtherProgress } from "./program-dua/other-progress/Rohul";
-import { siakOtherProgress } from "./program-dua/other-progress/Siak";
+import { bengkalisCompanies } from "./program-dua/tahap-I/company/Bengkalis";
+import { inhilCompanies } from "./program-dua/tahap-I/company/Inhil";
+import { inhuCompanies } from "./program-dua/tahap-I/company/Inhu";
+import { kamparCompanies } from "./program-dua/tahap-I/company/Kampar";
+import { kuansingCompanies } from "./program-dua/tahap-I/company/Kuansing";
+import { pekanbaruCompanies } from "./program-dua/tahap-I/company/Pekanbaru";
+import { pelalawanCompanies } from "./program-dua/tahap-I/company/Pelalawan";
+import { rohilCompanies } from "./program-dua/tahap-I/company/Rohil";
+import { rohulCompanies } from "./program-dua/tahap-I/company/Rohul";
+import { siakCompanies } from "./program-dua/tahap-I/company/Siak";
+import { bengkalisOtherCompanies } from "./program-dua/tahap-I/other-company/Bengkalis";
+import { dumaiOtherCompanies } from "./program-dua/tahap-I/other-company/Dumai";
+import { inhilOtherCompanies } from "./program-dua/tahap-I/other-company/Inhil";
+import { inhuOtherCompanies } from "./program-dua/tahap-I/other-company/Inhu";
+import { kamparOtherCompanies } from "./program-dua/tahap-I/other-company/Kampar";
+import { kuansingOtherCompanies } from "./program-dua/tahap-I/other-company/Kuansing";
+import { merantiOtherCompanies } from "./program-dua/tahap-I/other-company/Meranti";
+import { pekanbaruOtherCompanies } from "./program-dua/tahap-I/other-company/Pekanbaru";
+import { pelalawanOtherCompanies } from "./program-dua/tahap-I/other-company/Pelalawan";
+import { rohilOtherCompanies } from "./program-dua/tahap-I/other-company/Rohil";
+import { rohulOtherCompanies } from "./program-dua/tahap-I/other-company/Rohul";
+import { siakOtherCompanies } from "./program-dua/tahap-I/other-company/Siak";
+import { bengkalisOtherProgress } from "./program-dua/tahap-I/other-progress/Bengkalis";
+import { dumaiOtherProgress } from "./program-dua/tahap-I/other-progress/Dumai";
+import { inhilOtherProgress } from "./program-dua/tahap-I/other-progress/Inhil";
+import { inhuOtherProgress } from "./program-dua/tahap-I/other-progress/Inhu";
+import { kamparOtherProgress } from "./program-dua/tahap-I/other-progress/Kampar";
+import { kuansingOtherProgress } from "./program-dua/tahap-I/other-progress/Kuansing";
+import { merantiOtherProgress } from "./program-dua/tahap-I/other-progress/Meranti";
+import { pekanbaruOtherProgress } from "./program-dua/tahap-I/other-progress/Pekanbaru";
+import { pelalawanOtherProgress } from "./program-dua/tahap-I/other-progress/Pelalawan";
+import { rohilOtherProgress } from "./program-dua/tahap-I/other-progress/Rohil";
+import { rohulOtherProgress } from "./program-dua/tahap-I/other-progress/Rohul";
+import { siakOtherProgress } from "./program-dua/tahap-I/other-progress/Siak";
 import { bengkalisPolsek } from "./program-dua/polsek/Bengkalis";
 import { dumaiPolsek } from "./program-dua/polsek/Dumai";
 import { inhilPolsek } from "./program-dua/polsek/Inhil";
@@ -45,16 +45,60 @@ import { pelalawanPolsek } from "./program-dua/polsek/Pelalawan";
 import { rohilPolsek } from "./program-dua/polsek/Rohil";
 import { rohulPolsek } from "./program-dua/polsek/Rohul";
 import { siakPolsek } from "./program-dua/polsek/Siak";
-import { bengkalisProgress } from "./program-dua/progress/Bengkalis";
-import { inhilProgress } from "./program-dua/progress/Inhil";
-import { inhuProgress } from "./program-dua/progress/Inhu";
-import { kamparProgress } from "./program-dua/progress/Kampar";
-import { kuansingProgress } from "./program-dua/progress/Kuansing";
-import { pekanbaruProgress } from "./program-dua/progress/Pekanbaru";
-import { pelalawanProgress } from "./program-dua/progress/Pelalawan";
-import { rohilProgress } from "./program-dua/progress/Rohil";
-import { rohulProgress } from "./program-dua/progress/Rohul";
-import { siakProgress } from "./program-dua/progress/Siak";
+import { bengkalisProgress } from "./program-dua/tahap-I/progress/Bengkalis";
+import { inhilProgress } from "./program-dua/tahap-I/progress/Inhil";
+import { inhuProgress } from "./program-dua/tahap-I/progress/Inhu";
+import { kamparProgress } from "./program-dua/tahap-I/progress/Kampar";
+import { kuansingProgress } from "./program-dua/tahap-I/progress/Kuansing";
+import { pekanbaruProgress } from "./program-dua/tahap-I/progress/Pekanbaru";
+import { pelalawanProgress } from "./program-dua/tahap-I/progress/Pelalawan";
+import { rohilProgress } from "./program-dua/tahap-I/progress/Rohil";
+import { rohulProgress } from "./program-dua/tahap-I/progress/Rohul";
+import { siakProgress } from "./program-dua/tahap-I/progress/Siak";
+import { inhuCompanies2 } from "./program-dua/tahap-II/company/Inhu";
+import { inhuOtherCompanies2 } from "./program-dua/tahap-II/other-company/Inhu";
+import { inhuProgress2 } from "./program-dua/tahap-II/progress/Inhu";
+import { inhuOtherProgress2 } from "./program-dua/tahap-II/other-progress/Inhu";
+import { kamparCompanies2 } from "./program-dua/tahap-II/company/Kampar";
+import { kamparOtherCompanies2 } from "./program-dua/tahap-II/other-company/Kampar";
+import { kamparProgress2 } from "./program-dua/tahap-II/progress/Kampar";
+import { kamparOtherProgress2 } from "./program-dua/tahap-II/other-progress/Kampar";
+import { inhilCompanies2 } from "./program-dua/tahap-II/company/Inhil";
+import { inhilOtherCompanies2 } from "./program-dua/tahap-II/other-company/Inhil";
+import { inhilProgress2 } from "./program-dua/tahap-II/progress/Inhil";
+import { inhilOtherProgress2 } from "./program-dua/tahap-II/other-progress/Inhil";
+import { pekanbaruCompanies2 } from "./program-dua/tahap-II/company/Pekanbaru";
+import { pekanbaruOtherCompanies2 } from "./program-dua/tahap-II/other-company/Pekanbaru";
+import { pekanbaruProgress2 } from "./program-dua/tahap-II/progress/Pekanbaru";
+import { pekanbaruOtherProgress2 } from "./program-dua/tahap-II/other-progress/Pekanbaru";
+import { bengkalisCompanies2 } from "./program-dua/tahap-II/company/Bengkalis";
+import { bengkalisOtherCompanies2 } from "./program-dua/tahap-II/other-company/Bengkalis";
+import { bengkalisProgress2 } from "./program-dua/tahap-II/progress/Bengkalis";
+import { bengkalisOtherProgress2 } from "./program-dua/tahap-II/other-progress/Bengkalis";
+import { pelalawanCompanies2 } from "./program-dua/tahap-II/company/Pelalawan";
+import { pelalawanOtherCompanies2 } from "./program-dua/tahap-II/other-company/Pelalawan";
+import { pelalawanProgress2 } from "./program-dua/tahap-II/progress/Pelalawan";
+import { pelalawanOtherProgress2 } from "./program-dua/tahap-II/other-progress/Pelalawan";
+import { rohilCompanies2 } from "./program-dua/tahap-II/company/Rohil";
+import { rohilOtherCompanies2 } from "./program-dua/tahap-II/other-company/Rohil";
+import { rohilProgress2 } from "./program-dua/tahap-II/progress/Rohil";
+import { rohilOtherProgress2 } from "./program-dua/tahap-II/other-progress/Rohil";
+import { siakCompanies2 } from "./program-dua/tahap-II/company/Siak";
+import { siakOtherCompanies2 } from "./program-dua/tahap-II/other-company/Siak";
+import { siakProgress2 } from "./program-dua/tahap-II/progress/Siak";
+import { siakOtherProgress2 } from "./program-dua/tahap-II/other-progress/Siak";
+import { kuansingCompanies2 } from "./program-dua/tahap-II/company/Kuansing";
+import { kuansingOtherCompanies2 } from "./program-dua/tahap-II/other-company/Kuansing";
+import { kuansingProgress2 } from "./program-dua/tahap-II/progress/Kuansing";
+import { kuansingOtherProgress2 } from "./program-dua/tahap-II/other-progress/Kuansing";
+import { rohulCompanies2 } from "./program-dua/tahap-II/company/Rohul";
+import { rohulOtherCompanies2 } from "./program-dua/tahap-II/other-company/Rohul";
+import { rohulProgress2 } from "./program-dua/tahap-II/progress/Rohul";
+import { rohulOtherProgress2 } from "./program-dua/tahap-II/other-progress/Rohul";
+import { merantiOtherCompanies2 } from "./program-dua/tahap-II/other-company/Meranti";
+import { merantiOtherProgress2 } from "./program-dua/tahap-II/other-progress/Meranti";
+import { dumaiOtherCompanies2 } from "./program-dua/tahap-II/other-company/Dumai";
+import { dumaiOtherProgress2 } from "./program-dua/tahap-II/other-progress/Dumai";
 
 export const programDua: ProgramDua[] = [
   {
@@ -65,11 +109,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 4142.06,
     monokulturTarget: 3123.15,
     tumpangSariTarget: 10931.04,
-    companies: inhuCompanies,
-    otherCompanies: inhuOtherCompanies,
+    tahapI: {
+      companies: inhuCompanies,
+      otherCompanies: inhuOtherCompanies,
+      progress: inhuProgress,
+      otherProgress: inhuOtherProgress,
+    },
+    tahapII: {
+      companies: inhuCompanies2,
+      otherCompanies: inhuOtherCompanies2,
+      progress: inhuProgress2,
+      otherProgress: inhuOtherProgress2,
+    },
     polsek: inhuPolsek,
-    progress: inhuProgress,
-    otherProgress: inhuOtherProgress,
   },
   {
     id: 2,
@@ -79,11 +131,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 13573.34,
     monokulturTarget: 2849.75,
     tumpangSariTarget: 9974.11,
-    companies: kamparCompanies,
-    otherCompanies: kamparOtherCompanies,
+    tahapI: {
+      companies: kamparCompanies,
+      otherCompanies: kamparOtherCompanies,
+      progress: kamparProgress,
+      otherProgress: kamparOtherProgress,
+    },
+    tahapII: {
+      companies: kamparCompanies2,
+      otherCompanies: kamparOtherCompanies2,
+      progress: kamparProgress2,
+      otherProgress: kamparOtherProgress2,
+    },
     polsek: kamparPolsek,
-    progress: kamparProgress,
-    otherProgress: kamparOtherProgress,
   },
   {
     id: 3,
@@ -93,11 +153,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 81.7,
     monokulturTarget: 7216.48,
     tumpangSariTarget: 25257.66,
-    companies: inhilCompanies,
-    otherCompanies: inhilOtherCompanies,
+    tahapI: {
+      companies: inhilCompanies,
+      otherCompanies: inhilOtherCompanies,
+      progress: inhilProgress,
+      otherProgress: inhilOtherProgress,
+    },
+    tahapII: {
+      companies: inhilCompanies2,
+      otherCompanies: inhilOtherCompanies2,
+      progress: inhilProgress2,
+      otherProgress: inhilOtherProgress2,
+    },
     polsek: inhilPolsek,
-    progress: inhilProgress,
-    otherProgress: inhilOtherProgress,
   },
   {
     id: 4,
@@ -107,11 +175,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 4.07,
     monokulturTarget: 2647.36,
     tumpangSariTarget: 9265.77,
-    companies: pekanbaruCompanies,
-    otherCompanies: pekanbaruOtherCompanies,
+    tahapI: {
+      companies: pekanbaruCompanies,
+      otherCompanies: pekanbaruOtherCompanies,
+      progress: pekanbaruProgress,
+      otherProgress: pekanbaruOtherProgress,
+    },
+    tahapII: {
+      companies: pekanbaruCompanies2,
+      otherCompanies: pekanbaruOtherCompanies2,
+      progress: pekanbaruProgress2,
+      otherProgress: pekanbaruOtherProgress2,
+    },
     polsek: pekanbaruPolsek,
-    progress: pekanbaruProgress,
-    otherProgress: pekanbaruOtherProgress,
   },
   {
     id: 5,
@@ -121,11 +197,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 15.99,
     monokulturTarget: 1498.07,
     tumpangSariTarget: 5243.25,
-    companies: bengkalisCompanies,
-    otherCompanies: bengkalisOtherCompanies,
+    tahapI: {
+      companies: bengkalisCompanies,
+      otherCompanies: bengkalisOtherCompanies,
+      progress: bengkalisProgress,
+      otherProgress: bengkalisOtherProgress,
+    },
+    tahapII: {
+      companies: bengkalisCompanies2,
+      otherCompanies: bengkalisOtherCompanies2,
+      progress: bengkalisProgress2,
+      otherProgress: bengkalisOtherProgress2,
+    },
     polsek: bengkalisPolsek,
-    progress: bengkalisProgress,
-    otherProgress: bengkalisOtherProgress,
   },
   {
     id: 6,
@@ -135,11 +219,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 37837.79,
     monokulturTarget: 3462.29,
     tumpangSariTarget: 12118.01,
-    companies: pelalawanCompanies,
-    otherCompanies: pelalawanOtherCompanies,
+    tahapI: {
+      companies: pelalawanCompanies,
+      otherCompanies: pelalawanOtherCompanies,
+      progress: pelalawanProgress,
+      otherProgress: pelalawanOtherProgress,
+    },
+    tahapII: {
+      companies: pelalawanCompanies2,
+      otherCompanies: pelalawanOtherCompanies2,
+      progress: pelalawanProgress2,
+      otherProgress: pelalawanOtherProgress2,
+    },
     polsek: pelalawanPolsek,
-    progress: pelalawanProgress,
-    otherProgress: pelalawanOtherProgress,
   },
   {
     id: 7,
@@ -149,11 +241,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 39958,
     monokulturTarget: 1664.2,
     tumpangSariTarget: 5824.7,
-    companies: rohilCompanies,
-    otherCompanies: rohilOtherCompanies,
+    tahapI: {
+      companies: rohilCompanies,
+      otherCompanies: rohilOtherCompanies,
+      progress: rohilProgress,
+      otherProgress: rohilOtherProgress,
+    },
+    tahapII: {
+      companies: rohilCompanies2,
+      otherCompanies: rohilOtherCompanies2,
+      progress: rohilProgress2,
+      otherProgress: rohilOtherProgress2,
+    },
     polsek: rohilPolsek,
-    progress: rohilProgress,
-    otherProgress: rohilOtherProgress,
   },
   {
     id: 8,
@@ -163,11 +263,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 11322,
     monokulturTarget: 2042.11,
     tumpangSariTarget: 7147.4,
-    companies: siakCompanies,
-    otherCompanies: siakOtherCompanies,
+    tahapI: {
+      companies: siakCompanies,
+      otherCompanies: siakOtherCompanies,
+      progress: siakProgress,
+      otherProgress: siakOtherProgress,
+    },
+    tahapII: {
+      companies: siakCompanies2,
+      otherCompanies: siakOtherCompanies2,
+      progress: siakProgress2,
+      otherProgress: siakOtherProgress2,
+    },
     polsek: siakPolsek,
-    progress: siakProgress,
-    otherProgress: siakOtherProgress,
   },
   {
     id: 9,
@@ -177,11 +285,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 8368.17,
     monokulturTarget: 1486.1,
     tumpangSariTarget: 5201.34,
-    companies: kuansingCompanies,
-    otherCompanies: kuansingOtherCompanies,
+    tahapI: {
+      companies: kuansingCompanies,
+      otherCompanies: kuansingOtherCompanies,
+      progress: kuansingProgress,
+      otherProgress: kuansingOtherProgress,
+    },
+    tahapII: {
+      companies: kuansingCompanies2,
+      otherCompanies: kuansingOtherCompanies2,
+      progress: kuansingProgress2,
+      otherProgress: kuansingOtherProgress2,
+    },
     polsek: kuansingPolsek,
-    progress: kuansingProgress,
-    otherProgress: kuansingOtherProgress,
   },
   {
     id: 10,
@@ -191,11 +307,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 42.58,
     monokulturTarget: 3329.72,
     tumpangSariTarget: 11654.02,
-    companies: rohulCompanies,
-    otherCompanies: rohulOtherCompanies,
+    tahapI: {
+      companies: rohulCompanies,
+      otherCompanies: rohulOtherCompanies,
+      progress: rohulProgress,
+      otherProgress: rohulOtherProgress,
+    },
+    tahapII: {
+      companies: rohulCompanies2,
+      otherCompanies: rohulOtherCompanies2,
+      progress: rohulProgress2,
+      otherProgress: rohulOtherProgress2,
+    },
     polsek: rohulPolsek,
-    progress: rohulProgress,
-    otherProgress: rohulOtherProgress,
   },
   {
     id: 11,
@@ -205,11 +329,19 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 655.25,
     monokulturTarget: 721.11,
     tumpangSariTarget: 2523.89,
-    companies: [],
-    otherCompanies: merantiOtherCompanies,
+    tahapI: {
+      companies: [],
+      otherCompanies: merantiOtherCompanies,
+      progress: [],
+      otherProgress: merantiOtherProgress,
+    },
+    tahapII: {
+      companies: [],
+      otherCompanies: merantiOtherCompanies2,
+      progress: [],
+      otherProgress: merantiOtherProgress2,
+    },
     polsek: merantiPolsek,
-    progress: [],
-    otherProgress: merantiOtherProgress,
   },
   {
     id: 12,
@@ -219,10 +351,18 @@ export const programDua: ProgramDua[] = [
     otherTotalArea: 169.37,
     monokulturTarget: 63.89,
     tumpangSariTarget: 223.61,
-    companies: [],
-    otherCompanies: dumaiOtherCompanies,
+    tahapI: {
+      companies: [],
+      otherCompanies: dumaiOtherCompanies,
+      progress: [],
+      otherProgress: dumaiOtherProgress,
+    },
+    tahapII: {
+      companies: [],
+      otherCompanies: dumaiOtherCompanies2,
+      progress: [],
+      otherProgress: dumaiOtherProgress2,
+    },
     polsek: dumaiPolsek,
-    progress: [],
-    otherProgress: dumaiOtherProgress,
   },
 ];

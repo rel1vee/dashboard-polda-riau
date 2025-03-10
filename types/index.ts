@@ -43,11 +43,31 @@ export interface ProgramDua {
   otherTotalArea: number;
   monokulturTarget: number;
   tumpangSariTarget: number;
-  companies: Company[];
-  otherCompanies: Company[];
-  progress: Progress[];
-  otherProgress: Progress[];
   polsek: Polsek[];
+  tahapI: {
+    companies: Company[];
+    otherCompanies: Company[];
+    progress: Progress[];
+    otherProgress: Progress[];
+  };
+  tahapII: {
+    companies: Company[];
+    otherCompanies: Company[];
+    progress: Progress[];
+    otherProgress: Progress[];
+  };
+  tahapIII?: {
+    companies: Company[];
+    otherCompanies: Company[];
+    progress: Progress[];
+    otherProgress: Progress[];
+  };
+  tahapIV?: {
+    companies: Company[];
+    otherCompanies: Company[];
+    progress: Progress[];
+    otherProgress: Progress[];
+  };
 }
 
 export interface Polsek {
@@ -82,7 +102,6 @@ export interface Company {
     II: number;
     III: number;
     IV: number;
-    V?: number;
   };
   tumpangSariTargets?: {
     I: number;
@@ -95,14 +114,12 @@ export interface Company {
     II: number;
     III: number;
     IV: number;
-    V?: number;
   };
   csrAchievements: {
     I: number;
     II: number;
     III: number;
     IV: number;
-    V?: number;
   };
 }
 

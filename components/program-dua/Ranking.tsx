@@ -45,7 +45,15 @@ const formatNumber = (num: number) => {
 
 const prepareTableData = () => {
   const rankedCities = programDua.map((city) => {
-    const allCompanies = [...city.companies, ...(city.otherCompanies || [])];
+    const allCompanies1 = [
+      ...city.tahapI.companies,
+      ...(city.tahapI.otherCompanies || []),
+    ];
+
+    const allCompanies2 = [
+      ...city.tahapII.companies,
+      ...(city.tahapII.otherCompanies || []),
+    ];
 
     let polsekAchievement = 0;
 
@@ -56,66 +64,128 @@ const prepareTableData = () => {
     });
 
     const monokulturAchievements = {
-      i: allCompanies.reduce(
+      i: allCompanies1.reduce(
         (sum, company) => sum + (company.monokulturAchievements?.I || 0),
         0
       ),
-      ii: allCompanies.reduce(
+      ii: allCompanies1.reduce(
         (sum, company) => sum + (company.monokulturAchievements?.II || 0),
         0
       ),
-      iii: allCompanies.reduce(
+      iii: allCompanies1.reduce(
         (sum, company) => sum + (company.monokulturAchievements?.III || 0),
         0
       ),
-      iv: allCompanies.reduce(
+      iv: allCompanies1.reduce(
         (sum, company) => sum + (company.monokulturAchievements?.IV || 0),
         0
       ),
     };
 
     const tumpangSariAchievements = {
-      i: allCompanies.reduce(
+      i: allCompanies1.reduce(
         (sum, company) => sum + (company.tumpangSariAchievements?.I || 0),
         0
       ),
-      ii: allCompanies.reduce(
+      ii: allCompanies1.reduce(
         (sum, company) => sum + (company.tumpangSariAchievements?.II || 0),
         0
       ),
-      iii: allCompanies.reduce(
+      iii: allCompanies1.reduce(
         (sum, company) => sum + (company.tumpangSariAchievements?.III || 0),
         0
       ),
-      iv: allCompanies.reduce(
+      iv: allCompanies1.reduce(
         (sum, company) => sum + (company.tumpangSariAchievements?.IV || 0),
         0
       ),
     };
 
     const csrAchievements = {
-      i: allCompanies.reduce(
+      i: allCompanies1.reduce(
         (sum, company) => sum + (company.csrAchievements?.I || 0),
         0
       ),
-      ii: allCompanies.reduce(
+      ii: allCompanies1.reduce(
         (sum, company) => sum + (company.csrAchievements?.II || 0),
         0
       ),
-      iii: allCompanies.reduce(
+      iii: allCompanies1.reduce(
         (sum, company) => sum + (company.csrAchievements?.III || 0),
         0
       ),
-      iv: allCompanies.reduce(
+      iv: allCompanies1.reduce(
         (sum, company) => sum + (company.csrAchievements?.IV || 0),
         0
       ),
     };
 
-    const totalAchievements =
+    const totalAchievements1 =
       monokulturAchievements.iv +
       tumpangSariAchievements.iv +
       csrAchievements.iv;
+
+    const monokulturAchievements2 = {
+      i: allCompanies2.reduce(
+        (sum, company) => sum + (company.monokulturAchievements?.I || 0),
+        0
+      ),
+      ii: allCompanies2.reduce(
+        (sum, company) => sum + (company.monokulturAchievements?.II || 0),
+        0
+      ),
+      iii: allCompanies2.reduce(
+        (sum, company) => sum + (company.monokulturAchievements?.III || 0),
+        0
+      ),
+      iv: allCompanies2.reduce(
+        (sum, company) => sum + (company.monokulturAchievements?.IV || 0),
+        0
+      ),
+    };
+
+    const tumpangSariAchievements2 = {
+      i: allCompanies2.reduce(
+        (sum, company) => sum + (company.tumpangSariAchievements?.I || 0),
+        0
+      ),
+      ii: allCompanies2.reduce(
+        (sum, company) => sum + (company.tumpangSariAchievements?.II || 0),
+        0
+      ),
+      iii: allCompanies2.reduce(
+        (sum, company) => sum + (company.tumpangSariAchievements?.III || 0),
+        0
+      ),
+      iv: allCompanies2.reduce(
+        (sum, company) => sum + (company.tumpangSariAchievements?.IV || 0),
+        0
+      ),
+    };
+
+    const csrAchievements2 = {
+      i: allCompanies2.reduce(
+        (sum, company) => sum + (company.csrAchievements?.I || 0),
+        0
+      ),
+      ii: allCompanies2.reduce(
+        (sum, company) => sum + (company.csrAchievements?.II || 0),
+        0
+      ),
+      iii: allCompanies2.reduce(
+        (sum, company) => sum + (company.csrAchievements?.III || 0),
+        0
+      ),
+      iv: allCompanies2.reduce(
+        (sum, company) => sum + (company.csrAchievements?.IV || 0),
+        0
+      ),
+    };
+
+    const totalAchievements2 =
+      monokulturAchievements2.i +
+      tumpangSariAchievements2.i +
+      csrAchievements2.i;
 
     return {
       no: city.id,
@@ -124,15 +194,18 @@ const prepareTableData = () => {
       capaianMonokultur: monokulturAchievements,
       capaianTumpangSari: tumpangSariAchievements,
       capaianCSR: csrAchievements,
+      capaianMonokultur2: monokulturAchievements2,
+      capaianTumpangSari2: tumpangSariAchievements2,
+      capaianCSR2: csrAchievements2,
       polsekAchievement,
-      TAHAP_I: totalAchievements + polsekAchievement,
-      TAHAP_II: 0,
+      TAHAP_I: totalAchievements1,
+      TAHAP_II: totalAchievements2 + polsekAchievement,
       TAHAP_III: 0,
       TAHAP_IV: 0,
     };
   });
 
-  rankedCities.sort((a, b) => b.TAHAP_I - a.TAHAP_I);
+  rankedCities.sort((a, b) => b.TAHAP_II - a.TAHAP_II);
   return rankedCities;
 };
 
@@ -193,89 +266,115 @@ const getTotalPolsekData = (
 const getTotalAchievements = () => {
   return programDua.reduce(
     (acc, polres) => {
-      const allCompanies = [
-        ...polres.companies,
-        ...(polres.otherCompanies || []),
+      const allCompanies1 = [
+        ...polres.tahapI.companies,
+        ...(polres.tahapI.otherCompanies || []),
       ];
 
-      const monoAchievementI = allCompanies.reduce((sum, company) => {
+      const allCompanies2 = [
+        ...polres.tahapI.companies,
+        ...(polres.tahapI.otherCompanies || []),
+      ];
+
+      const monoAchievementI = allCompanies1.reduce((sum, company) => {
         if (company.monokulturAchievements?.I) {
           return sum + company.monokulturAchievements.I;
         }
         return sum;
       }, 0);
 
-      const tumpangSariAchievementI = allCompanies.reduce((sum, company) => {
+      const tumpangSariAchievementI = allCompanies1.reduce((sum, company) => {
         if (company.tumpangSariAchievements?.I) {
           return sum + company.tumpangSariAchievements.I;
         }
         return sum;
       }, 0);
 
-      const csrAchievementI = allCompanies.reduce((sum, company) => {
+      const csrAchievementI = allCompanies1.reduce((sum, company) => {
         if (company.csrAchievements?.I) {
           return sum + company.csrAchievements.I;
         }
         return sum;
       }, 0);
 
-      const monoAchievementII = allCompanies.reduce((sum, company) => {
+      const monoAchievementI2 = allCompanies2.reduce((sum, company) => {
+        if (company.monokulturAchievements?.I) {
+          return sum + company.monokulturAchievements.I;
+        }
+        return sum;
+      }, 0);
+
+      const tumpangSariAchievementI2 = allCompanies2.reduce((sum, company) => {
+        if (company.tumpangSariAchievements?.I) {
+          return sum + company.tumpangSariAchievements.I;
+        }
+        return sum;
+      }, 0);
+
+      const csrAchievementI2 = allCompanies2.reduce((sum, company) => {
+        if (company.csrAchievements?.I) {
+          return sum + company.csrAchievements.I;
+        }
+        return sum;
+      }, 0);
+
+      const monoAchievementII = allCompanies1.reduce((sum, company) => {
         if (company.monokulturAchievements?.II) {
           return sum + company.monokulturAchievements.II;
         }
         return sum;
       }, 0);
 
-      const tumpangSariAchievementII = allCompanies.reduce((sum, company) => {
+      const tumpangSariAchievementII = allCompanies1.reduce((sum, company) => {
         if (company.tumpangSariAchievements?.II) {
           return sum + company.tumpangSariAchievements.II;
         }
         return sum;
       }, 0);
 
-      const csrAchievementII = allCompanies.reduce((sum, company) => {
+      const csrAchievementII = allCompanies1.reduce((sum, company) => {
         if (company.csrAchievements?.II) {
           return sum + company.csrAchievements.II;
         }
         return sum;
       }, 0);
 
-      const monoAchievementIII = allCompanies.reduce((sum, company) => {
+      const monoAchievementIII = allCompanies1.reduce((sum, company) => {
         if (company.monokulturAchievements?.III) {
           return sum + company.monokulturAchievements.III;
         }
         return sum;
       }, 0);
 
-      const tumpangSariAchievementIII = allCompanies.reduce((sum, company) => {
+      const tumpangSariAchievementIII = allCompanies1.reduce((sum, company) => {
         if (company.tumpangSariAchievements?.III) {
           return sum + company.tumpangSariAchievements.III;
         }
         return sum;
       }, 0);
 
-      const csrAchievementIII = allCompanies.reduce((sum, company) => {
+      const csrAchievementIII = allCompanies1.reduce((sum, company) => {
         if (company.csrAchievements?.III) {
           return sum + company.csrAchievements.III;
         }
         return sum;
       }, 0);
 
-      const monoAchievementIV = allCompanies.reduce((sum, company) => {
+      const monoAchievementIV = allCompanies1.reduce((sum, company) => {
         if (company.monokulturAchievements?.IV) {
           return sum + company.monokulturAchievements.IV;
         }
         return sum;
       }, 0);
 
-      const tumpangSariAchievementIV = allCompanies.reduce((sum, company) => {
+      const tumpangSariAchievementIV = allCompanies1.reduce((sum, company) => {
         if (company.tumpangSariAchievements?.IV) {
           return sum + company.tumpangSariAchievements.IV;
         }
         return sum;
       }, 0);
 
-      const csrAchievementIV = allCompanies.reduce((sum, company) => {
+      const csrAchievementIV = allCompanies1.reduce((sum, company) => {
         if (company.csrAchievements?.IV) {
           return sum + company.csrAchievements.IV;
         }
@@ -295,43 +394,61 @@ const getTotalAchievements = () => {
       return {
         monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
         tumpangSariTarget: acc.tumpangSariTarget + polres.tumpangSariTarget,
+
         monokulturAchievementI: acc.monokulturAchievementI + monoAchievementI,
         tumpangSariAchievementI:
           acc.tumpangSariAchievementI + tumpangSariAchievementI,
         csrAchievementI: acc.csrAchievementI + csrAchievementI,
+        monokulturAchievementI2:
+          acc.monokulturAchievementI2 + monoAchievementI2,
+        tumpangSariAchievementI2:
+          acc.tumpangSariAchievementI2 + tumpangSariAchievementI2,
+        csrAchievementI2: acc.csrAchievementI2 + csrAchievementI2,
+
         monokulturAchievementII:
           acc.monokulturAchievementII + monoAchievementII,
         tumpangSariAchievementII:
           acc.tumpangSariAchievementII + tumpangSariAchievementII,
         csrAchievementII: acc.csrAchievementII + csrAchievementII,
+
         monokulturAchievementIII:
           acc.monokulturAchievementIII + monoAchievementIII,
         tumpangSariAchievementIII:
           acc.tumpangSariAchievementIII + tumpangSariAchievementIII,
         csrAchievementIII: acc.csrAchievementIII + csrAchievementIII,
+
         monokulturAchievementIV:
           acc.monokulturAchievementIV + monoAchievementIV,
         tumpangSariAchievementIV:
           acc.tumpangSariAchievementIV + tumpangSariAchievementIV,
         csrAchievementIV: acc.csrAchievementIV + csrAchievementIV,
+
         polsekAchievement: acc.polsekAchievement + polsekAchievement,
       };
     },
     {
       monokulturTarget: 0,
       tumpangSariTarget: 0,
+
       monokulturAchievementI: 0,
       tumpangSariAchievementI: 0,
       csrAchievementI: 0,
+      monokulturAchievementI2: 0,
+      tumpangSariAchievementI2: 0,
+      csrAchievementI2: 0,
+
       monokulturAchievementII: 0,
       tumpangSariAchievementII: 0,
       csrAchievementII: 0,
+
       monokulturAchievementIII: 0,
       tumpangSariAchievementIII: 0,
       csrAchievementIII: 0,
+
       monokulturAchievementIV: 0,
       tumpangSariAchievementIV: 0,
       csrAchievementIV: 0,
+
       polsekAchievement: 0,
     }
   );
@@ -348,6 +465,9 @@ const ProgramDuaRanking = () => {
     capaianMonokultur: { iv: number };
     capaianTumpangSari: { iv: number };
     capaianCSR: { iv: number };
+    capaianMonokultur2: { i: number };
+    capaianTumpangSari2: { i: number };
+    capaianCSR2: { i: number };
     totalTarget: number;
     polsekAchievement: number;
   }) => {
@@ -356,17 +476,35 @@ const ProgramDuaRanking = () => {
         total: (
           data.capaianMonokultur.iv +
           data.capaianTumpangSari.iv +
-          data.capaianCSR.iv +
-          data.polsekAchievement
+          data.capaianCSR.iv
         ).toLocaleString("id-ID", {
           maximumFractionDigits: 2,
         }),
         percentage: (
           ((data.capaianMonokultur.iv +
             data.capaianTumpangSari.iv +
-            data.capaianCSR.iv +
-            data.polsekAchievement) /
+            data.capaianCSR.iv) /
             (data.totalTarget / 4)) *
+          100
+        ).toLocaleString("id-ID", {
+          maximumFractionDigits: 2,
+        }),
+      },
+      phase2: {
+        total: (
+          data.capaianMonokultur2.i +
+          data.capaianTumpangSari2.i +
+          data.capaianCSR2.i +
+          data.polsekAchievement
+        ).toLocaleString("id-ID", {
+          maximumFractionDigits: 2,
+        }),
+        percentage: (
+          ((data.capaianMonokultur2.i +
+            data.capaianTumpangSari2.i +
+            data.capaianCSR2.i +
+            data.polsekAchievement) /
+            (data.totalTarget / 2)) *
           100
         ).toLocaleString("id-ID", {
           maximumFractionDigits: 2,
@@ -605,78 +743,85 @@ const ProgramDuaRanking = () => {
                             {formatNumber(
                               row.capaianMonokultur.iv +
                                 row.capaianTumpangSari.iv +
-                                row.capaianCSR.iv +
-                                row.polsekAchievement -
+                                row.capaianCSR.iv -
                                 (row.capaianMonokultur.iii +
                                   row.capaianTumpangSari.iii +
                                   row.capaianCSR.iii)
                             )}
                           </TableCell>
-                          <TableCell className="text-center border font-bold bg-green-50">
+                          <TableCell className="text-center border bg-green-50">
                             {totals.phase1.total}
                           </TableCell>
-                          <TableCell className="text-center border font-bold bg-green-50">
+                          <TableCell className="text-center border bg-green-50">
                             {totals.phase1.percentage}%
                           </TableCell>
 
                           {/* TAHAP II */}
                           <TableCell className="text-center border bg-blue-50">
-                            {formatNumber(0)}
+                            {formatNumber(
+                              row.capaianMonokultur2.i +
+                                row.capaianTumpangSari2.i +
+                                row.capaianCSR2.i +
+                                row.polsekAchievement -
+                                (row.capaianMonokultur.iv +
+                                  row.capaianTumpangSari.iv +
+                                  row.capaianCSR.iv)
+                            )}
                           </TableCell>
                           <TableCell className="text-center border bg-blue-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-blue-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-blue-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
-                          <TableCell className="text-center border bg-blue-50">
-                            {formatNumber(0)}
+                          <TableCell className="text-center border font-bold bg-blue-50">
+                            {totals.phase2.total}
                           </TableCell>
-                          <TableCell className="text-center border bg-blue-50">
-                            {formatNumber(0)}%
+                          <TableCell className="text-center border font-bold bg-blue-50">
+                            {totals.phase2.percentage}%
                           </TableCell>
 
                           {/* TAHAP III */}
                           <TableCell className="text-center border bg-purple-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-purple-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-purple-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-purple-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-purple-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-purple-50">
-                            {formatNumber(0)}%
+                            {/* {formatNumber(0)}% */}
                           </TableCell>
 
                           {/* TAHAP IV */}
                           <TableCell className="text-center border bg-red-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-red-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-red-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-red-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-red-50">
-                            {formatNumber(0)}
+                            {/* {formatNumber(0)} */}
                           </TableCell>
                           <TableCell className="text-center border bg-red-50">
-                            {formatNumber(0)}%
+                            {/* {formatNumber(0)}% */}
                           </TableCell>
                         </TableRow>
                       );
@@ -718,8 +863,7 @@ const ProgramDuaRanking = () => {
                         {formatNumber(
                           achievements.monokulturAchievementIV +
                             achievements.tumpangSariAchievementIV +
-                            achievements.csrAchievementIV +
-                            achievements.polsekAchievement -
+                            achievements.csrAchievementIV -
                             (achievements.monokulturAchievementIII +
                               achievements.tumpangSariAchievementIII +
                               achievements.csrAchievementIII)
@@ -729,30 +873,55 @@ const ProgramDuaRanking = () => {
                         {formatNumber(
                           achievements.monokulturAchievementIV +
                             achievements.tumpangSariAchievementIV +
-                            achievements.csrAchievementIV +
-                            achievements.polsekAchievement
+                            achievements.csrAchievementIV
                         )}
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
                           ((achievements.monokulturAchievementIV +
                             achievements.tumpangSariAchievementIV +
-                            achievements.csrAchievementIV +
-                            achievements.polsekAchievement) /
-                            (achievements.monokulturTarget +
-                              achievements.tumpangSariTarget)) *
+                            achievements.csrAchievementIV) /
+                            ((achievements.monokulturTarget +
+                              achievements.tumpangSariTarget) /
+                              4)) *
                             100
                         )}
                         %
                       </TableCell>
 
                       {/* TAHAP II */}
+                      <TableCell className="text-center border font-bold bg-blue-50">
+                        {formatNumber(
+                          achievements.monokulturAchievementI2 +
+                            achievements.tumpangSariAchievementI2 +
+                            achievements.csrAchievementI2 +
+                            achievements.polsekAchievement
+                        )}
+                      </TableCell>
                       <TableCell className="text-center border bg-blue-50"></TableCell>
                       <TableCell className="text-center border bg-blue-50"></TableCell>
                       <TableCell className="text-center border bg-blue-50"></TableCell>
-                      <TableCell className="text-center border bg-blue-50"></TableCell>
-                      <TableCell className="text-center border bg-blue-50"></TableCell>
-                      <TableCell className="text-center border bg-blue-50"></TableCell>
+                      <TableCell className="text-center border font-bold bg-blue-50">
+                        {formatNumber(
+                          achievements.monokulturAchievementI2 +
+                            achievements.tumpangSariAchievementI2 +
+                            achievements.csrAchievementI2 +
+                            achievements.polsekAchievement
+                        )}
+                      </TableCell>
+                      <TableCell className="text-center border font-bold bg-blue-50">
+                        {formatNumber(
+                          ((achievements.monokulturAchievementI2 +
+                            achievements.tumpangSariAchievementI2 +
+                            achievements.csrAchievementI2 +
+                            achievements.polsekAchievement) /
+                            ((achievements.monokulturTarget +
+                              achievements.tumpangSariTarget) /
+                              2)) *
+                            100
+                        )}
+                        %
+                      </TableCell>
 
                       {/* TAHAP III */}
                       <TableCell className="text-center border bg-purple-50"></TableCell>
