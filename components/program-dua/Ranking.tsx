@@ -272,8 +272,8 @@ const getTotalAchievements = () => {
       ];
 
       const allCompanies2 = [
-        ...polres.tahapI.companies,
-        ...(polres.tahapI.otherCompanies || []),
+        ...polres.tahapII.companies,
+        ...(polres.tahapII.otherCompanies || []),
       ];
 
       const monoAchievementI = allCompanies1.reduce((sum, company) => {
@@ -433,6 +433,7 @@ const getTotalAchievements = () => {
       monokulturAchievementI: 0,
       tumpangSariAchievementI: 0,
       csrAchievementI: 0,
+
       monokulturAchievementI2: 0,
       tumpangSariAchievementI2: 0,
       csrAchievementI2: 0,
@@ -462,9 +463,9 @@ const ProgramDuaRanking = () => {
   const totalRow = getTotalPolsekData(tablePolsekData);
 
   const calculateTotals = (data: {
-    capaianMonokultur: { iv: number };
-    capaianTumpangSari: { iv: number };
-    capaianCSR: { iv: number };
+    capaianMonokultur: { i: number; iv: number };
+    capaianTumpangSari: { i: number; iv: number };
+    capaianCSR: { i: number; iv: number };
     capaianMonokultur2: { i: number };
     capaianTumpangSari2: { i: number };
     capaianCSR2: { i: number };
@@ -895,7 +896,10 @@ const ProgramDuaRanking = () => {
                           achievements.monokulturAchievementI2 +
                             achievements.tumpangSariAchievementI2 +
                             achievements.csrAchievementI2 +
-                            achievements.polsekAchievement
+                            achievements.polsekAchievement -
+                            (achievements.monokulturAchievementIV +
+                              achievements.tumpangSariAchievementIV +
+                              achievements.csrAchievementIV)
                         )}
                       </TableCell>
                       <TableCell className="text-center border bg-blue-50"></TableCell>
