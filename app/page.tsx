@@ -72,6 +72,9 @@ const DashboardPoldaRiauPage = () => {
   const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [companyData, setCompanyData] = useState<Company | null>(null);
+  const [otherCompanyData, setOtherCompanyData] = useState<Company | null>(
+    null
+  );
   const [selectedCompanyProgress, setSelectedCompanyProgress] =
     useState<Progress | null>(null);
   const [selectedOtherCompany, setSelectedOtherCompany] =
@@ -226,7 +229,12 @@ const DashboardPoldaRiauPage = () => {
       selectedCity?.tahapII.otherProgress.find((p) => p.id === company.id) ||
       null;
 
+    const otherCompany1 =
+      selectedCity?.tahapI.otherCompanies.find((p) => p.id === company.id) ||
+      null;
+
     setSelectedOtherCompanyProgress(otherProgressData);
+    setOtherCompanyData(otherCompany1);
     setIsModalOpen(true);
   };
 
@@ -878,6 +886,7 @@ const DashboardPoldaRiauPage = () => {
       {selectedOtherCompany && (
         <OtherCompanyDetailsModal
           company={selectedOtherCompany}
+          company1={otherCompanyData}
           progress={selectedOtherCompanyProgress}
           isOpen={isModalOpen}
           onClose={handleCloseModal}

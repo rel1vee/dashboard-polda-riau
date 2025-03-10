@@ -83,6 +83,26 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     }));
   };
 
+  const transformWeek1Data = () => {
+    return (["I", "II", "III", "IV"] as const).map((period) => ({
+      periode: period,
+      monoTarget: (company1?.target2Percent ?? 0) / 4,
+      monoAchievement:
+        company1?.monokulturAchievements[
+          period as keyof typeof company1.monokulturAchievements
+        ],
+      tsTarget: (company1?.target7Percent ?? 0) / 4,
+      tsAchievement:
+        company1?.tumpangSariAchievements[
+          period as keyof typeof company1.tumpangSariAchievements
+        ],
+      csrAchievement:
+        company1?.csrAchievements[
+          period as keyof typeof company1.csrAchievements
+        ],
+    }));
+  };
+
   const filterPeriodData = () => {
     return [
       {
@@ -301,6 +321,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
   };
 
   const weekData = transformWeekData();
+  const week1Data = transformWeek1Data();
   const periodData = filterPeriodData();
   const totalArea = company.area;
 
@@ -740,170 +761,355 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
             </div>
           </TabsContent>
           <TabsContent value="progress">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-sm font-medium text-gray-500">
-                    Capaian Monokultur Per Minggu
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="h-[400px]">
-                    <ResponsiveContainer width="100%" height="100%">
-                      <LineChart data={weekData}>
-                        <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="periode" />
-                        <YAxis />
-                        <Tooltip />
-                        <Legend />
-                        <Line
-                          type="monotone"
-                          dataKey="monoAchievement"
-                          name="Pencapaian"
-                          stroke="#3b82f6"
-                          strokeWidth={2}
-                        />
-                        <Line
-                          type="monotone"
-                          dataKey="monoTarget"
-                          name="Target"
-                          stroke="hsl(var(--chart-1))"
-                          strokeDasharray="3 3"
-                        />
-                      </LineChart>
-                    </ResponsiveContainer>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <div className="w-full pt-2 border-t">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <Target className="h-4 w-4" />
-                        <span className="text-sm text-muted-foreground">
-                          Total Capaian Monokultur
-                        </span>
+            <Tabs defaultValue="tahap2" className="w-full">
+              <TabsList className="grid w-full bg-gray-100 h-auto grid-cols-2 gap-2 mb-4 mt-1">
+                <TabsTrigger value="tahap1">TAHAP I</TabsTrigger>
+                <TabsTrigger value="tahap2">TAHAP II</TabsTrigger>
+              </TabsList>
+              <TabsContent value="tahap1">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-sm font-medium text-gray-500">
+                        Capaian Monokultur Per Minggu
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="h-[400px]">
+                        <ResponsiveContainer width="100%" height="100%">
+                          <LineChart data={week1Data}>
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="periode" />
+                            <YAxis />
+                            <Tooltip />
+                            <Legend />
+                            <Line
+                              type="monotone"
+                              dataKey="monoAchievement"
+                              name="Pencapaian"
+                              stroke="#3b82f6"
+                              strokeWidth={2}
+                            />
+                            <Line
+                              type="monotone"
+                              dataKey="monoTarget"
+                              name="Target"
+                              stroke="hsl(var(--chart-1))"
+                              strokeDasharray="3 3"
+                            />
+                          </LineChart>
+                        </ResponsiveContainer>
                       </div>
-                      <span className="text-sm font-medium">
-                        {company.monokulturAchievements.I.toLocaleString(
-                          "id-ID",
-                          {
-                            maximumFractionDigits: 2,
-                          }
-                        )}{" "}
-                        dari{" "}
-                        {company.target2Percent?.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}
-                      </span>
-                    </div>
-                  </div>
-                </CardFooter>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-sm font-medium text-gray-500">
-                    Capaian Tumpang Sari Per Minggu
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="h-[400px]">
-                    <ResponsiveContainer width="100%" height="100%">
-                      <LineChart data={weekData}>
-                        <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="periode" />
-                        <YAxis />
-                        <Tooltip />
-                        <Legend />
-                        <Line
-                          type="monotone"
-                          dataKey="tsAchievement"
-                          name="Pencapaian"
-                          stroke="#3b82f6"
-                          strokeWidth={2}
-                        />
-                        <Line
-                          type="monotone"
-                          dataKey="tsTarget"
-                          name="Target"
-                          stroke="hsl(var(--chart-2))"
-                          strokeDasharray="3 3"
-                        />
-                      </LineChart>
-                    </ResponsiveContainer>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <div className="w-full pt-2 border-t">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <Target className="h-4 w-4" />
-                        <span className="text-sm text-muted-foreground">
-                          Total Capaian Tumpang Sari
-                        </span>
+                    </CardContent>
+                    <CardFooter>
+                      <div className="w-full pt-2 border-t">
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <Target className="h-4 w-4" />
+                            <span className="text-sm text-muted-foreground">
+                              Total Capaian Monokultur
+                            </span>
+                          </div>
+                          <span className="text-sm font-medium">
+                            {company1?.monokulturAchievements.IV.toLocaleString(
+                              "id-ID",
+                              {
+                                maximumFractionDigits: 2,
+                              }
+                            )}{" "}
+                            dari{" "}
+                            {company1?.target2Percent?.toLocaleString("id-ID", {
+                              maximumFractionDigits: 2,
+                            })}
+                          </span>
+                        </div>
                       </div>
-                      <span className="text-sm font-medium">
-                        {company.tumpangSariAchievements.I.toLocaleString(
-                          "id-ID",
-                          {
-                            maximumFractionDigits: 2,
-                          }
-                        )}{" "}
-                        dari{" "}
-                        {company.target7Percent?.toLocaleString("id-ID", {
-                          maximumFractionDigits: 2,
-                        })}
-                      </span>
-                    </div>
-                  </div>
-                </CardFooter>
-              </Card>
-            </div>
+                    </CardFooter>
+                  </Card>
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-sm font-medium text-gray-500">
+                        Capaian Tumpang Sari Per Minggu
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="h-[400px]">
+                        <ResponsiveContainer width="100%" height="100%">
+                          <LineChart data={week1Data}>
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="periode" />
+                            <YAxis />
+                            <Tooltip />
+                            <Legend />
+                            <Line
+                              type="monotone"
+                              dataKey="tsAchievement"
+                              name="Pencapaian"
+                              stroke="#3b82f6"
+                              strokeWidth={2}
+                            />
+                            <Line
+                              type="monotone"
+                              dataKey="tsTarget"
+                              name="Target"
+                              stroke="hsl(var(--chart-2))"
+                              strokeDasharray="3 3"
+                            />
+                          </LineChart>
+                        </ResponsiveContainer>
+                      </div>
+                    </CardContent>
+                    <CardFooter>
+                      <div className="w-full pt-2 border-t">
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <Target className="h-4 w-4" />
+                            <span className="text-sm text-muted-foreground">
+                              Total Capaian Tumpang Sari
+                            </span>
+                          </div>
+                          <span className="text-sm font-medium">
+                            {company1?.tumpangSariAchievements.IV.toLocaleString(
+                              "id-ID",
+                              {
+                                maximumFractionDigits: 2,
+                              }
+                            )}{" "}
+                            dari{" "}
+                            {company1?.target7Percent?.toLocaleString("id-ID", {
+                              maximumFractionDigits: 2,
+                            })}
+                          </span>
+                        </div>
+                      </div>
+                    </CardFooter>
+                  </Card>
+                </div>
+              </TabsContent>
+              <TabsContent value="tahap2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-sm font-medium text-gray-500">
+                        Capaian Monokultur Per Minggu
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="h-[400px]">
+                        <ResponsiveContainer width="100%" height="100%">
+                          <LineChart data={weekData}>
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="periode" />
+                            <YAxis />
+                            <Tooltip />
+                            <Legend />
+                            <Line
+                              type="monotone"
+                              dataKey="monoAchievement"
+                              name="Pencapaian"
+                              stroke="#3b82f6"
+                              strokeWidth={2}
+                            />
+                            <Line
+                              type="monotone"
+                              dataKey="monoTarget"
+                              name="Target"
+                              stroke="hsl(var(--chart-1))"
+                              strokeDasharray="3 3"
+                            />
+                          </LineChart>
+                        </ResponsiveContainer>
+                      </div>
+                    </CardContent>
+                    <CardFooter>
+                      <div className="w-full pt-2 border-t">
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <Target className="h-4 w-4" />
+                            <span className="text-sm text-muted-foreground">
+                              Total Capaian Monokultur
+                            </span>
+                          </div>
+                          <span className="text-sm font-medium">
+                            {company.monokulturAchievements.I.toLocaleString(
+                              "id-ID",
+                              {
+                                maximumFractionDigits: 2,
+                              }
+                            )}{" "}
+                            dari{" "}
+                            {company.target2Percent?.toLocaleString("id-ID", {
+                              maximumFractionDigits: 2,
+                            })}
+                          </span>
+                        </div>
+                      </div>
+                    </CardFooter>
+                  </Card>
+                  <Card>
+                    <CardHeader>
+                      <CardTitle className="text-sm font-medium text-gray-500">
+                        Capaian Tumpang Sari Per Minggu
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="h-[400px]">
+                        <ResponsiveContainer width="100%" height="100%">
+                          <LineChart data={weekData}>
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="periode" />
+                            <YAxis />
+                            <Tooltip />
+                            <Legend />
+                            <Line
+                              type="monotone"
+                              dataKey="tsAchievement"
+                              name="Pencapaian"
+                              stroke="#3b82f6"
+                              strokeWidth={2}
+                            />
+                            <Line
+                              type="monotone"
+                              dataKey="tsTarget"
+                              name="Target"
+                              stroke="hsl(var(--chart-2))"
+                              strokeDasharray="3 3"
+                            />
+                          </LineChart>
+                        </ResponsiveContainer>
+                      </div>
+                    </CardContent>
+                    <CardFooter>
+                      <div className="w-full pt-2 border-t">
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2">
+                            <Target className="h-4 w-4" />
+                            <span className="text-sm text-muted-foreground">
+                              Total Capaian Tumpang Sari
+                            </span>
+                          </div>
+                          <span className="text-sm font-medium">
+                            {company.tumpangSariAchievements.I.toLocaleString(
+                              "id-ID",
+                              {
+                                maximumFractionDigits: 2,
+                              }
+                            )}{" "}
+                            dari{" "}
+                            {company.target7Percent?.toLocaleString("id-ID", {
+                              maximumFractionDigits: 2,
+                            })}
+                          </span>
+                        </div>
+                      </div>
+                    </CardFooter>
+                  </Card>
+                </div>
+              </TabsContent>
+            </Tabs>
           </TabsContent>
           <TabsContent value="csr">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-sm font-medium text-gray-500">
-                  Capaian CSR Per Minggu
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="h-[400px]">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <LineChart data={weekData}>
-                      <CartesianGrid strokeDasharray="3 3" />
-                      <XAxis dataKey="periode" />
-                      <YAxis />
-                      <Tooltip />
-                      <Legend />
-                      <Line
-                        type="monotone"
-                        dataKey="csrAchievement"
-                        name="Pencapaian"
-                        stroke="#3b82f6"
-                        strokeWidth={2}
-                      />
-                    </LineChart>
-                  </ResponsiveContainer>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div className="w-full pt-2 border-t">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <Target className="h-4 w-4" />
-                      <span className="text-sm text-muted-foreground">
-                        Total Capaian CSR
-                      </span>
+            <Tabs defaultValue="tahap2" className="w-full">
+              <TabsList className="grid w-full bg-gray-100 h-auto grid-cols-2 gap-2 mb-4 mt-1">
+                <TabsTrigger value="tahap1">TAHAP I</TabsTrigger>
+                <TabsTrigger value="tahap2">TAHAP II</TabsTrigger>
+              </TabsList>
+              <TabsContent value="tahap1">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="text-sm font-medium text-gray-500">
+                      Capaian CSR Per Minggu
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="h-[400px]">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <LineChart data={week1Data}>
+                          <CartesianGrid strokeDasharray="3 3" />
+                          <XAxis dataKey="periode" />
+                          <YAxis />
+                          <Tooltip />
+                          <Legend />
+                          <Line
+                            type="monotone"
+                            dataKey="csrAchievement"
+                            name="Pencapaian"
+                            stroke="#3b82f6"
+                            strokeWidth={2}
+                          />
+                        </LineChart>
+                      </ResponsiveContainer>
                     </div>
-                    <span className="text-sm font-medium">
-                      {company.csrAchievements?.I.toLocaleString("id-ID", {
-                        maximumFractionDigits: 2,
-                      })}
-                    </span>
-                  </div>
-                </div>
-              </CardFooter>
-            </Card>
+                  </CardContent>
+                  <CardFooter>
+                    <div className="w-full pt-2 border-t">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <Target className="h-4 w-4" />
+                          <span className="text-sm text-muted-foreground">
+                            Total Capaian CSR
+                          </span>
+                        </div>
+                        <span className="text-sm font-medium">
+                          {company1?.csrAchievements.IV.toLocaleString(
+                            "id-ID",
+                            {
+                              maximumFractionDigits: 2,
+                            }
+                          )}
+                        </span>
+                      </div>
+                    </div>
+                  </CardFooter>
+                </Card>
+              </TabsContent>
+              <TabsContent value="tahap2">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="text-sm font-medium text-gray-500">
+                      Capaian CSR Per Minggu
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="h-[400px]">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <LineChart data={weekData}>
+                          <CartesianGrid strokeDasharray="3 3" />
+                          <XAxis dataKey="periode" />
+                          <YAxis />
+                          <Tooltip />
+                          <Legend />
+                          <Line
+                            type="monotone"
+                            dataKey="csrAchievement"
+                            name="Pencapaian"
+                            stroke="#3b82f6"
+                            strokeWidth={2}
+                          />
+                        </LineChart>
+                      </ResponsiveContainer>
+                    </div>
+                  </CardContent>
+                  <CardFooter>
+                    <div className="w-full pt-2 border-t">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <Target className="h-4 w-4" />
+                          <span className="text-sm text-muted-foreground">
+                            Total Capaian CSR
+                          </span>
+                        </div>
+                        <span className="text-sm font-medium">
+                          {company.csrAchievements.I.toLocaleString("id-ID", {
+                            maximumFractionDigits: 2,
+                          })}
+                        </span>
+                      </div>
+                    </div>
+                  </CardFooter>
+                </Card>
+              </TabsContent>
+            </Tabs>
           </TabsContent>
           <TabsContent value="prosesProduksi">
             <div className="space-y-4">
