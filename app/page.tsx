@@ -71,6 +71,7 @@ const DashboardPoldaRiauPage = () => {
     useState<ProgramSatu | null>(null);
   const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
+  const [companyData, setCompanyData] = useState<Company | null>(null);
   const [selectedCompanyProgress, setSelectedCompanyProgress] =
     useState<Progress | null>(null);
   const [selectedOtherCompany, setSelectedOtherCompany] =
@@ -118,7 +119,7 @@ const DashboardPoldaRiauPage = () => {
   const getTotalTargets = () => {
     return programDua.reduce(
       (acc, polres) => {
-        const polsekTarget = polres.polsek.reduce(
+        const polsekTarget = polres.polsek2.reduce(
           (total, polsek) =>
             total +
             (polsek.villages.reduce(
@@ -171,7 +172,7 @@ const DashboardPoldaRiauPage = () => {
           return sum;
         }, 0);
 
-        const polsekAchievement = polres.polsek.reduce(
+        const polsekAchievement = polres.polsek2.reduce(
           (total, polsek) =>
             total +
             (polsek.villages.reduce(
@@ -205,7 +206,11 @@ const DashboardPoldaRiauPage = () => {
     const progressData =
       selectedCity?.tahapII.progress.find((p) => p.id === company.id) || null;
 
+    const company1 =
+      selectedCity?.tahapI.companies.find((p) => p.id === company.id) || null;
+
     setSelectedCompanyProgress(progressData);
+    setCompanyData(company1);
     setIsModalOpen(true);
   };
 
@@ -781,7 +786,7 @@ const DashboardPoldaRiauPage = () => {
                       </CardTitle>
                       {selectedCity ? (
                         <CardDescription>
-                          Total {selectedCity.polsek.length} POLSEK. Pilih
+                          Total {selectedCity.polsek2.length} POLSEK. Pilih
                           POLSEK untuk Melihat Detail.
                         </CardDescription>
                       ) : (
@@ -793,10 +798,10 @@ const DashboardPoldaRiauPage = () => {
                     <CardContent className="p-0 overflow-y-auto max-h-[500px]">
                       {selectedCity ? (
                         <div className="p-4">
-                          {selectedCity.polsek.length > 0 ? (
+                          {selectedCity.polsek2.length > 0 ? (
                             <Table>
                               <TableBody>
-                                {selectedCity.polsek
+                                {selectedCity.polsek2
                                   .map((polsek) => ({
                                     ...polsek,
                                     totalAchievements: polsek.villages
@@ -864,6 +869,7 @@ const DashboardPoldaRiauPage = () => {
       {selectedCompany && (
         <CompanyDetailsModal
           company={selectedCompany}
+          company1={companyData}
           progress={selectedCompanyProgress}
           isOpen={isModalOpen}
           onClose={handleCloseModal}

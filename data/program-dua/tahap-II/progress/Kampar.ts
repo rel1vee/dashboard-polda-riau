@@ -9,60 +9,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     tumpangSari: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -75,60 +63,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -137,64 +113,52 @@ export const kamparProgress2: Progress[] = [
     id: 3,
     namaPJ: "BERADA DI WILAYAH KABUN, ROKAN HULU",
     nomorTelp: "BERADA DI WILAYAH KABUN, ROKAN HULU",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "BERADA DI WILAYAH KABUN, ROKAN HULU",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "BERADA DI WILAYAH KABUN, ROKAN HULU",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "BERADA DI WILAYAH KABUN, ROKAN HULU",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "BERADA DI WILAYAH KABUN, ROKAN HULU",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "BERADA DI WILAYAH KABUN, ROKAN HULU",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "BERADA DI WILAYAH KABUN, ROKAN HULU",
     },
@@ -207,60 +171,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -273,60 +225,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -339,60 +279,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 5.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -405,60 +333,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "21-01-2025",
       progresTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -467,64 +383,52 @@ export const kamparProgress2: Progress[] = [
     id: 8,
     namaPJ: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
     nomorTelp: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
     },
@@ -537,60 +441,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 15.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 15.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -603,60 +495,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 4.24,
-        persentase: 0.0,
       },
-      waktuTanam: "21-02-2025",
+      waktuTanam: "19-02-2025\r\n25-02-2025",
       progresTanam: {
-        luas: 1.25,
-        persentase: 0.0,
+        luas: 4.24,
       },
       belumTanam: {
-        luas: 2.99,
-        persentase: 0.0,
+        luas: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -669,60 +549,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MENUNGGU KEPUTUSAN DIREKSI",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MENUNGGU KEPUTUSAN DIREKSI",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -735,60 +603,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -801,60 +657,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 2.0,
-        persentase: 0.0,
+        luas: 4.0,
       },
       waktuTanam: "21-01-2025",
       progresTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -866,61 +710,49 @@ export const kamparProgress2: Progress[] = [
     area: 220.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "DITANAM DI KAB. SIAK",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "DITANAM DI KAB. SIAK",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "DITANAM DI KAB. SIAK",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "DITANAM DI KAB. SIAK",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "DITANAM DI KAB. SIAK",
     },
@@ -933,40 +765,32 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan:
         "TIDAK ADA LAHAN KOSONG DAN TUMPANG SARI, AKAN DIARAHKAN KE CSR SERTA MENUNGGU KEPUTUSAN DIREKSI",
@@ -974,20 +798,16 @@ export const kamparProgress2: Progress[] = [
     csr: {
       targetTanam: {
         luas: 1.5,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 1.5,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1000,60 +820,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 4.5,
-        persentase: 0.0,
       },
       waktuTanam: "DIRENCANAKAN PADA APRIL 2025",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 4.5,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1066,60 +874,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     tumpangSari: {
       targetTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       waktuTanam: "21-01-2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1132,60 +928,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "KGU",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1198,60 +982,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1263,61 +1035,49 @@ export const kamparProgress2: Progress[] = [
     area: 528.0,
     monokultur: {
       targetTanam: {
-        luas: 0.0,
-        persentase: 0.0,
+        luas: 0.5,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT / TIDAK",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1330,60 +1090,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       waktuTanam: "21-01-2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1396,60 +1144,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     tumpangSari: {
       targetTanam: {
         luas: 25.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 25.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1458,64 +1194,52 @@ export const kamparProgress2: Progress[] = [
     id: 23,
     namaPJ: "LAHAN TIDAK ADA HANYA PABRIK",
     nomorTelp: "LAHAN TIDAK ADA HANYA PABRIK",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "LAHAN TIDAK ADA HANYA PABRIK",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "LAHAN TIDAK ADA HANYA PABRIK",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "LAHAN TIDAK ADA HANYA PABRIK",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "LAHAN TIDAK ADA HANYA PABRIK",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "LAHAN TIDAK ADA HANYA PABRIK",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "LAHAN TIDAK ADA HANYA PABRIK",
     },
@@ -1526,69 +1250,57 @@ export const kamparProgress2: Progress[] = [
       "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
     nomorTelp:
       "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam:
         "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan:
         "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam:
         "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan:
         "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam:
         "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan:
         "SUDAH DIGANTI DENGAN PT. CWIM SEBAGAI BAPAK ANGKAT KOPERASI SAWIT SIABU JAYA XIII KOTO KAMPAR ",
@@ -1598,64 +1310,52 @@ export const kamparProgress2: Progress[] = [
     id: 25,
     namaPJ: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
     nomorTelp: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK DITEMUKAN DI WILAYAH KAB. KAMPAR",
     },
@@ -1668,60 +1368,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 8.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 8.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1734,60 +1422,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU REPLANTING BULAN MEI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1800,60 +1476,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1866,60 +1530,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 6.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 6.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1932,60 +1584,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.5,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
       progresTanam: {
-        luas: 0.0,
-        persentase: 0.0,
+        luas: 0.5,
       },
       belumTanam: {
-        luas: 0.5,
-        persentase: 0.0,
+        luas: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -1998,60 +1638,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -2060,64 +1688,52 @@ export const kamparProgress2: Progress[] = [
     id: 32,
     namaPJ: "PERUSAHAAN MASUK KE WILAYAH MINAS",
     nomorTelp: "PERUSAHAAN MASUK KE WILAYAH MINAS",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "PERUSAHAAN MASUK KE WILAYAH MINAS",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "PERUSAHAAN MASUK KE WILAYAH MINAS",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "PERUSAHAAN MASUK KE WILAYAH MINAS",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "PERUSAHAAN MASUK KE WILAYAH MINAS",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "PERUSAHAAN MASUK KE WILAYAH MINAS",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "PERUSAHAAN MASUK KE WILAYAH MINAS",
     },
@@ -2130,60 +1746,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -2192,69 +1796,57 @@ export const kamparProgress2: Progress[] = [
     id: 34,
     namaPJ: "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
     nomorTelp: "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam:
         "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan:
         "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam:
         "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan:
         "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam:
         "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan:
         "TIDAK ADA KEBUN HANYA PUSAT BENIH, RISET DAN PUSAT PELATIHAN",
@@ -2268,60 +1860,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.25,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.25,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -2333,61 +1913,49 @@ export const kamparProgress2: Progress[] = [
     area: 598.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "KEBUN FAILED KARENA BANJIR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "KEBUN FAILED KARENA BANJIR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "KEBUN FAILED KARENA BANJIR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
     },
@@ -2396,64 +1964,52 @@ export const kamparProgress2: Progress[] = [
     id: 37,
     namaPJ: "KEBUN FAILED KARENA BANJIR",
     nomorTelp: "KEBUN FAILED KARENA BANJIR",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "KEBUN FAILED KARENA BANJIR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "KEBUN FAILED KARENA BANJIR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "KEBUN FAILED KARENA BANJIR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "KEBUN FAILED KARENA BANJIR",
     },
@@ -2466,60 +2022,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -2532,60 +2076,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -2598,60 +2130,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -2664,60 +2184,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 15.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 15.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -2726,64 +2234,52 @@ export const kamparProgress2: Progress[] = [
     id: 42,
     namaPJ: "TIDAK ADA DI WILKUM KAB. KAMPAR",
     nomorTelp: "TIDAK ADA DI WILKUM KAB. KAMPAR",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK ADA DI WILKUM KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK ADA DI WILKUM KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK ADA DI WILKUM KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
     },
@@ -2796,60 +2292,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU \r\nKEPUTUSAN \r\nDARI PIHAK \r\nPERUSAHAAN ",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "SKT",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "SKT",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -2862,60 +2346,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -2924,64 +2396,52 @@ export const kamparProgress2: Progress[] = [
     id: 45,
     namaPJ: "TIDAK ADA DI WILKUM KAB. KAMPAR",
     nomorTelp: "TIDAK ADA DI WILKUM KAB. KAMPAR",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK ADA DI WILKUM KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK ADA DI WILKUM KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "TIDAK ADA DI WILKUM KAB. KAMPAR",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "TIDAK ADA DI WILKUM KAB. KAMPAR",
     },
@@ -2994,60 +2454,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU \r\nKEPUTUSAN \r\nDARI PIHAK \r\nPERUSAHAAN ",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT /TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3060,60 +2508,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3126,60 +2562,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3192,60 +2616,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3258,60 +2670,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "SKT",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3320,64 +2720,52 @@ export const kamparProgress2: Progress[] = [
     id: 51,
     namaPJ: "PERUSAHAAN MASUK WILKUM KUANSING",
     nomorTelp: "PERUSAHAAN MASUK WILKUM KUANSING",
-    area: 0,
+    area: 0.0,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "PERUSAHAAN MASUK WILKUM KUANSING",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "PERUSAHAAN MASUK WILKUM KUANSING",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "PERUSAHAAN MASUK WILKUM KUANSING",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "PT MASUK WILKUM KUANSING",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "PERUSAHAAN MASUK WILKUM KUANSING",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "PERUSAHAAN MASUK WILKUM KUANSING",
     },
@@ -3390,60 +2778,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3456,60 +2832,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 10.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DIREKSI",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3522,60 +2886,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       waktuTanam: "21-01-2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3588,60 +2940,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/ TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
     },
     csr: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3654,60 +2994,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "SUDAH TANAM DI KABUPATEN INHU",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "SUDAH TANAM DI KABUPATEN INHU",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3720,60 +3048,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       waktuTanam: "21-01-2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LEGAL BERSERTIFIKAT",
     },
     csr: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN MILIK PEMPROV",
     },
@@ -3786,60 +3102,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     tumpangSari: {
       targetTanam: {
         luas: 14.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU KEPUTUSAN DARI PIHAK PERUSAHAAN",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 14.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3848,64 +3152,52 @@ export const kamparProgress2: Progress[] = [
     id: 59,
     namaPJ: "PT. SAMA DENGAN NOMOR URUT 48",
     nomorTelp: "PT. SAMA DENGAN NOMOR URUT 48",
-    area: 0,
+    area: 0.48,
     monokultur: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       waktuTanam: "PT. SAMA DENGAN NOMOR URUT 48",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       keterangan: "PT. SAMA DENGAN NOMOR URUT 48",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       waktuTanam: "PT. SAMA DENGAN NOMOR URUT 48",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       keterangan: "PT. SAMA DENGAN NOMOR URUT 48",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       waktuTanam: "PT. SAMA DENGAN NOMOR URUT 48",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.48,
       },
       keterangan: "PT. SAMA DENGAN NOMOR URUT 48",
     },
@@ -3918,60 +3210,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "MENUNGGU \r\nKEPUTUSAN \r\nDARI PIHAK \r\nPERUSAHAAN ",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },
@@ -3984,60 +3264,48 @@ export const kamparProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.1,
-        persentase: 0.0,
       },
       waktuTanam: "21-01-2025",
       progresTanam: {
         luas: 0.1,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "LAHAN BERSERTIFIKAT/TIDAK ",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "HGU ",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "",
     },

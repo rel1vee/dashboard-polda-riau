@@ -9,62 +9,50 @@ export const kuansingProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -75,62 +63,50 @@ export const kuansingProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -141,62 +117,50 @@ export const kuansingProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 5.0,
-        persentase: 0.0,
       },
       waktuTanam: "15/03/2025",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -207,62 +171,50 @@ export const kuansingProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 2.4,
-        persentase: 0.0,
       },
-      waktuTanam: "",
+      waktuTanam: "1 April 2025",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -273,62 +225,50 @@ export const kuansingProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 5.0,
-        persentase: 0.0,
       },
       waktuTanam: "15/03/2025",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -338,63 +278,51 @@ export const kuansingProgress2: Progress[] = [
     area: 3602.84,
     monokultur: {
       targetTanam: {
-        luas: 2.0,
-        persentase: 0.0,
+        luas: 3.0,
       },
       waktuTanam: "25/02/2025",
       progresTanam: {
-        luas: 2.0,
-        persentase: 0.0,
+        luas: 3.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -405,62 +333,50 @@ export const kuansingProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 50.0,
-        persentase: 0.0,
       },
       waktuTanam: "21/01/2025",
       progresTanam: {
         luas: 2.0,
-        persentase: 4.0,
       },
       belumTanam: {
         luas: 48.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "PROSES TANAM BARU 2 HA",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -471,62 +387,50 @@ export const kuansingProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 5.0,
-        persentase: 0.0,
       },
       waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       waktuTanam: "14 februari 2025",
       progresTanam: {
         luas: 2.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -537,62 +441,50 @@ export const kuansingProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -603,62 +495,50 @@ export const kuansingProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     tumpangSari: {
       targetTanam: {
         luas: 3.0,
-        persentase: 0.0,
       },
       waktuTanam: "MARET 2025",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 3.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
 ];

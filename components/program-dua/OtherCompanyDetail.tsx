@@ -924,7 +924,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                 <div className="h-[400px] flex items-center justify-center text-center flex-col gap-2">
                   <Database className="h-10 w-10 text-emerald-800" />
                   <span className="text-emerald-800 text-xl text-center">
-                    Belum Ada Data Proses Produksi...
+                    Tidak Ada Data Proses Produksi...
                   </span>
                 </div>
               )}

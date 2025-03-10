@@ -50,6 +50,7 @@ import {
 
 interface CompanyDetailProps {
   company: Company;
+  company1: Company | null;
   progress: Progress | null;
   isOpen: boolean;
   onClose: () => void;
@@ -57,6 +58,7 @@ interface CompanyDetailProps {
 
 const CompanyDetail: React.FC<CompanyDetailProps> = ({
   company,
+  company1,
   progress,
   isOpen,
   onClose,
@@ -85,10 +87,10 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     return [
       {
         periode: "1",
-        monoTarget: (company.target2Percent ?? 0) / 4,
-        monoAchievement: company.monokulturAchievements.I,
-        tsTarget: (company.target7Percent ?? 0) / 4,
-        tsAchievement: company.tumpangSariAchievements.I,
+        monoTarget: (company1?.target2Percent ?? 0) / 4,
+        monoAchievement: company1?.monokulturAchievements.IV,
+        tsTarget: (company1?.target7Percent ?? 0) / 4,
+        tsAchievement: company1?.tumpangSariAchievements.IV,
       },
       {
         periode: "2",
@@ -1109,7 +1111,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                 <div className="h-[400px] flex items-center justify-center text-center flex-col gap-2">
                   <Database className="h-10 w-10 text-emerald-800" />
                   <span className="text-emerald-800 text-xl text-center">
-                    Belum Ada Data Proses Produksi...
+                    Tidak Ada Data Proses Produksi...
                   </span>
                 </div>
               )}

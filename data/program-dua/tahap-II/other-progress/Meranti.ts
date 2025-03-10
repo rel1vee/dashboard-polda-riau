@@ -9,62 +9,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.5,
-        persentase: 100.0,
       },
-      waktuTanam: "02 March 2025",
+      waktuTanam: "2 Maret 2025",
       progresTanam: {
         luas: 0.5,
-        persentase: 100.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -75,62 +63,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -141,62 +117,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 30.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 30.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -207,62 +171,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -273,62 +225,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -339,62 +279,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.5,
-        persentase: 100.0,
       },
       waktuTanam: "21/01/2025",
       progresTanam: {
         luas: 2.5,
-        persentase: 100.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 1.5,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -405,62 +333,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -471,62 +387,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 19.13,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 19.13,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -537,62 +441,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 9.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 9.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -603,62 +495,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -669,62 +549,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -735,62 +603,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -801,62 +657,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -867,62 +711,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 30.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 30.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -933,62 +765,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "29/01/2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -999,62 +819,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 3.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 3.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1065,62 +873,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1131,62 +927,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 25.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 25.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1197,62 +981,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 30.0,
-        persentase: 0.0,
       },
-      waktuTanam: "03 March 2025",
+      waktuTanam: "3/3/2025 & 8/3/2025",
       progresTanam: {
-        luas: 2.0,
-        persentase: 0,
+        luas: 3.0,
       },
       belumTanam: {
         luas: 30.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1263,62 +1035,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1329,62 +1089,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.88,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.88,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1395,62 +1143,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1461,62 +1197,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.5,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.5,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1527,62 +1251,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1593,62 +1305,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1659,62 +1359,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1725,62 +1413,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1791,62 +1467,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1857,62 +1521,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1923,62 +1575,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -1989,62 +1629,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2055,62 +1683,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2121,62 +1737,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 70.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 70.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2187,62 +1791,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 3.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 3.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2253,62 +1845,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "21/01/2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2319,62 +1899,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2385,62 +1953,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2451,62 +2007,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2517,62 +2061,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 4.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 4.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2583,62 +2115,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.5,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.5,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2649,62 +2169,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2715,62 +2223,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.5,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 0.5,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2781,62 +2277,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2847,62 +2331,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "26/11/2024 & 16/02/2025",
       progresTanam: {
         luas: 2.0,
-        persentase: 200.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 1.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2913,62 +2385,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -2979,62 +2439,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3045,62 +2493,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.5,
-        persentase: 100.0,
       },
-      waktuTanam: "02 October 2025",
+      waktuTanam: "2 Oktober 2025",
       progresTanam: {
         luas: 0.5,
-        persentase: 100.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3111,62 +2547,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.8,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.8,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3177,62 +2601,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3243,62 +2655,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3309,62 +2709,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
-      waktuTanam: "03 March 2025",
+      waktuTanam: "3 Maret 2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3375,62 +2763,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3441,62 +2817,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3507,62 +2871,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3573,62 +2925,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "14/02/2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3639,62 +2979,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3705,62 +3033,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3771,62 +3087,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3837,62 +3141,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3903,62 +3195,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -3969,62 +3249,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4035,62 +3303,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4101,62 +3357,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4167,62 +3411,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4233,62 +3465,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4299,62 +3519,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4365,62 +3573,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
-      waktuTanam: "02 January 2025",
+      waktuTanam: "2 Januari 2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4431,62 +3627,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4497,62 +3681,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 0.5,
-        persentase: 100.0,
       },
       waktuTanam: "30/11/2024",
       progresTanam: {
         luas: 0.5,
-        persentase: 100.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.5,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4563,62 +3735,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 4.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 4.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4629,62 +3789,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 3.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 3.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4695,62 +3843,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 6.5,
-        persentase: 100.0,
       },
-      waktuTanam: "02 August 2025",
+      waktuTanam: "2 Agustus 2025",
       progresTanam: {
         luas: 3.5,
-        persentase: 53.0,
       },
       belumTanam: {
         luas: 3.0,
-        persentase: 47.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4761,62 +3897,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
-      waktuTanam: "02 October 2025",
+      waktuTanam: "2 Oktober 2025",
       progresTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4827,62 +3951,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "26/11/2024 & 28/02/2025",
       progresTanam: {
         luas: 1.5,
-        persentase: 150.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 1.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4893,62 +4005,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -4959,62 +4059,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 3.0,
-        persentase: 50.0,
       },
       waktuTanam: "29/03/2025",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
     csr: {
       targetTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       waktuTanam: "",
       progresTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       belumTanam: {
         luas: 0.0,
-        persentase: 0.0,
       },
       panen: {
         luas: 0.0,
-        persentase: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5025,62 +4113,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.8,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.8,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5091,62 +4167,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5157,62 +4221,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 18.5,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 18.5,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5223,62 +4275,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 0.0,
       },
-      waktuTanam: "03 March 2025",
+      waktuTanam: "3 Maret 2025",
       progresTanam: {
         luas: 0.5,
-        persentase: 0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5289,62 +4329,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5355,62 +4383,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 20.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 20.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5421,62 +4437,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5487,62 +4491,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5553,62 +4545,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5619,62 +4599,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 5.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5685,62 +4653,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 1.8,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 1.8,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5751,62 +4707,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 30.34,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 30.34,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5817,62 +4761,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 3.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 3.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5883,62 +4815,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 8.0,
-        persentase: 100.0,
       },
       waktuTanam: "21 -01-2025",
       progresTanam: {
         luas: 8.0,
-        persentase: 100.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -5949,62 +4869,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 2.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -6015,62 +4923,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 6.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 6.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -6081,62 +4977,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 11.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 11.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -6147,62 +5031,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 30.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 30.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -6213,62 +5085,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 10.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
   {
@@ -6279,62 +5139,50 @@ export const merantiOtherProgress2: Progress[] = [
     monokultur: {
       targetTanam: {
         luas: 30.0,
-        persentase: 100.0,
       },
       waktuTanam: "_",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
         luas: 30.0,
-        persentase: 100.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "MILIK POKTAN / PERORANGAN",
     },
     tumpangSari: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       keterangan: "NIHIL",
     },
     csr: {
       targetTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       waktuTanam: "NIHIL",
       progresTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       belumTanam: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
       panen: {
-        luas: 0,
-        persentase: 0,
+        luas: 0.0,
       },
-      keterangan: "",
+      keterangan: "-",
     },
   },
 ];

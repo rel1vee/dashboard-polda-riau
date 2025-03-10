@@ -48,13 +48,13 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
   if (!polsek) return null;
 
   const totalTarget =
-    polsek.villages?.reduce(
+    polsek.villages.reduce(
       (total, village) => total + (village.target || 0),
       0
     ) || 0;
 
   const totalAchievement =
-    polsek.villages?.reduce(
+    polsek.villages.reduce(
       (total, village) => total + (village.achievement || 0),
       0
     ) || 0;
@@ -626,7 +626,7 @@ const PolsekDetail: React.FC<PolsekDetailProps> = ({
               ) : (
                 <div className="py-12 text-center text-gray-400">
                   <Home className="h-8 w-8 mx-auto mb-2 text-gray-300" />
-                  <p>Belum Ada Data Desa...</p>
+                  <p>Tidak Ada Data Desa...</p>
                 </div>
               )}
             </div>

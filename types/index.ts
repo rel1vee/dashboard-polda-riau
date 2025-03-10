@@ -43,8 +43,8 @@ export interface ProgramDua {
   otherTotalArea: number;
   monokulturTarget: number;
   tumpangSariTarget: number;
-  polsek: Polsek[];
   polsek1: Polsek[];
+  polsek2: Polsek[];
   tahapI: {
     companies: Company[];
     otherCompanies: Company[];
@@ -57,13 +57,13 @@ export interface ProgramDua {
     progress: Progress[];
     otherProgress: Progress[];
   };
-  tahapIII?: {
+  tahapIII: {
     companies: Company[];
     otherCompanies: Company[];
     progress: Progress[];
     otherProgress: Progress[];
   };
-  tahapIV?: {
+  tahapIV: {
     companies: Company[];
     otherCompanies: Company[];
     progress: Progress[];
@@ -74,7 +74,7 @@ export interface ProgramDua {
 export interface Polsek {
   id: number;
   name: string;
-  polres?: string;
+  polres: string;
   villages: Village[];
 }
 

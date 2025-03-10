@@ -31,15 +31,11 @@ interface MapProps {
     otherTotalArea: number;
     monokulturTarget: number;
     tumpangSariTarget: number;
-    tahapI: {
-      companies: Company[];
-      otherCompanies: Company[];
-    };
     tahapII: {
       companies: Company[];
       otherCompanies: Company[];
     };
-    polsek: Polsek[];
+    polsek2: Polsek[];
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onCityClick: (city: any) => void;
@@ -53,9 +49,9 @@ const calculateTotalAchievements = (
 
   return allCompanies.reduce(
     (totals, company) => {
-      const monoTotal = company.monokulturAchievements?.I ?? 0;
-      const tumpangSariTotal = company.tumpangSariAchievements?.I ?? 0;
-      const csrTotal = company.csrAchievements?.I ?? 0;
+      const monoTotal = company.monokulturAchievements.I;
+      const tumpangSariTotal = company.tumpangSariAchievements.I;
+      const csrTotal = company.csrAchievements.I;
 
       return {
         monokultur: totals.monokultur + monoTotal,
@@ -103,20 +99,20 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             city.tahapII.otherCompanies || []
           );
 
-          const polsekTarget = city.polsek.reduce(
+          const polsekTarget = city.polsek2.reduce(
             (total, polsek) =>
               total +
-              (polsek.villages?.reduce(
+              (polsek.villages.reduce(
                 (target, village) => target + (village.target || 0),
                 0
               ) || 0),
             0
           );
 
-          const polsekAchievement = city.polsek.reduce(
+          const polsekAchievement = city.polsek2.reduce(
             (total, polsek) =>
               total +
-              (polsek.villages?.reduce(
+              (polsek.villages.reduce(
                 (achievement, village) =>
                   achievement + (village.achievement || 0),
                 0
@@ -169,13 +165,13 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
-                        {city.tahapII.otherCompanies?.length} Pt. Lain
+                        {city.tahapII.otherCompanies.length} Pt. Lain
                       </Badge>
                       <Badge
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
-                        {city.polsek.length} POLSEK
+                        {city.polsek2.length} POLSEK
                       </Badge>
                     </div>
                     {/* Area Info */}
