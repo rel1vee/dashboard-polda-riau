@@ -543,6 +543,26 @@ const ProgramDuaRanking = () => {
           maximumFractionDigits: 2,
         }),
       },
+      phase5: {
+        total: (
+          data.capaianMonokultur2.i +
+          data.capaianTumpangSari2.i +
+          data.capaianCSR2.i +
+          data.polsekAchievement
+        ).toLocaleString("id-ID", {
+          maximumFractionDigits: 2,
+        }),
+        percentage: (
+          ((data.capaianMonokultur2.i +
+            data.capaianTumpangSari2.i +
+            data.capaianCSR2.i +
+            data.polsekAchievement) /
+            (data.totalTarget / 4)) *
+          100
+        ).toLocaleString("id-ID", {
+          maximumFractionDigits: 2,
+        }),
+      },
     };
   };
 
@@ -597,7 +617,7 @@ const ProgramDuaRanking = () => {
                         NAMA KABUPATEN/KOTA
                       </TableHead>
                       <TableHead
-                        colSpan={6}
+                        colSpan={2}
                         className="text-center border border-green-200 font-bold text-gray-800 bg-green-300"
                       >
                         <div className="flex justify-center items-center gap-3">
@@ -652,10 +672,16 @@ const ProgramDuaRanking = () => {
                           </Badge>
                         </div>
                       </TableHead>
+                      <TableHead
+                        colSpan={2}
+                        className="text-center border border-gray-200 font-bold text-gray-800 bg-gray-300"
+                      >
+                        KESELURUHAN
+                      </TableHead>
                     </TableRow>
                     <TableRow>
                       {/* TAHAP I - Green theme */}
-                      <TableHead className="text-center border border-green-200 font-bold text-gray-800 p-2 bg-green-300">
+                      {/* <TableHead className="text-center border border-green-200 font-bold text-gray-800 p-2 bg-green-300">
                         I
                       </TableHead>
                       <TableHead className="text-center border border-green-200 font-bold text-gray-800 p-2 bg-green-300">
@@ -666,7 +692,7 @@ const ProgramDuaRanking = () => {
                       </TableHead>
                       <TableHead className="text-center border border-green-200 font-bold text-gray-800 p-2 bg-green-300">
                         IV
-                      </TableHead>
+                      </TableHead> */}
                       <TableHead className="text-center border border-green-200 font-bold text-gray-800 p-2 bg-green-300">
                         Total
                       </TableHead>
@@ -730,6 +756,12 @@ const ProgramDuaRanking = () => {
                       <TableHead className="text-center border border-red-200 font-bold text-gray-800 p-2 bg-red-300">
                         %
                       </TableHead>
+                      <TableHead className="text-center border border-gray-200 font-bold text-gray-800 p-2 bg-gray-300">
+                        Total
+                      </TableHead>
+                      <TableHead className="text-center border border-gray-200 font-bold text-gray-800 p-2 bg-gray-300">
+                        %
+                      </TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
@@ -745,35 +777,35 @@ const ProgramDuaRanking = () => {
                             {row.nama}
                           </TableCell>
                           {/* TAHAP I */}
-                          <TableCell className="text-center border bg-green-50">
-                            {/* {formatNumber(
+                          {/* <TableCell className="text-center border bg-green-50">
+                            {formatNumber(
                               row.capaianMonokultur.i +
                                 row.capaianTumpangSari.i +
                                 row.capaianCSR.i
                             )} */}
-                          </TableCell>
+                          {/* </TableCell>
                           <TableCell className="text-center border bg-green-50">
-                            {/* {formatNumber(
+                            {formatNumber(
                               row.capaianMonokultur.ii +
                                 row.capaianTumpangSari.ii +
                                 row.capaianCSR.ii -
                                 (row.capaianMonokultur.i +
                                   row.capaianTumpangSari.i +
                                   row.capaianCSR.i)
-                            )} */}
+                            )}
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
-                            {/* {formatNumber(
+                            {formatNumber(
                               row.capaianMonokultur.iii +
                                 row.capaianTumpangSari.iii +
                                 row.capaianCSR.iii -
                                 (row.capaianMonokultur.ii +
                                   row.capaianTumpangSari.ii +
                                   row.capaianCSR.ii)
-                            )} */}
+                            )}
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
-                            {/* {formatNumber(
+                            {formatNumber(
                               row.capaianMonokultur.iv +
                                 row.capaianTumpangSari.iv +
                                 row.capaianCSR.iv +
@@ -781,8 +813,8 @@ const ProgramDuaRanking = () => {
                                 (row.capaianMonokultur.iii +
                                   row.capaianTumpangSari.iii +
                                   row.capaianCSR.iii)
-                            )} */}
-                          </TableCell>
+                            )}
+                          </TableCell> */}
                           <TableCell className="text-center border font-bold bg-green-50">
                             {totals.phase1.total}
                           </TableCell>
@@ -858,6 +890,12 @@ const ProgramDuaRanking = () => {
                           <TableCell className="text-center border bg-red-50">
                             {/* {formatNumber(0)}% */}
                           </TableCell>
+                          <TableCell className="text-center border font-bold">
+                            {totals.phase5.total}
+                          </TableCell>
+                          <TableCell className="text-center border font-bold">
+                            {totals.phase5.percentage}%
+                          </TableCell>
                         </TableRow>
                       );
                     })}
@@ -867,35 +905,35 @@ const ProgramDuaRanking = () => {
                         TOTAL
                       </TableCell>
                       {/* TAHAP I */}
-                      <TableCell className="text-center border font-bold bg-green-50">
-                        {/* {formatNumber(
+                      {/* <TableCell className="text-center border font-bold bg-green-50">
+                        {formatNumber(
                           achievements.monokulturAchievementI +
                             achievements.tumpangSariAchievementI +
                             achievements.csrAchievementI
-                        )} */}
+                        )}
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-green-50">
-                        {/* {formatNumber(
+                        {formatNumber(
                           achievements.monokulturAchievementII +
                             achievements.tumpangSariAchievementII +
                             achievements.csrAchievementII -
                             (achievements.monokulturAchievementI +
                               achievements.tumpangSariAchievementI +
                               achievements.csrAchievementI)
-                        )} */}
+                        )}
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-green-50">
-                        {/* {formatNumber(
+                        {formatNumber(
                           achievements.monokulturAchievementIII +
                             achievements.tumpangSariAchievementIII +
                             achievements.csrAchievementIII -
                             (achievements.monokulturAchievementII +
                               achievements.tumpangSariAchievementII +
                               achievements.csrAchievementII)
-                        )} */}
+                        )}
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-green-50">
-                        {/* {formatNumber(
+                        {formatNumber(
                           achievements.monokulturAchievementIV +
                             achievements.tumpangSariAchievementIV +
                             achievements.csrAchievementIV +
@@ -903,8 +941,8 @@ const ProgramDuaRanking = () => {
                             (achievements.monokulturAchievementIII +
                               achievements.tumpangSariAchievementIII +
                               achievements.csrAchievementIII)
-                        )} */}
-                      </TableCell>
+                        )}
+                      </TableCell> */}
                       <TableCell className="text-center border font-bold bg-green-50">
                         {formatNumber(
                           achievements.monokulturAchievementIV +
@@ -988,6 +1026,28 @@ const ProgramDuaRanking = () => {
                       <TableCell className="text-center border bg-red-50"></TableCell>
                       <TableCell className="text-center border bg-red-50"></TableCell>
                       <TableCell className="text-center border bg-red-50"></TableCell>
+
+                      <TableCell className="text-center border font-bold">
+                        {formatNumber(
+                          achievements.monokulturAchievementI2 +
+                            achievements.tumpangSariAchievementI2 +
+                            achievements.csrAchievementI2 +
+                            achievements.polsekAchievement
+                        )}
+                      </TableCell>
+                      <TableCell className="text-center border font-bold">
+                        {formatNumber(
+                          ((achievements.monokulturAchievementI2 +
+                            achievements.tumpangSariAchievementI2 +
+                            achievements.csrAchievementI2 +
+                            achievements.polsekAchievement) /
+                            ((achievements.monokulturTarget +
+                              achievements.tumpangSariTarget) /
+                              4)) *
+                            100
+                        )}
+                        %
+                      </TableCell>
                     </TableRow>
                   </TableBody>
                   <TableCaption className="mt-4 text-sm text-gray-600 bg-blue-50 p-2 rounded">
