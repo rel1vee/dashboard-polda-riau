@@ -99,6 +99,18 @@ import { merantiOtherCompanies2 } from "./program-dua/tahap-II/other-company/Mer
 import { merantiOtherProgress2 } from "./program-dua/tahap-II/other-progress/Meranti";
 import { dumaiOtherCompanies2 } from "./program-dua/tahap-II/other-company/Dumai";
 import { dumaiOtherProgress2 } from "./program-dua/tahap-II/other-progress/Dumai";
+import { inhuPolsek1 } from "./program-dua/polsek/I/Inhu";
+import { kamparPolsek1 } from "./program-dua/polsek/I/Kampar";
+import { inhilPolsek1 } from "./program-dua/polsek/I/Inhil";
+import { pekanbaruPolsek1 } from "./program-dua/polsek/I/Pekanbaru";
+import { bengkalisPolsek1 } from "./program-dua/polsek/I/Bengkalis";
+import { pelalawanPolsek1 } from "./program-dua/polsek/I/Pelalawan";
+import { rohilPolsek1 } from "./program-dua/polsek/I/Rohil";
+import { siakPolsek1 } from "./program-dua/polsek/I/Siak";
+import { kuansingPolsek1 } from "./program-dua/polsek/I/Kuansing";
+import { rohulPolsek1 } from "./program-dua/polsek/I/Rohul";
+import { merantiPolsek1 } from "./program-dua/polsek/I/Meranti";
+import { dumaiPolsek1 } from "./program-dua/polsek/I/Dumai";
 
 export const programDua: ProgramDua[] = [
   {
@@ -122,6 +134,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: inhuOtherProgress2,
     },
     polsek: inhuPolsek,
+    polsek1: inhuPolsek1,
   },
   {
     id: 2,
@@ -144,6 +157,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: kamparOtherProgress2,
     },
     polsek: kamparPolsek,
+    polsek1: kamparPolsek1,
   },
   {
     id: 3,
@@ -166,6 +180,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: inhilOtherProgress2,
     },
     polsek: inhilPolsek,
+    polsek1: inhilPolsek1,
   },
   {
     id: 4,
@@ -188,6 +203,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: pekanbaruOtherProgress2,
     },
     polsek: pekanbaruPolsek,
+    polsek1: pekanbaruPolsek1,
   },
   {
     id: 5,
@@ -210,6 +226,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: bengkalisOtherProgress2,
     },
     polsek: bengkalisPolsek,
+    polsek1: bengkalisPolsek1,
   },
   {
     id: 6,
@@ -232,6 +249,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: pelalawanOtherProgress2,
     },
     polsek: pelalawanPolsek,
+    polsek1: pelalawanPolsek1,
   },
   {
     id: 7,
@@ -254,6 +272,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: rohilOtherProgress2,
     },
     polsek: rohilPolsek,
+    polsek1: rohilPolsek1,
   },
   {
     id: 8,
@@ -276,6 +295,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: siakOtherProgress2,
     },
     polsek: siakPolsek,
+    polsek1: siakPolsek1,
   },
   {
     id: 9,
@@ -298,6 +318,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: kuansingOtherProgress2,
     },
     polsek: kuansingPolsek,
+    polsek1: kuansingPolsek1,
   },
   {
     id: 10,
@@ -320,6 +341,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: rohulOtherProgress2,
     },
     polsek: rohulPolsek,
+    polsek1: rohulPolsek1,
   },
   {
     id: 11,
@@ -342,6 +364,7 @@ export const programDua: ProgramDua[] = [
       otherProgress: merantiOtherProgress2,
     },
     polsek: merantiPolsek,
+    polsek1: merantiPolsek1,
   },
   {
     id: 12,
@@ -364,5 +387,6 @@ export const programDua: ProgramDua[] = [
       otherProgress: dumaiOtherProgress2,
     },
     polsek: dumaiPolsek,
+    polsek1: dumaiPolsek1,
   },
 ];

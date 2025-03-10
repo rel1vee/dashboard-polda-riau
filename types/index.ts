@@ -44,6 +44,7 @@ export interface ProgramDua {
   monokulturTarget: number;
   tumpangSariTarget: number;
   polsek: Polsek[];
+  polsek1: Polsek[];
   tahapI: {
     companies: Company[];
     otherCompanies: Company[];
