@@ -505,7 +505,7 @@ const ProgramDuaRanking = () => {
             data.capaianTumpangSari2.i +
             data.capaianCSR2.i +
             data.polsekAchievement) /
-            (data.totalTarget / 2)) *
+            (data.totalTarget / 4)) *
           100
         ).toLocaleString("id-ID", {
           maximumFractionDigits: 2,
