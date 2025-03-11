@@ -128,7 +128,7 @@ const ProgramSatuMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         Desa Percontohan:
                       </span>
                       <span className="font-medium text-gray-900">
-                        {city.desaNonPercontohan}
+                        {city.desaPercontohan}
                       </span>
                     </div>
                     <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
