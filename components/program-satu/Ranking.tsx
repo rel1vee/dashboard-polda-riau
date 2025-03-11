@@ -106,9 +106,7 @@ const ProgramSatuRanking = () => {
               <TableHead className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
                 Desa Non Percontohan
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
-                Jumlah Titik Pekarangan (6-12 FEB 2025)
-              </TableHead>
+
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
                 Jumlah Titik Pekarangan (13-19 FEB 2025)
               </TableHead>
@@ -130,9 +128,7 @@ const ProgramSatuRanking = () => {
               <TableHead className="text-center border uppercase px-4 py-2 border-amber-200 font-bold text-gray-800 bg-amber-300">
                 Holtikultura
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
-                Jumlah Luas Lahan (6-12 FEB 2025)
-              </TableHead>
+
               <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
                 Jumlah Luas Lahan (13-19 FEB 2025)
               </TableHead>
@@ -176,9 +172,7 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-green-50">
                     {row.desaNonPercontohan}
                   </TableCell>
-                  <TableCell className="text-center border bg-red-50">
-                    {row.jumlahTitikII}
-                  </TableCell>
+
                   <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikIII}
                   </TableCell>
@@ -200,9 +194,7 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-amber-50">
                     {row.holtikultura}
                   </TableCell>
-                  <TableCell className="text-center border bg-indigo-50">
-                    {formatNumber(row.luasLahanII)}
-                  </TableCell>
+
                   <TableCell className="text-center border bg-indigo-50">
                     {formatNumber(row.luasLahanIII)}
                   </TableCell>
@@ -237,9 +229,7 @@ const ProgramSatuRanking = () => {
               <TableCell className="text-center border font-bold bg-green-50">
                 {formatNumber(totalRow.desaNonPercontohan)}
               </TableCell>
-              <TableCell className="text-center border font-bold bg-red-50">
-                {formatNumber(totalRow.jumlahTitikII)}
-              </TableCell>
+
               <TableCell className="text-center border font-bold bg-red-50">
                 {formatNumber(totalRow.jumlahTitikIII)}
               </TableCell>
@@ -260,9 +250,6 @@ const ProgramSatuRanking = () => {
               </TableCell>
               <TableCell className="text-center border font-bold bg-amber-50">
                 {formatNumber(totalRow.holtikultura)}
-              </TableCell>
-              <TableCell className="text-center border font-bold bg-indigo-50">
-                {formatNumber(totalRow.luasLahanII)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-indigo-50">
                 {formatNumber(totalRow.luasLahanIII)}
