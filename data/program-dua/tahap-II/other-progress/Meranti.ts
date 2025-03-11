@@ -4816,7 +4816,7 @@ export const merantiOtherProgress2: Progress[] = [
       targetTanam: {
         luas: 8.0,
       },
-      waktuTanam: "21 -01-2025",
+      waktuTanam: "21-01-2025",
       progresTanam: {
         luas: 8.0,
       },

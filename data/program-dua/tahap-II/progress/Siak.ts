@@ -177,10 +177,10 @@ export const siakProgress2: Progress[] = [
         luas: 0.6,
       },
       belumTanam: {
-        luas: 25052.68,
+        luas: 0.0,
       },
       panen: {
-        luas: 62025.0,
+        luas: 0.0,
       },
       keterangan: "-",
     },
@@ -188,16 +188,15 @@ export const siakProgress2: Progress[] = [
       targetTanam: {
         luas: 121.0,
       },
-      waktuTanam:
-        "2 Ha, 17 Februari 2025\r\n\r\n\r\n\r\n\r\n\r\n1 Ha, 20 Februari 2025\r\n\r\n\r\n\r\n\r\n\r\n1 Ha, 21 Februari 2025",
+      waktuTanam: "Februari 2025",
       progresTanam: {
         luas: 4.0,
       },
       belumTanam: {
-        luas: 25049.28,
+        luas: 0,
       },
       panen: {
-        luas: 1.7202520202521203e17,
+        luas: 0,
       },
       keterangan: "-",
     },
@@ -205,12 +204,12 @@ export const siakProgress2: Progress[] = [
       targetTanam: {
         luas: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
       },
       belumTanam: {
-        luas: 25053.28,
+        luas: 0,
       },
       panen: {
         luas: 0.0,
@@ -391,12 +390,12 @@ export const siakProgress2: Progress[] = [
       targetTanam: {
         luas: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
       },
       belumTanam: {
-        luas: 7600.0,
+        luas: 0.0,
       },
       panen: {
         luas: 0.0,
@@ -407,16 +406,15 @@ export const siakProgress2: Progress[] = [
       targetTanam: {
         luas: 30.0,
       },
-      waktuTanam:
-        "14,5 Ha, 11 Februari 2025\r\n\r\n\r\n\r\n\r\n\r\n1,5, Ha 26 Februari 2025",
+      waktuTanam: "Februari 2025",
       progresTanam: {
         luas: 16.0,
       },
       belumTanam: {
-        luas: 7584.0,
+        luas: 0.0,
       },
       panen: {
-        luas: 112025.0,
+        luas: 0.0,
       },
       keterangan: "-",
     },
@@ -424,12 +422,12 @@ export const siakProgress2: Progress[] = [
       targetTanam: {
         luas: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
       },
       belumTanam: {
-        luas: 7600.0,
+        luas: 0.0,
       },
       panen: {
         luas: 0.0,
@@ -774,12 +772,12 @@ export const siakProgress2: Progress[] = [
       targetTanam: {
         luas: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
       },
       belumTanam: {
-        luas: 10826.05,
+        luas: 0,
       },
       panen: {
         luas: 0.0,
@@ -796,10 +794,10 @@ export const siakProgress2: Progress[] = [
         luas: 3.5,
       },
       belumTanam: {
-        luas: 10822.55,
+        luas: 0,
       },
       panen: {
-        luas: 212025.0,
+        luas: 0,
       },
       keterangan:
         "HGU = PBT SIAK 4 MARET 2022 IUP = 945 / MENHUTBUN - VII/2000/TGL 8-8-2000",
@@ -808,12 +806,12 @@ export const siakProgress2: Progress[] = [
       targetTanam: {
         luas: 0.0,
       },
-      waktuTanam: "belum tanam",
+      waktuTanam: "",
       progresTanam: {
         luas: 0.0,
       },
       belumTanam: {
-        luas: 10826.05,
+        luas: 0,
       },
       panen: {
         luas: 0.0,

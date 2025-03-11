@@ -766,9 +766,9 @@ export const dumaiOtherProgress2: Progress[] = [
       targetTanam: {
         luas: 2.5,
       },
-      waktuTanam: "1 & 7 Maret 25",
+      waktuTanam: "1 Maret 2025",
       progresTanam: {
-        luas: 2.5,
+        luas: 0.5,
       },
       belumTanam: {
         luas: 0.0,

@@ -191,7 +191,6 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-amber-50">
                     {row.holtikultura}
                   </TableCell>
-
                   <TableCell className="text-center border bg-indigo-50">
                     {formatNumber(row.luasLahanIII)}
                   </TableCell>

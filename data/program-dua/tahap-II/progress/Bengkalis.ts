@@ -83,7 +83,7 @@ export const bengkalisProgress2: Progress[] = [
       },
       waktuTanam: "2 Januari 1900",
       progresTanam: {
-        luas: 0.0,
+        luas: 2.8,
       },
       belumTanam: {
         luas: 0.0,
@@ -572,7 +572,7 @@ export const bengkalisProgress2: Progress[] = [
       },
       waktuTanam: "29 Januari 1900",
       progresTanam: {
-        luas: 0.0,
+        luas: 29.0,
       },
       belumTanam: {
         luas: 0.0,

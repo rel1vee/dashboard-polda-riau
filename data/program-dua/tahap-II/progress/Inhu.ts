@@ -390,7 +390,7 @@ export const inhuProgress2: Progress[] = [
       },
       waktuTanam: "20-02-2025",
       progresTanam: {
-        luas: 448.0,
+        luas: 4.48,
       },
       belumTanam: {
         luas: 0.0,

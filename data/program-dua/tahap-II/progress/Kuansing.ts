@@ -244,10 +244,10 @@ export const kuansingProgress2: Progress[] = [
       },
       waktuTanam: "15/03/2025",
       progresTanam: {
-        luas: 0.0,
+        luas: 5.0,
       },
       belumTanam: {
-        luas: 5.0,
+        luas: 0.0,
       },
       panen: {
         luas: 0.0,
@@ -278,11 +278,11 @@ export const kuansingProgress2: Progress[] = [
     area: 3602.84,
     monokultur: {
       targetTanam: {
-        luas: 3.0,
+        luas: 2.0,
       },
       waktuTanam: "25/02/2025",
       progresTanam: {
-        luas: 3.0,
+        luas: 2.0,
       },
       belumTanam: {
         luas: 0.0,

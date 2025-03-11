@@ -550,7 +550,7 @@ export const kamparOtherProgress2: Progress[] = [
       targetTanam: {
         luas: 4.0,
       },
-      waktuTanam: "10-02-2025\r\n25-01-2025",
+      waktuTanam: "25-01-2025",
       progresTanam: {
         luas: 4.0,
       },

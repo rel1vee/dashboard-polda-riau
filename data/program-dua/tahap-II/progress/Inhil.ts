@@ -1216,10 +1216,10 @@ export const inhilProgress2: Progress[] = [
       },
       waktuTanam: "21 JANUARI 2025",
       progresTanam: {
-        luas: 5.0,
+        luas: 7.0,
       },
       belumTanam: {
-        luas: 25.0,
+        luas: 23.0,
       },
       panen: {
         luas: 0.0,

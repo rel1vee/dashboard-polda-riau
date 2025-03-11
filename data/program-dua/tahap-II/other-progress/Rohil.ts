@@ -2,7 +2,7 @@ import { Progress } from "@/types";
 
 export const rohilOtherProgress2: Progress[] = [
   {
-    id: 1,
+    id: 18,
     namaPJ: "JALDI C. SINAGA (ASKEP)",
     nomorTelp: "081370469777",
     area: 4130.0,
@@ -56,7 +56,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 2,
+    id: 19,
     namaPJ: "HERLAMBANG (A.P.K)",
     nomorTelp: "082210802233",
     area: 35118.0,
@@ -110,7 +110,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 3,
+    id: 20,
     namaPJ: "S. SIMANJUNTALK",
     nomorTelp: "082367937598",
     area: 700.0,
@@ -164,7 +164,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 4,
+    id: 17,
     namaPJ: "AIPDA LEORENSUS GULTOM",
     nomorTelp: "081263446261",
     area: 5.0,
@@ -218,7 +218,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 5,
+    id: 26,
     namaPJ: "SANDIMAN",
     nomorTelp: 82386688946,
     area: 1.0,
@@ -272,7 +272,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 6,
+    id: 25,
     namaPJ: "SAMALUDDIN SINAGA",
     nomorTelp: 82386688946,
     area: 2.0,
@@ -326,7 +326,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 7,
+    id: 11,
     namaPJ: "NASIB",
     nomorTelp: 82386688946,
     area: 15.0,
@@ -380,7 +380,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 8,
+    id: 22,
     namaPJ: "BAMBANG RUDIN",
     nomorTelp: 81371156963,
     area: 2.0,
@@ -434,7 +434,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 9,
+    id: 21,
     namaPJ: "DIAN IRAWAN",
     nomorTelp: 85359609904,
     area: 2.0,
@@ -488,7 +488,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 10,
+    id: 1,
     namaPJ: "BAPAK SAKIMIN, ",
     nomorTelp: 85355589411,
     area: 2.0,
@@ -542,7 +542,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 11,
+    id: 9,
     namaPJ: "RAMLAN",
     nomorTelp: 82381130288,
     area: 1.0,
@@ -596,7 +596,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 12,
+    id: 7,
     namaPJ: "HARJITO",
     nomorTelp: 85279649220,
     area: 1.0,
@@ -650,7 +650,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 13,
+    id: 16,
     namaPJ: "GULTOM",
     nomorTelp: 82391819114,
     area: 52.0,
@@ -704,7 +704,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 14,
+    id: 28,
     namaPJ: "",
     nomorTelp: "",
     area: 0.0,
@@ -758,7 +758,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 15,
+    id: 4,
     namaPJ: "BUDI",
     nomorTelp: 85355497914,
     area: 25.0,
@@ -812,7 +812,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 16,
+    id: 24,
     namaPJ: "ROZALI",
     nomorTelp: "'082297809911",
     area: 12.0,
@@ -866,7 +866,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 17,
+    id: 3,
     namaPJ: "",
     nomorTelp: "",
     area: 0.0,
@@ -920,7 +920,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 18,
+    id: 27,
     namaPJ: "SARMAN",
     nomorTelp: "081399998003",
     area: 1.0,
@@ -974,7 +974,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 19,
+    id: 14,
     namaPJ: "NASRUN",
     nomorTelp: "",
     area: 1.0,
@@ -1028,7 +1028,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 20,
+    id: 31,
     namaPJ: "SUTRISNO ",
     nomorTelp: 82297650492,
     area: 1.0,
@@ -1082,7 +1082,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 21,
+    id: 15,
     namaPJ: "POLSEK BENGKO",
     nomorTelp: "",
     area: 27.0,
@@ -1136,7 +1136,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 22,
+    id: 23,
     namaPJ: "RIDO PURBA",
     nomorTelp: "",
     area: 35.0,
@@ -1190,7 +1190,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 23,
+    id: 32,
     namaPJ: "SUYETNO",
     nomorTelp: 82287122141,
     area: 10.0,
@@ -1244,7 +1244,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 24,
+    id: 5,
     namaPJ: "DICKI WAHYUDI",
     nomorTelp: "",
     area: 2.0,
@@ -1298,7 +1298,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 25,
+    id: 30,
     namaPJ: "SURIADI",
     nomorTelp: "",
     area: 2.0,
@@ -1352,7 +1352,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 26,
+    id: 6,
     namaPJ: "MURLIS HAMDANI",
     nomorTelp: "",
     area: 0.0,
@@ -1406,7 +1406,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 27,
+    id: 2,
     namaPJ: "BOIRIN",
     nomorTelp: "082284064395",
     area: 0.0,
@@ -1460,7 +1460,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 28,
+    id: 29,
     namaPJ: "SUHERI",
     nomorTelp: "085295373821",
     area: 0.0,
@@ -1514,7 +1514,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 29,
+    id: 8,
     namaPJ: "SIMAN",
     nomorTelp: "082172307924",
     area: 0.0,
@@ -1568,7 +1568,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 30,
+    id: 12,
     namaPJ: "NGADIONO",
     nomorTelp: "082170566538",
     area: 0.0,
@@ -1622,7 +1622,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 31,
+    id: 10,
     namaPJ: "MURADI",
     nomorTelp: "082287515934",
     area: 0.0,
@@ -1676,7 +1676,7 @@ export const rohilOtherProgress2: Progress[] = [
     },
   },
   {
-    id: 32,
+    id: 13,
     namaPJ: "PARUNTUNGAN SIREGAR",
     nomorTelp: "081260337659",
     area: 3.0,
