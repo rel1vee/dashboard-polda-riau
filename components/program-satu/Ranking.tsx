@@ -106,7 +106,6 @@ const ProgramSatuRanking = () => {
               <TableHead className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
                 Desa Non Percontohan
               </TableHead>
-
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
                 Jumlah Titik Pekarangan (13-19 FEB 2025)
               </TableHead>
@@ -128,7 +127,6 @@ const ProgramSatuRanking = () => {
               <TableHead className="text-center border uppercase px-4 py-2 border-amber-200 font-bold text-gray-800 bg-amber-300">
                 Holtikultura
               </TableHead>
-
               <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
                 Jumlah Luas Lahan (13-19 FEB 2025)
               </TableHead>
@@ -172,7 +170,6 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-green-50">
                     {row.desaNonPercontohan}
                   </TableCell>
-
                   <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikIII}
                   </TableCell>
