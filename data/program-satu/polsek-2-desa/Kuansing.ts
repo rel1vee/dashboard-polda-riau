@@ -11,7 +11,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BA POLSEK HULU KUANTAN",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/2PH7hcpaEUfcoU3E6",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: CABE",
+    keterangan: "HOLTIKULTURA, CABE",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA SEROSAH",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/TgTYazky28wt2brq7",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: CABE",
+    keterangan: "HOLTIKULTURA, CABE",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA PASAR BARU PANGEAN",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/siAQqbTtEnB5eCPM9",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: CABE",
+    keterangan: "HOLTIKULTURA, CABE",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA SUNGAI LANGSAT",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/95R6NG8jDEGtuj2a7",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: CABE, JAGUNG",
+    keterangan: "HOLTIKULTURA, CABE, JAGUNG",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "PS. KASIUM POLSEK BENAI",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/dXWZY9u7X8yxE6Gc7",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: BAWANG MERAH",
+    keterangan: "HOLTIKULTURA, BAWANG MERAH",
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "PS. KANIT RESKRIM POLEK BENAI",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/vD6JNx5qfzv7eojp9",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: KACANG TANAH",
+    keterangan: "HOLTIKULTURA, KACANG TANAH",
   },
   {
     id: 7,
@@ -83,7 +83,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "PS. KANIT 2 DALMAS SAT SAMAPTA POLRES KUANTAN SINGINGI",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/FiZaNpDjQXj1XqiK8",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: CABE",
+    keterangan: "HOLTIKULTURA, CABE",
   },
   {
     id: 8,
@@ -95,7 +95,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "PS. KANIT RESKRIM POLSEK KUANTAN MUDIK",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/RytgkqTX5Y6CbaAK9?g_st=aw",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: TERONG DAN CABE RAWIT",
+    keterangan: "HOLTIKULTURA, TERONG DAN CABE RAWIT",
   },
   {
     id: 9,
@@ -107,7 +107,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA KAMPUNG BARU",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/o7soJzWom5FygV8aA",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: CABE TERONG DAN JAGUNG",
+    keterangan: "HOLTIKULTURA, CABE TERONG DAN JAGUNG",
   },
   {
     id: 10,
@@ -119,7 +119,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA PASAR INUMAN",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "-0,4601344, 101,8088198",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: JAGUNG",
+    keterangan: "HOLTIKULTURA, JAGUNG",
   },
   {
     id: 11,
@@ -131,7 +131,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA PULAU MADINAH",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/siAQqbTtEnB5eCPM9",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: JAGUNG",
+    keterangan: "HOLTIKULTURA, JAGUNG",
   },
   {
     id: 12,
@@ -143,7 +143,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA PELUKAHAN",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/siAQqbTtEnB5eCPM9",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: JAGUNG",
+    keterangan: "HOLTIKULTURA, JAGUNG",
   },
   {
     id: 13,
@@ -155,7 +155,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "PS. PANIT 2 SAMAPTA POLSEK KUANTAN TENGAH",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/DjBoSUJVaVTpWrwa6?g_st=iw",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: CABE",
+    keterangan: "HOLTIKULTURA, CABE",
   },
   {
     id: 14,
@@ -167,7 +167,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "PS. PANIT 1 BINMAS",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/ksjzWswsKXAjcmS26?g_st=aw",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: JAGUNG",
+    keterangan: "HOLTIKULTURA, JAGUNG",
   },
   {
     id: 15,
@@ -181,7 +181,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     titikKoordinat:
       "https://www.google.com/maps/place/Situgal,+Kec.+Logas+Tanah+Darat,+Kabupaten+Kuantan+Singingi,+Riau/@-",
     keterangan:
-      "Jenis Pekarangan: HOLTIKULTURA, Jenis: KACANG TANAH, KANGKUNG, JAGUNG",
+      "HOLTIKULTURA, KACANG TANAH, KANGKUNG, JAGUNG",
   },
   {
     id: 16,
@@ -195,7 +195,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     titikKoordinat:
       "https://www.google.com/maps/place/Perhentian+Luas,+Kec.+Logas+Tanah+Darat,+Kabupaten+Kuantan+Singingi,+Riau/@-",
     keterangan:
-      "Jenis Pekarangan: HOLTIKULTURA, Jenis: KACANG PANJANG, KANGKUNG",
+      "HOLTIKULTURA, KACANG PANJANG, KANGKUNG",
   },
   {
     id: 17,
@@ -207,7 +207,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS POLSEK SINGINGI HILIR",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/BVBW6FLae7NBxzaG8",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: JAGUNG MANIS",
+    keterangan: "HOLTIKULTURA, JAGUNG MANIS",
   },
   {
     id: 18,
@@ -219,7 +219,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BANIT RESKRIM POLSEK SINGINGI HILIR",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/SEUtpdx6dMqzKQ5f8?g_st=aw",
-    keterangan: "Jenis Pekarangan: PERIKANAN, Jenis: NILA",
+    keterangan: "PERIKANAN, NILA",
   },
   {
     id: 19,
@@ -231,7 +231,7 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS POLSEK SINGINGI",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/cug97syuYfQtwgRB8?g_st=aw",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: CABE DAN JAGUNG",
+    keterangan: "HOLTIKULTURA, CABE DAN JAGUNG",
   },
   {
     id: 20,
@@ -243,6 +243,6 @@ export const kuansingPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS POLSEK SINGINGI",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.apps.goo.gl/yzvZyXiJuXSUm5r8",
-    keterangan: "Jenis Pekarangan: HOLTIKULTURA, Jenis: CABE",
+    keterangan: "HOLTIKULTURA, CABE",
   },
 ];

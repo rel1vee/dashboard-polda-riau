@@ -324,6 +324,274 @@ const DashboardPoldaRiauPage = () => {
               >
                 <ProgramSatuRanking />
               </motion.div>
+              {/* POLRES dan POLSEK Section */}
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <Card className="border-none rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
+                    <CardTitle className="flex items-center text-xl gap-0 md:gap-3 text-blue-600">
+                      <Building2 className="w-5 h-5 hidden md:block" />
+                      {selectedProgramSatuCity
+                        ? `POLRES 2 Kecamatan di ${selectedProgramSatuCity.nama}`
+                        : "Daftar POLRES 2 Kecamatan"}
+                    </CardTitle>
+                    {selectedProgramSatuCity ? (
+                      <CardDescription>
+                        Total {selectedProgramSatuCity.polresKecamatan.length}{" "}
+                        POLRES 2 Kecamatan.
+                      </CardDescription>
+                    ) : (
+                      <CardDescription>
+                        Pilih POLRES/TA untuk Melihat POLRES 2 Kecamatan
+                      </CardDescription>
+                    )}
+                  </CardHeader>
+                  <CardContent className="p-0 overflow-y-auto max-h-[500px]">
+                    {selectedProgramSatuCity ? (
+                      <div className="p-4">
+                        {selectedProgramSatuCity.polresKecamatan.length > 0 ? (
+                          <Table>
+                            <TableHeader>
+                              <TableRow className="bg-gray-100">
+                                <TableHead className="p-4 text-center uppercase">
+                                  No
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Kecamatan
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Desa/Kelurahan
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Pemilik/Pengelola
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Polisi Penggerak
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Pangkat
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Jabatan
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Percontohan
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Jenis Pekarangan
+                                </TableHead>
+                                <TableHead className="uppercase px-8 text-center">
+                                  Keterangan
+                                </TableHead>
+                              </TableRow>
+                            </TableHeader>
+                            <TableBody>
+                              {selectedProgramSatuCity.polresKecamatan.map(
+                                (pekarangan, index) => (
+                                  <TableRow
+                                    key={pekarangan.id}
+                                    className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
+                                  >
+                                    <motion.td
+                                      className="p-4 text-center"
+                                      initial={{ opacity: 0 }}
+                                      animate={{ opacity: 1 }}
+                                      transition={{ delay: index * 0.1 }}
+                                    >
+                                      {index + 1}
+                                    </motion.td>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.kecamatan}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.desa}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.namaPemilik}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.namaPolisi}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.pangkat}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.jabatan}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.percontohan}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.jenisPekarangan}
+                                    </TableCell>
+                                    <TableCell className="px-8 text-center">
+                                      {pekarangan.keterangan}
+                                    </TableCell>
+                                  </TableRow>
+                                )
+                              )}
+                            </TableBody>
+                          </Table>
+                        ) : (
+                          <motion.div
+                            className="flex flex-col items-center justify-center py-16 text-gray-500"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 0.3 }}
+                          >
+                            <Building2 className="w-12 h-12 mb-4 opacity-50" />
+                            <p>Tidak Ada Data Polres 2 Kecamatan...</p>
+                          </motion.div>
+                        )}
+                      </div>
+                    ) : (
+                      <motion.div
+                        className="flex flex-col items-center justify-center py-16 text-gray-500"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <Map className="w-12 h-12 mb-4 opacity-50" />
+                        <p>Pilih POLRES/TA...</p>
+                      </motion.div>
+                    )}
+                  </CardContent>
+                </Card>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <Card className="border-none rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  <CardHeader className="rounded-t-xl bg-gradient-to-r from-blue-50 to-indigo-50">
+                    <CardTitle className="flex items-center text-xl gap-0 md:gap-3 text-blue-600">
+                      <Building2 className="w-5 h-5 hidden md:block" />
+                      {selectedProgramSatuCity
+                        ? `POLSEK 2 Desa di ${selectedProgramSatuCity.nama}`
+                        : "Daftar POLSEK 2 Desa"}
+                    </CardTitle>
+                    {selectedProgramSatuCity ? (
+                      <CardDescription>
+                        Total {selectedProgramSatuCity.polsekDesa.length} POLSEK
+                        2 Desa.
+                      </CardDescription>
+                    ) : (
+                      <CardDescription>
+                        Pilih POLRES/TA untuk Melihat POLSEK 2 Desa
+                      </CardDescription>
+                    )}
+                  </CardHeader>
+                  <CardContent className="p-0 overflow-y-auto max-h-[500px]">
+                    {selectedProgramSatuCity ? (
+                      <div className="p-4">
+                        {selectedProgramSatuCity.polsekDesa.length > 0 ? (
+                          <Table>
+                            <TableHeader>
+                              <TableRow className="bg-gray-100">
+                                <TableHead className="p-4 text-center uppercase">
+                                  No
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Polsek
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Kecamatan
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Desa/Kelurahan
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Polisi Penggerak
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Pangkat
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Jabatan
+                                </TableHead>
+                                <TableHead className="px-2 uppercase text-center">
+                                  Percontohan
+                                </TableHead>
+                                <TableHead className="uppercase text-center px-8">
+                                  Keterangan
+                                </TableHead>
+                              </TableRow>
+                            </TableHeader>
+                            <TableBody>
+                              {selectedProgramSatuCity.polsekDesa.map(
+                                (pekarangan, index) => (
+                                  <TableRow
+                                    key={pekarangan.id}
+                                    className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
+                                  >
+                                    <motion.td
+                                      className="p-4 text-center"
+                                      initial={{ opacity: 0 }}
+                                      animate={{ opacity: 1 }}
+                                      transition={{ delay: index * 0.1 }}
+                                    >
+                                      {index + 1}
+                                    </motion.td>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.polsek}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.kecamatan}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.desa}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.namaPolisi}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.pangkat}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.jabatan}
+                                    </TableCell>
+                                    <TableCell className="px-2 text-center">
+                                      {pekarangan.percontohan}
+                                    </TableCell>
+                                    <TableCell className="text-center px-8">
+                                      {pekarangan.keterangan}
+                                    </TableCell>
+                                  </TableRow>
+                                )
+                              )}
+                            </TableBody>
+                          </Table>
+                        ) : (
+                          <motion.div
+                            className="flex flex-col items-center justify-center py-16 text-gray-500"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 0.3 }}
+                          >
+                            <Building2 className="w-12 h-12 mb-4 opacity-50" />
+                            <p>Tida Ada Data POLSEK 2 DESA...</p>
+                          </motion.div>
+                        )}
+                      </div>
+                    ) : (
+                      <motion.div
+                        className="flex flex-col items-center justify-center py-16 text-gray-500"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <Map className="w-12 h-12 mb-4 opacity-50" />
+                        <p>Pilih POLRES/TA...</p>
+                      </motion.div>
+                    )}
+                  </CardContent>
+                </Card>
+              </motion.div>
+
               {/* Desa Section */}
               <motion.div
                 initial={{ opacity: 0, x: -20 }}

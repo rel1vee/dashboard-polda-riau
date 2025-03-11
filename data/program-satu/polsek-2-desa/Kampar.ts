@@ -11,7 +11,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "PS KANIT PROPAM POLSEK BANGKINANG KOTA",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°17'00.0\"N 101°01'29.8\"E",
-    keterangan: "Jenis Pekarangan: TANAMAN JAGUNG , Jenis: TANAMAN JAGUNG ",
+    keterangan: "TANAMAN JAGUNG ",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA BINUANG",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°21'03.5\"N 101°00'17.6\"E",
-    keterangan: "Jenis Pekarangan: TANAMAN CABE, Jenis: TANAMAN CABE",
+    keterangan: "TANAMAN CABE",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA KUOK",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/qfqARw99aTkVnxJq9",
-    keterangan: "Jenis Pekarangan: TANAMAN JAGUNG, Jenis: TANAMAN JAGUNG",
+    keterangan: "TANAMAN JAGUNG",
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°17'36\"N 100°59'00\"E",
     keterangan:
-      "Jenis Pekarangan: TANAMAN JAGUNG DAN UBI, Jenis: TANAMAN JAGUNG DAN UBI",
+      "TANAMAN JAGUNG DAN UBI",
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA KOTO MESJID ",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°19'55,834\"N 100°50'45,703\"E",
-    keterangan: "Jenis Pekarangan: IKAN PATIN , Jenis: IKAN PATIN ",
+    keterangan: "IKAN PATIN ",
   },
   {
     id: 6,
@@ -72,7 +72,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "DESA SIBIRUANG ",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0.37876617N100.53686454E",
-    keterangan: "Jenis Pekarangan: JAGUNG , Jenis: JAGUNG ",
+    keterangan: "JAGUNG ",
   },
   {
     id: 7,
@@ -84,7 +84,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS ",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0⁰20'4,056\"N 101⁰7'36,702\"E",
-    keterangan: "Jenis Pekarangan: TANAMAN MELON , Jenis: TANAMAN MELON ",
+    keterangan: "TANAMAN MELON ",
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0.441960,101.152988",
     keterangan:
-      "Jenis Pekarangan: TANAMAN KACANG TANAH & TERONG, Jenis: TANAMAN KACANG TANAH & TERONG",
+      "TANAMAN KACANG TANAH & TERONG",
   },
   {
     id: 9,
@@ -109,7 +109,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA KAMPAR  DAN DESA SAWAH BARU ",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://g.co/kgs/cVoB7QY",
-    keterangan: "Jenis Pekarangan: TANAMAN JAGUNG, Jenis: TANAMAN JAGUNG",
+    keterangan: "TANAMAN JAGUNG",
   },
   {
     id: 10,
@@ -122,7 +122,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/1W4bTzVbsj79urTj6",
     keterangan:
-      "Jenis Pekarangan: KACANG PANJANG DAN MENTIMUN , Jenis: KACANG PANJANG DAN MENTIMUN ",
+      "KACANG PANJANG DAN MENTIMUN ",
   },
   {
     id: 11,
@@ -134,7 +134,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA PANGKALAN BARU ",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0.39199189N 101.54614907E",
-    keterangan: "Jenis Pekarangan: Jagung Manis, Jenis: Jagung Manis",
+    keterangan: "Jagung Manis",
   },
   {
     id: 12,
@@ -146,7 +146,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA PANDAU JAYA",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°25'31,946''N 101°27'47,612''E",
-    keterangan: "Jenis Pekarangan: JAGUNG MANIS, Jenis: JAGUNG MANIS",
+    keterangan: "JAGUNG MANIS",
   },
   {
     id: 13,
@@ -159,7 +159,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0.221046 n. 101.235575E",
     keterangan:
-      "Jenis Pekarangan: KACANG PANJANG, TERONG DAN CABE, Jenis: KACANG PANJANG, TERONG DAN CABE",
+      "KACANG PANJANG, TERONG DAN CABE",
   },
   {
     id: 14,
@@ -171,7 +171,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABIN DESA SEI SIMPANG DUA",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0.26190935N 101.37344165E",
-    keterangan: "Jenis Pekarangan: TIMUN, Jenis: TIMUN",
+    keterangan: "TIMUN",
   },
   {
     id: 15,
@@ -183,7 +183,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA SEI GERINGGING ",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0.039079,101.186645",
-    keterangan: "Jenis Pekarangan: JAGUNG, Jenis: JAGUNG",
+    keterangan: "JAGUNG",
   },
   {
     id: 16,
@@ -195,7 +195,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA GUNUNG SARI ",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°2'57,259\"S 101°21'30,642\"E",
-    keterangan: "Jenis Pekarangan: JAGUNG, Jenis: JAGUNG",
+    keterangan: "JAGUNG",
   },
   {
     id: 17,
@@ -207,7 +207,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA SARI GALUH",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°33'37.6\"N 101°09'27.8\"E",
-    keterangan: "Jenis Pekarangan: JAGUNG, CABAI, Jenis: JAGUNG, CABAI",
+    keterangan: "JAGUNG, CABAI",
   },
   {
     id: 18,
@@ -219,7 +219,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA SIBUAK DAN SEI LEMBU",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°27'51.486\"N 101°5'18.618\"E",
-    keterangan: "Jenis Pekarangan: Ternak Sapi, Jenis: Ternak Sapi",
+    keterangan: "Ternak Sapi",
   },
   {
     id: 19,
@@ -231,7 +231,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA KIJANG JAYA DAN KIJANG MAKMUR",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0.8454081N, 101.08096551E",
-    keterangan: "Jenis Pekarangan: Jagung dan Cabe, Jenis: Jagung dan Cabe",
+    keterangan: "Jagung dan Cabe",
   },
   {
     id: 20,
@@ -243,7 +243,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA TAPUNG MAKMUR",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°49'29.425°N 101°8'25,361°E",
-    keterangan: "Jenis Pekarangan: tanaman cabe, Jenis: tanaman cabe",
+    keterangan: "tanaman cabe",
   },
   {
     id: 21,
@@ -256,7 +256,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     percontohan: "PERCONTOHAN",
     titikKoordinat: '0,63170" N 100.92466"E',
     keterangan:
-      "Jenis Pekarangan: Jagung, kacang panjang, terong dan kangkung, Jenis: Jagung, kacang panjang, terong dan kangkung",
+      "Jagung, kacang panjang, terong dan kangkung",
   },
   {
     id: 22,
@@ -268,7 +268,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA DANAU LANCANG",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0.7550481461150667 100.9055245667796",
-    keterangan: "Jenis Pekarangan: KACANG PANJANG, Jenis: KACANG PANJANG",
+    keterangan: "KACANG PANJANG",
   },
   {
     id: 23,
@@ -280,7 +280,7 @@ export const kamparPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS DESA PANTAI RAJA",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/jnnLDZLSrSdDHKeKA?g_st=aw",
-    keterangan: "Jenis Pekarangan: jagung manis, Jenis: jagung manis",
+    keterangan: "jagung manis",
   },
   {
     id: 24,
@@ -293,6 +293,6 @@ export const kamparPolsekDesa: Pekarangan[] = [
     percontohan: "PERCONTOHAN",
     titikKoordinat: "https://maps.app.goo.gl/ugm9GbrHjh7GcUXz9",
     keterangan:
-      "Jenis Pekarangan: Kacang Tanah, Kolam Ikan Lele, Peternakan Kambing, Jenis: Kacang Tanah, Kolam Ikan Lele, Peternakan Kambing",
+      "Kacang Tanah, Kolam Ikan Lele, Peternakan Kambing",
   },
 ];
