@@ -5,32 +5,37 @@ export interface ProgramSatu {
   jumlahDesa: number;
   jumlahKecamatan: number;
   jumlahPolisiPenggerak: number;
-  jumlahTitikI?: number;
-  jumlahTitikII?: number;
+  jumlahTitikI: number;
+  jumlahTitikII: number;
   jumlahTitikIII: number;
   jumlahTitikIV: number;
-  jumlahTitikV?: number;
+  jumlahTitikV: number;
   desaPercontohan: number;
   desaNonPercontohan: number;
   perikanan: number;
   peternakan: number;
   holtikultura: number;
-  luasLahanI?: number;
-  luasLahanII?: number;
+  luasLahanI: number;
+  luasLahanII: number;
   luasLahanIII: number;
   luasLahanIV: number;
-  luasLahanV?: number;
+  luasLahanV: number;
   pekarangan: Pekarangan[];
+  polresKecamatan: Pekarangan[];
+  polsekDesa: Pekarangan[];
 }
 
 export interface Pekarangan {
   id: number;
+  polsek?: string;
   kecamatan: string;
   desa: string;
+  namaPemilik?: string;
   namaPolisi: string;
   pangkat: string;
   jabatan: string;
   percontohan: string;
+  jenisPekarangan?: string;
   keterangan: string;
   titikKoordinat?: string;
 }

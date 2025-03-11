@@ -31,13 +31,19 @@ const ProgramSatuRanking = () => {
       acc.jumlahPolisiPenggerak += curr.jumlahPolisiPenggerak;
       acc.desaPercontohan += curr.desaPercontohan;
       acc.desaNonPercontohan += curr.desaNonPercontohan;
+      acc.jumlahTitikI += curr.jumlahTitikI;
+      acc.jumlahTitikII += curr.jumlahTitikII;
       acc.jumlahTitikIII += curr.jumlahTitikIII;
       acc.jumlahTitikIV += curr.jumlahTitikIV;
+      acc.jumlahTitikV += curr.jumlahTitikV;
       acc.perikanan += curr.perikanan;
       acc.peternakan += curr.peternakan;
       acc.holtikultura += curr.holtikultura;
+      acc.luasLahanI += curr.luasLahanI;
+      acc.luasLahanII += curr.luasLahanII;
       acc.luasLahanIII += curr.luasLahanIII;
       acc.luasLahanIV += curr.luasLahanIV;
+      acc.luasLahanV += curr.luasLahanV;
 
       return acc;
     },
@@ -48,13 +54,19 @@ const ProgramSatuRanking = () => {
       jumlahPolisiPenggerak: 0,
       desaPercontohan: 0,
       desaNonPercontohan: 0,
+      jumlahTitikI: 0,
+      jumlahTitikII: 0,
       jumlahTitikIII: 0,
       jumlahTitikIV: 0,
+      jumlahTitikV: 0,
       perikanan: 0,
       peternakan: 0,
       holtikultura: 0,
+      luasLahanI: 0,
+      luasLahanII: 0,
       luasLahanIII: 0,
       luasLahanIV: 0,
+      luasLahanV: 0,
     }
   );
 
@@ -95,10 +107,16 @@ const ProgramSatuRanking = () => {
                 Desa Non Percontohan
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
-                Jumlah Titik Pekarangan Minggu III
+                Jumlah Titik Pekarangan (6-12 FEB 2025)
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
-                Jumlah Titik Pekarangan Minggu IV
+                Jumlah Titik Pekarangan (13-19 FEB 2025)
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
+                Jumlah Titik Pekarangan (20-26 FEB 2025)
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
+                Jumlah Titik Pekarangan (27 FEB - 5 MAR 2025)
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
                 Pertambahan Titik
@@ -113,10 +131,16 @@ const ProgramSatuRanking = () => {
                 Holtikultura
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
-                Jumlah Luas Lahan Minggu III
+                Jumlah Luas Lahan (6-12 FEB 2025)
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
-                Jumlah Luas Lahan Minggu IV
+                Jumlah Luas Lahan (13-19 FEB 2025)
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
+                Jumlah Luas Lahan (20-26 FEB 2025)
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
+                Jumlah Luas Lahan (27 FEB - 5 MAR 2025)
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
                 Pertambahan Luas
@@ -127,9 +151,7 @@ const ProgramSatuRanking = () => {
             {[...programSatu]
               .sort(
                 (a, b) =>
-                  b.luasLahanIV -
-                  b.luasLahanIII -
-                  (a.luasLahanIV - a.luasLahanIII)
+                  b.luasLahanV - b.luasLahanIV - (a.luasLahanV - a.luasLahanIV)
               )
               .map((row, index) => (
                 <TableRow key={row.id}>
@@ -154,14 +176,20 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-green-50">
                     {row.desaNonPercontohan}
                   </TableCell>
-                  <TableCell className="text-center border font-bold bg-red-50">
+                  <TableCell className="text-center border bg-red-50">
+                    {row.jumlahTitikII}
+                  </TableCell>
+                  <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikIII}
                   </TableCell>
                   <TableCell className="text-center border font-bold bg-red-50">
                     {row.jumlahTitikIV}
                   </TableCell>
                   <TableCell className="text-center border font-bold bg-red-50">
-                    {row.jumlahTitikIV - row.jumlahTitikIII}
+                    {row.jumlahTitikV}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-red-50">
+                    {row.jumlahTitikV - row.jumlahTitikIV}
                   </TableCell>
                   <TableCell className="text-center border bg-amber-50">
                     {row.perikanan}
@@ -172,14 +200,20 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-amber-50">
                     {row.holtikultura}
                   </TableCell>
-                  <TableCell className="text-center border font-bold bg-indigo-50">
+                  <TableCell className="text-center border bg-indigo-50">
+                    {formatNumber(row.luasLahanII)}
+                  </TableCell>
+                  <TableCell className="text-center border bg-indigo-50">
                     {formatNumber(row.luasLahanIII)}
                   </TableCell>
                   <TableCell className="text-center border font-bold bg-indigo-50">
                     {formatNumber(row.luasLahanIV)}
                   </TableCell>
                   <TableCell className="text-center border font-bold bg-indigo-50">
-                    {formatNumber(row.luasLahanIV - row.luasLahanIII)}
+                    {formatNumber(row.luasLahanV)}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-indigo-50">
+                    {formatNumber(row.luasLahanV - row.luasLahanIV)}
                   </TableCell>
                 </TableRow>
               ))}
@@ -204,13 +238,19 @@ const ProgramSatuRanking = () => {
                 {formatNumber(totalRow.desaNonPercontohan)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-red-50">
+                {formatNumber(totalRow.jumlahTitikII)}
+              </TableCell>
+              <TableCell className="text-center border font-bold bg-red-50">
                 {formatNumber(totalRow.jumlahTitikIII)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-red-50">
                 {formatNumber(totalRow.jumlahTitikIV)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-red-50">
-                {formatNumber(totalRow.jumlahTitikIV - totalRow.jumlahTitikIII)}
+                {formatNumber(totalRow.jumlahTitikV)}
+              </TableCell>
+              <TableCell className="text-center border font-bold bg-red-50">
+                {formatNumber(totalRow.jumlahTitikV - totalRow.jumlahTitikIV)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-amber-50">
                 {formatNumber(totalRow.perikanan)}
@@ -222,13 +262,19 @@ const ProgramSatuRanking = () => {
                 {formatNumber(totalRow.holtikultura)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-indigo-50">
+                {formatNumber(totalRow.luasLahanII)}
+              </TableCell>
+              <TableCell className="text-center border font-bold bg-indigo-50">
                 {formatNumber(totalRow.luasLahanIII)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-indigo-50">
                 {formatNumber(totalRow.luasLahanIV)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-indigo-50">
-                {formatNumber(totalRow.luasLahanIV - totalRow.luasLahanIII)}
+                {formatNumber(totalRow.luasLahanV)}
+              </TableCell>
+              <TableCell className="text-center border font-bold bg-indigo-50">
+                {formatNumber(totalRow.luasLahanV - totalRow.luasLahanIV)}
               </TableCell>
             </TableRow>
           </TableBody>

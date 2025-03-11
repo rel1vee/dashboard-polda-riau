@@ -34,7 +34,7 @@ interface MapProps {
     jumlahTitikII?: number;
     jumlahTitikIII: number;
     jumlahTitikIV: number;
-    jumlahTitikV?: number;
+    jumlahTitikV: number;
     desaPercontohan: number;
     desaNonPercontohan: number;
     perikanan: number;
@@ -44,7 +44,7 @@ interface MapProps {
     luasLahanII?: number;
     luasLahanIII: number;
     luasLahanIV: number;
-    luasLahanV?: number;
+    luasLahanV: number;
     pekarangan?: Pekarangan[];
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -144,7 +144,7 @@ const ProgramSatuMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         Jumlah Titik Pekarangan:
                       </span>
                       <span className="font-medium text-gray-900">
-                        {city.jumlahTitikIV}
+                        {city.jumlahTitikV}
                       </span>
                     </div>
                     <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
@@ -152,7 +152,7 @@ const ProgramSatuMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         Jumlah Luas Lahan:
                       </span>
                       <span className="font-medium text-gray-900">
-                        {city.luasLahanIV.toLocaleString("id-ID", {
+                        {city.luasLahanV.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
