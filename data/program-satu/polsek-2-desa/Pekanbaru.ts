@@ -35,7 +35,7 @@ export const pekanbaruPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS KEL. KAMPUNG BARU",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°32'38, 928\" N  101°25'46, 578\" E",
-    keterangan: "HORTIKULTURA - UBI, TIMUN , LABU",
+    keterangan: "HORTIKULTURA - UBI, TIMUN, LABU",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export const pekanbaruPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS KAMPUNG BANDAR",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0°32'18.4\"N 101°26'18.3\"E",
-    keterangan: "HORTIKULTURA - KEDONDONG, KELENGKENG, JERUK NIPIS ",
+    keterangan: "HORTIKULTURA - KEDONDONG, KELENGKENG, JERUK NIPIS",
   },
   {
     id: 5,
@@ -59,8 +59,16 @@ export const pekanbaruPolsekDesa: Pekarangan[] = [
     jabatan: "BHABINKAMTIBMAS KEL. TANJUNG RHU",
     percontohan: "PERCONTOHAN",
     titikKoordinat: "0.5342619105102471",
+    holtikultura: "Tanam Hidroponik",
+    perikanan: "Kolam Bioplok jenis ikan lele",
+    peternakan: "",
+    jumlah:
+      "Media Tanam Hidroponik ukuran : 5 X 14, Kolam Bioplok diameter 2,5 : 5 Buah",
+    luas: "Luas lahan : 15 X 20 M²",
+    waktu:
+      "waktu bibit hidroponik setiap hari, waktu tanam setelah 1 Minggu dan waktu panen 1 bulan",
     keterangan:
-      "HORTIKULTURA - PEPAYA, PISANG, JAMBU,MANGGA,NANGKA,DURIAN,CIKU,JERUK, UBI,CABE,KUNYIT,JAHE,RUKU- RUKU, AYAM KAMPUNG, ANGGSA, IKAN GURAMI, IKAN PATIN DAN IKAN NILA",
+      "HORTIKULTURA - PEPAYA, PISANG, JAMBU, MANGGA, NANGKA, DURIAN, CIKU, JERUK, UBI, CABE, KUNYIT, JAHE, RUKU- RUKU, AYAM KAMPUNG, ANGGSA, IKAN GURAMI, IKAN PATIN DAN IKAN NILA",
   },
   {
     id: 6,
@@ -71,6 +79,14 @@ export const pekanbaruPolsekDesa: Pekarangan[] = [
     pangkat: "AIPTU",
     jabatan: "BHABINKAMTIBMAS KEL PESISIR",
     percontohan: "PERCONTOHAN",
+    holtikultura: "CABE RAWIT, LENGKUAS, TOMAT DAN PEPAYA",
+    perikanan: "",
+    peternakan: "",
+    jumlah:
+      "Cabe 100 polibet Lengkuas 50 batang pepaya 30 batang tomat 50 polibet",
+    luas: "Ukuran 8x12",
+    waktu:
+      "Melakukan Pembibitan di awal bulan Februari dan penanaman sekarang perawatan dengan cara pemupukan satu Minggu sekali diperkirakan panen dibulan April",
     titikKoordinat: "0°32'25.3\"N 101°27'19.4\"E",
     keterangan: "HORTIKULTURA - UBI, PISANG DAN IKAN LELE",
   },
@@ -91,7 +107,7 @@ export const pekanbaruPolsekDesa: Pekarangan[] = [
     polsek: "POLSEK BINAWIDYA",
     kecamatan: "BINAWIDYA",
     desa: "KEL DELIMA",
-    namaPolisi: "ARISMAN,SH, M.H",
+    namaPolisi: "ARISMAN, SH, M.H",
     pangkat: "AIPTU",
     jabatan: "BHABINKAMTIBMAS KEL. DELIMA",
     percontohan: "PERCONTOHAN",

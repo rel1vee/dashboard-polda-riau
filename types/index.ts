@@ -35,6 +35,12 @@ export interface Pekarangan {
   pangkat: string;
   jabatan: string;
   percontohan: string;
+  holtikultura?: string;
+  perikanan?: string;
+  peternakan?: string;
+  jumlah?: string;
+  luas?: string;
+  waktu?: string;
   jenisPekarangan?: string;
   keterangan: string;
   titikKoordinat?: string;

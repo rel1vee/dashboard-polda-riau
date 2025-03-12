@@ -10,7 +10,14 @@ import ProgramDuaRanking from "@/components/program-dua/Ranking";
 import ProgramSatuRanking from "@/components/program-satu/Ranking";
 import PolsekDetailModal from "@/components/program-dua/PolsekDetail";
 import CompanyDetailsModal from "@/components/program-dua/CompanyDetail";
-import { ProgramDua, Company, Polsek, Progress, ProgramSatu } from "@/types";
+import {
+  ProgramDua,
+  Company,
+  Polsek,
+  Progress,
+  ProgramSatu,
+  Pekarangan,
+} from "@/types";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import OtherCompanyDetailsModal from "@/components/program-dua/OtherCompanyDetail";
 import {
@@ -37,6 +44,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
+import PolsekDesaOverviewModal from "@/components/program-satu/PolsekDesaModal";
 
 const ProgramDuaMapMarker = dynamic(
   () => import("@/components/program-dua/MapMarker"),
@@ -81,6 +89,9 @@ const DashboardPoldaRiauPage = () => {
     useState<Company | null>(null);
   const [selectedOtherCompanyProgress, setSelectedOtherCompanyProgress] =
     useState<Progress | null>(null);
+
+  const [selectedPolsekDesa, setSelectedPolsekDesa] =
+    useState<Pekarangan | null>(null);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -238,11 +249,17 @@ const DashboardPoldaRiauPage = () => {
     setIsModalOpen(true);
   };
 
+  const handlePolsekDesaClick = (polsekDesa: Pekarangan) => {
+    setSelectedPolsekDesa(polsekDesa);
+    setIsModalOpen(true);
+  };
+
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setSelectedCompany(null);
     setSelectedOtherCompany(null);
     setSelectedPolsek(null);
+    setSelectedPolsekDesa(null);
   };
 
   const targets = getTotalTargets();
@@ -527,6 +544,9 @@ const DashboardPoldaRiauPage = () => {
                                   <TableRow
                                     key={pekarangan.id}
                                     className="border-b hover:bg-blue-50/50 cursor-pointer transition-colors"
+                                    onClick={() =>
+                                      handlePolsekDesaClick(pekarangan)
+                                    }
                                   >
                                     <motion.td
                                       className="p-4 text-center"
@@ -1163,6 +1183,13 @@ const DashboardPoldaRiauPage = () => {
       {selectedPolsek && (
         <PolsekDetailModal
           polsek={selectedPolsek}
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+        />
+      )}
+      {selectedPolsekDesa && (
+        <PolsekDesaOverviewModal
+          polsek={selectedPolsekDesa}
           isOpen={isModalOpen}
           onClose={handleCloseModal}
         />
