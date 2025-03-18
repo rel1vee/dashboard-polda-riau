@@ -7,7 +7,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -30,7 +30,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -59,7 +59,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -76,7 +76,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -99,7 +99,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -122,7 +122,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -145,7 +145,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -168,7 +168,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -191,7 +191,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -214,7 +214,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -237,7 +237,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -260,7 +260,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -283,7 +283,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -306,7 +306,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -329,7 +329,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -352,7 +352,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -375,7 +375,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -398,7 +398,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -421,7 +421,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -450,7 +450,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -467,7 +467,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -490,7 +490,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -513,7 +513,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 0.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -536,7 +536,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -559,7 +559,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -582,7 +582,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -605,7 +605,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -634,7 +634,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -651,7 +651,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -674,7 +674,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -697,7 +697,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -720,7 +720,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -743,7 +743,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -772,7 +772,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -795,7 +795,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 7.0,
-      II: 0.0,
+      II: 7.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -812,7 +812,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -835,7 +835,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -858,7 +858,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -881,7 +881,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -910,7 +910,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -927,7 +927,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -950,7 +950,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.3,
     monokulturAchievements: {
       I: 1.3,
-      II: 0.0,
+      II: 1.3,
       III: 0.0,
       IV: 0.0,
     },
@@ -973,7 +973,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -996,7 +996,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1019,7 +1019,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1042,7 +1042,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1071,7 +1071,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1088,7 +1088,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1111,7 +1111,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1134,7 +1134,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 0.25,
     monokulturAchievements: {
       I: 0.25,
-      II: 0.0,
+      II: 0.25,
       III: 0.0,
       IV: 0.0,
     },
@@ -1157,7 +1157,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1180,7 +1180,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1209,7 +1209,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1232,7 +1232,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1249,7 +1249,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1278,7 +1278,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1295,7 +1295,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1318,7 +1318,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1341,7 +1341,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1364,7 +1364,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.25,
     monokulturAchievements: {
       I: 1.25,
-      II: 0.0,
+      II: 1.25,
       III: 0.0,
       IV: 0.0,
     },
@@ -1387,7 +1387,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1410,7 +1410,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1433,7 +1433,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1456,7 +1456,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1485,7 +1485,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1502,7 +1502,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1531,7 +1531,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1548,7 +1548,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1571,7 +1571,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1600,7 +1600,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.65,
-      II: 0.0,
+      II: 0.65,
       III: 0.0,
       IV: 0.0,
     },
@@ -1623,7 +1623,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1640,7 +1640,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1663,7 +1663,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1692,7 +1692,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1709,7 +1709,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1732,7 +1732,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1755,7 +1755,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1778,7 +1778,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1801,7 +1801,7 @@ export const kuansingOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1820,11 +1820,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 80,
-    name: "DESA PULAU KOMANG SENTAJO",
-    area: 1.0,
+    name: "DESA PULAU KEDUNDUNG",
+    area: 0.0,
     monokulturAchievements: {
-      I: 1.0,
-      II: 0.0,
+      I: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1843,11 +1843,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 81,
-    name: "DESA PULAU LANCANG",
+    name: "DESA PULAU KOMANG SENTAJO",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1866,11 +1866,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 82,
-    name: "Desa Pulau Mungkur",
+    name: "DESA PULAU LANCANG",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1889,16 +1889,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 83,
-    name: "DESA PULAU PADANG",
-    area: 0.0,
+    name: "Desa Pulau Mungkur",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.5,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -1912,17 +1912,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 84,
-    name: "DESA PULAU TONGA",
-    area: 1.0,
+    name: "DESA PULAU PADANG",
+    area: 0.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.5,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1935,11 +1935,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 85,
-    name: "Desa Rantau Sialang",
+    name: "DESA PULAU TONGA",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1958,11 +1958,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 86,
-    name: "Desa Saik",
+    name: "Desa Rantau Sialang",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1981,16 +1981,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 87,
-    name: "DESA SAMPURAGO",
-    area: 2.0,
+    name: "Desa Saik",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 2.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -2004,17 +2004,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 88,
-    name: "Desa Sangau",
-    area: 1.0,
+    name: "DESA SAMPURAGO",
+    area: 2.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 2.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2027,11 +2027,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 89,
-    name: "DESA SAWAH",
+    name: "Desa Sangau",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2050,11 +2050,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 90,
-    name: "Desa Seberang Cengar",
+    name: "DESA SAWAH",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2073,11 +2073,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 91,
-    name: "Desa Seberang Gunung",
+    name: "Desa Seberang Cengar",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2096,11 +2096,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 92,
-    name: "DESA SEBERANG TALUK HILIR",
+    name: "Desa Seberang Gunung",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2119,11 +2119,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 93,
-    name: "DESA SEBERANG TERATAK AIR HITAM",
+    name: "DESA SEBERANG TALUK HILIR",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2142,16 +2142,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 94,
-    name: "DESA SEROSAH",
-    area: 4.0,
+    name: "DESA SEBERANG TERATAK AIR HITAM",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 4.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -2165,17 +2165,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 95,
-    name: "Desa Setiang",
-    area: 1.0,
+    name: "DESA SEROSAH",
+    area: 4.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 4.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2188,11 +2188,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 96,
-    name: "DESA SIBERAKUN",
+    name: "Desa Setiang",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2211,11 +2211,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 97,
-    name: "DESA SIMANDOLAK",
+    name: "DESA SIBERAKUN",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2234,11 +2234,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 98,
-    name: "DESA SIMPANG RAYA",
+    name: "DESA SIMANDOLAK",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2257,11 +2257,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 99,
-    name: "DESA SUKA DAMAI",
+    name: "DESA SIMPANG RAYA",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2280,16 +2280,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 100,
-    name: "DESA SUMBER DATAR",
-    area: 0.0,
+    name: "DESA SUKA DAMAI",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -2303,8 +2303,8 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 101,
-    name: "DESA SUMBER JAYA",
-    area: 1.0,
+    name: "DESA SUMBER DATAR",
+    area: 0.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -2313,7 +2313,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2326,7 +2326,7 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 102,
-    name: "DESA SUMPU",
+    name: "DESA SUMBER JAYA",
     area: 1.0,
     monokulturAchievements: {
       I: 0.0,
@@ -2336,7 +2336,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2349,17 +2349,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 103,
-    name: "DESA SUNGAI ALAH",
+    name: "DESA SUMPU",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2372,16 +2372,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 104,
-    name: "DESA SUNGAI BAWANG",
-    area: 0.0,
+    name: "DESA SUNGAI ALAH",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 2.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -2395,17 +2395,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 105,
-    name: "Desa Sungai Besar",
-    area: 1.0,
+    name: "DESA SUNGAI BAWANG",
+    area: 0.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 2.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2418,11 +2418,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 106,
-    name: "Desa Sungai Besar Hilir",
+    name: "Desa Sungai Besar",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2441,11 +2441,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 107,
-    name: "DESA SUNGAI BULUH",
-    area: 2.0,
+    name: "Desa Sungai Besar Hilir",
+    area: 1.0,
     monokulturAchievements: {
-      I: 2.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2464,16 +2464,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 108,
-    name: "DESA SUNGAI KELELAWAR",
-    area: 1.5,
+    name: "DESA SUNGAI BULUH",
+    area: 2.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 2.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.5,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -2487,8 +2487,8 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 109,
-    name: "DESA SUNGAI KERANJI",
-    area: 0.0,
+    name: "DESA SUNGAI KELELAWAR",
+    area: 1.5,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -2496,8 +2496,8 @@ export const kuansingOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
-      II: 0.0,
+      I: 1.5,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -2510,7 +2510,7 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 110,
-    name: "DESA SUNGAI KUNING",
+    name: "DESA SUNGAI KERANJI",
     area: 0.0,
     monokulturAchievements: {
       I: 0.0,
@@ -2519,8 +2519,8 @@ export const kuansingOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.5,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2533,17 +2533,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 111,
-    name: "Desa Sungai manau",
-    area: 1.0,
+    name: "DESA SUNGAI KUNING",
+    area: 0.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.5,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -2556,16 +2556,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 112,
-    name: "DESA SUNGAI PAKU",
+    name: "Desa Sungai manau",
     area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -2579,8 +2579,8 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 113,
-    name: "DESA SUNGAI PINANG",
-    area: 0.75,
+    name: "DESA SUNGAI PAKU",
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -2588,8 +2588,8 @@ export const kuansingOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.75,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2602,8 +2602,8 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 114,
-    name: "DESA SUNGAI SIRIH",
-    area: 0.0,
+    name: "DESA SUNGAI PINANG",
+    area: 0.75,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -2611,8 +2611,8 @@ export const kuansingOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 2.0,
-      II: 0.0,
+      I: 0.75,
+      II: 0.75,
       III: 0.0,
       IV: 0.0,
     },
@@ -2625,17 +2625,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 115,
-    name: "DESA TALONTAM",
-    area: 1.0,
+    name: "DESA SUNGAI SIRIH",
+    area: 0.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 2.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2648,16 +2648,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 116,
-    name: "DESA TANJUNG",
-    area: 0.62,
+    name: "DESA TALONTAM",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.38,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.24,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -2671,17 +2671,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 117,
-    name: "DESA TANJUNG MEDANG",
-    area: 1.0,
+    name: "DESA TANJUNG",
+    area: 0.62,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 0.38,
+      II: 0.38,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
-      II: 0.0,
+      I: 0.24,
+      II: 0.24,
       III: 0.0,
       IV: 0.0,
     },
@@ -2694,17 +2694,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 118,
-    name: "DESA TANJUNG PAUH",
+    name: "DESA TANJUNG MEDANG",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2717,11 +2717,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 119,
-    name: "DESA TANJUNG SIMANDOLAK",
+    name: "DESA TANJUNG PAUH",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2740,11 +2740,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 120,
-    name: "Desa Teberau panjang",
+    name: "DESA TANJUNG SIMANDOLAK",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2763,11 +2763,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 121,
-    name: "DESA TEBING TINGGI",
+    name: "Desa Teberau panjang",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2786,11 +2786,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 122,
-    name: "Desa Teluk Beringin",
+    name: "DESA TEBING TINGGI",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2809,11 +2809,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 123,
-    name: "DESA TERATAK AIR HITAM",
+    name: "Desa Teluk Beringin",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2832,11 +2832,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 124,
-    name: "Desa Toar",
+    name: "DESA TERATAK AIR HITAM",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2855,11 +2855,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 125,
-    name: "DESA UJUNG TANJUNG",
+    name: "Desa Toar",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2878,11 +2878,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 126,
-    name: "GIRISAKO",
+    name: "DESA UJUNG TANJUNG",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2901,11 +2901,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 127,
-    name: "GUNUNG MELINTANG",
+    name: "GIRISAKO",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2924,11 +2924,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 128,
-    name: "HULU TESO",
+    name: "GUNUNG MELINTANG",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2947,16 +2947,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 129,
-    name: "JAKUP TARIGAN (SINGINGI)",
+    name: "HULU TESO",
     area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -2970,8 +2970,8 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 130,
-    name: "JUNAIDI",
-    area: 2.0,
+    name: "JAKUP TARIGAN (SINGINGI)",
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -2979,8 +2979,8 @@ export const kuansingOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 2.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2993,17 +2993,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 131,
-    name: "KAMPUNG BARU KOTO",
-    area: 1.0,
+    name: "JUNAIDI",
+    area: 2.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 2.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3016,11 +3016,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 132,
-    name: "KEPALA PULAU",
+    name: "KAMPUNG BARU KOTO",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3039,11 +3039,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 133,
-    name: "KOMPE BERANGIN",
+    name: "KEPALA PULAU",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3062,11 +3062,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 134,
-    name: "KOTO CERENTI",
+    name: "KOMPE BERANGIN",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3085,11 +3085,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 135,
-    name: "KOTO INUMAN",
+    name: "KOTO CERENTI",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3108,16 +3108,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 136,
-    name: "KOTO TUO KOPAH",
-    area: 10.0,
+    name: "KOTO INUMAN",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 10.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3131,17 +3131,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 137,
-    name: "KP. BARU",
-    area: 1.0,
+    name: "KOTO TUO KOPAH",
+    area: 10.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 10.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3154,11 +3154,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 138,
-    name: "KP. BARU TIMUR",
+    name: "KP. BARU",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3177,11 +3177,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 139,
-    name: "KUANTAN SAKO",
+    name: "KP. BARU TIMUR",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3200,11 +3200,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 140,
-    name: "LEBUH LURUS",
+    name: "KUANTAN SAKO",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3223,16 +3223,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 141,
-    name: "legiono (SINGINGI)",
+    name: "LEBUH LURUS",
     area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3246,17 +3246,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 142,
-    name: "LOGAS",
+    name: "legiono (SINGINGI)",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3269,11 +3269,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 143,
-    name: "LUBUK KEBUN",
+    name: "LOGAS",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3292,16 +3292,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 144,
-    name: "MAWARDI",
-    area: 0.5,
+    name: "LUBUK KEBUN",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.5,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3315,8 +3315,8 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 145,
-    name: "MISNO (SINGINGI)",
-    area: 1.0,
+    name: "MAWARDI",
+    area: 0.5,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -3324,8 +3324,8 @@ export const kuansingOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
-      II: 0.0,
+      I: 0.5,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -3338,7 +3338,7 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 146,
-    name: "MUARO SENTAJO",
+    name: "MISNO (SINGINGI)",
     area: 1.0,
     monokulturAchievements: {
       I: 0.0,
@@ -3347,8 +3347,8 @@ export const kuansingOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.5,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3361,8 +3361,8 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 147,
-    name: "MUNSALO",
-    area: 1.5,
+    name: "MUARO SENTAJO",
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -3371,7 +3371,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -3384,8 +3384,8 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 148,
-    name: "NARDI (SINGINGI)",
-    area: 2.0,
+    name: "MUNSALO",
+    area: 1.5,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -3393,8 +3393,8 @@ export const kuansingOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 2.0,
-      II: 0.0,
+      I: 1.5,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -3408,7 +3408,7 @@ export const kuansingOtherCompanies2: Company[] = [
   {
     id: 149,
     name: "NARDI (SINGINGI)",
-    area: 1.0,
+    area: 2.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -3416,8 +3416,8 @@ export const kuansingOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
-      II: 0.0,
+      I: 2.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3430,17 +3430,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 150,
-    name: "PASAR INUMAN",
+    name: "NARDI (SINGINGI)",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3453,16 +3453,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 151,
-    name: "PERHENTIAN LUAS",
+    name: "PASAR INUMAN",
     area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3476,17 +3476,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 152,
-    name: "PESIKAIAN",
+    name: "PERHENTIAN LUAS",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3499,11 +3499,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 153,
-    name: "PL.PJ. CERENTI",
+    name: "PESIKAIAN",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3522,11 +3522,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 154,
-    name: "PL.PJ. HULU",
+    name: "PL.PJ. CERENTI",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3545,16 +3545,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 155,
-    name: "PT. ADIMULYA AGROLESTARI",
-    area: 2533.0,
+    name: "PL.PJ. HULU",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 5.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3568,17 +3568,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 156,
-    name: "PT. KEBUN PANTA RAJA",
-    area: 1224.0,
+    name: "PT. ADIMULYA AGROLESTARI",
+    area: 2533.0,
     monokulturAchievements: {
-      I: 2.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 5.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3591,16 +3591,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 157,
-    name: "PT. MUSTIKA AGRO SARI",
-    area: 1368.0,
+    name: "PT. KEBUN PANTA RAJA",
+    area: 1224.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 2.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 5.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3614,6 +3614,29 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 158,
+    name: "PT. MUSTIKA AGRO SARI",
+    area: 1368.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 5.0,
+      II: 5.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 159,
     name: "PT. PERKEBUNAN NUSANTARA V",
     area: 3100.0,
     monokulturAchievements: {
@@ -3636,40 +3659,17 @@ export const kuansingOtherCompanies2: Company[] = [
     },
   },
   {
-    id: 159,
+    id: 160,
     name: "PULAU BAYUR",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-  },
-  {
-    id: 160,
-    name: "PULAU KOPUNG SENTAJO",
-    area: 1.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 1.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3683,17 +3683,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 161,
-    name: "PULAU SIPAN",
+    name: "PULAU KOPUNG SENTAJO",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3706,16 +3706,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 162,
-    name: "RAFLES LANGSAR (SINGINGI)",
+    name: "PULAU SIPAN",
     area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3729,17 +3729,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 163,
-    name: "RAMBAHAN",
+    name: "RAFLES LANGSAR (SINGINGI)",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3752,11 +3752,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 164,
-    name: "SAKO MARGASARI",
+    name: "RAMBAHAN",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3775,16 +3775,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 165,
-    name: "SARPULAN",
+    name: "SAKO MARGASARI",
     area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3798,17 +3798,17 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 166,
-    name: "SEB. PL. BUSUK",
+    name: "SARPULAN",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3821,11 +3821,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 167,
-    name: "SIDODADI",
+    name: "SEB. PL. BUSUK",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3844,11 +3844,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 168,
-    name: "SIGARUNTANG",
-    area: 4.0,
+    name: "SIDODADI",
+    area: 1.0,
     monokulturAchievements: {
-      I: 4.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3867,11 +3867,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 169,
-    name: "SIKAKAK",
-    area: 2.0,
+    name: "SIGARUNTANG",
+    area: 4.0,
     monokulturAchievements: {
-      I: 2.0,
-      II: 0.0,
+      I: 4.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3890,11 +3890,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 170,
-    name: "SIKIJANG",
-    area: 1.0,
+    name: "SIKAKAK",
+    area: 2.0,
     monokulturAchievements: {
-      I: 1.0,
-      II: 0.0,
+      I: 2.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3913,11 +3913,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 171,
-    name: "SITUGAL",
+    name: "SIKIJANG",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3936,16 +3936,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 172,
-    name: "SUKARAJA",
+    name: "SITUGAL",
     area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -3962,14 +3962,14 @@ export const kuansingOtherCompanies2: Company[] = [
     name: "SUKARAJA",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -3982,11 +3982,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 174,
-    name: "SUNGAI RAMBAI",
+    name: "SUKARAJA",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -4005,11 +4005,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 175,
-    name: "TANJUNG MEDAN",
+    name: "SUNGAI RAMBAI",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -4028,11 +4028,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 176,
-    name: "TAYIP",
-    area: 0.8,
+    name: "TANJUNG MEDAN",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.8,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -4051,11 +4051,11 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 177,
-    name: "TELUK PAUH",
-    area: 1.2,
+    name: "TAYIP",
+    area: 0.8,
     monokulturAchievements: {
-      I: 1.2,
-      II: 0.0,
+      I: 0.8,
+      II: 0.8,
       III: 0.0,
       IV: 0.0,
     },
@@ -4074,16 +4074,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 178,
-    name: "TERATAK RENDAH",
-    area: 1.0,
+    name: "TELUK PAUH",
+    area: 1.2,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.2,
+      II: 1.2,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -4100,14 +4100,14 @@ export const kuansingOtherCompanies2: Company[] = [
     name: "TERATAK RENDAH",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -4120,16 +4120,16 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 180,
-    name: "TITIAN MODANG KOPAH",
+    name: "TERATAK RENDAH",
     area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 1.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -4143,6 +4143,29 @@ export const kuansingOtherCompanies2: Company[] = [
   },
   {
     id: 181,
+    name: "TITIAN MODANG KOPAH",
+    area: 1.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 1.0,
+      II: 1.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 182,
     name: "Wahyudi, S.Sos. (SINGINGI)",
     area: 0.5,
     monokulturAchievements: {
@@ -4153,7 +4176,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },

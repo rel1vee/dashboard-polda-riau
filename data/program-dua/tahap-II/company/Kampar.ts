@@ -27,7 +27,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -126,7 +126,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 10,
-      II: 0,
+      II: 10,
       III: 0,
       IV: 0,
     },
@@ -163,7 +163,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 1,
-      II: 0,
+      II: 1,
       III: 0,
       IV: 0,
     },
@@ -212,7 +212,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 5,
-      II: 0,
+      II: 5,
       III: 0,
       IV: 0,
     },
@@ -249,7 +249,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -323,7 +323,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 15,
-      II: 0,
+      II: 15,
       III: 0,
       IV: 0,
     },
@@ -348,7 +348,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 4.24,
-      II: 0,
+      II: 4.24,
       III: 0,
       IV: 0,
     },
@@ -471,7 +471,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 4,
-      II: 0,
+      II: 4,
       III: 0,
       IV: 0,
     },
@@ -551,7 +551,7 @@ export const kamparCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 1.5,
-      II: 0,
+      II: 1.5,
       III: 0,
       IV: 0,
     },
@@ -570,7 +570,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 4.5,
-      II: 0,
+      II: 4.5,
       III: 0,
       IV: 0,
     },
@@ -607,7 +607,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -619,7 +619,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1,
-      II: 0,
+      II: 1,
       III: 0,
       IV: 0,
     },
@@ -644,7 +644,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 1,
-      II: 0,
+      II: 1,
       III: 0,
       IV: 0,
     },
@@ -718,7 +718,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 0.5,
-      II: 0,
+      II: 0.5,
       III: 0,
       IV: 0,
     },
@@ -767,7 +767,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1,
-      II: 0,
+      II: 1,
       III: 0,
       IV: 0,
     },
@@ -804,7 +804,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 25,
-      II: 0,
+      II: 25,
       III: 0,
       IV: 0,
     },
@@ -952,7 +952,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 8,
-      II: 0,
+      II: 8,
       III: 0,
       IV: 0,
     },
@@ -1051,7 +1051,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 6,
-      II: 0,
+      II: 6,
       III: 0,
       IV: 0,
     },
@@ -1088,7 +1088,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 0.5,
-      II: 0,
+      II: 0.5,
       III: 0,
       IV: 0,
     },
@@ -1100,7 +1100,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1273,7 +1273,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 0.25,
-      II: 0,
+      II: 0.25,
       III: 0,
       IV: 0,
     },
@@ -1285,7 +1285,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1402,7 +1402,7 @@ export const kamparCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1495,7 +1495,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1507,7 +1507,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 15,
-      II: 0,
+      II: 15,
       III: 0,
       IV: 0,
     },
@@ -1569,7 +1569,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1680,7 +1680,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 1,
-      II: 0,
+      II: 1,
       III: 0,
       IV: 0,
     },
@@ -1840,7 +1840,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1902,7 +1902,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1939,7 +1939,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1951,7 +1951,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 10,
-      II: 0,
+      II: 10,
       III: 0,
       IV: 0,
     },
@@ -1976,7 +1976,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 1,
-      II: 0,
+      II: 1,
       III: 0,
       IV: 0,
     },
@@ -2031,7 +2031,7 @@ export const kamparCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -2087,7 +2087,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 1,
-      II: 0,
+      II: 1,
       III: 0,
       IV: 0,
     },
@@ -2105,7 +2105,7 @@ export const kamparCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -2136,7 +2136,7 @@ export const kamparCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 14,
-      II: 0,
+      II: 14,
       III: 0,
       IV: 0,
     },
@@ -2198,7 +2198,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -2235,7 +2235,7 @@ export const kamparCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 0.1,
-      II: 0,
+      II: 0.1,
       III: 0,
       IV: 0,
     },

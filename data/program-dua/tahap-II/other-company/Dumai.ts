@@ -7,7 +7,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 0.25,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.25,
       III: 0.0,
       IV: 0.0,
     },
@@ -30,7 +30,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -53,7 +53,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -76,7 +76,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -111,7 +111,7 @@ export const dumaiOtherCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -122,7 +122,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -145,7 +145,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 7.0,
-      II: 0.0,
+      II: 7.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -168,7 +168,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 15.0,
     monokulturAchievements: {
       I: 15.0,
-      II: 0.0,
+      II: 15.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -203,7 +203,7 @@ export const dumaiOtherCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -214,7 +214,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -237,7 +237,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 28.0,
     monokulturAchievements: {
       I: 28.0,
-      II: 0.0,
+      II: 28.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -260,7 +260,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -289,7 +289,7 @@ export const dumaiOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -312,7 +312,7 @@ export const dumaiOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 8.0,
-      II: 0.0,
+      II: 8.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -329,7 +329,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -352,7 +352,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 15.0,
     monokulturAchievements: {
       I: 15.0,
-      II: 0.0,
+      II: 15.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -375,7 +375,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 14.0,
     monokulturAchievements: {
       I: 14.0,
-      II: 0.0,
+      II: 14.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -398,7 +398,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 4.0,
     monokulturAchievements: {
       I: 4.0,
-      II: 0.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -427,7 +427,7 @@ export const dumaiOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -444,7 +444,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -467,7 +467,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -490,7 +490,7 @@ export const dumaiOtherCompanies2: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -525,7 +525,7 @@ export const dumaiOtherCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },

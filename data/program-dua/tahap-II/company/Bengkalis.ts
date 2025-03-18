@@ -15,7 +15,7 @@ export const bengkalisCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 3,
-      II: 0,
+      II: 3,
       III: 0,
       IV: 0,
     },
@@ -64,7 +64,7 @@ export const bengkalisCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 5,
-      II: 0,
+      II: 5,
       III: 0,
       IV: 0,
     },
@@ -89,7 +89,7 @@ export const bengkalisCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -181,7 +181,7 @@ export const bengkalisCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -212,44 +212,7 @@ export const bengkalisCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 50,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 7,
-    name: "PT. SURYA DUMAI AGRINDO/                  PT. RIAU MAKMUR SENTOSA",
-    area: 8200,
-    target2Percent: 164,
-    target7Percent: 574,
-    monokulturTargets: {
-      I: 41,
-      II: 41,
-      III: 41,
-      IV: 41,
-    },
-    monokulturAchievements: {
-      I: 3.46,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariTargets: {
-      I: 143.5,
-      II: 143.5,
-      III: 143.5,
-      IV: 143.5,
-    },
-    tumpangSariAchievements: {
-      I: 0,
-      II: 0,
+      II: 50,
       III: 0,
       IV: 0,
     },
@@ -329,7 +292,7 @@ export const bengkalisCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -366,6 +329,43 @@ export const bengkalisCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 1,
+      II: 1,
+      III: 0,
+      IV: 0,
+    },
+  },
+  {
+    id: 7,
+    name: "PT. SURYA DUMAI AGRINDO/                  PT. RIAU MAKMUR SENTOSA",
+    area: 8200,
+    target2Percent: 164,
+    target7Percent: 574,
+    monokulturTargets: {
+      I: 41,
+      II: 41,
+      III: 41,
+      IV: 41,
+    },
+    monokulturAchievements: {
+      I: 3.46,
+      II: 3.46,
+      III: 0,
+      IV: 0,
+    },
+    tumpangSariTargets: {
+      I: 143.5,
+      II: 143.5,
+      III: 143.5,
+      IV: 143.5,
+    },
+    tumpangSariAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    csrAchievements: {
+      I: 0,
       II: 0,
       III: 0,
       IV: 0,
@@ -397,7 +397,7 @@ export const bengkalisCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 50,
-      II: 0,
+      II: 50,
       III: 0,
       IV: 0,
     },

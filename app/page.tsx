@@ -166,22 +166,22 @@ const DashboardPoldaRiauPage = () => {
         ];
 
         const monoAchievement = allCompanies.reduce((sum, company) => {
-          if (company.monokulturAchievements.I) {
-            return sum + company.monokulturAchievements.I;
+          if (company.monokulturAchievements.II) {
+            return sum + company.monokulturAchievements.II;
           }
           return sum;
         }, 0);
 
         const tumpangSariAchievement = allCompanies.reduce((sum, company) => {
-          if (company.tumpangSariAchievements.I) {
-            return sum + company.tumpangSariAchievements.I;
+          if (company.tumpangSariAchievements.II) {
+            return sum + company.tumpangSariAchievements.II;
           }
           return sum;
         }, 0);
 
         const csrAchievement = allCompanies.reduce((sum, company) => {
-          if (company.csrAchievements.I) {
-            return sum + company.csrAchievements.I;
+          if (company.csrAchievements.II) {
+            return sum + company.csrAchievements.II;
           }
           return sum;
         }, 0);
@@ -913,9 +913,9 @@ const DashboardPoldaRiauPage = () => {
                                   .map((company) => ({
                                     ...company,
                                     totalAchievements:
-                                      company.monokulturAchievements.I +
-                                      company.tumpangSariAchievements.I +
-                                      company.csrAchievements.I,
+                                      company.monokulturAchievements.II +
+                                      company.tumpangSariAchievements.II +
+                                      company.csrAchievements.II,
                                   }))
                                   .sort(
                                     (a, b) =>
@@ -1005,9 +1005,9 @@ const DashboardPoldaRiauPage = () => {
                                   .map((company) => ({
                                     ...company,
                                     totalAchievements:
-                                      company.monokulturAchievements.I +
-                                      company.tumpangSariAchievements.I +
-                                      company.csrAchievements.I,
+                                      company.monokulturAchievements.II +
+                                      company.tumpangSariAchievements.II +
+                                      company.csrAchievements.II,
                                   }))
                                   .sort(
                                     (a, b) =>

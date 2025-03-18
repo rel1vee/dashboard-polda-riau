@@ -360,7 +360,7 @@ export const rohulCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 24,
-      II: 0,
+      II: 24,
       III: 0,
       IV: 0,
     },
@@ -385,7 +385,7 @@ export const rohulCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2.5,
-      II: 0,
+      II: 2.5,
       III: 0,
       IV: 0,
     },
@@ -397,7 +397,7 @@ export const rohulCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 3,
-      II: 0,
+      II: 3,
       III: 0,
       IV: 0,
     },
@@ -459,7 +459,7 @@ export const rohulCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 1.5,
-      II: 0,
+      II: 1.5,
       III: 0,
       IV: 0,
     },
@@ -545,7 +545,7 @@ export const rohulCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 19,
-      II: 0,
+      II: 19,
       III: 0,
       IV: 0,
     },
@@ -767,7 +767,7 @@ export const rohulCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 4,
-      II: 0,
+      II: 4,
       III: 0,
       IV: 0,
     },
@@ -1063,7 +1063,7 @@ export const rohulCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1100,7 +1100,7 @@ export const rohulCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 50,
-      II: 0,
+      II: 50,
       III: 0,
       IV: 0,
     },
@@ -1248,7 +1248,7 @@ export const rohulCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 6,
-      II: 0,
+      II: 6,
       III: 0,
       IV: 0,
     },
@@ -1347,7 +1347,7 @@ export const rohulCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 1.5,
-      II: 0,
+      II: 1.5,
       III: 0,
       IV: 0,
     },
@@ -1433,7 +1433,7 @@ export const rohulCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },

@@ -101,7 +101,7 @@ export const inhuCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 200,
-      II: 0,
+      II: 200,
       III: 0,
       IV: 0,
     },
@@ -200,7 +200,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 1,
-      II: 0,
+      II: 1,
       III: 0,
       IV: 0,
     },
@@ -255,7 +255,7 @@ export const inhuCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 1.2,
-      II: 0,
+      II: 1.2,
       III: 0,
       IV: 0,
     },
@@ -274,7 +274,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 4.48,
-      II: 0,
+      II: 4.48,
       III: 0,
       IV: 0,
     },
@@ -286,7 +286,7 @@ export const inhuCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 5.48,
-      II: 0,
+      II: 5.48,
       III: 0,
       IV: 0,
     },
@@ -329,7 +329,7 @@ export const inhuCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 10.8,
-      II: 0,
+      II: 10.8,
       III: 0,
       IV: 0,
     },
@@ -385,7 +385,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 3.5,
-      II: 0,
+      II: 3.5,
       III: 0,
       IV: 0,
     },
@@ -483,6 +483,43 @@ export const inhuCompanies2: Company[] = [
     },
   },
   {
+    id: 15,
+    name: "PT. PALM LESTARI MAKMUR",
+    area: 2085.69,
+    target2Percent: 41.71,
+    target7Percent: 146.0,
+    monokulturTargets: {
+      I: 10.43,
+      II: 10.43,
+      III: 10.43,
+      IV: 10.43,
+    },
+    monokulturAchievements: {
+      I: 2,
+      II: 2,
+      III: 0,
+      IV: 0,
+    },
+    tumpangSariTargets: {
+      I: 36.5,
+      II: 36.5,
+      III: 36.5,
+      IV: 36.5,
+    },
+    tumpangSariAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+    csrAchievements: {
+      I: 0,
+      II: 0,
+      III: 0,
+      IV: 0,
+    },
+  },
+  {
     id: 14,
     name: "PT. PALMA SATU",
     area: 14114.0,
@@ -505,43 +542,6 @@ export const inhuCompanies2: Company[] = [
       II: 247.0,
       III: 247.0,
       IV: 247.0,
-    },
-    tumpangSariAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
-  {
-    id: 15,
-    name: "PT. PALM LESTARI MAKMUR",
-    area: 2085.69,
-    target2Percent: 41.71,
-    target7Percent: 146.0,
-    monokulturTargets: {
-      I: 10.43,
-      II: 10.43,
-      III: 10.43,
-      IV: 10.43,
-    },
-    monokulturAchievements: {
-      I: 2,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariTargets: {
-      I: 36.5,
-      II: 36.5,
-      III: 36.5,
-      IV: 36.5,
     },
     tumpangSariAchievements: {
       I: 0,
@@ -625,7 +625,7 @@ export const inhuCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 1.5,
-      II: 0,
+      II: 1.6,
       III: 0,
       IV: 0,
     },
@@ -681,7 +681,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 10,
-      II: 0,
+      II: 10,
       III: 0,
       IV: 0,
     },
@@ -693,7 +693,7 @@ export const inhuCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0,
-      II: 0,
+      II: 300,
       III: 0,
       IV: 0,
     },
@@ -736,7 +736,7 @@ export const inhuCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -755,7 +755,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -847,7 +847,7 @@ export const inhuCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 1.5,
-      II: 0,
+      II: 1.5,
       III: 0,
       IV: 0,
     },
@@ -903,7 +903,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 4,
-      II: 0,
+      II: 4,
       III: 0,
       IV: 0,
     },
@@ -940,7 +940,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 0.5,
-      II: 0,
+      II: 0.5,
       III: 0,
       IV: 0,
     },
@@ -1051,7 +1051,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1125,7 +1125,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 2,
-      II: 0,
+      II: 2,
       III: 0,
       IV: 0,
     },
@@ -1273,7 +1273,7 @@ export const inhuCompanies2: Company[] = [
     },
     monokulturAchievements: {
       I: 4,
-      II: 0,
+      II: 4,
       III: 0,
       IV: 0,
     },
