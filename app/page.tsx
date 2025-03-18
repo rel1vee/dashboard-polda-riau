@@ -10,6 +10,9 @@ import ProgramDuaRanking from "@/components/program-dua/Ranking";
 import ProgramSatuRanking from "@/components/program-satu/Ranking";
 import PolsekDetailModal from "@/components/program-dua/PolsekDetail";
 import CompanyDetailsModal from "@/components/program-dua/CompanyDetail";
+import PolsekDesaOverviewModal from "@/components/program-satu/PolsekDesaModal";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import OtherCompanyDetailsModal from "@/components/program-dua/OtherCompanyDetail";
 import {
   ProgramDua,
   Company,
@@ -18,8 +21,6 @@ import {
   ProgramSatu,
   Pekarangan,
 } from "@/types";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import OtherCompanyDetailsModal from "@/components/program-dua/OtherCompanyDetail";
 import {
   Table,
   TableBody,
@@ -44,7 +45,6 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import PolsekDesaOverviewModal from "@/components/program-satu/PolsekDesaModal";
 
 const ProgramDuaMapMarker = dynamic(
   () => import("@/components/program-dua/MapMarker"),
@@ -74,22 +74,22 @@ const MotionCard = motion.create(Card);
 
 const DashboardPoldaRiauPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedCity, setSelectedCity] = useState<ProgramDua | null>(null);
-  const [selectedProgramSatuCity, setSelectedProgramSatuCity] =
-    useState<ProgramSatu | null>(null);
-  const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
-  const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [companyData, setCompanyData] = useState<Company | null>(null);
+  const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
+  const [selectedCity, setSelectedCity] = useState<ProgramDua | null>(null);
+  const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [otherCompanyData, setOtherCompanyData] = useState<Company | null>(
     null
   );
+
+  const [selectedProgramSatuCity, setSelectedProgramSatuCity] =
+    useState<ProgramSatu | null>(null);
   const [selectedCompanyProgress, setSelectedCompanyProgress] =
     useState<Progress | null>(null);
   const [selectedOtherCompany, setSelectedOtherCompany] =
     useState<Company | null>(null);
   const [selectedOtherCompanyProgress, setSelectedOtherCompanyProgress] =
     useState<Progress | null>(null);
-
   const [selectedPolsekDesa, setSelectedPolsekDesa] =
     useState<Pekarangan | null>(null);
 
@@ -133,7 +133,7 @@ const DashboardPoldaRiauPage = () => {
   const getTotalTargets = () => {
     return programDua.reduce(
       (acc, polres) => {
-        const polsekTarget = polres.polsek2.reduce(
+        const polsekTarget = polres.polsek3.reduce(
           (total, polsek) =>
             total +
             (polsek.villages.reduce(
@@ -186,7 +186,7 @@ const DashboardPoldaRiauPage = () => {
           return sum;
         }, 0);
 
-        const polsekAchievement = polres.polsek2.reduce(
+        const polsekAchievement = polres.polsek3.reduce(
           (total, polsek) =>
             total +
             (polsek.villages.reduce(
@@ -1075,7 +1075,7 @@ const DashboardPoldaRiauPage = () => {
                       </CardTitle>
                       {selectedCity ? (
                         <CardDescription>
-                          Total {selectedCity.polsek2.length} POLSEK. Pilih
+                          Total {selectedCity.polsek3.length} POLSEK. Pilih
                           POLSEK untuk Melihat Detail.
                         </CardDescription>
                       ) : (
@@ -1087,10 +1087,10 @@ const DashboardPoldaRiauPage = () => {
                     <CardContent className="p-0 overflow-y-auto max-h-[500px]">
                       {selectedCity ? (
                         <div className="p-4">
-                          {selectedCity.polsek2.length > 0 ? (
+                          {selectedCity.polsek3.length > 0 ? (
                             <Table>
                               <TableBody>
-                                {selectedCity.polsek2
+                                {selectedCity.polsek3
                                   .map((polsek) => ({
                                     ...polsek,
                                     totalAchievements: polsek.villages

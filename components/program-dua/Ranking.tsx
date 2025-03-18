@@ -57,6 +57,7 @@ const prepareTableData = () => {
 
     let polsekAchievement1 = 0;
     let polsekAchievement2 = 0;
+    let polsekAchievement3 = 0;
 
     city.polsek1.forEach((polsek) => {
       polsek.villages.forEach((village) => {
@@ -67,6 +68,12 @@ const prepareTableData = () => {
     city.polsek2.forEach((polsek) => {
       polsek.villages.forEach((village) => {
         polsekAchievement2 += village.achievement;
+      });
+    });
+
+    city.polsek3.forEach((polsek) => {
+      polsek.villages.forEach((village) => {
+        polsekAchievement3 += village.achievement;
       });
     });
 
@@ -170,14 +177,15 @@ const prepareTableData = () => {
       capaianCSR2: csrAchievements2,
       polsekAchievement1,
       polsekAchievement2,
+      polsekAchievement3,
       TAHAP_I: totalAchievements1 + polsekAchievement1,
       TAHAP_II:
         totalAchievementsII2 +
-        (polsekAchievement2 - polsekAchievement1) -
+        (polsekAchievement3 - polsekAchievement1) -
         totalAchievements1,
       TAHAP_III: 0,
       TAHAP_IV: 0,
-      FINAL: totalAchievementsII2 + polsekAchievement2,
+      FINAL: totalAchievementsII2 + polsekAchievement3,
     };
   });
 
@@ -190,8 +198,8 @@ const prepareTablePolsekData = () => {
     let totalAchievement = 0;
     let totalTarget = 0;
 
-    city.polsek2.forEach((polsek) => {
-      polsek.villages?.forEach((village) => {
+    city.polsek3.forEach((polsek) => {
+      polsek.villages.forEach((village) => {
         totalAchievement += village.achievement;
         totalTarget += village.target;
       });
@@ -335,6 +343,16 @@ const getTotalAchievements = () => {
         0
       );
 
+      const polsekAchievement3 = polres.polsek3.reduce(
+        (total, polsek) =>
+          total +
+          (polsek.villages.reduce(
+            (achievement, village) => achievement + (village.achievement || 0),
+            0
+          ) || 0),
+        0
+      );
+
       return {
         monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
         tumpangSariTarget: acc.tumpangSariTarget + polres.tumpangSariTarget,
@@ -359,6 +377,7 @@ const getTotalAchievements = () => {
 
         polsekAchievement1: acc.polsekAchievement1 + polsekAchievement1,
         polsekAchievement2: acc.polsekAchievement2 + polsekAchievement2,
+        polsekAchievement3: acc.polsekAchievement3 + polsekAchievement3,
       };
     },
     {
@@ -379,6 +398,7 @@ const getTotalAchievements = () => {
 
       polsekAchievement1: 0,
       polsekAchievement2: 0,
+      polsekAchievement3: 0,
     }
   );
 };
@@ -400,6 +420,7 @@ const ProgramDuaRanking = () => {
     totalTarget: number;
     polsekAchievement1: number;
     polsekAchievement2: number;
+    polsekAchievement3: number;
   }) => {
     return {
       phase1: {
@@ -427,7 +448,7 @@ const ProgramDuaRanking = () => {
           data.capaianMonokultur2.ii +
           data.capaianTumpangSari2.ii +
           data.capaianCSR2.ii +
-          (data.polsekAchievement2 - data.polsekAchievement1) -
+          (data.polsekAchievement3 - data.polsekAchievement1) -
           (data.capaianMonokultur.iv +
             data.capaianTumpangSari.iv +
             data.capaianCSR.iv)
@@ -438,7 +459,7 @@ const ProgramDuaRanking = () => {
           ((data.capaianMonokultur2.ii +
             data.capaianTumpangSari2.ii +
             data.capaianCSR2.ii +
-            (data.polsekAchievement2 - data.polsekAchievement1) -
+            (data.polsekAchievement3 - data.polsekAchievement1) -
             (data.capaianMonokultur.iv +
               data.capaianTumpangSari.iv +
               data.capaianCSR.iv)) /
@@ -453,7 +474,7 @@ const ProgramDuaRanking = () => {
           data.capaianMonokultur2.ii +
           data.capaianTumpangSari2.ii +
           data.capaianCSR2.ii +
-          data.polsekAchievement2
+          data.polsekAchievement3
         ).toLocaleString("id-ID", {
           maximumFractionDigits: 2,
         }),
@@ -461,7 +482,7 @@ const ProgramDuaRanking = () => {
           ((data.capaianMonokultur2.ii +
             data.capaianTumpangSari2.ii +
             data.capaianCSR2.ii +
-            data.polsekAchievement2) /
+            data.polsekAchievement3) /
             (data.totalTarget / 4)) *
           100
         ).toLocaleString("id-ID", {
@@ -695,7 +716,9 @@ const ProgramDuaRanking = () => {
                             {formatNumber(
                               row.capaianMonokultur2.ii +
                                 row.capaianTumpangSari2.ii +
-                                row.capaianCSR2.ii -
+                                row.capaianCSR2.ii +
+                                (row.polsekAchievement3 -
+                                  row.polsekAchievement2) -
                                 (row.capaianMonokultur2.i +
                                   row.capaianTumpangSari2.i +
                                   row.capaianCSR2.i)
@@ -808,7 +831,9 @@ const ProgramDuaRanking = () => {
                         {formatNumber(
                           achievements.monokulturAchievementII2 +
                             achievements.tumpangSariAchievementII2 +
-                            achievements.csrAchievementII2 -
+                            achievements.csrAchievementII2 +
+                            (achievements.polsekAchievement3 -
+                              achievements.polsekAchievement2) -
                             (achievements.monokulturAchievementI2 +
                               achievements.tumpangSariAchievementI2 +
                               achievements.csrAchievementI2)
@@ -821,7 +846,7 @@ const ProgramDuaRanking = () => {
                           achievements.monokulturAchievementII2 +
                             achievements.tumpangSariAchievementII2 +
                             achievements.csrAchievementII2 +
-                            (achievements.polsekAchievement2 -
+                            (achievements.polsekAchievement3 -
                               achievements.polsekAchievement1) -
                             (achievements.monokulturAchievementIV +
                               achievements.tumpangSariAchievementIV +
@@ -833,7 +858,7 @@ const ProgramDuaRanking = () => {
                           ((achievements.monokulturAchievementII2 +
                             achievements.tumpangSariAchievementII2 +
                             achievements.csrAchievementII2 +
-                            (achievements.polsekAchievement2 -
+                            (achievements.polsekAchievement3 -
                               achievements.polsekAchievement1) -
                             (achievements.monokulturAchievementIV +
                               achievements.tumpangSariAchievementIV +
@@ -867,7 +892,7 @@ const ProgramDuaRanking = () => {
                           achievements.monokulturAchievementII2 +
                             achievements.tumpangSariAchievementII2 +
                             achievements.csrAchievementII2 +
-                            achievements.polsekAchievement2
+                            achievements.polsekAchievement3
                         )}
                       </TableCell>
                       <TableCell className="text-center border font-bold">
@@ -875,7 +900,7 @@ const ProgramDuaRanking = () => {
                           ((achievements.monokulturAchievementII2 +
                             achievements.tumpangSariAchievementII2 +
                             achievements.csrAchievementII2 +
-                            achievements.polsekAchievement2) /
+                            achievements.polsekAchievement3) /
                             ((achievements.monokulturTarget +
                               achievements.tumpangSariTarget) /
                               4)) *

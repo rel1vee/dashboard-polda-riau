@@ -63,6 +63,7 @@ export interface ProgramDua {
   tumpangSariTarget: number;
   polsek1: Polsek[];
   polsek2: Polsek[];
+  polsek3: Polsek[];
   tahapI: {
     companies: Company[];
     otherCompanies: Company[];

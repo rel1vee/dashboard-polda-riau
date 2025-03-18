@@ -27,15 +27,13 @@ interface MapProps {
     id: number;
     nama: string;
     coordinates: [number, number];
-    totalArea: number;
-    otherTotalArea: number;
     monokulturTarget: number;
     tumpangSariTarget: number;
     tahapII: {
       companies: Company[];
       otherCompanies: Company[];
     };
-    polsek2: Polsek[];
+    polsek3: Polsek[];
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onCityClick: (city: any) => void;
@@ -99,7 +97,7 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             city.tahapII.otherCompanies || []
           );
 
-          const polsekTarget = city.polsek2.reduce(
+          const polsekTarget = city.polsek3.reduce(
             (total, polsek) =>
               total +
               (polsek.villages.reduce(
@@ -109,7 +107,7 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             0
           );
 
-          const polsekAchievement = city.polsek2.reduce(
+          const polsekAchievement = city.polsek3.reduce(
             (total, polsek) =>
               total +
               (polsek.villages.reduce(
@@ -171,7 +169,7 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
-                        {city.polsek2.length} POLSEK
+                        {city.polsek3.length} POLSEK
                       </Badge>
                     </div>
                     {/* Area Info */}
