@@ -531,10 +531,7 @@ const DashboardPoldaRiauPage = () => {
                                   Jabatan
                                 </TableHead>
                                 <TableHead className="px-2 uppercase text-center">
-                                  Percontohan
-                                </TableHead>
-                                <TableHead className="uppercase text-center px-8">
-                                  Keterangan
+                                  Nomor HP
                                 </TableHead>
                               </TableRow>
                             </TableHeader>
@@ -575,10 +572,7 @@ const DashboardPoldaRiauPage = () => {
                                       {pekarangan.jabatan}
                                     </TableCell>
                                     <TableCell className="px-2 text-center">
-                                      {pekarangan.percontohan}
-                                    </TableCell>
-                                    <TableCell className="text-center px-8">
-                                      {pekarangan.keterangan}
+                                      {pekarangan.nomorHP}
                                     </TableCell>
                                   </TableRow>
                                 )
@@ -611,7 +605,6 @@ const DashboardPoldaRiauPage = () => {
                   </CardContent>
                 </Card>
               </motion.div>
-
               {/* Desa Section */}
               <motion.div
                 initial={{ opacity: 0, x: -20 }}

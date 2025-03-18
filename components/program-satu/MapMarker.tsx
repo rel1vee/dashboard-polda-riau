@@ -4,7 +4,6 @@ import L from "leaflet";
 import { useRef } from "react";
 import "leaflet/dist/leaflet.css";
 import { Badge } from "../ui/badge";
-import { Pekarangan } from "@/types";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 const pinIconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
@@ -30,22 +29,10 @@ interface MapProps {
     jumlahDesa: number;
     jumlahKecamatan: number;
     jumlahPolisiPenggerak: number;
-    jumlahTitikI?: number;
-    jumlahTitikII?: number;
-    jumlahTitikIII: number;
-    jumlahTitikIV: number;
-    jumlahTitikV: number;
+    jumlahTitikVI: number;
     desaPercontohan: number;
     desaNonPercontohan: number;
-    perikanan: number;
-    peternakan: number;
-    holtikultura: number;
-    luasLahanI?: number;
-    luasLahanII?: number;
-    luasLahanIII: number;
-    luasLahanIV: number;
-    luasLahanV: number;
-    pekarangan?: Pekarangan[];
+    luasLahanVI: number;
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onCityClick: (city: any) => void;
@@ -144,7 +131,7 @@ const ProgramSatuMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         Jumlah Titik Pekarangan:
                       </span>
                       <span className="font-medium text-gray-900">
-                        {city.jumlahTitikV}
+                        {city.jumlahTitikVI}
                       </span>
                     </div>
                     <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
@@ -152,7 +139,7 @@ const ProgramSatuMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         Jumlah Luas Lahan:
                       </span>
                       <span className="font-medium text-gray-900">
-                        {city.luasLahanV.toLocaleString("id-ID", {
+                        {city.luasLahanVI.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>

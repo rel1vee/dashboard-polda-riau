@@ -74,16 +74,18 @@ const PolsekDesaOverviewModal: React.FC<PolsekDesaModalProps> = ({
           </Card>
         </div>
         {/* Detail Information */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <Card className="overflow-hidden border-2 border-indigo-600 shadow-md col-span-1">
             <CardHeader className="bg-indigo-600 text-white py-4">
               <CardTitle className="text-center flex items-center justify-center gap-2">
-                JUMLAH (POHON, EKOR TERNAK/HEWAN DAN LUAS LAHAN)
+                JUMLAH
               </CardTitle>
             </CardHeader>
             <CardContent className="p-4">
-              <div className="p-3 bg-indigo-50 rounded-lg">
-                <p className="font-semibold">{polsek.jumlah}</p>
+              <div className="p-3 bg-indigo-50 space-y-4 rounded-lg">
+                <p className="font-semibold">POHON: {polsek.pohon}</p>
+                <p className="font-semibold">IKAN: {polsek.ikan}</p>
+                <p className="font-semibold">TERNAK: {polsek.ternak}</p>
               </div>
             </CardContent>
           </Card>
@@ -91,16 +93,19 @@ const PolsekDesaOverviewModal: React.FC<PolsekDesaModalProps> = ({
           <Card className="overflow-hidden border-2 border-emerald-600 shadow-md col-span-1">
             <CardHeader className="bg-emerald-600 text-white py-4">
               <CardTitle className="text-center flex items-center justify-center gap-2">
-                LUAS KANDANG, LUAS KOLAM, DAN LUAS LAHAN
+                LUAS
               </CardTitle>
             </CardHeader>
             <CardContent className="p-4">
-              <div className="p-3 bg-emerald-50 rounded-lg text-center">
-                <p className="font-semibold">{polsek.luas}</p>
+              <div className="p-3 bg-emerald-50 space-y-4 rounded-lg">
+                <p className="font-semibold">LAHAN: {polsek.lahan}</p>
+                <p className="font-semibold">KOLAM: {polsek.kolam}</p>
+                <p className="font-semibold">KANDANG: {polsek.kandang}</p>
               </div>
             </CardContent>
           </Card>
-
+        </div>
+        <div className="grid grid-cols-1 gap-6 mt-6">
           <Card className="overflow-hidden border-2 border-rose-500 shadow-md col-span-1">
             <CardHeader className="bg-rose-500 text-white py-4">
               <CardTitle className="text-center flex items-center justify-center gap-2">
@@ -109,9 +114,7 @@ const PolsekDesaOverviewModal: React.FC<PolsekDesaModalProps> = ({
             </CardHeader>
             <CardContent className="p-4">
               <div className="p-3 bg-rose-50 rounded-lg">
-                <div>
-                  <p className="font-semibold">{polsek.waktu}</p>
-                </div>
+                <p className="font-semibold">{polsek.waktuBibit}</p>
               </div>
             </CardContent>
           </Card>
