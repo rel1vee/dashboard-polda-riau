@@ -218,7 +218,7 @@ const DashboardPoldaRiauPage = () => {
     setSelectedCompany(company);
 
     const progressData =
-      selectedCity?.tahapII.progress.find((p) => p.id === company.id) || null;
+      selectedCity?.progress.find((p) => p.id === company.id) || null;
 
     const company1 =
       selectedCity?.tahapI.companies.find((p) => p.id === company.id) || null;
@@ -237,8 +237,7 @@ const DashboardPoldaRiauPage = () => {
     setSelectedOtherCompany(company);
 
     const otherProgressData =
-      selectedCity?.tahapII.otherProgress.find((p) => p.id === company.id) ||
-      null;
+      selectedCity?.otherProgress.find((p) => p.id === company.id) || null;
 
     const otherCompany1 =
       selectedCity?.tahapI.otherCompanies.find((p) => p.id === company.id) ||
@@ -1157,7 +1156,7 @@ const DashboardPoldaRiauPage = () => {
       </motion.div>
       {selectedCompany && (
         <CompanyDetailsModal
-          company={selectedCompany}
+          company2={selectedCompany}
           company1={companyData}
           progress={selectedCompanyProgress}
           isOpen={isModalOpen}
@@ -1166,7 +1165,7 @@ const DashboardPoldaRiauPage = () => {
       )}
       {selectedOtherCompany && (
         <OtherCompanyDetailsModal
-          company={selectedOtherCompany}
+          company2={selectedOtherCompany}
           company1={otherCompanyData}
           progress={selectedOtherCompanyProgress}
           isOpen={isModalOpen}

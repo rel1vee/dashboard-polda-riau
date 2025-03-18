@@ -49,7 +49,7 @@ import {
 } from "@/components/ui/table";
 
 interface CompanyDetailProps {
-  company: Company;
+  company2: Company;
   company1: Company | null;
   progress: Progress | null;
   isOpen: boolean;
@@ -57,29 +57,31 @@ interface CompanyDetailProps {
 }
 
 const CompanyDetail: React.FC<CompanyDetailProps> = ({
-  company,
+  company2,
   company1,
   progress,
   isOpen,
   onClose,
 }) => {
-  if (!company) return null;
+  if (!company2) return null;
 
-  const transformWeekData = () => {
+  const transformWeek2Data = () => {
     return (["I", "II", "III", "IV"] as const).map((period) => ({
       periode: period,
-      monoTarget: (company.target2Percent ?? 0) / 4,
+      monoTarget: (company2.target2Percent ?? 0) / 4,
       monoAchievement:
-        company.monokulturAchievements[
-          period as keyof typeof company.monokulturAchievements
+        company2.monokulturAchievements[
+          period as keyof typeof company2.monokulturAchievements
         ],
-      tsTarget: (company.target7Percent ?? 0) / 4,
+      tsTarget: (company2.target7Percent ?? 0) / 4,
       tsAchievement:
-        company.tumpangSariAchievements[
-          period as keyof typeof company.tumpangSariAchievements
+        company2.tumpangSariAchievements[
+          period as keyof typeof company2.tumpangSariAchievements
         ],
       csrAchievement:
-        company.csrAchievements[period as keyof typeof company.csrAchievements],
+        company2.csrAchievements[
+          period as keyof typeof company2.csrAchievements
+        ],
     }));
   };
 
@@ -114,23 +116,23 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
       },
       {
         periode: "2",
-        monoTarget: (company.target2Percent ?? 0) / 4,
-        monoAchievement: company.monokulturAchievements.II,
-        tsTarget: (company.target7Percent ?? 0) / 4,
-        tsAchievement: company.tumpangSariAchievements.II,
+        monoTarget: (company2.target2Percent ?? 0) / 4,
+        monoAchievement: company2.monokulturAchievements.II,
+        tsTarget: (company2.target7Percent ?? 0) / 4,
+        tsAchievement: company2.tumpangSariAchievements.II,
       },
       {
         periode: "3",
-        monoTarget: (company.target2Percent ?? 0) / 4,
+        monoTarget: (company2.target2Percent ?? 0) / 4,
         monoAchievement: 0,
-        tsTarget: (company.target7Percent ?? 0) / 4,
+        tsTarget: (company2.target7Percent ?? 0) / 4,
         tsAchievement: 0,
       },
       {
         periode: "4",
-        monoTarget: (company.target2Percent ?? 0) / 4,
+        monoTarget: (company2.target2Percent ?? 0) / 4,
         monoAchievement: 0,
-        tsTarget: (company.target7Percent ?? 0) / 4,
+        tsTarget: (company2.target7Percent ?? 0) / 4,
         tsAchievement: 0,
       },
     ];
@@ -139,19 +141,19 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
   const targetDistribution = [
     {
       name: "2% Monokultur",
-      value: company.target2Percent,
+      value: company2.target2Percent,
       fill: "hsl(var(--chart-1))",
     },
     {
       name: "7% Tumpang Sari",
-      value: company.target7Percent,
+      value: company2.target7Percent,
       fill: "hsl(var(--chart-2))",
     },
     {
       name: "Sisa Lahan",
       value:
-        company.area -
-        ((company.target2Percent ?? 0) + (company.target7Percent ?? 0)),
+        company2.area -
+        ((company2.target2Percent ?? 0) + (company2.target7Percent ?? 0)),
       fill: "hsl(var(--chart-3))",
     },
   ];
@@ -320,10 +322,10 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     );
   };
 
-  const weekData = transformWeekData();
+  const week2Data = transformWeek2Data();
   const week1Data = transformWeek1Data();
   const periodData = filterPeriodData();
-  const totalArea = company.area;
+  const totalArea = company2.area;
 
   // Fungsi untuk memformat tanggal dalam format "DD-MM-YYYY"
   const formatToIndonesianDate = (date: Date): string => {
@@ -452,7 +454,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
         <DialogHeader>
           <DialogTitle className="text-xl flex items-center gap-0 md:gap-3 uppercase">
             <Building2 className="hidden md:block w-5 h-5 text-blue-500" />
-            {company.name}
+            {company2.name}
           </DialogTitle>
         </DialogHeader>
         <Tabs defaultValue="overview" className="w-full">
@@ -564,7 +566,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.target2Percent?.toLocaleString("id-ID", {
+                        {company2.target2Percent?.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
@@ -580,7 +582,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.target7Percent?.toLocaleString("id-ID", {
+                        {company2.target7Percent?.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
@@ -596,7 +598,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.area.toLocaleString("id-ID", {
+                        {company2.area.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
@@ -610,16 +612,16 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </div>
                       <span className="text-sm font-medium">
                         {(
-                          company.monokulturAchievements.II +
-                          company.tumpangSariAchievements.II +
-                          (company.csrAchievements?.II ?? 0)
+                          company2.monokulturAchievements.II +
+                          company2.tumpangSariAchievements.II +
+                          (company2.csrAchievements?.II ?? 0)
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
                         dari{" "}
                         {(
-                          (company.target2Percent ?? 0) +
-                          (company.target7Percent ?? 0)
+                          (company2.target2Percent ?? 0) +
+                          (company2.target7Percent ?? 0)
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
@@ -741,15 +743,15 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </div>
                       <span className="text-sm font-medium">
                         {(
-                          company.monokulturAchievements.II +
-                          company.tumpangSariAchievements.II
+                          company2.monokulturAchievements.II +
+                          company2.tumpangSariAchievements.II
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
                         dari{" "}
                         {(
-                          (company.target2Percent ?? 0) +
-                          (company.target7Percent ?? 0)
+                          (company2.target2Percent ?? 0) +
+                          (company2.target7Percent ?? 0)
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
@@ -897,7 +899,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                     <CardContent>
                       <div className="h-[400px]">
                         <ResponsiveContainer width="100%" height="100%">
-                          <LineChart data={weekData}>
+                          <LineChart data={week2Data}>
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis dataKey="periode" />
                             <YAxis />
@@ -931,14 +933,14 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company.monokulturAchievements.II.toLocaleString(
+                            {company2.monokulturAchievements.II.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
                               }
                             )}{" "}
                             dari{" "}
-                            {company.target2Percent?.toLocaleString("id-ID", {
+                            {company2.target2Percent?.toLocaleString("id-ID", {
                               maximumFractionDigits: 2,
                             })}
                           </span>
@@ -955,7 +957,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                     <CardContent>
                       <div className="h-[400px]">
                         <ResponsiveContainer width="100%" height="100%">
-                          <LineChart data={weekData}>
+                          <LineChart data={week2Data}>
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis dataKey="periode" />
                             <YAxis />
@@ -989,14 +991,14 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company.tumpangSariAchievements.II.toLocaleString(
+                            {company2.tumpangSariAchievements.II.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
                               }
                             )}{" "}
                             dari{" "}
-                            {company.target7Percent?.toLocaleString("id-ID", {
+                            {company2.target7Percent?.toLocaleString("id-ID", {
                               maximumFractionDigits: 2,
                             })}
                           </span>
@@ -1073,7 +1075,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                   <CardContent>
                     <div className="h-[400px]">
                       <ResponsiveContainer width="100%" height="100%">
-                        <LineChart data={weekData}>
+                        <LineChart data={week2Data}>
                           <CartesianGrid strokeDasharray="3 3" />
                           <XAxis dataKey="periode" />
                           <YAxis />
@@ -1100,7 +1102,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                           </span>
                         </div>
                         <span className="text-sm font-medium">
-                          {company.csrAchievements.II.toLocaleString("id-ID", {
+                          {company2.csrAchievements.II.toLocaleString("id-ID", {
                             maximumFractionDigits: 2,
                           })}
                         </span>

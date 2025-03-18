@@ -46,7 +46,7 @@ import {
 } from "@/components/ui/table";
 
 interface CompanyDetailProps {
-  company: Company;
+  company2: Company;
   company1: Company | null;
   progress: Progress | null;
   isOpen: boolean;
@@ -54,30 +54,32 @@ interface CompanyDetailProps {
 }
 
 const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
-  company,
+  company2,
   company1,
   progress,
   isOpen,
   onClose,
 }) => {
-  if (!company) return null;
+  if (!company2) return null;
 
-  const transformWeekData = () => {
+  const transformWeek2Data = () => {
     return (["I", "II", "III", "IV"] as const).map((period) => ({
       periode: period,
 
       monoAchievement:
-        company.monokulturAchievements[
-          period as keyof typeof company.monokulturAchievements
+        company2.monokulturAchievements[
+          period as keyof typeof company2.monokulturAchievements
         ],
 
       tsAchievement:
-        company.tumpangSariAchievements[
-          period as keyof typeof company.tumpangSariAchievements
+        company2.tumpangSariAchievements[
+          period as keyof typeof company2.tumpangSariAchievements
         ],
 
       csrAchievement:
-        company.csrAchievements[period as keyof typeof company.csrAchievements],
+        company2.csrAchievements[
+          period as keyof typeof company2.csrAchievements
+        ],
     }));
   };
 
@@ -105,26 +107,26 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   const achievementDistribution = [
     {
       name: "Total Capaian Monokultur",
-      value: company.monokulturAchievements.II,
+      value: company2.monokulturAchievements.II,
       fill: "hsl(var(--chart-1))",
     },
     {
       name: "Total Capaian Tumpang Sari",
-      value: company.tumpangSariAchievements.II,
+      value: company2.tumpangSariAchievements.II,
       fill: "hsl(var(--chart-2))",
     },
     {
       name: "Total Capaian CSR",
-      value: company.csrAchievements?.II,
+      value: company2.csrAchievements?.II,
       fill: "hsl(var(--chart-3))",
     },
     {
       name: "Sisa Lahan",
       value:
-        company.area -
-        (company.monokulturAchievements.II +
-          company.tumpangSariAchievements.II +
-          company.csrAchievements?.II),
+        company2.area -
+        (company2.monokulturAchievements.II +
+          company2.tumpangSariAchievements.II +
+          company2.csrAchievements?.II),
       fill: "hsl(var(--chart-4))",
     },
   ];
@@ -293,9 +295,9 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
     );
   };
 
-  const weekData = transformWeekData();
+  const week2Data = transformWeek2Data();
   const week1Data = transformWeek1Data();
-  const totalArea = company.area;
+  const totalArea = company2.area;
 
   // Fungsi untuk memformat tanggal dalam format "DD-MM-YYYY"
   const formatToIndonesianDate = (date: Date): string => {
@@ -424,7 +426,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
         <DialogHeader>
           <DialogTitle className="text-xl flex items-center gap-0 md:gap-3 uppercase">
             <Building2 className="hidden md:block w-5 h-5 text-blue-500" />
-            {company.name}
+            {company2.name}
           </DialogTitle>
         </DialogHeader>
         <Tabs defaultValue="overview" className="w-full">
@@ -535,7 +537,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.monokulturAchievements.II.toLocaleString(
+                        {company2.monokulturAchievements.II.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -554,7 +556,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.tumpangSariAchievements.II.toLocaleString(
+                        {company2.tumpangSariAchievements.II.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -573,7 +575,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.csrAchievements.II.toLocaleString("id-ID", {
+                        {company2.csrAchievements.II.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
@@ -588,7 +590,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company.area.toLocaleString("id-ID", {
+                        {company2.area.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
@@ -713,7 +715,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                     <CardContent>
                       <div className="h-[400px]">
                         <ResponsiveContainer width="100%" height="100%">
-                          <LineChart data={weekData}>
+                          <LineChart data={week2Data}>
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis dataKey="periode" />
                             <YAxis />
@@ -740,7 +742,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company.monokulturAchievements.II.toLocaleString(
+                            {company2.monokulturAchievements.II.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -760,7 +762,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                     <CardContent>
                       <div className="h-[400px]">
                         <ResponsiveContainer width="100%" height="100%">
-                          <LineChart data={weekData}>
+                          <LineChart data={week2Data}>
                             <CartesianGrid strokeDasharray="3 3" />
                             <XAxis dataKey="periode" />
                             <YAxis />
@@ -787,7 +789,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company.tumpangSariAchievements.II.toLocaleString(
+                            {company2.tumpangSariAchievements.II.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -867,7 +869,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                   <CardContent>
                     <div className="h-[400px]">
                       <ResponsiveContainer width="100%" height="100%">
-                        <LineChart data={weekData}>
+                        <LineChart data={week2Data}>
                           <CartesianGrid strokeDasharray="3 3" />
                           <XAxis dataKey="periode" />
                           <YAxis />
@@ -894,7 +896,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           </span>
                         </div>
                         <span className="text-sm font-medium">
-                          {company.csrAchievements.II.toLocaleString("id-ID", {
+                          {company2.csrAchievements.II.toLocaleString("id-ID", {
                             maximumFractionDigits: 2,
                           })}
                         </span>

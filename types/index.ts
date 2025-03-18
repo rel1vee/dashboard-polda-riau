@@ -67,27 +67,21 @@ export interface ProgramDua {
   tahapI: {
     companies: Company[];
     otherCompanies: Company[];
-    progress: Progress[];
-    otherProgress: Progress[];
   };
   tahapII: {
     companies: Company[];
     otherCompanies: Company[];
-    progress: Progress[];
-    otherProgress: Progress[];
   };
   tahapIII: {
     companies: Company[];
     otherCompanies: Company[];
-    progress: Progress[];
-    otherProgress: Progress[];
   };
   tahapIV: {
     companies: Company[];
     otherCompanies: Company[];
-    progress: Progress[];
-    otherProgress: Progress[];
   };
+  progress: Progress[];
+  otherProgress: Progress[];
 }
 
 export interface Polsek {
