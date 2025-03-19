@@ -556,41 +556,4 @@ export const rohilCompanies2: Company[] = [
       IV: 0,
     },
   },
-  {
-    id: 0,
-    name: "TOTAL",
-    area: 83209.98,
-    target2Percent: 1664.2,
-    target7Percent: 5824.7,
-    monokulturTargets: {
-      I: 416.05,
-      II: 416.05,
-      III: 416.05,
-      IV: 416.05,
-    },
-    monokulturAchievements: {
-      I: 45.5,
-      II: 45.5,
-      III: 0,
-      IV: 0,
-    },
-    tumpangSariTargets: {
-      I: 1456.17,
-      II: 1456.17,
-      III: 1456.17,
-      IV: 1456.17,
-    },
-    tumpangSariAchievements: {
-      I: 28,
-      II: 28,
-      III: 0,
-      IV: 0,
-    },
-    csrAchievements: {
-      I: 0,
-      II: 0,
-      III: 0,
-      IV: 0,
-    },
-  },
 ];
