@@ -4,7 +4,7 @@ export const rohulOtherCompanies2: Company[] = [
   {
     id: 1,
     name: "ARYA RAMA PERKASA",
-    area: 0.0,
+    area: 3.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -14,7 +14,7 @@ export const rohulOtherCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 1.0,
       II: 3.0,
-      III: 0.0,
+      III: 3.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -31,7 +31,7 @@ export const rohulOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -50,7 +50,7 @@ export const rohulOtherCompanies2: Company[] = [
   {
     id: 3,
     name: "BUMDES KEPENUHAN HULU",
-    area: 0.0,
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -60,7 +60,7 @@ export const rohulOtherCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -77,7 +77,7 @@ export const rohulOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -96,7 +96,7 @@ export const rohulOtherCompanies2: Company[] = [
   {
     id: 5,
     name: "BUMDES SETIA AMANAH",
-    area: 0.0,
+    area: 1.5,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -106,7 +106,7 @@ export const rohulOtherCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0.0,
+      III: 1.5,
       IV: 0.0,
     },
     csrAchievements: {
@@ -123,7 +123,7 @@ export const rohulOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -146,7 +146,7 @@ export const rohulOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -165,7 +165,7 @@ export const rohulOtherCompanies2: Company[] = [
   {
     id: 8,
     name: "DESA MUARA JAYA",
-    area: 0.0,
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -175,7 +175,7 @@ export const rohulOtherCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -188,7 +188,7 @@ export const rohulOtherCompanies2: Company[] = [
   {
     id: 9,
     name: "DESA ROKAN KOTO RUANG",
-    area: 0.0,
+    area: 2.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -198,7 +198,7 @@ export const rohulOtherCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -211,7 +211,7 @@ export const rohulOtherCompanies2: Company[] = [
   {
     id: 10,
     name: "ERA SAWITA",
-    area: 0.0,
+    area: 0.32,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -221,20 +221,20 @@ export const rohulOtherCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 0.16,
       II: 0.16,
-      III: 0.0,
+      III: 0.16,
       IV: 0.0,
     },
     csrAchievements: {
       I: 0.16,
       II: 0.16,
-      III: 0.0,
+      III: 0.16,
       IV: 0.0,
     },
   },
   {
     id: 11,
-    name: "INDOMAKMUR SAWIT BERJAYA",
-    area: 0.0,
+    name: "Gereja GMII Bencah Kesuma KABUN",
+    area: 2.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -242,9 +242,9 @@ export const rohulOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
+      I: 0.0,
+      II: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -256,18 +256,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 12,
-    name: "KAS DESA PASIR INDAH",
-    area: 1.0,
+    name: "INDOMAKMUR SAWIT BERJAYA",
+    area: 2.0,
     monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 2.0,
+      II: 2.0,
+      III: 2.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -279,8 +279,8 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 13,
-    name: "KEBUN HAJI SUTAJI KEPENUHAN",
-    area: 0.0,
+    name: "JAYA LATEX TAMBUSAI UTARA",
+    area: 7.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -289,8 +289,8 @@ export const rohulOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.0,
-      II: 1.0,
-      III: 0.0,
+      II: 0.0,
+      III: 7.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -302,12 +302,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 14,
-    name: "LAHAN DESA CIPANG KIRI HILIR",
-    area: 2.0,
+    name: "KAS DESA PASIR INDAH",
+    area: 1.0,
     monokulturAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -325,18 +325,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 15,
-    name: "LAHAN DESA LUBUK BENDAHARA",
-    area: 3.0,
+    name: "KEBUN HAJI SUTAJI KEPENUHAN",
+    area: 1.0,
     monokulturAchievements: {
-      I: 3.0,
-      II: 3.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -348,12 +348,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 16,
-    name: "LAHAN DESA MAHATO",
-    area: 10.0,
+    name: "LAHAN DESA CIPANG KIRI HILIR",
+    area: 2.0,
     monokulturAchievements: {
-      I: 10.0,
-      II: 10.0,
-      III: 0.0,
+      I: 2.0,
+      II: 2.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -371,12 +371,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 17,
-    name: "LAHAN DESA PASIR AGUNG",
-    area: 2.0,
+    name: "LAHAN DESA LUBUK BENDAHARA",
+    area: 3.0,
     monokulturAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
+      I: 3.0,
+      II: 3.0,
+      III: 3.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -394,12 +394,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 18,
-    name: "LAHAN DI POLSEK RAMBAH",
-    area: 5.0,
+    name: "LAHAN DESA MAHATO",
+    area: 10.0,
     monokulturAchievements: {
-      I: 5.0,
-      II: 5.0,
-      III: 0.0,
+      I: 10.0,
+      II: 10.0,
+      III: 10.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -417,17 +417,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 19,
-    name: "LAHAN IRWAN",
-    area: 0.0,
+    name: "LAHAN DESA PASIR AGUNG",
+    area: 2.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 2.0,
+      II: 2.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 7.0,
-      II: 7.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -440,17 +440,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 20,
-    name: "LAHAN MASYARAKAT KEPENUHAN",
-    area: 0.0,
+    name: "LAHAN DI POLSEK RAMBAH",
+    area: 5.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 5.0,
+      II: 5.0,
+      III: 5.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
-      II: 2.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -463,18 +463,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 21,
-    name: "LAHAN PEMDA ROHUL",
-    area: 15.0,
+    name: "LAHAN IRWAN",
+    area: 7.0,
     monokulturAchievements: {
-      I: 15.0,
-      II: 15.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 7.0,
+      II: 7.0,
+      III: 7.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -486,18 +486,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 22,
-    name: "LAHAN POLSEK UJUNG BATU",
-    area: 1.0,
+    name: "LAHAN MASYARAKAT KEPENUHAN",
+    area: 2.0,
     monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      II: 2.0,
+      III: 2.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -509,12 +509,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 23,
-    name: "LAHAN PRIBADI DIDESA TANDUN",
-    area: 1.0,
+    name: "LAHAN PEMDA ROHUL",
+    area: 15.0,
     monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
-      III: 0.0,
+      I: 15.0,
+      II: 15.0,
+      III: 15.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -532,12 +532,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 24,
-    name: "LAHAN PRIBADI M RAFI TANDUN",
+    name: "LAHAN POLSEK UJUNG BATU",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -555,12 +555,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 25,
-    name: "LAHAN PRIBADI YASRIJON TANDUN",
+    name: "LAHAN PRIBADI DIDESA TANDUN",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -578,12 +578,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 26,
-    name: "MILIK DESA BATU LANGKAH BESAR",
+    name: "LAHAN PRIBADI M RAFI TANDUN",
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -601,17 +601,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 27,
-    name: "MILIK PAK KASUM ROKAN IV KOTO",
-    area: 0.0,
+    name: "LAHAN PRIBADI SUKIMAN KEPENUHAN",
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 10.0,
-      II: 10.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -624,12 +624,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 28,
-    name: "Milik Pribadi An. ABDUL KAMIS",
-    area: 3.0,
+    name: "LAHAN PRIBADI YASRIJON TANDUN",
+    area: 1.0,
     monokulturAchievements: {
-      I: 3.0,
-      II: 3.0,
-      III: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -647,18 +647,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 29,
-    name: "MILIK PRIBADI KHAIRIL ASRI RIKAAN IV KOTO",
-    area: 0.0,
+    name: "LAHAN T. AZWIR KEPENUHAN",
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
-      II: 1.5,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
       II: 0.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -670,17 +670,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 30,
-    name: "MILIK PRIBADI RAZALI HAK DAMANIK",
-    area: 0.0,
+    name: "MILIK DESA BATU LANGKAH BESAR",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
-      II: 3.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -693,18 +693,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 31,
-    name: "PAK NASIB",
-    area: 0.35,
+    name: "MILIK PAK KASUM ROKAN IV KOTO",
+    area: 10.0,
     monokulturAchievements: {
-      I: 0.1,
-      II: 0.1,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 10.0,
+      II: 10.0,
+      III: 10.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -716,12 +716,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 32,
-    name: "PAK SANGIN UJUNG BATU",
-    area: 0.0,
+    name: "Milik Pribadi An. ABDUL KAMIS",
+    area: 3.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.07,
-      III: 0.0,
+      I: 3.0,
+      II: 3.0,
+      III: 3.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -739,12 +739,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 33,
-    name: "PERORANGAN SABIL RAMBAH",
-    area: 0.0,
+    name: "MILIK PRIBADI KHAIRIL ASRI RIKAAN IV KOTO",
+    area: 1.5,
     monokulturAchievements: {
       I: 0.0,
-      II: 1.0,
-      III: 0.0,
+      II: 1.5,
+      III: 1.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -762,17 +762,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 34,
-    name: "PERSONIL POLSEK RAMBAH SAMO AIPDA FERI KOPUH",
-    area: 0.0,
+    name: "MILIK PRIBADI MIFFAQUL KAMIMULLOH TANDUN",
+    area: 2.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 3.0,
-      II: 3.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -785,18 +785,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 35,
-    name: "POKTAN TUNAS RAYA",
-    area: 1.0,
+    name: "MILIK PRIBADI RAZALI HAK DAMANIK",
+    area: 3.0,
     monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      II: 3.0,
+      III: 3.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -808,12 +808,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 36,
-    name: "POLSEK TAMBUSAI",
-    area: 4.0,
+    name: "PAK NASIB",
+    area: 0.1,
     monokulturAchievements: {
-      I: 4.0,
-      II: 4.0,
-      III: 0.0,
+      I: 0.1,
+      II: 0.1,
+      III: 0.1,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -831,17 +831,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 37,
-    name: "POLSEK TAMBUSAI",
-    area: 0.0,
+    name: "PAK SANGIN UJUNG BATU",
+    area: 0.07,
     monokulturAchievements: {
       I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      II: 0.07,
+      III: 0.07,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 5.0,
-      II: 5.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -854,12 +854,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 38,
-    name: "PT GUNUNG SAWIT MAS(PT GSM)",
-    area: 0.0,
+    name: "PERORANGAN SABIL RAMBAH",
+    area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -877,18 +877,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 39,
-    name: "PT KENCANA PERSADA NUSANTARA",
-    area: 0.0,
+    name: "PERSONIL POLSEK RAMBAH SAMO AIPDA FERI KOPUH",
+    area: 3.0,
     monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 3.0,
+      II: 3.0,
+      III: 3.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -900,12 +900,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 40,
-    name: "PT KSM (KARYA SAMO MAS)",
-    area: 2.0,
+    name: "POKTAN TUNAS RAYA",
+    area: 1.0,
     monokulturAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -923,12 +923,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 41,
-    name: "PT NAGA MAS",
-    area: 0.0,
+    name: "POLSEK TAMBUSAI",
+    area: 4.0,
     monokulturAchievements: {
-      I: 0.5,
-      II: 0.5,
-      III: 0.0,
+      I: 4.0,
+      II: 4.0,
+      III: 4.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -946,8 +946,8 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 42,
-    name: "PT PADASA KALDA",
-    area: 0.0,
+    name: "POLSEK TAMBUSAI",
+    area: 5.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -955,9 +955,9 @@ export const rohulOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 15.0,
-      II: 15.0,
-      III: 0.0,
+      I: 5.0,
+      II: 5.0,
+      III: 5.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -969,17 +969,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 43,
-    name: "PT PADASA KALSA",
-    area: 0.0,
+    name: "PT GUNUNG SAWIT MAS(PT GSM)",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 15.0,
-      II: 15.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -992,12 +992,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 44,
-    name: "PT PPKS MARIHAT",
-    area: 0.0,
+    name: "PT KENCANA PERSADA NUSANTARA",
+    area: 1.0,
     monokulturAchievements: {
-      I: 3.0,
-      II: 3.0,
-      III: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1015,17 +1015,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 45,
-    name: "PT SIMAS SAWIT ALAINTAN",
-    area: 0.0,
+    name: "PT KSM (KARYA SAMO MAS)",
+    area: 2.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 2.0,
+      II: 2.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 2.5,
-      II: 2.5,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1038,12 +1038,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 46,
-    name: "PT TORGANDA MAJU BERSAMA",
-    area: 0.0,
+    name: "PT NAGA MAS",
+    area: 0.5,
     monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
-      III: 0.0,
+      I: 0.5,
+      II: 0.5,
+      III: 0.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1061,18 +1061,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 47,
-    name: "PT. BDB ( BINA DAYA BENTALA )",
-    area: 1.0,
+    name: "PT PADASA KALDA",
+    area: 15.0,
     monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 15.0,
+      II: 15.0,
+      III: 15.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -1084,8 +1084,8 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 48,
-    name: "PT. KENCANA AGRO SEJAHTERA",
-    area: 0.0,
+    name: "PT PADASA KALSA",
+    area: 15.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -1093,9 +1093,9 @@ export const rohulOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 15.0,
+      II: 15.0,
+      III: 15.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -1107,12 +1107,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 49,
-    name: "PT. MAHATO INTI SAWIT",
-    area: 0.0,
+    name: "PT PPKS MARIHAT",
+    area: 3.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.6,
-      III: 0.0,
+      I: 3.0,
+      II: 3.0,
+      III: 3.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1130,8 +1130,8 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 50,
-    name: "PT. MERANGKAI ARTHA NUSANTARA",
-    area: 0.0,
+    name: "PT SIMAS SAWIT ALAINTAN",
+    area: 2.5,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -1139,9 +1139,9 @@ export const rohulOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 1.0,
-      III: 0.0,
+      I: 2.5,
+      II: 2.5,
+      III: 2.5,
       IV: 0.0,
     },
     csrAchievements: {
@@ -1153,12 +1153,12 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 51,
-    name: "PT. NAGA MAS AGRO MULIA",
-    area: 0.0,
+    name: "PT TORGANDA MAJU BERSAMA",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.9,
-      III: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1176,17 +1176,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 52,
-    name: "PT. RSM",
-    area: 0.0,
+    name: "PT. BDB ( BINA DAYA BENTALA )",
+    area: 1.0,
     monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
-      II: 1.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1199,8 +1199,8 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 53,
-    name: "PT.PSA PSA (Panca Surya Agrindo) TAMBUSAI TIMUR",
-    area: 0.0,
+    name: "PT. KENCANA AGRO SEJAHTERA",
+    area: 1.2,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -1209,8 +1209,8 @@ export const rohulOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.0,
-      II: 10.0,
-      III: 0.0,
+      II: 1.2,
+      III: 1.2,
       IV: 0.0,
     },
     csrAchievements: {
@@ -1222,17 +1222,17 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 54,
-    name: "RIAU ANUGERAH SENTOSA",
-    area: 0.0,
+    name: "PT. MAHATO INTI SAWIT",
+    area: 0.6,
     monokulturAchievements: {
       I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      II: 0.6,
+      III: 0.6,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.5,
-      II: 1.5,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1245,8 +1245,8 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 55,
-    name: "ROKAN HULU SAWIT INDUSTRI",
-    area: 0.0,
+    name: "PT. MERANGKAI ARTHA NUSANTARA",
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -1255,25 +1255,25 @@ export const rohulOtherCompanies2: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.0,
-      II: 1.5,
-      III: 0.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     csrAchievements: {
-      I: 1.5,
-      II: 1.5,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
   },
   {
     id: 56,
-    name: "RUSDIANTO",
-    area: 0.06,
+    name: "PT. NAGA MAS AGRO MULIA",
+    area: 0.9,
     monokulturAchievements: {
-      I: 0.06,
-      II: 0.06,
-      III: 0.0,
+      I: 0.0,
+      II: 0.9,
+      III: 0.9,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1291,18 +1291,18 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 57,
-    name: "SUKARELAWAN",
-    area: 2.0,
+    name: "PT. RSM",
+    area: 1.0,
     monokulturAchievements: {
-      I: 2.0,
-      II: 2.0,
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -1314,8 +1314,8 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 58,
-    name: "SUKARELAWAN POLSEK UJUNG BATU",
-    area: 0.0,
+    name: "PT.PSA PSA (Panca Surya Agrindo) TAMBUSAI TIMUR",
+    area: 15.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -1323,9 +1323,9 @@ export const rohulOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
+      I: 0.0,
+      II: 10.0,
+      III: 15.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -1337,8 +1337,8 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 59,
-    name: "Sukiman",
-    area: 0.0,
+    name: "RIAU ANUGERAH SENTOSA",
+    area: 1.5,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -1346,9 +1346,9 @@ export const rohulOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
-      II: 1.0,
-      III: 0.0,
+      I: 1.5,
+      II: 1.5,
+      III: 1.5,
       IV: 0.0,
     },
     csrAchievements: {
@@ -1360,8 +1360,8 @@ export const rohulOtherCompanies2: Company[] = [
   },
   {
     id: 60,
-    name: "SUMATRA SYLVA LESTARI",
-    area: 0.0,
+    name: "ROKAN HULU SAWIT INDUSTRI",
+    area: 3.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -1369,8 +1369,31 @@ export const rohulOtherCompanies2: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 3.0,
-      II: 3.0,
+      I: 0.0,
+      II: 1.5,
+      III: 1.5,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 1.5,
+      II: 1.5,
+      III: 1.5,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 61,
+    name: "RUSDIANTO",
+    area: 0.06,
+    monokulturAchievements: {
+      I: 0.06,
+      II: 0.06,
+      III: 0.06,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1382,13 +1405,151 @@ export const rohulOtherCompanies2: Company[] = [
     },
   },
   {
-    id: 61,
+    id: 62,
+    name: "SUKARELAWAN",
+    area: 2.0,
+    monokulturAchievements: {
+      I: 2.0,
+      II: 2.0,
+      III: 2.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 63,
+    name: "SUKARELAWAN EDY HARTONO UJUNG BATU",
+    area: 2.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 2.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 64,
+    name: "SUKARELAWAN NURJANAH UJUNG BATU",
+    area: 2.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 2.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 65,
+    name: "SUKARELAWAN POLSEK UJUNG BATU",
+    area: 2.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 2.0,
+      II: 2.0,
+      III: 2.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 66,
+    name: "Sukiman",
+    area: 1.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 67,
+    name: "SUMATRA SYLVA LESTARI",
+    area: 3.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 3.0,
+      II: 3.0,
+      III: 3.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 68,
     name: "TANDUK SEPAKAT,DESA TANDUN",
     area: 4.0,
     monokulturAchievements: {
       I: 4.0,
       II: 4.0,
-      III: 0.0,
+      III: 4.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {

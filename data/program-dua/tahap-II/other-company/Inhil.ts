@@ -8,7 +8,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.5,
       II: 2.5,
-      III: 0.0,
+      III: 2.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -31,7 +31,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 4.0,
       II: 4.0,
-      III: 0.0,
+      III: 4.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -54,7 +54,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 17.0,
       II: 17.0,
-      III: 0.0,
+      III: 17.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -77,7 +77,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.2,
       II: 1.2,
-      III: 0.0,
+      III: 1.2,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -100,7 +100,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 21.0,
       II: 21.0,
-      III: 0.0,
+      III: 21.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -123,7 +123,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -146,7 +146,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 4.0,
       II: 4.0,
-      III: 0.0,
+      III: 4.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -169,7 +169,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0.0,
+      III: 1.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -192,7 +192,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0.0,
+      III: 1.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -215,7 +215,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 6.0,
       II: 6.0,
-      III: 0.0,
+      III: 6.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -238,7 +238,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 7.0,
       II: 7.0,
-      III: 0.0,
+      III: 7.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -261,7 +261,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -284,7 +284,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -307,7 +307,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 5.0,
       II: 5.0,
-      III: 0.0,
+      III: 5.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -330,7 +330,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.25,
       II: 0.25,
-      III: 0.0,
+      III: 0.25,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -353,7 +353,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.5,
       II: 0.5,
-      III: 0.0,
+      III: 0.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -376,7 +376,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -399,7 +399,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0.0,
+      III: 1.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -422,7 +422,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.5,
       II: 2.5,
-      III: 0.0,
+      III: 2.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -445,7 +445,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -468,7 +468,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.5,
-      III: 0.0,
+      III: 1.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -491,7 +491,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -514,7 +514,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.5,
       II: 0.5,
-      III: 0.0,
+      III: 0.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -537,7 +537,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.5,
       II: 0.5,
-      III: 0.0,
+      III: 0.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -560,7 +560,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -583,7 +583,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 24.0,
       II: 24.0,
-      III: 0.0,
+      III: 24.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -606,7 +606,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 3.0,
       II: 3.0,
-      III: 0.0,
+      III: 3.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -629,7 +629,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -652,7 +652,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -675,7 +675,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.5,
       II: 0.5,
-      III: 0.0,
+      III: 0.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -698,7 +698,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.5,
       II: 0.5,
-      III: 0.0,
+      III: 0.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -721,7 +721,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 3.0,
       II: 3.0,
-      III: 0.0,
+      III: 3.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -744,7 +744,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 3.0,
       II: 3.0,
-      III: 0.0,
+      III: 3.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -767,7 +767,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 8.0,
       II: 8.0,
-      III: 0.0,
+      III: 8.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -790,7 +790,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0.0,
+      III: 1.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -813,7 +813,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.5,
       II: 2.5,
-      III: 0.0,
+      III: 2.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -836,7 +836,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 5.0,
       II: 5.0,
-      III: 0.0,
+      III: 5.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -859,7 +859,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 50.0,
       II: 50.0,
-      III: 0.0,
+      III: 50.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -882,7 +882,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 5.0,
       II: 5.0,
-      III: 0.0,
+      III: 5.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -905,7 +905,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -928,7 +928,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.2,
       II: 1.2,
-      III: 0.0,
+      III: 1.2,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -951,7 +951,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.5,
       II: 2.5,
-      III: 0.0,
+      III: 2.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -974,7 +974,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -997,7 +997,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0.0,
+      III: 1.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1020,7 +1020,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1043,7 +1043,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1066,7 +1066,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 11.5,
       II: 2.5,
-      III: 0.0,
+      III: 2.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1089,7 +1089,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.5,
       II: 2.5,
-      III: 0.0,
+      III: 2.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -1112,7 +1112,7 @@ export const inhilOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.5,
       II: 11.5,
-      III: 0.0,
+      III: 11.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {

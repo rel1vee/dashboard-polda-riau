@@ -8,7 +8,7 @@ export const pekanbaruOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.12,
       II: 0.12,
-      III: 0.0,
+      III: 0.12,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -31,7 +31,7 @@ export const pekanbaruOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.2,
       II: 1.2,
-      III: 0.0,
+      III: 1.2,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -54,7 +54,7 @@ export const pekanbaruOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2.5,
       II: 2.5,
-      III: 0.0,
+      III: 2.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -77,7 +77,7 @@ export const pekanbaruOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.25,
       II: 0.25,
-      III: 0.0,
+      III: 0.25,
       IV: 0.0,
     },
     tumpangSariAchievements: {

@@ -33,8 +33,8 @@ export const pekanbaruCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 37,
-      II: 18,
-      III: 0,
+      II: 37,
+      III: 37,
       IV: 0,
     },
   },
@@ -71,7 +71,7 @@ export const pekanbaruCompanies2: Company[] = [
     csrAchievements: {
       I: 18,
       II: 18,
-      III: 0,
+      III: 18,
       IV: 0,
     },
   },
@@ -107,8 +107,8 @@ export const pekanbaruCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 18,
-      II: 0,
-      III: 0,
+      II: 18,
+      III: 18,
       IV: 0,
     },
   },
@@ -144,8 +144,8 @@ export const pekanbaruCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 57,
-      II: 0,
-      III: 0,
+      II: 57,
+      III: 57,
       IV: 0,
     },
   },
@@ -181,8 +181,8 @@ export const pekanbaruCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 302,
-      II: 0,
-      III: 0,
+      II: 302,
+      III: 302,
       IV: 0,
     },
   },
@@ -403,7 +403,7 @@ export const pekanbaruCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 0,
-      II: 302,
+      II: 0,
       III: 0,
       IV: 0,
     },
@@ -440,7 +440,7 @@ export const pekanbaruCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 0,
-      II: 57,
+      II: 0,
       III: 0,
       IV: 0,
     },
@@ -477,7 +477,7 @@ export const pekanbaruCompanies2: Company[] = [
     },
     csrAchievements: {
       I: 0,
-      II: 37,
+      II: 0,
       III: 0,
       IV: 0,
     },

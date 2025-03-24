@@ -8,7 +8,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -31,7 +31,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 21.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -54,7 +54,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 5.0,
       II: 0.6,
-      III: 0.0,
+      III: 0.6,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -77,7 +77,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 5.0,
-      III: 0.0,
+      III: 5.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -100,7 +100,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.6,
       II: 21.0,
-      III: 0.0,
+      III: 21.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -123,7 +123,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -146,7 +146,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0.0,
       II: 10.0,
-      III: 0.0,
+      III: 10.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -169,7 +169,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 3.43,
       II: 3.43,
-      III: 0.0,
+      III: 3.43,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -192,7 +192,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -215,7 +215,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 4.0,
       II: 4.0,
-      III: 0.0,
+      III: 4.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -244,7 +244,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 0.7,
       II: 0.7,
-      III: 0.0,
+      III: 0.7,
       IV: 0.0,
     },
     csrAchievements: {
@@ -261,7 +261,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 10.0,
       II: 10.0,
-      III: 0.0,
+      III: 10.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -284,7 +284,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 10.0,
       II: 10.0,
-      III: 0.0,
+      III: 10.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -307,7 +307,7 @@ export const pelalawanOtherCompanies2: Company[] = [
     monokulturAchievements: {
       I: 25.0,
       II: 25.0,
-      III: 0.0,
+      III: 25.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {

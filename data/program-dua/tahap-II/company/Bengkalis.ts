@@ -16,7 +16,7 @@ export const bengkalisCompanies2: Company[] = [
     monokulturAchievements: {
       I: 3,
       II: 3,
-      III: 0,
+      III: 3,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -65,7 +65,7 @@ export const bengkalisCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 5,
       II: 5,
-      III: 0,
+      III: 5,
       IV: 0,
     },
     csrAchievements: {
@@ -90,7 +90,7 @@ export const bengkalisCompanies2: Company[] = [
     monokulturAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -182,7 +182,7 @@ export const bengkalisCompanies2: Company[] = [
     csrAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
   },
@@ -213,7 +213,7 @@ export const bengkalisCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 50,
       II: 50,
-      III: 0,
+      III: 50,
       IV: 0,
     },
     csrAchievements: {
@@ -238,7 +238,7 @@ export const bengkalisCompanies2: Company[] = [
     monokulturAchievements: {
       I: 0,
       II: 0,
-      III: 0,
+      III: 3.46,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -330,7 +330,7 @@ export const bengkalisCompanies2: Company[] = [
     csrAchievements: {
       I: 1,
       II: 1,
-      III: 0,
+      III: 2,
       IV: 0,
     },
   },
@@ -367,7 +367,7 @@ export const bengkalisCompanies2: Company[] = [
     csrAchievements: {
       I: 0,
       II: 0,
-      III: 0,
+      III: 1,
       IV: 0,
     },
   },
@@ -398,7 +398,7 @@ export const bengkalisCompanies2: Company[] = [
     tumpangSariAchievements: {
       I: 50,
       II: 50,
-      III: 0,
+      III: 50,
       IV: 0,
     },
     csrAchievements: {

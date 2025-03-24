@@ -107,26 +107,26 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   const achievementDistribution = [
     {
       name: "Total Capaian Monokultur",
-      value: company2.monokulturAchievements.II,
+      value: company2.monokulturAchievements.III,
       fill: "hsl(var(--chart-1))",
     },
     {
       name: "Total Capaian Tumpang Sari",
-      value: company2.tumpangSariAchievements.II,
+      value: company2.tumpangSariAchievements.III,
       fill: "hsl(var(--chart-2))",
     },
     {
       name: "Total Capaian CSR",
-      value: company2.csrAchievements?.II,
+      value: company2.csrAchievements.III,
       fill: "hsl(var(--chart-3))",
     },
     {
       name: "Sisa Lahan",
       value:
         company2.area -
-        (company2.monokulturAchievements.II +
-          company2.tumpangSariAchievements.II +
-          company2.csrAchievements?.II),
+        (company2.monokulturAchievements.III +
+          company2.tumpangSariAchievements.III +
+          company2.csrAchievements.III),
       fill: "hsl(var(--chart-4))",
     },
   ];
@@ -537,7 +537,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company2.monokulturAchievements.II.toLocaleString(
+                        {company2.monokulturAchievements.III.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -556,7 +556,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company2.tumpangSariAchievements.II.toLocaleString(
+                        {company2.tumpangSariAchievements.III.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -575,7 +575,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company2.csrAchievements.II.toLocaleString("id-ID", {
+                        {company2.csrAchievements.III.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
@@ -742,7 +742,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company2.monokulturAchievements.II.toLocaleString(
+                            {company2.monokulturAchievements.III.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -789,7 +789,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company2.tumpangSariAchievements.II.toLocaleString(
+                            {company2.tumpangSariAchievements.III.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -896,9 +896,12 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           </span>
                         </div>
                         <span className="text-sm font-medium">
-                          {company2.csrAchievements.II.toLocaleString("id-ID", {
-                            maximumFractionDigits: 2,
-                          })}
+                          {company2.csrAchievements.III.toLocaleString(
+                            "id-ID",
+                            {
+                              maximumFractionDigits: 2,
+                            }
+                          )}
                         </span>
                       </div>
                     </div>
