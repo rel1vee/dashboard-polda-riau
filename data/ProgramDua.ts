@@ -145,6 +145,18 @@ import { kuansingPolsek3 } from "./program-dua/polsek/III/Kuansing";
 import { rohulPolsek3 } from "./program-dua/polsek/III/Rohul";
 import { merantiPolsek3 } from "./program-dua/polsek/III/Meranti";
 import { dumaiPolsek3 } from "./program-dua/polsek/III/Dumai";
+import { inhuPolsek4 } from "./program-dua/polsek/IV/Inhu";
+import { kamparPolsek4 } from "./program-dua/polsek/IV/Kampar";
+import { inhilPolsek4 } from "./program-dua/polsek/IV/Inhil";
+import { pekanbaruPolsek4 } from "./program-dua/polsek/IV/Pekanbaru";
+import { bengkalisPolsek4 } from "./program-dua/polsek/IV/Bengkalis";
+import { pelalawanPolsek4 } from "./program-dua/polsek/IV/Pelalawan";
+import { rohilPolsek4 } from "./program-dua/polsek/IV/Rohil";
+import { siakPolsek4 } from "./program-dua/polsek/IV/Siak";
+import { kuansingPolsek4 } from "./program-dua/polsek/IV/Kuansing";
+import { rohulPolsek4 } from "./program-dua/polsek/IV/Rohul";
+import { merantiPolsek4 } from "./program-dua/polsek/IV/Meranti";
+import { dumaiPolsek4 } from "./program-dua/polsek/IV/Dumai";
 
 export const programDua: ProgramDua[] = [
   {
@@ -176,6 +188,7 @@ export const programDua: ProgramDua[] = [
     polsek1: inhuPolsek1,
     polsek2: inhuPolsek2,
     polsek3: inhuPolsek3,
+    polsek4: inhuPolsek4,
   },
   {
     id: 2,
@@ -206,6 +219,7 @@ export const programDua: ProgramDua[] = [
     polsek1: kamparPolsek1,
     polsek2: kamparPolsek2,
     polsek3: kamparPolsek3,
+    polsek4: kamparPolsek4,
   },
   {
     id: 3,
@@ -236,6 +250,7 @@ export const programDua: ProgramDua[] = [
     polsek1: inhilPolsek1,
     polsek2: inhilPolsek2,
     polsek3: inhilPolsek3,
+    polsek4: inhilPolsek4,
   },
   {
     id: 4,
@@ -266,6 +281,7 @@ export const programDua: ProgramDua[] = [
     polsek1: pekanbaruPolsek1,
     polsek2: pekanbaruPolsek2,
     polsek3: pekanbaruPolsek3,
+    polsek4: pekanbaruPolsek4,
   },
   {
     id: 5,
@@ -296,6 +312,7 @@ export const programDua: ProgramDua[] = [
     polsek1: bengkalisPolsek1,
     polsek2: bengkalisPolsek2,
     polsek3: bengkalisPolsek3,
+    polsek4: bengkalisPolsek4,
   },
   {
     id: 6,
@@ -326,6 +343,7 @@ export const programDua: ProgramDua[] = [
     polsek1: pelalawanPolsek1,
     polsek2: pelalawanPolsek2,
     polsek3: pelalawanPolsek3,
+    polsek4: pelalawanPolsek4,
   },
   {
     id: 7,
@@ -356,6 +374,7 @@ export const programDua: ProgramDua[] = [
     polsek1: rohilPolsek1,
     polsek2: rohilPolsek2,
     polsek3: rohilPolsek3,
+    polsek4: rohilPolsek4,
   },
   {
     id: 8,
@@ -386,6 +405,7 @@ export const programDua: ProgramDua[] = [
     polsek1: siakPolsek1,
     polsek2: siakPolsek2,
     polsek3: siakPolsek3,
+    polsek4: siakPolsek4,
   },
   {
     id: 9,
@@ -416,6 +436,7 @@ export const programDua: ProgramDua[] = [
     polsek1: kuansingPolsek1,
     polsek2: kuansingPolsek2,
     polsek3: kuansingPolsek3,
+    polsek4: kuansingPolsek4,
   },
   {
     id: 10,
@@ -446,6 +467,7 @@ export const programDua: ProgramDua[] = [
     polsek1: rohulPolsek1,
     polsek2: rohulPolsek2,
     polsek3: rohulPolsek3,
+    polsek4: rohulPolsek4,
   },
   {
     id: 11,
@@ -476,6 +498,7 @@ export const programDua: ProgramDua[] = [
     polsek1: merantiPolsek1,
     polsek2: merantiPolsek2,
     polsek3: merantiPolsek3,
+    polsek4: merantiPolsek4,
   },
   {
     id: 12,
@@ -506,5 +529,6 @@ export const programDua: ProgramDua[] = [
     polsek1: dumaiPolsek1,
     polsek2: dumaiPolsek2,
     polsek3: dumaiPolsek3,
+    polsek4: dumaiPolsek4,
   },
 ];

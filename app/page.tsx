@@ -74,13 +74,21 @@ const MotionCard = motion.create(Card);
 
 const DashboardPoldaRiauPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [companyData, setCompanyData] = useState<Company | null>(null);
+  const [company1Data, setCompany1Data] = useState<Company | null>(null);
+  // const [company2Data, setCompany2Data] = useState<Company | null>(null);
+  // const [company3Data, setCompany3Data] = useState<Company | null>(null);
   const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
   const [selectedCity, setSelectedCity] = useState<ProgramDua | null>(null);
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
-  const [otherCompanyData, setOtherCompanyData] = useState<Company | null>(
+  const [otherCompany1Data, setOtherCompany1Data] = useState<Company | null>(
     null
   );
+  // const [otherCompany2Data, setOtherCompany2Data] = useState<Company | null>(
+  //   null
+  // );
+  // const [otherCompany3Data, setOtherCompany3Data] = useState<Company | null>(
+  //   null
+  // );
 
   const [selectedProgramSatuCity, setSelectedProgramSatuCity] =
     useState<ProgramSatu | null>(null);
@@ -133,7 +141,7 @@ const DashboardPoldaRiauPage = () => {
   const getTotalTargets = () => {
     return programDua.reduce(
       (acc, polres) => {
-        const polsekTarget = polres.polsek3.reduce(
+        const polsekTarget = polres.polsek4.reduce(
           (total, polsek) =>
             total +
             (polsek.villages.reduce(
@@ -186,7 +194,7 @@ const DashboardPoldaRiauPage = () => {
           return sum;
         }, 0);
 
-        const polsekAchievement = polres.polsek3.reduce(
+        const polsekAchievement = polres.polsek4.reduce(
           (total, polsek) =>
             total +
             (polsek.villages.reduce(
@@ -223,8 +231,16 @@ const DashboardPoldaRiauPage = () => {
     const company1 =
       selectedCity?.tahapI.companies.find((p) => p.id === company.id) || null;
 
+    // const company2 =
+    //   selectedCity?.tahapII.companies.find((p) => p.id === company.id) || null;
+
+    // const company3 =
+    //   selectedCity?.tahapIII.companies.find((p) => p.id === company.id) || null;
+
     setSelectedCompanyProgress(progressData);
-    setCompanyData(company1);
+    setCompany1Data(company1);
+    // setCompany2Data(company2);
+    // setCompany3Data(company3);
     setIsModalOpen(true);
   };
 
@@ -243,8 +259,18 @@ const DashboardPoldaRiauPage = () => {
       selectedCity?.tahapI.otherCompanies.find((p) => p.id === company.id) ||
       null;
 
+    // const otherCompany2 =
+    //   selectedCity?.tahapII.otherCompanies.find((p) => p.id === company.id) ||
+    //   null;
+
+    // const otherCompany3 =
+    //   selectedCity?.tahapIII.otherCompanies.find((p) => p.id === company.id) ||
+    //   null;
+
     setSelectedOtherCompanyProgress(otherProgressData);
-    setOtherCompanyData(otherCompany1);
+    setOtherCompany1Data(otherCompany1);
+    // setOtherCompany2Data(otherCompany2);
+    // setOtherCompany3ata(otherCompany3);
     setIsModalOpen(true);
   };
 
@@ -982,7 +1008,7 @@ const DashboardPoldaRiauPage = () => {
                       </CardTitle>
                       {selectedCity ? (
                         <CardDescription>
-                          Total {selectedCity.tahapII.otherCompanies?.length}{" "}
+                          Total {selectedCity.tahapII.otherCompanies.length}{" "}
                           Perusahaan Lain. Pilih Perusahaan untuk Melihat
                           Detail.
                         </CardDescription>
@@ -1074,7 +1100,7 @@ const DashboardPoldaRiauPage = () => {
                       </CardTitle>
                       {selectedCity ? (
                         <CardDescription>
-                          Total {selectedCity.polsek3.length} POLSEK. Pilih
+                          Total {selectedCity.polsek4.length} POLSEK. Pilih
                           POLSEK untuk Melihat Detail.
                         </CardDescription>
                       ) : (
@@ -1086,10 +1112,10 @@ const DashboardPoldaRiauPage = () => {
                     <CardContent className="p-0 overflow-y-auto max-h-[500px]">
                       {selectedCity ? (
                         <div className="p-4">
-                          {selectedCity.polsek3.length > 0 ? (
+                          {selectedCity.polsek4.length > 0 ? (
                             <Table>
                               <TableBody>
-                                {selectedCity.polsek3
+                                {selectedCity.polsek4
                                   .map((polsek) => ({
                                     ...polsek,
                                     totalAchievements: polsek.villages
@@ -1157,7 +1183,9 @@ const DashboardPoldaRiauPage = () => {
       {selectedCompany && (
         <CompanyDetailsModal
           company2={selectedCompany}
-          company1={companyData}
+          company1={company1Data}
+          // company3={selectedCompany}
+          // company4={selectedCompany}
           progress={selectedCompanyProgress}
           isOpen={isModalOpen}
           onClose={handleCloseModal}
@@ -1166,7 +1194,9 @@ const DashboardPoldaRiauPage = () => {
       {selectedOtherCompany && (
         <OtherCompanyDetailsModal
           company2={selectedOtherCompany}
-          company1={otherCompanyData}
+          company1={otherCompany1Data}
+          // company3={selectedOtherCompany}
+          // company4={selectedOtherCompany}
           progress={selectedOtherCompanyProgress}
           isOpen={isModalOpen}
           onClose={handleCloseModal}

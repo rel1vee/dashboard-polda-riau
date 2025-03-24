@@ -64,6 +64,7 @@ export interface ProgramDua {
   polsek1: Polsek[];
   polsek2: Polsek[];
   polsek3: Polsek[];
+  polsek4: Polsek[];
   tahapI: {
     companies: Company[];
     otherCompanies: Company[];
