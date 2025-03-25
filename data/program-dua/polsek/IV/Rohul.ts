@@ -280,13 +280,6 @@ export const rohulPolsek4: Polsek[] = [
         target: 2,
       },
       {
-        id: 8,
-        name: "DESA SEI KUTI",
-        waktuTanam: "",
-        achievement: 0,
-        target: 2,
-      },
-      {
         id: 9,
         name: "DESA MUARA DILAM",
         waktuTanam: "april 2025",
