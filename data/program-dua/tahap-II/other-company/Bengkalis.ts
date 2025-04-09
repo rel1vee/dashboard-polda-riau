@@ -15,7 +15,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.05,
       II: 0.05,
       III: 0.05,
-      IV: 0.0,
+      IV: 0.05,
     },
     csrAchievements: {
       I: 0.0,
@@ -32,7 +32,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -61,7 +61,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -78,7 +78,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -107,7 +107,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -124,7 +124,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.0,
       II: 6.0,
       III: 6.0,
-      IV: 0.0,
+      IV: 6.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -147,7 +147,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -170,7 +170,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -193,7 +193,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.06,
       II: 0.06,
       III: 0.06,
-      IV: 0.0,
+      IV: 0.06,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -216,7 +216,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -239,7 +239,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.19,
       II: 0.19,
       III: 0.19,
-      IV: 0.0,
+      IV: 0.19,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -262,7 +262,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.01,
       II: 0.01,
       III: 0.01,
-      IV: 0.0,
+      IV: 0.01,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -291,7 +291,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 0.5,
-      IV: 0.0,
+      IV: 0.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -308,7 +308,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.01,
       II: 0.01,
       III: 0.01,
-      IV: 0.0,
+      IV: 0.01,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -325,7 +325,7 @@ export const bengkalisOtherCompanies2: Company[] = [
   },
   {
     id: 15,
-    name: "LAHAN MASYARAKAT MILIK SDR  MIAN\n\n KEL. PERGAM KEC. RUPAT",
+    name: "LAHAN MASYARAKAT MILIK SDR  WASPODO  DESADUNGUN BARU KEC. RUPAT",
     area: 0.0,
     monokulturAchievements: {
       I: 0.0,
@@ -337,7 +337,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.05,
       II: 0.05,
       III: 0.05,
-      IV: 0.0,
+      IV: 0.05,
     },
     csrAchievements: {
       I: 0.0,
@@ -354,7 +354,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.01,
       II: 0.01,
       III: 0.01,
-      IV: 0.0,
+      IV: 0.01,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -377,7 +377,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -400,7 +400,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0.0,
+      IV: 1.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -423,7 +423,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -446,7 +446,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.4,
       II: 0.4,
       III: 0.4,
-      IV: 0.0,
+      IV: 0.4,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -469,13 +469,13 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 3.0,
       II: 3.0,
       III: 3.0,
-      IV: 0.0,
+      IV: 3.0,
     },
     tumpangSariAchievements: {
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -492,7 +492,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -515,7 +515,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -538,7 +538,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 52.0,
       II: 52.0,
       III: 52.0,
-      IV: 0.0,
+      IV: 52.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -561,7 +561,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 1.4,
       II: 1.4,
       III: 1.4,
-      IV: 0.0,
+      IV: 1.4,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -584,7 +584,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -607,7 +607,7 @@ export const bengkalisOtherCompanies2: Company[] = [
       I: 0.3,
       II: 0.3,
       III: 0.3,
-      IV: 0.0,
+      IV: 0.3,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -624,13 +624,13 @@ export const bengkalisOtherCompanies2: Company[] = [
   },
   {
     id: 28,
-    name: "LAHAN PESANTREN SANKARTA RUPAT, DESA PARIT KEBUMEN KEC. RUPAT",
+    name: "LAHAN PERTANIAN DESA UBUK MUDA SUSUN SUNGAI BENGKUANG",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
-      III: 1.0,
-      IV: 0.0,
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -647,13 +647,13 @@ export const bengkalisOtherCompanies2: Company[] = [
   },
   {
     id: 29,
-    name: "POLSEK SIAK KECIL (DESA SUNGAI SIPUT)",
-    area: 6.0,
+    name: "LAHAN PESANTREN SANKARTA RUPAT, DESA PARIT KEBUMEN KEC. RUPAT",
+    area: 1.0,
     monokulturAchievements: {
-      I: 6.0,
-      II: 6.0,
-      III: 6.0,
-      IV: 0.0,
+      I: 1.0,
+      II: 1.0,
+      III: 1.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -670,13 +670,13 @@ export const bengkalisOtherCompanies2: Company[] = [
   },
   {
     id: 30,
-    name: "PT BUKIT BATU HUTANI ALAM DAN PT SEKATO PRATAMA MAKMUR KEC. BUKIT BATU.",
-    area: 1.5,
+    name: "POLSEK SIAK KECIL (DESA SUNGAI SIPUT)",
+    area: 6.0,
     monokulturAchievements: {
-      I: 1.5,
-      II: 1.5,
-      III: 1.5,
-      IV: 0.0,
+      I: 6.0,
+      II: 6.0,
+      III: 6.0,
+      IV: 6.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -693,13 +693,13 @@ export const bengkalisOtherCompanies2: Company[] = [
   },
   {
     id: 31,
-    name: "PT. Panahatan Bresman Napitupulu",
-    area: 5.0,
+    name: "PT BUKIT BATU HUTANI ALAM DAN PT SEKATO PRATAMA MAKMUR KEC. BUKIT BATU.",
+    area: 1.5,
     monokulturAchievements: {
-      I: 5.0,
-      II: 5.0,
-      III: 5.0,
-      IV: 0.0,
+      I: 1.5,
+      II: 1.5,
+      III: 1.5,
+      IV: 1.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -716,13 +716,13 @@ export const bengkalisOtherCompanies2: Company[] = [
   },
   {
     id: 32,
-    name: "PT. SATRIA PERKASA AGUNG DESA BUKIT KERIKIL KEC. BANDAR LAKSMANA",
-    area: 1.2,
+    name: "PT. Panahatan Bresman Napitupulu",
+    area: 5.0,
     monokulturAchievements: {
-      I: 1.2,
-      II: 1.2,
-      III: 1.2,
-      IV: 0.0,
+      I: 5.0,
+      II: 5.0,
+      III: 5.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -739,13 +739,36 @@ export const bengkalisOtherCompanies2: Company[] = [
   },
   {
     id: 33,
+    name: "PT. SATRIA PERKASA AGUNG DESA BUKIT KERIKIL KEC. BANDAR LAKSMANA",
+    area: 1.2,
+    monokulturAchievements: {
+      I: 1.2,
+      II: 1.2,
+      III: 1.2,
+      IV: 1.2,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 34,
     name: "PT. SPM SEKATO PRATAMA MAKMUR BUKIT  BATU",
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0.0,
+      IV: 1.5,
     },
     tumpangSariAchievements: {
       I: 0.0,

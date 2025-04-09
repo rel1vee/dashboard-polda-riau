@@ -17,7 +17,7 @@ export const rohilCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 4.69,
@@ -54,7 +54,7 @@ export const rohilCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 51.84,
@@ -66,7 +66,7 @@ export const rohilCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -91,7 +91,7 @@ export const rohilCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 87.1,
@@ -165,7 +165,7 @@ export const rohilCompanies2: Company[] = [
       I: 6,
       II: 6,
       III: 6,
-      IV: 0,
+      IV: 6,
     },
     tumpangSariTargets: {
       I: 224.45,
@@ -214,7 +214,7 @@ export const rohilCompanies2: Company[] = [
       I: 20,
       II: 20,
       III: 20,
-      IV: 0,
+      IV: 20,
     },
     csrAchievements: {
       I: 0,
@@ -239,7 +239,7 @@ export const rohilCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 39.6,
@@ -276,7 +276,7 @@ export const rohilCompanies2: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 0.5,
-      IV: 0,
+      IV: 0.5,
     },
     tumpangSariTargets: {
       I: 65.78,
@@ -313,7 +313,7 @@ export const rohilCompanies2: Company[] = [
       I: 10,
       II: 10,
       III: 10,
-      IV: 0,
+      IV: 10,
     },
     tumpangSariTargets: {
       I: 374.22,
@@ -387,7 +387,7 @@ export const rohilCompanies2: Company[] = [
       I: 15,
       II: 15,
       III: 15,
-      IV: 0,
+      IV: 15,
     },
     tumpangSariTargets: {
       I: 157.5,
@@ -399,7 +399,7 @@ export const rohilCompanies2: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     csrAchievements: {
       I: 0,
@@ -424,7 +424,7 @@ export const rohilCompanies2: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     tumpangSariTargets: {
       I: 0,
@@ -461,7 +461,7 @@ export const rohilCompanies2: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     tumpangSariTargets: {
       I: 0,
@@ -473,7 +473,7 @@ export const rohilCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     csrAchievements: {
       I: 0,
@@ -510,7 +510,7 @@ export const rohilCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -535,7 +535,7 @@ export const rohilCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 242.13,

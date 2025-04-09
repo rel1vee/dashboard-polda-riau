@@ -103,7 +103,7 @@ export const inhuCompanies2: Company[] = [
       I: 200,
       II: 200,
       III: 200,
-      IV: 0,
+      IV: 200,
     },
     csrAchievements: {
       I: 0,
@@ -202,7 +202,7 @@ export const inhuCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 79.1,
@@ -257,7 +257,7 @@ export const inhuCompanies2: Company[] = [
       I: 1.2,
       II: 1.2,
       III: 1.2,
-      IV: 0,
+      IV: 1.2,
     },
   },
   {
@@ -276,7 +276,7 @@ export const inhuCompanies2: Company[] = [
       I: 4.48,
       II: 4.48,
       III: 4.48,
-      IV: 0,
+      IV: 4.48,
     },
     tumpangSariTargets: {
       I: 96.25,
@@ -288,7 +288,7 @@ export const inhuCompanies2: Company[] = [
       I: 5.48,
       II: 5.48,
       III: 5.48,
-      IV: 0,
+      IV: 5.48,
     },
     csrAchievements: {
       I: 0,
@@ -331,7 +331,7 @@ export const inhuCompanies2: Company[] = [
       I: 10.8,
       II: 10.8,
       III: 10.8,
-      IV: 0,
+      IV: 10.8,
     },
   },
   {
@@ -387,7 +387,7 @@ export const inhuCompanies2: Company[] = [
       I: 3.5,
       II: 3.5,
       III: 3.5,
-      IV: 0,
+      IV: 3.5,
     },
     tumpangSariTargets: {
       I: 154.51,
@@ -535,7 +535,7 @@ export const inhuCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 247.0,
@@ -627,7 +627,7 @@ export const inhuCompanies2: Company[] = [
       I: 1.5,
       II: 1.6,
       III: 1.6,
-      IV: 0,
+      IV: 1.6,
     },
   },
   {
@@ -683,7 +683,7 @@ export const inhuCompanies2: Company[] = [
       I: 10,
       II: 10,
       III: 10,
-      IV: 0,
+      IV: 10,
     },
     tumpangSariTargets: {
       I: 91.27,
@@ -695,7 +695,7 @@ export const inhuCompanies2: Company[] = [
       I: 0,
       II: 300,
       III: 300,
-      IV: 0,
+      IV: 300,
     },
     csrAchievements: {
       I: 0,
@@ -738,7 +738,7 @@ export const inhuCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
   },
   {
@@ -757,7 +757,7 @@ export const inhuCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 14.61,
@@ -849,7 +849,7 @@ export const inhuCompanies2: Company[] = [
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0,
+      IV: 1.5,
     },
   },
   {
@@ -905,7 +905,7 @@ export const inhuCompanies2: Company[] = [
       I: 4,
       II: 4,
       III: 4,
-      IV: 0,
+      IV: 4,
     },
     tumpangSariTargets: {
       I: 192.13,
@@ -942,7 +942,7 @@ export const inhuCompanies2: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 0.5,
-      IV: 0,
+      IV: 0.5,
     },
     tumpangSariTargets: {
       I: 29.4,
@@ -1053,7 +1053,7 @@ export const inhuCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 10.06,
@@ -1127,7 +1127,7 @@ export const inhuCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 46.73,
@@ -1275,7 +1275,7 @@ export const inhuCompanies2: Company[] = [
       I: 4,
       II: 4,
       III: 4,
-      IV: 0,
+      IV: 4,
     },
     tumpangSariTargets: {
       I: 261.37,

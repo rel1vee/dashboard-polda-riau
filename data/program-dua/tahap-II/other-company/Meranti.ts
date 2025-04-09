@@ -9,7 +9,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 0.5,
-      IV: 0.0,
+      IV: 0.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -32,7 +32,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -55,7 +55,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 30.0,
       II: 30.0,
       III: 30.0,
-      IV: 0.0,
+      IV: 30.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -78,7 +78,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -101,7 +101,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -124,7 +124,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.5,
       II: 2.5,
       III: 2.5,
-      IV: 0.0,
+      IV: 2.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -147,7 +147,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -170,7 +170,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 19.13,
       II: 19.13,
       III: 19.13,
-      IV: 0.0,
+      IV: 19.13,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -193,7 +193,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 9.0,
       II: 9.0,
       III: 9.0,
-      IV: 0.0,
+      IV: 9.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -216,7 +216,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -239,7 +239,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -262,7 +262,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -285,7 +285,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -308,7 +308,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 30.0,
       II: 30.0,
       III: 30.0,
-      IV: 0.0,
+      IV: 30.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -331,7 +331,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -354,7 +354,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 3.0,
       II: 3.0,
       III: 3.0,
-      IV: 0.0,
+      IV: 3.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -377,7 +377,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -400,7 +400,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 25.0,
       II: 25.0,
       III: 25.0,
-      IV: 0.0,
+      IV: 25.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -423,7 +423,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 30.0,
       II: 30.0,
       III: 30.0,
-      IV: 0.0,
+      IV: 30.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -446,7 +446,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.88,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -469,7 +469,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.88,
       III: 10.88,
-      IV: 0.0,
+      IV: 10.88,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -492,7 +492,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -515,7 +515,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0.0,
+      IV: 1.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -538,7 +538,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -561,7 +561,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -584,7 +584,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -607,7 +607,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -630,7 +630,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -653,7 +653,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -676,7 +676,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -699,7 +699,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -722,7 +722,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -745,7 +745,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 70.0,
       II: 70.0,
       III: 70.0,
-      IV: 0.0,
+      IV: 70.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -768,7 +768,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 3.0,
       II: 3.0,
       III: 3.0,
-      IV: 0.0,
+      IV: 3.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -791,7 +791,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -814,7 +814,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -837,7 +837,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -860,7 +860,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -883,7 +883,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 4.0,
       II: 4.0,
       III: 4.0,
-      IV: 0.0,
+      IV: 4.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -906,7 +906,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0.0,
+      IV: 1.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -929,7 +929,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -952,7 +952,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 0.5,
-      IV: 0.0,
+      IV: 0.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -975,7 +975,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -998,7 +998,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1021,7 +1021,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1044,7 +1044,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1067,7 +1067,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 0.5,
-      IV: 0.0,
+      IV: 0.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1090,7 +1090,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.8,
       II: 1.8,
       III: 1.8,
-      IV: 0.0,
+      IV: 1.8,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1113,7 +1113,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1136,7 +1136,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1159,7 +1159,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1182,7 +1182,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1205,7 +1205,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1228,7 +1228,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1251,7 +1251,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1274,7 +1274,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1297,7 +1297,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1320,7 +1320,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1343,7 +1343,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1366,7 +1366,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1389,7 +1389,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1412,7 +1412,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1435,7 +1435,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1458,7 +1458,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1481,7 +1481,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1504,7 +1504,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1527,7 +1527,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1550,7 +1550,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1573,7 +1573,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 0.5,
-      IV: 0.0,
+      IV: 0.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1596,7 +1596,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 4.0,
       II: 4.0,
       III: 4.0,
-      IV: 0.0,
+      IV: 4.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1619,7 +1619,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 3.0,
       II: 3.0,
       III: 3.0,
-      IV: 0.0,
+      IV: 3.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1642,7 +1642,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 6.5,
       II: 6.5,
       III: 6.5,
-      IV: 0.0,
+      IV: 6.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1665,7 +1665,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1688,7 +1688,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1711,7 +1711,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1734,7 +1734,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 3.0,
       II: 3.0,
       III: 3.0,
-      IV: 0.0,
+      IV: 3.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1757,7 +1757,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.8,
       II: 2.8,
       III: 2.8,
-      IV: 0.0,
+      IV: 2.8,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1780,7 +1780,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1803,7 +1803,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 18.5,
       II: 18.5,
       III: 18.5,
-      IV: 0.0,
+      IV: 18.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1826,7 +1826,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1849,7 +1849,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1872,7 +1872,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 20.0,
       II: 20.0,
       III: 20.0,
-      IV: 0.0,
+      IV: 20.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1895,7 +1895,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1918,7 +1918,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1941,7 +1941,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1964,7 +1964,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1987,7 +1987,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 1.8,
       II: 1.8,
       III: 1.8,
-      IV: 0.0,
+      IV: 1.8,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2010,7 +2010,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 30.34,
       II: 30.34,
       III: 30.34,
-      IV: 0.0,
+      IV: 30.34,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2033,7 +2033,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 3.0,
       II: 3.0,
       III: 3.0,
-      IV: 0.0,
+      IV: 3.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2056,7 +2056,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 8.0,
       II: 8.0,
       III: 8.0,
-      IV: 0.0,
+      IV: 8.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2079,7 +2079,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2102,7 +2102,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 6.0,
       II: 6.0,
       III: 6.0,
-      IV: 0.0,
+      IV: 6.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2125,7 +2125,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 11.0,
       II: 11.0,
       III: 11.0,
-      IV: 0.0,
+      IV: 11.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2148,7 +2148,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 30.0,
       II: 30.0,
       III: 30.0,
-      IV: 0.0,
+      IV: 30.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2171,7 +2171,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2194,7 +2194,7 @@ export const merantiOtherCompanies2: Company[] = [
       I: 30.0,
       II: 30.0,
       III: 30.0,
-      IV: 0.0,
+      IV: 30.0,
     },
     tumpangSariAchievements: {
       I: 0.0,

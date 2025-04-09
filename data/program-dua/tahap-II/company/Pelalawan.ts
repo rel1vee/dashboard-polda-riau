@@ -17,7 +17,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 4,
       II: 4,
       III: 4,
-      IV: 0,
+      IV: 4,
     },
     tumpangSariTargets: {
       I: 225.05,
@@ -54,7 +54,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 11.15,
@@ -103,13 +103,13 @@ export const pelalawanCompanies2: Company[] = [
       I: 8,
       II: 8,
       III: 8,
-      IV: 0,
+      IV: 8,
     },
     csrAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 8,
     },
   },
   {
@@ -128,7 +128,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 3.43,
@@ -177,13 +177,13 @@ export const pelalawanCompanies2: Company[] = [
       I: 1.49,
       II: 1.49,
       III: 1.49,
-      IV: 0,
+      IV: 1.49,
     },
     csrAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 1.49,
     },
   },
   {
@@ -239,7 +239,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 5,
       II: 5,
       III: 5,
-      IV: 0,
+      IV: 5,
     },
     tumpangSariTargets: {
       I: 41.77,
@@ -313,7 +313,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0,
+      IV: 1.5,
     },
     tumpangSariTargets: {
       I: 15.52,
@@ -350,7 +350,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 4,
       II: 4,
       III: 4,
-      IV: 0,
+      IV: 4,
     },
     tumpangSariTargets: {
       I: 17.5,
@@ -387,7 +387,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 14.0,
@@ -424,7 +424,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 167.42,
@@ -498,7 +498,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 247.64,
@@ -547,13 +547,13 @@ export const pelalawanCompanies2: Company[] = [
       I: 6,
       II: 6,
       III: 6,
-      IV: 0,
+      IV: 6,
     },
     csrAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 6,
     },
   },
   {
@@ -572,7 +572,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 1.75,
@@ -695,13 +695,13 @@ export const pelalawanCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     csrAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 1,
     },
   },
   {
@@ -720,7 +720,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 10,
       II: 10,
       III: 10,
-      IV: 0,
+      IV: 10,
     },
     tumpangSariTargets: {
       I: 47.64,
@@ -769,13 +769,13 @@ export const pelalawanCompanies2: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 2,
     },
   },
   {
@@ -794,7 +794,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 43.75,
@@ -880,13 +880,13 @@ export const pelalawanCompanies2: Company[] = [
       I: 7.6,
       II: 7.6,
       III: 7.6,
-      IV: 0,
+      IV: 7.6,
     },
     csrAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 7.6,
     },
   },
   {
@@ -917,13 +917,13 @@ export const pelalawanCompanies2: Company[] = [
       I: 6,
       II: 6,
       III: 6,
-      IV: 0,
+      IV: 6,
     },
     csrAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 6,
     },
   },
   {
@@ -942,7 +942,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 12.5,
       II: 12.5,
       III: 12.5,
-      IV: 0,
+      IV: 12.5,
     },
     tumpangSariTargets: {
       I: 245.0,
@@ -979,7 +979,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     tumpangSariTargets: {
       I: 27.21,
@@ -1016,7 +1016,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 121.93,
@@ -1053,7 +1053,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 14,
       II: 14,
       III: 14,
-      IV: 0,
+      IV: 14,
     },
     tumpangSariTargets: {
       I: 156.26,
@@ -1065,13 +1065,13 @@ export const pelalawanCompanies2: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     csrAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 3,
     },
   },
   {
@@ -1102,13 +1102,13 @@ export const pelalawanCompanies2: Company[] = [
       I: 20,
       II: 21.2,
       III: 21.2,
-      IV: 0,
+      IV: 21.2,
     },
     csrAchievements: {
       I: 0,
       II: 0,
       III: 0,
-      IV: 0,
+      IV: 21.2,
     },
   },
   {
@@ -1127,7 +1127,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 5,
       II: 5,
       III: 5,
-      IV: 0,
+      IV: 5,
     },
     tumpangSariTargets: {
       I: 330.85,

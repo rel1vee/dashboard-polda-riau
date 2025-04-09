@@ -9,7 +9,7 @@ export const pekanbaruOtherCompanies2: Company[] = [
       I: 0.12,
       II: 0.12,
       III: 0.12,
-      IV: 0.0,
+      IV: 0.12,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -32,7 +32,7 @@ export const pekanbaruOtherCompanies2: Company[] = [
       I: 1.2,
       II: 1.2,
       III: 1.2,
-      IV: 0.0,
+      IV: 1.2,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -55,7 +55,7 @@ export const pekanbaruOtherCompanies2: Company[] = [
       I: 2.5,
       II: 2.5,
       III: 2.5,
-      IV: 0.0,
+      IV: 2.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -78,7 +78,7 @@ export const pekanbaruOtherCompanies2: Company[] = [
       I: 0.25,
       II: 0.25,
       III: 0.25,
-      IV: 0.0,
+      IV: 0.25,
     },
     tumpangSariAchievements: {
       I: 0.0,

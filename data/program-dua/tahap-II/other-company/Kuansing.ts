@@ -9,7 +9,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -32,7 +32,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -61,7 +61,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -78,7 +78,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -101,7 +101,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -124,7 +124,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -147,7 +147,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 4.0,
@@ -170,7 +170,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -193,7 +193,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 2.0,
@@ -216,7 +216,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.25,
       II: 1.25,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -239,7 +239,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -262,7 +262,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -285,7 +285,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -308,7 +308,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -331,7 +331,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -354,7 +354,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -377,7 +377,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -400,7 +400,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -423,7 +423,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -452,7 +452,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -469,7 +469,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -492,7 +492,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -515,7 +515,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -538,7 +538,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.3,
       II: 1.3,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -561,7 +561,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -584,7 +584,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -607,7 +607,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -636,7 +636,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -653,7 +653,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -676,7 +676,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -699,7 +699,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -722,7 +722,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -745,7 +745,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -774,7 +774,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -797,7 +797,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 7.0,
-      IV: 0.0,
+      IV: 7.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -814,7 +814,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.5,
@@ -837,7 +837,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -860,7 +860,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -883,7 +883,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -912,7 +912,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -929,7 +929,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -952,7 +952,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.3,
-      IV: 0.0,
+      IV: 1.3,
     },
     tumpangSariAchievements: {
       I: 2.0,
@@ -975,7 +975,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -998,7 +998,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1021,7 +1021,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1044,7 +1044,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1073,7 +1073,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -1090,7 +1090,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1113,7 +1113,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -1136,7 +1136,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 0.25,
-      IV: 0.0,
+      IV: 0.25,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -1159,7 +1159,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.2,
@@ -1182,7 +1182,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -1211,7 +1211,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -1234,7 +1234,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -1251,7 +1251,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1280,7 +1280,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 3.0,
       II: 3.0,
       III: 3.0,
-      IV: 0.0,
+      IV: 3.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -1297,7 +1297,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1320,7 +1320,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1343,7 +1343,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -1366,7 +1366,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.25,
-      IV: 0.0,
+      IV: 1.25,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1389,7 +1389,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -1412,7 +1412,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1435,7 +1435,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1458,7 +1458,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1487,7 +1487,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -1504,7 +1504,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1533,7 +1533,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -1550,7 +1550,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1573,7 +1573,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -1602,7 +1602,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 0.65,
     },
     csrAchievements: {
       I: 0.0,
@@ -1625,7 +1625,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 0.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -1642,7 +1642,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1665,7 +1665,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1694,7 +1694,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -1711,7 +1711,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1734,7 +1734,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1757,7 +1757,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1780,7 +1780,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.25,
       II: 0.25,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1803,7 +1803,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1821,12 +1821,12 @@ export const kuansingOtherCompanies2: Company[] = [
   {
     id: 80,
     name: "DESA PULAU KEDUNDUNG",
-    area: 0.0,
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1849,7 +1849,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -1872,7 +1872,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.8,
       II: 0.8,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 2.0,
@@ -1895,7 +1895,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1924,7 +1924,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -1941,7 +1941,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -1964,7 +1964,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -1987,7 +1987,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2016,7 +2016,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2033,7 +2033,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2056,7 +2056,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2079,7 +2079,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2102,7 +2102,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2125,7 +2125,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2148,7 +2148,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 7.0,
@@ -2177,7 +2177,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 4.0,
       II: 4.0,
       III: 4.0,
-      IV: 0.0,
+      IV: 4.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2194,7 +2194,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2217,7 +2217,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.5,
@@ -2240,7 +2240,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -2263,7 +2263,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2286,7 +2286,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2315,7 +2315,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2338,7 +2338,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2361,7 +2361,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2378,7 +2378,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2407,7 +2407,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2424,7 +2424,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2447,7 +2447,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2470,7 +2470,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2499,7 +2499,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.5,
-      IV: 0.0,
+      IV: 1.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -2522,7 +2522,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2545,7 +2545,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -2562,7 +2562,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2591,7 +2591,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2614,7 +2614,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.75,
       II: 0.75,
       III: 0.75,
-      IV: 0.0,
+      IV: 0.75,
     },
     csrAchievements: {
       I: 0.0,
@@ -2637,7 +2637,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2654,7 +2654,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2677,13 +2677,13 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.38,
       II: 0.38,
       III: 0.38,
-      IV: 0.0,
+      IV: 0.38,
     },
     tumpangSariAchievements: {
       I: 0.24,
       II: 0.24,
       III: 0.24,
-      IV: 0.0,
+      IV: 0.24,
     },
     csrAchievements: {
       I: 0.0,
@@ -2706,7 +2706,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -2723,7 +2723,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2746,7 +2746,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2769,7 +2769,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2792,7 +2792,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.5,
@@ -2815,7 +2815,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2838,7 +2838,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 2.0,
@@ -2861,7 +2861,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2884,7 +2884,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2907,7 +2907,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2930,7 +2930,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -2953,7 +2953,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -2982,7 +2982,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3005,7 +3005,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3022,7 +3022,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3045,7 +3045,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -3068,7 +3068,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -3091,7 +3091,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3114,7 +3114,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3143,7 +3143,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3160,7 +3160,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3183,7 +3183,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3206,7 +3206,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3229,7 +3229,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3258,7 +3258,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3275,7 +3275,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3298,7 +3298,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3327,7 +3327,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 0.5,
-      IV: 0.0,
+      IV: 0.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -3350,7 +3350,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3362,7 +3362,7 @@ export const kuansingOtherCompanies2: Company[] = [
   {
     id: 147,
     name: "MUARO SENTAJO",
-    area: 1.5,
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -3373,7 +3373,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.5,
-      IV: 0.0,
+      IV: 1.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -3396,7 +3396,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.5,
-      IV: 0.0,
+      IV: 1.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -3419,7 +3419,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3442,7 +3442,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3459,7 +3459,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3488,7 +3488,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3505,7 +3505,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3528,7 +3528,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3551,7 +3551,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3569,7 +3569,7 @@ export const kuansingOtherCompanies2: Company[] = [
   {
     id: 156,
     name: "PT. ADIMULYA AGROLESTARI",
-    area: 5.0,
+    area: 2533.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -3580,7 +3580,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3592,12 +3592,12 @@ export const kuansingOtherCompanies2: Company[] = [
   {
     id: 157,
     name: "PT. KEBUN PANTA RAJA",
-    area: 2.0,
+    area: 1224.0,
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3615,7 +3615,7 @@ export const kuansingOtherCompanies2: Company[] = [
   {
     id: 158,
     name: "PT. MUSTIKA AGRO SARI",
-    area: 5.0,
+    area: 1368.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -3626,7 +3626,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3638,7 +3638,7 @@ export const kuansingOtherCompanies2: Company[] = [
   {
     id: 159,
     name: "PT. PERKEBUNAN NUSANTARA V",
-    area: 0.0,
+    area: 3100.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -3666,7 +3666,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3695,7 +3695,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3712,7 +3712,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3741,7 +3741,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3758,7 +3758,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3781,7 +3781,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3810,7 +3810,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3827,7 +3827,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3850,7 +3850,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3873,7 +3873,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 4.0,
-      IV: 0.0,
+      IV: 4.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3896,7 +3896,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3919,7 +3919,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3942,7 +3942,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -3971,7 +3971,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -3988,7 +3988,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -4011,7 +4011,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -4034,7 +4034,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -4057,7 +4057,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.8,
-      IV: 0.0,
+      IV: 0.8,
     },
     tumpangSariAchievements: {
       I: 1.0,
@@ -4080,7 +4080,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.2,
-      IV: 0.0,
+      IV: 1.2,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -4109,7 +4109,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -4126,7 +4126,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -4155,7 +4155,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -4178,7 +4178,7 @@ export const kuansingOtherCompanies2: Company[] = [
       I: 0.0,
       II: 0.0,
       III: 0.5,
-      IV: 0.0,
+      IV: 0.5,
     },
     csrAchievements: {
       I: 0.0,
@@ -4188,14 +4188,14 @@ export const kuansingOtherCompanies2: Company[] = [
     },
   },
   {
-    id: 183,
+    id: 0,
     name: "Desa Seberang Sungai",
-    area: 0.0,
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -4211,14 +4211,14 @@ export const kuansingOtherCompanies2: Company[] = [
     },
   },
   {
-    id: 184,
+    id: 0,
     name: "Desa Pulau Rumput",
-    area: 0.0,
+    area: 1.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
       III: 0.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -4234,7 +4234,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
   },
   {
-    id: 185,
+    id: 0,
     name: "PT. NPM (CSR KOPTAN SUNGAI SERAMPAK INDAH DESA RAMBAHAN)",
     area: 2.0,
     monokulturAchievements: {
@@ -4252,8 +4252,8 @@ export const kuansingOtherCompanies2: Company[] = [
     csrAchievements: {
       I: 0.0,
       II: 0.0,
-      III: 2.0,
-      IV: 0.0,
+      III: 0.0,
+      IV: 2.0,
     },
   },
 ];

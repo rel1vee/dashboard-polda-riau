@@ -33,7 +33,7 @@ interface MapProps {
       companies: Company[];
       otherCompanies: Company[];
     };
-    polsek4: Polsek[];
+    polsek5: Polsek[];
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onCityClick: (city: any) => void;
@@ -47,9 +47,9 @@ const calculateTotalAchievements = (
 
   return allCompanies.reduce(
     (totals, company) => {
-      const monoTotal = company.monokulturAchievements.III;
-      const tumpangSariTotal = company.tumpangSariAchievements.III;
-      const csrTotal = company.csrAchievements.III;
+      const monoTotal = company.monokulturAchievements.IV;
+      const tumpangSariTotal = company.tumpangSariAchievements.IV;
+      const csrTotal = company.csrAchievements.IV;
 
       return {
         monokultur: totals.monokultur + monoTotal,
@@ -97,7 +97,7 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             city.tahapII.otherCompanies || []
           );
 
-          const polsekTarget = city.polsek4.reduce(
+          const polsekTarget = city.polsek5.reduce(
             (total, polsek) =>
               total +
               (polsek.villages.reduce(
@@ -107,7 +107,7 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             0
           );
 
-          const polsekAchievement = city.polsek4.reduce(
+          const polsekAchievement = city.polsek5.reduce(
             (total, polsek) =>
               total +
               (polsek.villages.reduce(
@@ -169,7 +169,7 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
-                        {city.polsek4.length} POLSEK
+                        {city.polsek5.length} POLSEK
                       </Badge>
                     </div>
                     {/* Area Info */}
