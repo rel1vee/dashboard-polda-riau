@@ -157,7 +157,7 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 22,
         name: "DELUK",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 2,
         target: 2,
       },
       {
@@ -197,7 +197,7 @@ export const bengkalisPolsek5: Polsek[] = [
       },
       {
         id: 4,
-        name: "DESA PANGKALAN BATANG BARAT",
+        name: "DESA PANGKALAN BATANG BARA",
         waktuTanam: "",
         achievement: 0,
         target: 2,
@@ -213,7 +213,7 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 6,
         name: "DESA SEKODI",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 2,
         target: 2,
       },
       {
@@ -255,7 +255,7 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 12,
         name: "SEBAUK",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 2,
         target: 2,
       },
       {
@@ -269,7 +269,7 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 14,
         name: "MESKOM",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 1,
         target: 2,
       },
       {
@@ -311,7 +311,7 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 20,
         name: "PRAPAT TUNGGAL",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 0.5,
         target: 2,
       },
       {
@@ -353,7 +353,7 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 26,
         name: "SUNGAI BATANG",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 1.5,
         target: 2,
       },
       {
@@ -367,14 +367,14 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 28,
         name: "SIMPANG AYAM",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 1.5,
         target: 2,
       },
       {
         id: 29,
         name: "SENDERAK",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 2,
         target: 2,
       },
       {
@@ -507,7 +507,7 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 16,
         name: "TEMIANG",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 5,
         target: 2,
       },
       {
@@ -645,7 +645,7 @@ export const bengkalisPolsek5: Polsek[] = [
       },
       {
         id: 18,
-        name: "DESA  BONCAH MAHANG",
+        name: "DESA BONCAH MAHANG",
         waktuTanam: "",
         achievement: 0,
         target: 2,
@@ -843,7 +843,7 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 1,
         name: "DESA PANCUR JAYA",
         waktuTanam: "",
-        achievement: 1.5,
+        achievement: 2,
         target: 2,
       },
       {
@@ -899,14 +899,14 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 9,
         name: "DESA DUNGUN BARU",
         waktuTanam: "",
-        achievement: 1,
+        achievement: 2,
         target: 2,
       },
       {
         id: 10,
         name: "PERGAM",
         waktuTanam: "",
-        achievement: 1,
+        achievement: 2,
         target: 2,
       },
       {
@@ -920,7 +920,7 @@ export const bengkalisPolsek5: Polsek[] = [
         id: 12,
         name: "TANJUNG KAPAL",
         waktuTanam: "",
-        achievement: 0,
+        achievement: 2,
         target: 2,
       },
       {

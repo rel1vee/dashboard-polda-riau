@@ -199,7 +199,7 @@ export const rohulPolsek5: Polsek[] = [
         id: 13,
         name: "DESA KEPENUHAN BARU",
         waktuTanam: "",
-        achievement: 2,
+        achievement: 3,
         target: 2,
       },
       {
@@ -221,6 +221,13 @@ export const rohulPolsek5: Polsek[] = [
         name: "DESA KEPENUHAN BARAT MULIA",
         waktuTanam: "mei 2025",
         achievement: 2,
+        target: 2,
+      },
+      {
+        id: 17,
+        name: "DES KEPENUHAN MAKMUR",
+        waktuTanam: "",
+        achievement: 1,
         target: 2,
       },
     ],
@@ -277,6 +284,13 @@ export const rohulPolsek5: Polsek[] = [
         name: "DESA SANGKIR INDAH",
         waktuTanam: "",
         achievement: 4,
+        target: 2,
+      },
+      {
+        id: 8,
+        name: "DESA SEI KUTI",
+        waktuTanam: "",
+        achievement: 0,
         target: 2,
       },
       {

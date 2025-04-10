@@ -23,7 +23,7 @@ export const merantiPolsek5: Polsek[] = [
       {
         id: 3,
         name: "MANTIASA",
-        waktuTanam: "07-03-2025   13-03-2025  21/3/2025",
+        waktuTanam: "07/03/2025  13/03/2025  21/3/2025",
         achievement: 3.5,
         target: 2,
       },
@@ -254,8 +254,8 @@ export const merantiPolsek5: Polsek[] = [
       {
         id: 10,
         name: "LUKIT",
-        waktuTanam: "8 maret 2025",
-        achievement: 0.5,
+        waktuTanam: "08/03/2025 26/03/2025",
+        achievement: 1,
         target: 2,
       },
       {
@@ -387,8 +387,8 @@ export const merantiPolsek5: Polsek[] = [
       {
         id: 8,
         name: "CITRA DAMAI ",
-        waktuTanam: "",
-        achievement: 0,
+        waktuTanam: "26 maret 2025",
+        achievement: 1,
         target: 2,
       },
       {
@@ -527,8 +527,8 @@ export const merantiPolsek5: Polsek[] = [
       {
         id: 2,
         name: "LEMANG",
-        waktuTanam: "",
-        achievement: 0,
+        waktuTanam: "27 maret 2025",
+        achievement: 0.5,
         target: 2,
       },
       {
@@ -660,7 +660,7 @@ export const merantiPolsek5: Polsek[] = [
       {
         id: 8,
         name: "ALAH AIR",
-        waktuTanam: "-",
+        waktuTanam: "19 maret 2025",
         achievement: 1,
         target: 2,
       },
@@ -695,8 +695,8 @@ export const merantiPolsek5: Polsek[] = [
       {
         id: 13,
         name: "KEPAU BARU",
-        waktuTanam: "-",
-        achievement: 2,
+        waktuTanam: "12/03/2025 26/03/2025",
+        achievement: 3,
         target: 2,
       },
       {

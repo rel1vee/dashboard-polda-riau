@@ -74,12 +74,16 @@ const MotionCard = motion.create(Card);
 
 const DashboardPoldaRiauPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const [selectedCity, setSelectedCity] = useState<ProgramDua | null>(null);
+
+  const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
   const [company1Data, setCompany1Data] = useState<Company | null>(null);
   // const [company2Data, setCompany2Data] = useState<Company | null>(null);
   // const [company3Data, setCompany3Data] = useState<Company | null>(null);
-  const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
-  const [selectedCity, setSelectedCity] = useState<ProgramDua | null>(null);
-  const [selectedCompany, setSelectedCompany] = useState<Company | null>(null);
+
+  const [selectedOtherCompany, setSelectedOtherCompany] =
+    useState<Company | null>(null);
   const [otherCompany1Data, setOtherCompany1Data] = useState<Company | null>(
     null
   );
@@ -90,14 +94,15 @@ const DashboardPoldaRiauPage = () => {
   //   null
   // );
 
-  const [selectedProgramSatuCity, setSelectedProgramSatuCity] =
-    useState<ProgramSatu | null>(null);
   const [selectedCompanyProgress, setSelectedCompanyProgress] =
     useState<Progress | null>(null);
-  const [selectedOtherCompany, setSelectedOtherCompany] =
-    useState<Company | null>(null);
   const [selectedOtherCompanyProgress, setSelectedOtherCompanyProgress] =
     useState<Progress | null>(null);
+
+  const [selectedPolsek, setSelectedPolsek] = useState<Polsek | null>(null);
+
+  const [selectedProgramSatuCity, setSelectedProgramSatuCity] =
+    useState<ProgramSatu | null>(null);
   const [selectedPolsekDesa, setSelectedPolsekDesa] =
     useState<Pekarangan | null>(null);
 
