@@ -109,7 +109,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 0,
-      IV: 8,
+      IV: 0,
     },
   },
   {
@@ -183,7 +183,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 0,
-      IV: 1.49,
+      IV: 0,
     },
   },
   {
@@ -553,7 +553,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 0,
-      IV: 6,
+      IV: 0,
     },
   },
   {
@@ -701,7 +701,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 0,
-      IV: 1,
+      IV: 0,
     },
   },
   {
@@ -775,7 +775,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 0,
-      IV: 2,
+      IV: 0,
     },
   },
   {
@@ -886,7 +886,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 0,
-      IV: 7.6,
+      IV: 0,
     },
   },
   {
@@ -923,7 +923,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 0,
-      IV: 6,
+      IV: 0,
     },
   },
   {
@@ -1071,7 +1071,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 0,
-      IV: 3,
+      IV: 0,
     },
   },
   {
@@ -1108,7 +1108,7 @@ export const pelalawanCompanies2: Company[] = [
       I: 0,
       II: 0,
       III: 0,
-      IV: 21.2,
+      IV: 0,
     },
   },
   {
