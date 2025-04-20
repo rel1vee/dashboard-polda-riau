@@ -46,9 +46,9 @@ import {
 } from "@/components/ui/table";
 
 interface CompanyDetailProps {
-  company2: Company;
+  company2: Company | null;
   company1: Company | null;
-  // company3: Company;
+  company3: Company;
   // company4: Company;
   progress: Progress | null;
   isOpen: boolean;
@@ -58,13 +58,13 @@ interface CompanyDetailProps {
 const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   company2,
   company1,
-  // company3,
+  company3,
   // company4,
   progress,
   isOpen,
   onClose,
 }) => {
-  if (!company2) return null;
+  if (!company3) return null;
 
   // const transformWeek4Data = () => {
   //   return (["I", "II", "III", "IV"] as const).map((period) => ({
@@ -87,43 +87,43 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   //   }));
   // };
 
-  // const transformWeek3Data = () => {
-  //   return (["I", "II", "III", "IV"] as const).map((period) => ({
-  //     periode: period,
+  const transformWeek3Data = () => {
+    return (["I", "II", "III", "IV"] as const).map((period) => ({
+      periode: period,
 
-  //     monoAchievement:
-  //       company3.monokulturAchievements[
-  //         period as keyof typeof company3.monokulturAchievements
-  //       ],
+      monoAchievement:
+        company3.monokulturAchievements[
+          period as keyof typeof company3.monokulturAchievements
+        ],
 
-  //     tsAchievement:
-  //       company3.tumpangSariAchievements[
-  //         period as keyof typeof company3.tumpangSariAchievements
-  //       ],
+      tsAchievement:
+        company3.tumpangSariAchievements[
+          period as keyof typeof company3.tumpangSariAchievements
+        ],
 
-  //     csrAchievement:
-  //       company3.csrAchievements[
-  //         period as keyof typeof company3.csrAchievements
-  //       ],
-  //   }));
-  // };
+      csrAchievement:
+        company3.csrAchievements[
+          period as keyof typeof company3.csrAchievements
+        ],
+    }));
+  };
 
   const transformWeek2Data = () => {
     return (["I", "II", "III", "IV"] as const).map((period) => ({
       periode: period,
 
       monoAchievement:
-        company2.monokulturAchievements[
+        company2?.monokulturAchievements[
           period as keyof typeof company2.monokulturAchievements
         ],
 
       tsAchievement:
-        company2.tumpangSariAchievements[
+        company2?.tumpangSariAchievements[
           period as keyof typeof company2.tumpangSariAchievements
         ],
 
       csrAchievement:
-        company2.csrAchievements[
+        company2?.csrAchievements[
           period as keyof typeof company2.csrAchievements
         ],
     }));
@@ -153,26 +153,26 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   const achievementDistribution = [
     {
       name: "Total Capaian Monokultur",
-      value: company2.monokulturAchievements.IV,
+      value: company3.monokulturAchievements.I,
       fill: "hsl(var(--chart-1))",
     },
     {
       name: "Total Capaian Tumpang Sari",
-      value: company2.tumpangSariAchievements.IV,
+      value: company3.tumpangSariAchievements.I,
       fill: "hsl(var(--chart-2))",
     },
     {
       name: "Total Capaian CSR",
-      value: company2.csrAchievements.IV,
+      value: company3.csrAchievements.I,
       fill: "hsl(var(--chart-3))",
     },
     {
       name: "Sisa Lahan",
       value:
-        company2.area -
-        (company2.monokulturAchievements.IV +
-          company2.tumpangSariAchievements.IV +
-          company2.csrAchievements.IV),
+        company3.area -
+        (company3.monokulturAchievements.I +
+          company3.tumpangSariAchievements.I +
+          company3.csrAchievements.I),
       fill: "hsl(var(--chart-4))",
     },
   ];
@@ -342,11 +342,11 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   };
 
   // const week4Data = transformWeek4Data();
-  // const week3Data = transformWeek3Data();
+  const week3Data = transformWeek3Data();
   const week2Data = transformWeek2Data();
   const week1Data = transformWeek1Data();
 
-  const totalArea = company2.area;
+  const totalArea = company3.area;
 
   // Fungsi untuk memformat tanggal dalam format "DD-MM-YYYY"
   const formatToIndonesianDate = (date: Date): string => {
@@ -475,7 +475,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
         <DialogHeader>
           <DialogTitle className="text-xl flex items-center gap-0 md:gap-3 uppercase">
             <Building2 className="hidden md:block w-5 h-5 text-blue-500" />
-            {company2.name}
+            {company3.name}
           </DialogTitle>
         </DialogHeader>
         <Tabs defaultValue="overview" className="w-full">
@@ -586,7 +586,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company2.monokulturAchievements.IV.toLocaleString(
+                        {company3.monokulturAchievements.I.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -605,7 +605,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company2.tumpangSariAchievements.IV.toLocaleString(
+                        {company3.tumpangSariAchievements.I.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -624,7 +624,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company2.csrAchievements.IV.toLocaleString("id-ID", {
+                        {company3.csrAchievements.I.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
@@ -639,7 +639,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company2.area.toLocaleString("id-ID", {
+                        {company3.area.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
@@ -650,11 +650,11 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
             </div>
           </TabsContent>
           <TabsContent value="progress">
-            <Tabs defaultValue="tahap2" className="w-full">
-              <TabsList className="grid w-full bg-gray-100 h-auto grid-cols-2 gap-2 mb-4 mt-1">
+            <Tabs defaultValue="tahap3" className="w-full">
+              <TabsList className="grid w-full bg-gray-100 h-auto grid-cols-3 gap-2 mb-4 mt-1">
                 <TabsTrigger value="tahap1">TAHAP I</TabsTrigger>
                 <TabsTrigger value="tahap2">TAHAP II</TabsTrigger>
-                {/* <TabsTrigger value="tahap3">TAHAP III</TabsTrigger> */}
+                <TabsTrigger value="tahap3">TAHAP III</TabsTrigger>
                 {/* <TabsTrigger value="tahap4">TAHAP IV</TabsTrigger> */}
               </TabsList>
               <TabsContent value="tahap1">
@@ -793,7 +793,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company2.monokulturAchievements.IV.toLocaleString(
+                            {company2?.monokulturAchievements.IV.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -840,7 +840,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company2.tumpangSariAchievements.IV.toLocaleString(
+                            {company2?.tumpangSariAchievements.IV.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -853,7 +853,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                   </Card>
                 </div>
               </TabsContent>
-              {/* <TabsContent value="tahap3">
+              <TabsContent value="tahap3">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <Card>
                     <CardHeader>
@@ -891,7 +891,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company3.monokulturAchievements.IV.toLocaleString(
+                            {company3.monokulturAchievements.I.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -938,7 +938,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company3.tumpangSariAchievements.IV.toLocaleString(
+                            {company3.tumpangSariAchievements.I.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -950,7 +950,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                     </CardFooter>
                   </Card>
                 </div>
-              </TabsContent> */}
+              </TabsContent>
               {/* <TabsContent value="tahap4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <Card>
@@ -1052,11 +1052,11 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
             </Tabs>
           </TabsContent>
           <TabsContent value="csr">
-            <Tabs defaultValue="tahap2" className="w-full">
-              <TabsList className="grid w-full bg-gray-100 h-auto grid-cols-2 gap-2 mb-4 mt-1">
+            <Tabs defaultValue="tahap3" className="w-full">
+              <TabsList className="grid w-full bg-gray-100 h-auto grid-cols-3 gap-2 mb-4 mt-1">
                 <TabsTrigger value="tahap1">TAHAP I</TabsTrigger>
                 <TabsTrigger value="tahap2">TAHAP II</TabsTrigger>
-                {/* <TabsTrigger value="tahap3">TAHAP III</TabsTrigger> */}
+                <TabsTrigger value="tahap3">TAHAP III</TabsTrigger>
                 {/* <TabsTrigger value="tahap4">TAHAP IV</TabsTrigger> */}
               </TabsList>
               <TabsContent value="tahap1">
@@ -1145,16 +1145,19 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           </span>
                         </div>
                         <span className="text-sm font-medium">
-                          {company2.csrAchievements.IV.toLocaleString("id-ID", {
-                            maximumFractionDigits: 2,
-                          })}
+                          {company2?.csrAchievements.IV.toLocaleString(
+                            "id-ID",
+                            {
+                              maximumFractionDigits: 2,
+                            }
+                          )}
                         </span>
                       </div>
                     </div>
                   </CardFooter>
                 </Card>
               </TabsContent>
-              {/* <TabsContent value="tahap3">
+              <TabsContent value="tahap3">
                 <Card>
                   <CardHeader>
                     <CardTitle className="text-sm font-medium text-gray-500">
@@ -1191,7 +1194,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           </span>
                         </div>
                         <span className="text-sm font-medium">
-                          {company3.csrAchievements.IV.toLocaleString("id-ID", {
+                          {company3.csrAchievements.I.toLocaleString("id-ID", {
                             maximumFractionDigits: 2,
                           })}
                         </span>
@@ -1199,7 +1202,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                     </div>
                   </CardFooter>
                 </Card>
-              </TabsContent> */}
+              </TabsContent>
               {/* <TabsContent value="tahap4">
                 <Card>
                   <CardHeader>

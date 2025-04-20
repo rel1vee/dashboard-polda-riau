@@ -29,11 +29,11 @@ interface MapProps {
     coordinates: [number, number];
     monokulturTarget: number;
     tumpangSariTarget: number;
-    tahapII: {
+    tahapIII: {
       companies: Company[];
       otherCompanies: Company[];
     };
-    polsek5: Polsek[];
+    polsek6: Polsek[];
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onCityClick: (city: any) => void;
@@ -47,9 +47,9 @@ const calculateTotalAchievements = (
 
   return allCompanies.reduce(
     (totals, company) => {
-      const monoTotal = company.monokulturAchievements.IV;
-      const tumpangSariTotal = company.tumpangSariAchievements.IV;
-      const csrTotal = company.csrAchievements.IV;
+      const monoTotal = company.monokulturAchievements.I;
+      const tumpangSariTotal = company.tumpangSariAchievements.I;
+      const csrTotal = company.csrAchievements.I;
 
       return {
         monokultur: totals.monokultur + monoTotal,
@@ -88,16 +88,16 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
 
         {cities.map((city) => {
           const achievements = calculateTotalAchievements(
-            city.tahapII.companies,
-            city.tahapII.otherCompanies || []
+            city.tahapIII.companies,
+            city.tahapIII.otherCompanies || []
           );
 
           const totalArea = calculateTotalArea(
-            city.tahapII.companies,
-            city.tahapII.otherCompanies || []
+            city.tahapIII.companies,
+            city.tahapIII.otherCompanies || []
           );
 
-          const polsekTarget = city.polsek5.reduce(
+          const polsekTarget = city.polsek6.reduce(
             (total, polsek) =>
               total +
               (polsek.villages.reduce(
@@ -107,7 +107,7 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
             0
           );
 
-          const polsekAchievement = city.polsek5.reduce(
+          const polsekAchievement = city.polsek6.reduce(
             (total, polsek) =>
               total +
               (polsek.villages.reduce(
@@ -156,20 +156,20 @@ const ProgramDuaMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
-                        {city.tahapII.companies.length} Pt. Target
+                        {city.tahapIII.companies.length} Pt. Target
                       </Badge>
 
                       <Badge
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
-                        {city.tahapII.otherCompanies.length} Pt. Lain
+                        {city.tahapIII.otherCompanies.length} Pt. Lain
                       </Badge>
                       <Badge
                         variant="secondary"
                         className="px-3 py-1 bg-blue-100 text-blue-700 hover:bg-blue-200"
                       >
-                        {city.polsek5.length} POLSEK
+                        {city.polsek6.length} POLSEK
                       </Badge>
                     </div>
                     {/* Area Info */}
