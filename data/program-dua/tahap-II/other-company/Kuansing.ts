@@ -4188,7 +4188,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
   },
   {
-    id: 0,
+    id: 183,
     name: "Desa Seberang Sungai",
     area: 1.0,
     monokulturAchievements: {
@@ -4211,7 +4211,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
   },
   {
-    id: 0,
+    id: 184,
     name: "Desa Pulau Rumput",
     area: 1.0,
     monokulturAchievements: {
@@ -4234,7 +4234,7 @@ export const kuansingOtherCompanies2: Company[] = [
     },
   },
   {
-    id: 0,
+    id: 185,
     name: "PT. NPM (CSR KOPTAN SUNGAI SERAMPAK INDAH DESA RAMBAHAN)",
     area: 2.0,
     monokulturAchievements: {
