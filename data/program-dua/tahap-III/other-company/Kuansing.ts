@@ -3140,7 +3140,7 @@ export const kuansingOtherCompanies3: Company[] = [
       IV: 0.0,
     },
     tumpangSariAchievements: {
-      I: 1.0,
+      I: 10.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -4238,7 +4238,7 @@ export const kuansingOtherCompanies3: Company[] = [
     name: "PT. NPM (CSR KOPTAN SUNGAI SERAMPAK INDAH DESA RAMBAHAN)",
     area: 2.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
