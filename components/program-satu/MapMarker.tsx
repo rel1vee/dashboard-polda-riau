@@ -29,10 +29,10 @@ interface MapProps {
     jumlahDesa: number;
     jumlahKecamatan: number;
     jumlahPolisiPenggerak: number;
-    jumlahTitikVI: number;
+    jumlahTitikIX: number;
     desaPercontohan: number;
     desaNonPercontohan: number;
-    luasLahanVI: number;
+    // luasLahanVI: number;
   }[];
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onCityClick: (city: any) => void;
@@ -131,10 +131,10 @@ const ProgramSatuMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         Jumlah Titik Pekarangan:
                       </span>
                       <span className="font-medium text-gray-900">
-                        {city.jumlahTitikVI}
+                        {city.jumlahTitikIX}
                       </span>
                     </div>
-                    <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
+                    {/* <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">
                       <span className="text-sm text-gray-600">
                         Jumlah Luas Lahan:
                       </span>
@@ -143,7 +143,7 @@ const ProgramSatuMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                           maximumFractionDigits: 2,
                         })}
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </Popup>

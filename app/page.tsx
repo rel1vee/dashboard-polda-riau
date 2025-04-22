@@ -403,34 +403,34 @@ const DashboardPoldaRiauPage = () => {
                           <Table>
                             <TableHeader>
                               <TableRow className="bg-gray-100">
-                                <TableHead className="p-4 text-center uppercase">
+                                <TableHead className="p-4 text-center font-bold uppercase">
                                   No
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Kecamatan
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Desa/Kelurahan
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
-                                  Pemilik/Pengelola
+                                <TableHead className="px-2 uppercase font-bold text-center">
+                                  Pemilik
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
-                                  Polisi Penggerak
+                                <TableHead className="px-2 uppercase font-bold text-center">
+                                  Polisi
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Pangkat
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Jabatan
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Percontohan
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Jenis Pekarangan
                                 </TableHead>
-                                <TableHead className="uppercase px-8 text-center">
+                                <TableHead className="uppercase px-8 font-bold text-center">
                                   Keterangan
                                 </TableHead>
                               </TableRow>
@@ -539,28 +539,28 @@ const DashboardPoldaRiauPage = () => {
                           <Table>
                             <TableHeader>
                               <TableRow className="bg-gray-100">
-                                <TableHead className="p-4 text-center uppercase">
+                                <TableHead className="p-4 text-center font-bold uppercase">
                                   No
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Polsek
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Kecamatan
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Desa/Kelurahan
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
-                                  Polisi Penggerak
+                                <TableHead className="px-2 uppercase font-bold text-center">
+                                  Polisi
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Pangkat
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Jabatan
                                 </TableHead>
-                                <TableHead className="px-2 uppercase text-center">
+                                <TableHead className="px-2 uppercase font-bold text-center">
                                   Nomor HP
                                 </TableHead>
                               </TableRow>
@@ -636,7 +636,7 @@ const DashboardPoldaRiauPage = () => {
                 </Card>
               </motion.div>
               {/* Desa Section */}
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
@@ -759,7 +759,7 @@ const DashboardPoldaRiauPage = () => {
                     )}
                   </CardContent>
                 </Card>
-              </motion.div>
+              </motion.div> */}
             </TabsContent>
             {/* Program Dua*/}
             <TabsContent value="program-dua" className="flex flex-col gap-6">

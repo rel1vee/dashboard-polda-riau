@@ -37,6 +37,9 @@ const ProgramSatuRanking = () => {
       acc.jumlahTitikIV += curr.jumlahTitikIV;
       acc.jumlahTitikV += curr.jumlahTitikV;
       acc.jumlahTitikVI += curr.jumlahTitikVI;
+      acc.jumlahTitikVII += curr.jumlahTitikVII;
+      acc.jumlahTitikVIII += curr.jumlahTitikVIII;
+      acc.jumlahTitikIX += curr.jumlahTitikIX;
       acc.perikanan += curr.perikanan;
       acc.peternakan += curr.peternakan;
       acc.holtikultura += curr.holtikultura;
@@ -62,6 +65,9 @@ const ProgramSatuRanking = () => {
       jumlahTitikIV: 0,
       jumlahTitikV: 0,
       jumlahTitikVI: 0,
+      jumlahTitikVII: 0,
+      jumlahTitikVIII: 0,
+      jumlahTitikIX: 0,
       perikanan: 0,
       peternakan: 0,
       holtikultura: 0,
@@ -89,28 +95,52 @@ const ProgramSatuRanking = () => {
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead className="text-center border uppercase px-4 py-2 border-gray-200 font-bold text-gray-800 bg-gray-300">
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-4 py-2 border-gray-200 font-bold text-gray-800 bg-gray-300"
+              >
                 NO
               </TableHead>
-              <TableHead className="text-center border uppercase px-8 py-2 border-gray-200 font-bold text-gray-800 bg-gray-300">
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-8 py-2 border-gray-200 font-bold text-gray-800 bg-gray-300"
+              >
                 POLRES/TA
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-purple-200 font-bold text-gray-800 bg-purple-300">
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-4 py-2 border-purple-200 font-bold text-gray-800 bg-purple-300"
+              >
                 Jumlah Desa
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-blue-200 font-bold text-gray-800 bg-blue-300">
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-4 py-2 border-blue-200 font-bold text-gray-800 bg-blue-300"
+              >
                 Jumlah Kecamatan
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-orange-200 font-bold text-gray-800 bg-orange-300">
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-4 py-2 border-orange-200 font-bold text-gray-800 bg-orange-300"
+              >
                 Jumlah Polisi
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
-                Desa Percontohan
+              <TableHead
+                colSpan={2}
+                className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300"
+              >
+                Desa
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
+              {/* <TableHead rowSpan={2} className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
                 Desa Non Percontohan
+              </TableHead> */}
+              <TableHead
+                colSpan={7}
+                className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300"
+              >
+                Jumlah Titik Pekarangan
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
+              {/* <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
                 Jumlah Titik Pekarangan (13-19 FEB 2025)
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
@@ -123,18 +153,39 @@ const ProgramSatuRanking = () => {
                 Jumlah Titik Pekarangan (6-12 MAR 2025)
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
+                Jumlah Titik Pekarangan (13-19 MAR 2025)
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
+                Jumlah Titik Pekarangan (3-9 APR 2025)
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300">
+                Jumlah Titik Pekarangan (10-16 APR 2025)
+              </TableHead> */}
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300"
+              >
                 Pertambahan Titik
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-amber-200 font-bold text-gray-800 bg-amber-300">
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-4 py-2 border-amber-200 font-bold text-gray-800 bg-amber-300"
+              >
                 Perikanan
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-amber-200 font-bold text-gray-800 bg-amber-300">
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-4 py-2 border-amber-200 font-bold text-gray-800 bg-amber-300"
+              >
                 Peternakan
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-amber-200 font-bold text-gray-800 bg-amber-300">
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-4 py-2 border-amber-200 font-bold text-gray-800 bg-amber-300"
+              >
                 Holtikultura
               </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
+              {/* <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
                 Jumlah Luas Lahan (13-19 FEB 2025)
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
@@ -148,6 +199,35 @@ const ProgramSatuRanking = () => {
               </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300">
                 Pertambahan Luas
+              </TableHead> */}
+            </TableRow>
+            <TableRow>
+              <TableHead className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
+                Percontohan
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
+                Non Percontohan
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                13-19 FEB
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                20-26 FEB
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                27 FEB - 5 MAR
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                6-12 MAR
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                13-19 MAR
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                3-9 APR
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                10-16 APR
               </TableHead>
             </TableRow>
           </TableHeader>
@@ -155,7 +235,9 @@ const ProgramSatuRanking = () => {
             {[...programSatu]
               .sort(
                 (a, b) =>
-                  b.luasLahanV - b.luasLahanIV - (a.luasLahanV - a.luasLahanIV)
+                  b.jumlahTitikIX -
+                  b.jumlahTitikVIII -
+                  (a.jumlahTitikIX - a.jumlahTitikVIII)
               )
               .map((row, index) => (
                 <TableRow key={row.id}>
@@ -186,14 +268,23 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikIV}
                   </TableCell>
-                  <TableCell className="text-center border font-bold bg-red-50">
+                  <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikV}
                   </TableCell>
-                  <TableCell className="text-center border font-bold bg-red-50">
+                  <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikVI}
                   </TableCell>
+                  <TableCell className="text-center border bg-red-50">
+                    {row.jumlahTitikVII}
+                  </TableCell>
                   <TableCell className="text-center border font-bold bg-red-50">
-                    {row.jumlahTitikVI - row.jumlahTitikV}
+                    {row.jumlahTitikVIII}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-red-50">
+                    {row.jumlahTitikIX}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-red-50">
+                    {row.jumlahTitikIX - row.jumlahTitikVIII}
                   </TableCell>
                   <TableCell className="text-center border bg-amber-50">
                     {row.perikanan}
@@ -204,7 +295,7 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-amber-50">
                     {row.holtikultura}
                   </TableCell>
-                  <TableCell className="text-center border bg-indigo-50">
+                  {/* <TableCell className="text-center border bg-indigo-50">
                     {formatNumber(row.luasLahanIII)}
                   </TableCell>
                   <TableCell className="text-center border bg-indigo-50">
@@ -218,7 +309,7 @@ const ProgramSatuRanking = () => {
                   </TableCell>
                   <TableCell className="text-center border font-bold bg-indigo-50">
                     {formatNumber(row.luasLahanVI - row.luasLahanV)}
-                  </TableCell>
+                  </TableCell> */}
                 </TableRow>
               ))}
             <TableRow>
@@ -254,7 +345,18 @@ const ProgramSatuRanking = () => {
                 {formatNumber(totalRow.jumlahTitikVI)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-red-50">
-                {formatNumber(totalRow.jumlahTitikVI - totalRow.jumlahTitikV)}
+                {formatNumber(totalRow.jumlahTitikVII)}
+              </TableCell>
+              <TableCell className="text-center border font-bold bg-red-50">
+                {formatNumber(totalRow.jumlahTitikVIII)}
+              </TableCell>
+              <TableCell className="text-center border font-bold bg-red-50">
+                {formatNumber(totalRow.jumlahTitikIX)}
+              </TableCell>
+              <TableCell className="text-center border font-bold bg-red-50">
+                {formatNumber(
+                  totalRow.jumlahTitikIX - totalRow.jumlahTitikVIII
+                )}
               </TableCell>
               <TableCell className="text-center border font-bold bg-amber-50">
                 {formatNumber(totalRow.perikanan)}
@@ -265,7 +367,7 @@ const ProgramSatuRanking = () => {
               <TableCell className="text-center border font-bold bg-amber-50">
                 {formatNumber(totalRow.holtikultura)}
               </TableCell>
-              <TableCell className="text-center border font-bold bg-indigo-50">
+              {/* <TableCell className="text-center border font-bold bg-indigo-50">
                 {formatNumber(totalRow.luasLahanIII)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-indigo-50">
@@ -279,7 +381,7 @@ const ProgramSatuRanking = () => {
               </TableCell>
               <TableCell className="text-center border font-bold bg-indigo-50">
                 {formatNumber(totalRow.luasLahanVI - totalRow.luasLahanV)}
-              </TableCell>
+              </TableCell> */}
             </TableRow>
           </TableBody>
           <TableCaption className="mt-4 text-sm text-gray-600 bg-blue-50 p-2 rounded">
