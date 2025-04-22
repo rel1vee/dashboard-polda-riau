@@ -809,7 +809,7 @@ const ProgramDuaRanking = () => {
                           <TableCell className="text-center border">
                             {index + 1}
                           </TableCell>
-                          <TableCell className="text-center border font-medium">
+                          <TableCell className="text-center border">
                             {row.nama}
                           </TableCell>
 

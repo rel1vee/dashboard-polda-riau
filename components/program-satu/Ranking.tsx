@@ -103,7 +103,7 @@ const ProgramSatuRanking = () => {
               </TableHead>
               <TableHead
                 rowSpan={2}
-                className="text-center border uppercase px-8 py-2 border-gray-200 font-bold text-gray-800 bg-gray-300"
+                className="text-center border uppercase px-16 py-2 border-gray-200 font-bold text-gray-800 bg-gray-300"
               >
                 POLRES/TA
               </TableHead>
@@ -126,14 +126,17 @@ const ProgramSatuRanking = () => {
                 Jumlah Polisi
               </TableHead>
               <TableHead
-                colSpan={2}
+                rowSpan={2}
                 className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300"
               >
-                Desa
+                Desa Percontohan
               </TableHead>
-              {/* <TableHead rowSpan={2} className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
+              <TableHead
+                rowSpan={2}
+                className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300"
+              >
                 Desa Non Percontohan
-              </TableHead> */}
+              </TableHead>
               <TableHead
                 colSpan={7}
                 className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300"
@@ -163,7 +166,7 @@ const ProgramSatuRanking = () => {
               </TableHead> */}
               <TableHead
                 rowSpan={2}
-                className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300"
+                className="text-center border uppercase px-4 py-2 border-indigo-200 font-bold text-gray-800 bg-indigo-300"
               >
                 Pertambahan Titik
               </TableHead>
@@ -202,12 +205,6 @@ const ProgramSatuRanking = () => {
               </TableHead> */}
             </TableRow>
             <TableRow>
-              <TableHead className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
-                Percontohan
-              </TableHead>
-              <TableHead className="text-center border uppercase px-4 py-2 border-green-200 font-bold text-gray-800 bg-green-300">
-                Non Percontohan
-              </TableHead>
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
                 13-19 FEB
               </TableHead>
@@ -244,7 +241,7 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border">
                     {index + 1}
                   </TableCell>
-                  <TableCell className="text-center border">
+                  <TableCell className="text-center whitespace-nowrap border">
                     {row.nama}
                   </TableCell>
                   <TableCell className="text-center border bg-purple-50">
@@ -283,7 +280,7 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border font-bold bg-red-50">
                     {row.jumlahTitikIX}
                   </TableCell>
-                  <TableCell className="text-center border font-bold bg-red-50">
+                  <TableCell className="text-center border font-bold bg-indigo-50">
                     {row.jumlahTitikIX - row.jumlahTitikVIII}
                   </TableCell>
                   <TableCell className="text-center border bg-amber-50">
@@ -353,7 +350,7 @@ const ProgramSatuRanking = () => {
               <TableCell className="text-center border font-bold bg-red-50">
                 {formatNumber(totalRow.jumlahTitikIX)}
               </TableCell>
-              <TableCell className="text-center border font-bold bg-red-50">
+              <TableCell className="text-center border font-bold bg-indigo-50">
                 {formatNumber(
                   totalRow.jumlahTitikIX - totalRow.jumlahTitikVIII
                 )}
