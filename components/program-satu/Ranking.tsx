@@ -230,18 +230,13 @@ const ProgramSatuRanking = () => {
           </TableHeader>
           <TableBody>
             {[...programSatu]
-              .sort(
-                (a, b) =>
-                  b.jumlahTitikIX -
-                  b.jumlahTitikVIII -
-                  (a.jumlahTitikIX - a.jumlahTitikVIII)
-              )
+              .sort((a, b) => b.jumlahTitikIX - a.jumlahTitikIX)
               .map((row, index) => (
                 <TableRow key={row.id}>
-                  <TableCell className="text-center border">
+                  <TableCell className="text-center font-bold border">
                     {index + 1}
                   </TableCell>
-                  <TableCell className="text-center whitespace-nowrap border">
+                  <TableCell className="text-center font-bold whitespace-nowrap border">
                     {row.nama}
                   </TableCell>
                   <TableCell className="text-center border bg-purple-50">

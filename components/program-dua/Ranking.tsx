@@ -806,10 +806,10 @@ const ProgramDuaRanking = () => {
 
                       return (
                         <TableRow key={row.no}>
-                          <TableCell className="text-center border">
+                          <TableCell className="text-center font-bold border">
                             {index + 1}
                           </TableCell>
-                          <TableCell className="text-center border">
+                          <TableCell className="text-center font-bold border">
                             {row.nama}
                           </TableCell>
 
@@ -1142,10 +1142,10 @@ const ProgramDuaRanking = () => {
                     {tablePolsekData.map((row, index) => {
                       return (
                         <TableRow key={index}>
-                          <TableCell className="text-center border uppercase">
+                          <TableCell className="text-center font-bold border uppercase">
                             {index + 1}
                           </TableCell>
-                          <TableCell className="text-center border font-medium uppercase">
+                          <TableCell className="text-center font-bold border uppercase">
                             {row.name}
                           </TableCell>
                           <TableCell className="text-center border bg-green-50">
