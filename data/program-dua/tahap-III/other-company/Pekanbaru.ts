@@ -7,7 +7,7 @@ export const pekanbaruOtherCompanies3: Company[] = [
     area: 0.12,
     monokulturAchievements: {
       I: 0.12,
-      II: 0.0,
+      II: 0.12,
       III: 0.0,
       IV: 0.0,
     },
@@ -30,7 +30,7 @@ export const pekanbaruOtherCompanies3: Company[] = [
     area: 1.2,
     monokulturAchievements: {
       I: 1.2,
-      II: 0.0,
+      II: 1.2,
       III: 0.0,
       IV: 0.0,
     },
@@ -53,7 +53,7 @@ export const pekanbaruOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -76,7 +76,7 @@ export const pekanbaruOtherCompanies3: Company[] = [
     area: 0.25,
     monokulturAchievements: {
       I: 0.25,
-      II: 0.0,
+      II: 0.25,
       III: 0.0,
       IV: 0.0,
     },

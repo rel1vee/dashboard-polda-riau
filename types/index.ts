@@ -14,17 +14,18 @@ export interface ProgramSatu {
   jumlahTitikVII: number;
   jumlahTitikVIII: number;
   jumlahTitikIX: number;
+  jumlahTitikX: number;
   desaPercontohan: number;
   desaNonPercontohan: number;
   perikanan: number;
   peternakan: number;
   holtikultura: number;
-  luasLahanI: number;
-  luasLahanII: number;
-  luasLahanIII: number;
-  luasLahanIV: number;
-  luasLahanV: number;
-  luasLahanVI: number;
+  // luasLahanI: number;
+  // luasLahanII: number;
+  // luasLahanIII: number;
+  // luasLahanIV: number;
+  // luasLahanV: number;
+  // luasLahanVI: number;
   pekarangan: Pekarangan[];
   polresKecamatan: Pekarangan[];
   polsekDesa: Pekarangan[];
@@ -70,6 +71,7 @@ export interface ProgramDua {
   polsek4: Polsek[];
   polsek5: Polsek[];
   polsek6: Polsek[];
+  polsek7: Polsek[];
   tahapI: {
     companies: Company[];
     otherCompanies: Company[];

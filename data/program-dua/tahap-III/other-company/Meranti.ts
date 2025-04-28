@@ -7,7 +7,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 8.0,
     monokulturAchievements: {
       I: 8.0,
-      II: 0.0,
+      II: 8.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -30,7 +30,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 30.0,
     monokulturAchievements: {
       I: 30.0,
-      II: 0.0,
+      II: 30.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -53,7 +53,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -76,7 +76,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 30.0,
     monokulturAchievements: {
       I: 30.0,
-      II: 0.0,
+      II: 30.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -99,7 +99,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 30.0,
     monokulturAchievements: {
       I: 30.0,
-      II: 0.0,
+      II: 30.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -122,7 +122,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 25.0,
     monokulturAchievements: {
       I: 25.0,
-      II: 0.0,
+      II: 25.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -145,7 +145,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -168,7 +168,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -191,7 +191,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 6.5,
     monokulturAchievements: {
       I: 6.5,
-      II: 0.0,
+      II: 6.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -214,7 +214,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.8,
     monokulturAchievements: {
       I: 1.8,
-      II: 0.0,
+      II: 1.8,
       III: 0.0,
       IV: 0.0,
     },
@@ -237,7 +237,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -260,7 +260,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -283,7 +283,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -306,7 +306,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -329,7 +329,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -352,7 +352,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -375,7 +375,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -398,7 +398,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -421,7 +421,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.8,
     monokulturAchievements: {
       I: 2.8,
-      II: 0.0,
+      II: 2.8,
       III: 0.0,
       IV: 0.0,
     },
@@ -444,7 +444,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -467,7 +467,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -490,7 +490,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 6.0,
     monokulturAchievements: {
       I: 6.0,
-      II: 0.0,
+      II: 6.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -513,7 +513,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -536,7 +536,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -559,7 +559,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -582,7 +582,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -605,7 +605,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 9.0,
     monokulturAchievements: {
       I: 9.0,
-      II: 0.0,
+      II: 9.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -628,7 +628,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -651,7 +651,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 20.0,
     monokulturAchievements: {
       I: 20.0,
-      II: 0.0,
+      II: 20.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -674,7 +674,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -697,7 +697,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.88,
     monokulturAchievements: {
       I: 10.88,
-      II: 0.0,
+      II: 10.88,
       III: 0.0,
       IV: 0.0,
     },
@@ -720,7 +720,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 19.13,
     monokulturAchievements: {
       I: 19.13,
-      II: 0.0,
+      II: 19.13,
       III: 0.0,
       IV: 0.0,
     },
@@ -743,7 +743,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 30.34,
     monokulturAchievements: {
       I: 30.34,
-      II: 0.0,
+      II: 30.34,
       III: 0.0,
       IV: 0.0,
     },
@@ -766,7 +766,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -789,7 +789,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 18.5,
     monokulturAchievements: {
       I: 18.5,
-      II: 0.0,
+      II: 18.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -812,7 +812,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 11.0,
     monokulturAchievements: {
       I: 11.0,
-      II: 0.0,
+      II: 11.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -835,7 +835,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -858,7 +858,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -881,7 +881,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -904,7 +904,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -927,7 +927,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -950,7 +950,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -973,7 +973,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -996,7 +996,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 4.0,
     monokulturAchievements: {
       I: 4.0,
-      II: 0.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1019,7 +1019,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1042,7 +1042,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1065,7 +1065,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1088,7 +1088,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 4.0,
     monokulturAchievements: {
       I: 4.0,
-      II: 0.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1111,7 +1111,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1134,7 +1134,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1157,7 +1157,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1180,7 +1180,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1203,7 +1203,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1226,7 +1226,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1249,7 +1249,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1272,7 +1272,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1295,7 +1295,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1318,7 +1318,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1341,7 +1341,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1364,7 +1364,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1387,7 +1387,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1410,7 +1410,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1433,7 +1433,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1456,7 +1456,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1479,7 +1479,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 70.0,
     monokulturAchievements: {
       I: 70.0,
-      II: 0.0,
+      II: 70.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1502,7 +1502,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1525,7 +1525,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1548,7 +1548,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1571,7 +1571,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 30.0,
     monokulturAchievements: {
       I: 30.0,
-      II: 0.0,
+      II: 30.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1594,7 +1594,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1617,7 +1617,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1640,7 +1640,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1663,7 +1663,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 30.0,
     monokulturAchievements: {
       I: 30.0,
-      II: 0.0,
+      II: 30.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1686,7 +1686,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.8,
     monokulturAchievements: {
       I: 1.8,
-      II: 0.0,
+      II: 1.8,
       III: 0.0,
       IV: 0.0,
     },
@@ -1709,7 +1709,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1732,7 +1732,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1755,7 +1755,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1778,7 +1778,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1801,7 +1801,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1824,7 +1824,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1847,7 +1847,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1870,7 +1870,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1893,7 +1893,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 10.0,
     monokulturAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1916,7 +1916,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1939,7 +1939,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1962,7 +1962,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1985,7 +1985,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -2008,7 +2008,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2031,7 +2031,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2054,7 +2054,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2077,7 +2077,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -2100,7 +2100,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2123,7 +2123,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -2146,7 +2146,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -2169,7 +2169,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -2192,7 +2192,7 @@ export const merantiOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },

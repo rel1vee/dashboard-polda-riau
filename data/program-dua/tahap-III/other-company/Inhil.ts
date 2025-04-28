@@ -7,7 +7,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 24.0,
     monokulturAchievements: {
       I: 24.0,
-      II: 0.0,
+      II: 24.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -30,7 +30,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -53,7 +53,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 4.0,
     monokulturAchievements: {
       I: 4.0,
-      II: 0.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -76,7 +76,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -99,7 +99,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -122,7 +122,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -145,7 +145,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -168,7 +168,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -191,7 +191,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -214,7 +214,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -237,7 +237,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -260,7 +260,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -283,7 +283,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -306,7 +306,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -329,7 +329,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -352,7 +352,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 11.5,
     monokulturAchievements: {
       I: 11.5,
-      II: 0.0,
+      II: 11.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -375,7 +375,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -398,7 +398,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -421,7 +421,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 7.0,
     monokulturAchievements: {
       I: 7.0,
-      II: 0.0,
+      II: 7.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -444,7 +444,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 6.0,
     monokulturAchievements: {
       I: 6.0,
-      II: 0.0,
+      II: 6.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -467,7 +467,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -490,7 +490,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -513,7 +513,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -536,7 +536,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.2,
     monokulturAchievements: {
       I: 1.2,
-      II: 0.0,
+      II: 1.2,
       III: 0.0,
       IV: 0.0,
     },
@@ -559,7 +559,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -582,7 +582,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.2,
     monokulturAchievements: {
       I: 1.2,
-      II: 0.0,
+      II: 1.2,
       III: 0.0,
       IV: 0.0,
     },
@@ -605,7 +605,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -628,7 +628,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -651,7 +651,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -674,7 +674,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -697,7 +697,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -720,7 +720,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 8.0,
     monokulturAchievements: {
       I: 8.0,
-      II: 0.0,
+      II: 8.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -743,7 +743,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -766,7 +766,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -789,7 +789,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 21.0,
     monokulturAchievements: {
       I: 21.0,
-      II: 0.0,
+      II: 21.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -812,7 +812,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -835,7 +835,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 0.25,
     monokulturAchievements: {
       I: 0.25,
-      II: 0.0,
+      II: 0.25,
       III: 0.0,
       IV: 0.0,
     },
@@ -858,7 +858,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -881,7 +881,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -904,7 +904,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -927,7 +927,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 4.0,
     monokulturAchievements: {
       I: 4.0,
-      II: 0.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -950,7 +950,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -973,7 +973,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -996,7 +996,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1019,7 +1019,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1042,7 +1042,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -1065,7 +1065,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 50.0,
     monokulturAchievements: {
       I: 50.0,
-      II: 0.0,
+      II: 50.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1088,7 +1088,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 17.0,
     monokulturAchievements: {
       I: 17.0,
-      II: 0.0,
+      II: 17.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1111,7 +1111,7 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -1134,7 +1134,76 @@ export const inhilOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
+      II: 2.5,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
       II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 51,
+    name: "SUARDI (POLSEK KEMUNING)",
+    area: 2.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 2.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 52,
+    name: "YUSUF (POLSEK ENOK)",
+    area: 1.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 1.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 53,
+    name: "ARIL (POLSEK ENOK)",
+    area: 1.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },

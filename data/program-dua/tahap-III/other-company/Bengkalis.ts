@@ -7,7 +7,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -30,7 +30,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -59,7 +59,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -76,7 +76,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -99,7 +99,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 0.01,
     monokulturAchievements: {
       I: 0.01,
-      II: 0.0,
+      II: 0.01,
       III: 0.0,
       IV: 0.0,
     },
@@ -128,7 +128,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.05,
-      II: 0.0,
+      II: 0.05,
       III: 0.0,
       IV: 0.0,
     },
@@ -145,7 +145,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 0.01,
     monokulturAchievements: {
       I: 0.01,
-      II: 0.0,
+      II: 0.01,
       III: 0.0,
       IV: 0.0,
     },
@@ -168,7 +168,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 0.01,
     monokulturAchievements: {
       I: 0.01,
-      II: 0.0,
+      II: 0.01,
       III: 0.0,
       IV: 0.0,
     },
@@ -191,7 +191,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 0.06,
     monokulturAchievements: {
       I: 0.06,
-      II: 0.0,
+      II: 0.06,
       III: 0.0,
       IV: 0.0,
     },
@@ -214,7 +214,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -237,7 +237,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 0.3,
     monokulturAchievements: {
       I: 0.3,
-      II: 0.0,
+      II: 0.3,
       III: 0.0,
       IV: 0.0,
     },
@@ -260,7 +260,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -283,7 +283,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 5.0,
     monokulturAchievements: {
       I: 5.0,
-      II: 0.0,
+      II: 5.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -306,7 +306,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -329,7 +329,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -352,7 +352,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -375,7 +375,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 0.4,
     monokulturAchievements: {
       I: 0.4,
-      II: 0.0,
+      II: 0.4,
       III: 0.0,
       IV: 0.0,
     },
@@ -398,7 +398,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 0.19,
     monokulturAchievements: {
       I: 0.19,
-      II: 0.0,
+      II: 0.19,
       III: 0.0,
       IV: 0.0,
     },
@@ -421,7 +421,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -450,7 +450,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.05,
-      II: 0.0,
+      II: 0.05,
       III: 0.0,
       IV: 0.0,
     },
@@ -467,7 +467,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -490,7 +490,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -513,7 +513,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.2,
     monokulturAchievements: {
       I: 1.2,
-      II: 0.0,
+      II: 1.2,
       III: 0.0,
       IV: 0.0,
     },
@@ -536,13 +536,13 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -559,7 +559,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 52.0,
     monokulturAchievements: {
       I: 52.0,
-      II: 0.0,
+      II: 52.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -582,7 +582,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.4,
     monokulturAchievements: {
       I: 1.4,
-      II: 0.0,
+      II: 1.4,
       III: 0.0,
       IV: 0.0,
     },
@@ -605,7 +605,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -628,7 +628,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -657,7 +657,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -674,7 +674,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -703,7 +703,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -720,7 +720,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 6.0,
     monokulturAchievements: {
       I: 6.0,
-      II: 0.0,
+      II: 6.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -743,7 +743,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 6.0,
     monokulturAchievements: {
       I: 6.0,
-      II: 0.0,
+      II: 6.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -766,7 +766,7 @@ export const bengkalisOtherCompanies3: Company[] = [
     area: 6.0,
     monokulturAchievements: {
       I: 6.0,
-      II: 0.0,
+      II: 6.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -788,8 +788,54 @@ export const bengkalisOtherCompanies3: Company[] = [
     name: "LAHAN MASYARAKAT MILIK SDR  AMRAN \n\nJl. Tanah Runtuh RT 01 RW 01 Dusun satu  Desa Dungun Baru Kec. Rupat Kab. Bengkalis",
     area: 1.0,
     monokulturAchievements: {
-      I: 1.0,
+      I: 0.0,
       II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 1.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 36,
+    name: "LAHAN KELOMPOK TANI SIDO MAKMUR\n\nJl. Jeram RT 001 RW 003 Kel. Batupanjang Kec. Rupat Kab. Bengkalis.",
+    area: 1.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    tumpangSariAchievements: {
+      I: 0.0,
+      II: 2.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+    csrAchievements: {
+      I: 0.0,
+      II: 0.0,
+      III: 0.0,
+      IV: 0.0,
+    },
+  },
+  {
+    id: 37,
+    name: "PT. AGRO FORTUNA JAYA",
+    area: 2.0,
+    monokulturAchievements: {
+      I: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },

@@ -40,15 +40,16 @@ const ProgramSatuRanking = () => {
       acc.jumlahTitikVII += curr.jumlahTitikVII;
       acc.jumlahTitikVIII += curr.jumlahTitikVIII;
       acc.jumlahTitikIX += curr.jumlahTitikIX;
+      acc.jumlahTitikX += curr.jumlahTitikX;
       acc.perikanan += curr.perikanan;
       acc.peternakan += curr.peternakan;
       acc.holtikultura += curr.holtikultura;
-      acc.luasLahanI += curr.luasLahanI;
-      acc.luasLahanII += curr.luasLahanII;
-      acc.luasLahanIII += curr.luasLahanIII;
-      acc.luasLahanIV += curr.luasLahanIV;
-      acc.luasLahanV += curr.luasLahanV;
-      acc.luasLahanVI += curr.luasLahanVI;
+      // acc.luasLahanI += curr.luasLahanI;
+      // acc.luasLahanII += curr.luasLahanII;
+      // acc.luasLahanIII += curr.luasLahanIII;
+      // acc.luasLahanIV += curr.luasLahanIV;
+      // acc.luasLahanV += curr.luasLahanV;
+      // acc.luasLahanVI += curr.luasLahanVI;
 
       return acc;
     },
@@ -68,15 +69,16 @@ const ProgramSatuRanking = () => {
       jumlahTitikVII: 0,
       jumlahTitikVIII: 0,
       jumlahTitikIX: 0,
+      jumlahTitikX: 0,
       perikanan: 0,
       peternakan: 0,
       holtikultura: 0,
-      luasLahanI: 0,
-      luasLahanII: 0,
-      luasLahanIII: 0,
-      luasLahanIV: 0,
-      luasLahanV: 0,
-      luasLahanVI: 0,
+      // luasLahanI: 0,
+      // luasLahanII: 0,
+      // luasLahanIII: 0,
+      // luasLahanIV: 0,
+      // luasLahanV: 0,
+      // luasLahanVI: 0,
     }
   );
 
@@ -138,7 +140,7 @@ const ProgramSatuRanking = () => {
                 Desa Non Percontohan
               </TableHead>
               <TableHead
-                colSpan={7}
+                colSpan={8}
                 className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300"
               >
                 Jumlah Titik Pekarangan
@@ -226,6 +228,9 @@ const ProgramSatuRanking = () => {
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
                 10-16 APR
               </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                17-23 APR
+              </TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -269,14 +274,17 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikVII}
                   </TableCell>
-                  <TableCell className="text-center border font-bold bg-red-50">
+                  <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikVIII}
                   </TableCell>
                   <TableCell className="text-center border font-bold bg-red-50">
                     {row.jumlahTitikIX}
                   </TableCell>
+                  <TableCell className="text-center border font-bold bg-red-50">
+                    {row.jumlahTitikX}
+                  </TableCell>
                   <TableCell className="text-center border font-bold bg-indigo-50">
-                    {row.jumlahTitikIX - row.jumlahTitikVIII}
+                    {row.jumlahTitikX - row.jumlahTitikIX}
                   </TableCell>
                   <TableCell className="text-center border bg-amber-50">
                     {row.perikanan}
@@ -345,10 +353,11 @@ const ProgramSatuRanking = () => {
               <TableCell className="text-center border font-bold bg-red-50">
                 {formatNumber(totalRow.jumlahTitikIX)}
               </TableCell>
+              <TableCell className="text-center border font-bold bg-red-50">
+                {formatNumber(totalRow.jumlahTitikX)}
+              </TableCell>
               <TableCell className="text-center border font-bold bg-indigo-50">
-                {formatNumber(
-                  totalRow.jumlahTitikIX - totalRow.jumlahTitikVIII
-                )}
+                {formatNumber(totalRow.jumlahTitikX - totalRow.jumlahTitikIX)}
               </TableCell>
               <TableCell className="text-center border font-bold bg-amber-50">
                 {formatNumber(totalRow.perikanan)}

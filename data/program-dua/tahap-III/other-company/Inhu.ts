@@ -7,7 +7,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -30,7 +30,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 20.0,
-      II: 0.0,
+      II: 20.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -53,7 +53,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 0.04,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -76,7 +76,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 0.25,
     monokulturAchievements: {
       I: 0.25,
-      II: 0.0,
+      II: 0.25,
       III: 0.0,
       IV: 0.0,
     },
@@ -99,7 +99,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 0.25,
     monokulturAchievements: {
       I: 0.25,
-      II: 0.0,
+      II: 0.25,
       III: 0.0,
       IV: 0.0,
     },
@@ -122,7 +122,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -145,7 +145,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 4100.0,
     monokulturAchievements: {
       I: 1.1,
-      II: 0.0,
+      II: 1.1,
       III: 0.0,
       IV: 0.0,
     },
@@ -168,7 +168,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 0.14,
-      II: 0.0,
+      II: 0.14,
       III: 0.0,
       IV: 0.0,
     },
@@ -191,7 +191,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 18.0,
     monokulturAchievements: {
       I: 0.04,
-      II: 0.0,
+      II: 0.04,
       III: 0.0,
       IV: 0.0,
     },
@@ -214,7 +214,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 4.06,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -237,7 +237,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -260,7 +260,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -283,7 +283,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 1.1,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -306,7 +306,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 0.25,
     monokulturAchievements: {
       I: 0.25,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -329,7 +329,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 0.14,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -352,7 +352,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -375,7 +375,7 @@ export const inhuOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 4.0,
-      II: 0.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -395,7 +395,7 @@ export const inhuOtherCompanies3: Company[] = [
   {
     id: 18,
     name: "KELOMPOK TANI SUBUR\n DESA BANDAR PADANG KEC. SEBERIDA",
-    area: 0.0,
+    area: 20.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -404,7 +404,7 @@ export const inhuOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 20.0,
-      II: 0.0,
+      II: 20.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -418,7 +418,7 @@ export const inhuOtherCompanies3: Company[] = [
   {
     id: 19,
     name: "SUKARELAWAN an. SUHARDI \nDESA BATU PAPAN KEC. BATANG CENAKU",
-    area: 20.0,
+    area: 2.0,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -427,7 +427,7 @@ export const inhuOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -441,7 +441,7 @@ export const inhuOtherCompanies3: Company[] = [
   {
     id: 20,
     name: "PT. TALANG JERINJING SAWIT",
-    area: 0.0,
+    area: 1.5,
     monokulturAchievements: {
       I: 0.0,
       II: 0.0,
@@ -456,7 +456,7 @@ export const inhuOtherCompanies3: Company[] = [
     },
     csrAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },

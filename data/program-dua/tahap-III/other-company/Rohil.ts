@@ -13,7 +13,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 79.5,
-      II: 0.0,
+      II: 79.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -30,7 +30,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -59,7 +59,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -82,7 +82,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -99,7 +99,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 2.5,
     monokulturAchievements: {
       I: 2.5,
-      II: 0.0,
+      II: 2.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -128,7 +128,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -151,7 +151,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -168,7 +168,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -197,7 +197,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -214,7 +214,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -243,7 +243,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -260,7 +260,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 1.5,
     monokulturAchievements: {
       I: 1.5,
-      II: 0.0,
+      II: 1.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -289,7 +289,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -306,7 +306,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -329,7 +329,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -352,7 +352,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 27.0,
     monokulturAchievements: {
       I: 27.0,
-      II: 0.0,
+      II: 27.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -375,7 +375,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 0.52,
     monokulturAchievements: {
       I: 0.52,
-      II: 0.0,
+      II: 0.52,
       III: 0.0,
       IV: 0.0,
     },
@@ -398,7 +398,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -421,7 +421,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 4130.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -444,7 +444,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 35118.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -455,8 +455,8 @@ export const rohilOtherCompanies3: Company[] = [
       IV: 0.0,
     },
     csrAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 7.4,
+      II: 7.4,
       III: 0.0,
       IV: 0.0,
     },
@@ -478,7 +478,7 @@ export const rohilOtherCompanies3: Company[] = [
       IV: 0.0,
     },
     csrAchievements: {
-      I: 7.4,
+      I: 0.0,
       II: 0.0,
       III: 0.0,
       IV: 0.0,
@@ -490,7 +490,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -513,7 +513,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 0.2,
     monokulturAchievements: {
       I: 0.2,
-      II: 0.0,
+      II: 0.2,
       III: 0.0,
       IV: 0.0,
     },
@@ -536,7 +536,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 35.0,
     monokulturAchievements: {
       I: 35.0,
-      II: 0.0,
+      II: 35.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -559,7 +559,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 0.12,
     monokulturAchievements: {
       I: 0.12,
-      II: 0.0,
+      II: 0.12,
       III: 0.0,
       IV: 0.0,
     },
@@ -582,7 +582,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -605,7 +605,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -628,7 +628,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -657,7 +657,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -680,7 +680,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -703,7 +703,7 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -720,7 +720,7 @@ export const rohilOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -749,13 +749,13 @@ export const rohilOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 10.0,
-      II: 0.0,
+      II: 10.0,
       III: 0.0,
       IV: 0.0,
     },
     csrAchievements: {
-      I: 0.0,
-      II: 0.0,
+      I: 7.4,
+      II: 7.4,
       III: 0.0,
       IV: 0.0,
     },

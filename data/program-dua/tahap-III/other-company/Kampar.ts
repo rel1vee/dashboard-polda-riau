@@ -7,7 +7,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 105.0,
-      II: 0.0,
+      II: 105.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -30,7 +30,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 0.25,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -53,7 +53,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -105,7 +105,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -128,7 +128,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -145,7 +145,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -168,7 +168,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -191,7 +191,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 0.25,
-      II: 0.0,
+      II: 0.25,
       III: 0.0,
       IV: 0.0,
     },
@@ -214,7 +214,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 3.0,
     monokulturAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -237,7 +237,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 4.0,
     monokulturAchievements: {
       I: 12.0,
-      II: 0.0,
+      II: 12.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -260,7 +260,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 4.0,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -283,7 +283,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 12.0,
     monokulturAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -312,7 +312,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.25,
-      II: 0.0,
+      II: 0.25,
       III: 0.0,
       IV: 0.0,
     },
@@ -335,7 +335,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -364,7 +364,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     csrAchievements: {
       I: 4.0,
-      II: 0.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -381,7 +381,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.4,
-      II: 0.0,
+      II: 0.4,
       III: 0.0,
       IV: 0.0,
     },
@@ -404,7 +404,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -427,7 +427,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 1.0,
-      II: 0.0,
+      II: 1.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -450,7 +450,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -473,7 +473,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 4.0,
-      II: 0.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -496,7 +496,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.16,
-      II: 0.0,
+      II: 0.16,
       III: 0.0,
       IV: 0.0,
     },
@@ -513,7 +513,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 300.2,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -536,7 +536,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 1835.0,
     monokulturAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -565,7 +565,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 0.5,
-      II: 0.0,
+      II: 0.5,
       III: 0.0,
       IV: 0.0,
     },
@@ -588,7 +588,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -611,7 +611,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -634,7 +634,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -657,7 +657,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -680,7 +680,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 2.0,
-      II: 0.0,
+      II: 2.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -703,7 +703,7 @@ export const kamparOtherCompanies3: Company[] = [
     },
     tumpangSariAchievements: {
       I: 12.0,
-      II: 0.0,
+      II: 12.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -720,13 +720,13 @@ export const kamparOtherCompanies3: Company[] = [
     area: 1.0,
     monokulturAchievements: {
       I: 3.0,
-      II: 0.0,
+      II: 3.0,
       III: 0.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 80.0,
-      II: 0.0,
+      II: 80.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -743,7 +743,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 2.0,
     monokulturAchievements: {
       I: 4.0,
-      II: 0.0,
+      II: 4.0,
       III: 0.0,
       IV: 0.0,
     },
@@ -766,7 +766,7 @@ export const kamparOtherCompanies3: Company[] = [
     area: 0.5,
     monokulturAchievements: {
       I: 20.0,
-      II: 0.0,
+      II: 20.0,
       III: 0.0,
       IV: 0.0,
     },

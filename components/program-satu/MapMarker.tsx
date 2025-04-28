@@ -29,7 +29,7 @@ interface MapProps {
     jumlahDesa: number;
     jumlahKecamatan: number;
     jumlahPolisiPenggerak: number;
-    jumlahTitikIX: number;
+    jumlahTitikX: number;
     desaPercontohan: number;
     desaNonPercontohan: number;
     // luasLahanVI: number;
@@ -131,7 +131,7 @@ const ProgramSatuMapMarker: React.FC<MapProps> = ({ cities, onCityClick }) => {
                         Jumlah Titik Pekarangan:
                       </span>
                       <span className="font-medium text-gray-900">
-                        {city.jumlahTitikIX}
+                        {city.jumlahTitikX}
                       </span>
                     </div>
                     {/* <div className="flex items-center justify-between bg-gray-50 p-2.5 rounded-lg border border-gray-200">

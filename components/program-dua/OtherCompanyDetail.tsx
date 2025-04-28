@@ -153,26 +153,26 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
   const achievementDistribution = [
     {
       name: "Total Capaian Monokultur",
-      value: company3.monokulturAchievements.I,
+      value: company3.monokulturAchievements.II,
       fill: "hsl(var(--chart-1))",
     },
     {
       name: "Total Capaian Tumpang Sari",
-      value: company3.tumpangSariAchievements.I,
+      value: company3.tumpangSariAchievements.II,
       fill: "hsl(var(--chart-2))",
     },
     {
       name: "Total Capaian CSR",
-      value: company3.csrAchievements.I,
+      value: company3.csrAchievements.II,
       fill: "hsl(var(--chart-3))",
     },
     {
       name: "Sisa Lahan",
       value:
         company3.area -
-        (company3.monokulturAchievements.I +
-          company3.tumpangSariAchievements.I +
-          company3.csrAchievements.I),
+        (company3.monokulturAchievements.II +
+          company3.tumpangSariAchievements.II +
+          company3.csrAchievements.II),
       fill: "hsl(var(--chart-4))",
     },
   ];
@@ -586,7 +586,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company3.monokulturAchievements.I.toLocaleString(
+                        {company3.monokulturAchievements.II.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -605,7 +605,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company3.tumpangSariAchievements.I.toLocaleString(
+                        {company3.tumpangSariAchievements.II.toLocaleString(
                           "id-ID",
                           {
                             maximumFractionDigits: 2,
@@ -624,7 +624,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                         </span>
                       </div>
                       <span className="text-sm font-medium">
-                        {company3.csrAchievements.I.toLocaleString("id-ID", {
+                        {company3.csrAchievements.II.toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}
                       </span>
@@ -891,7 +891,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company3.monokulturAchievements.I.toLocaleString(
+                            {company3.monokulturAchievements.II.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -938,7 +938,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company3.tumpangSariAchievements.I.toLocaleString(
+                            {company3.tumpangSariAchievements.II.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -1194,7 +1194,7 @@ const OtherCompanyDetail: React.FC<CompanyDetailProps> = ({
                           </span>
                         </div>
                         <span className="text-sm font-medium">
-                          {company3.csrAchievements.I.toLocaleString("id-ID", {
+                          {company3.csrAchievements.II.toLocaleString("id-ID", {
                             maximumFractionDigits: 2,
                           })}
                         </span>
