@@ -16,7 +16,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 4,
       II: 4,
-      III: 0,
+      III: 4,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -53,7 +53,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -102,7 +102,7 @@ export const pelalawanCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 8,
       II: 8,
-      III: 0,
+      III: 8,
       IV: 0,
     },
     csrAchievements: {
@@ -127,7 +127,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1,
       II: 1,
-      III: 0,
+      III: 1,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -176,7 +176,7 @@ export const pelalawanCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 1.49,
       II: 1.49,
-      III: 0,
+      III: 1.49,
       IV: 0,
     },
     csrAchievements: {
@@ -238,7 +238,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 5,
       II: 5,
-      III: 0,
+      III: 5,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -312,7 +312,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0,
+      III: 1.5,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -349,7 +349,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 4,
       II: 4,
-      III: 0,
+      III: 4,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -386,7 +386,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1,
       II: 1,
-      III: 0,
+      III: 1,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -423,7 +423,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -497,7 +497,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1,
       II: 1,
-      III: 0,
+      III: 1,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -546,7 +546,7 @@ export const pelalawanCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 6,
       II: 6,
-      III: 0,
+      III: 6,
       IV: 0,
     },
     csrAchievements: {
@@ -571,7 +571,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1,
       II: 1,
-      III: 0,
+      III: 1,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -694,7 +694,7 @@ export const pelalawanCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 1,
       II: 1,
-      III: 0,
+      III: 1,
       IV: 0,
     },
     csrAchievements: {
@@ -719,7 +719,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 10,
       II: 10,
-      III: 0,
+      III: 10,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -768,7 +768,7 @@ export const pelalawanCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
     csrAchievements: {
@@ -793,7 +793,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1,
       II: 1,
-      III: 0,
+      III: 1,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -879,7 +879,7 @@ export const pelalawanCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 7.6,
       II: 7.6,
-      III: 0,
+      III: 7.6,
       IV: 0,
     },
     csrAchievements: {
@@ -916,7 +916,7 @@ export const pelalawanCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 6,
       II: 6,
-      III: 0,
+      III: 6,
       IV: 0,
     },
     csrAchievements: {
@@ -941,7 +941,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 12.5,
       II: 12.5,
-      III: 0,
+      III: 12.5,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -978,7 +978,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 3,
       II: 3,
-      III: 0,
+      III: 3,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -1015,7 +1015,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1,
       II: 1,
-      III: 0,
+      III: 1,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -1052,7 +1052,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 14,
       II: 14,
-      III: 0,
+      III: 14,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -1064,7 +1064,7 @@ export const pelalawanCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 3,
       II: 3,
-      III: 0,
+      III: 3,
       IV: 0,
     },
     csrAchievements: {
@@ -1101,7 +1101,7 @@ export const pelalawanCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 21.2,
       II: 21.2,
-      III: 0,
+      III: 21.2,
       IV: 0,
     },
     csrAchievements: {
@@ -1126,7 +1126,7 @@ export const pelalawanCompanies3: Company[] = [
     monokulturAchievements: {
       I: 5,
       II: 5,
-      III: 0,
+      III: 5,
       IV: 0,
     },
     tumpangSariTargets: {

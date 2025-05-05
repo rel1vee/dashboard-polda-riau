@@ -15,6 +15,7 @@ export interface ProgramSatu {
   jumlahTitikVIII: number;
   jumlahTitikIX: number;
   jumlahTitikX: number;
+  jumlahTitikXI: number;
   desaPercontohan: number;
   desaNonPercontohan: number;
   perikanan: number;
@@ -72,6 +73,7 @@ export interface ProgramDua {
   polsek5: Polsek[];
   polsek6: Polsek[];
   polsek7: Polsek[];
+  polsek8: Polsek[];
   tahapI: {
     companies: Company[];
     otherCompanies: Company[];

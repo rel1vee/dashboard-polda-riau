@@ -14,7 +14,7 @@ export const siakOtherCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 20.0,
       II: 20.0,
-      III: 0.0,
+      III: 20.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -31,13 +31,13 @@ export const siakOtherCompanies3: Company[] = [
     monokulturAchievements: {
       I: 2.0,
       II: 2.0,
-      III: 0.0,
+      III: 2.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {
       I: 9.0,
       II: 9.0,
-      III: 0.0,
+      III: 9.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -152,7 +152,7 @@ export const siakOtherCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 72.64,
       II: 72.64,
-      III: 0.0,
+      III: 72.64,
       IV: 0.0,
     },
     csrAchievements: {
@@ -175,7 +175,7 @@ export const siakOtherCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 84.0,
       II: 84.0,
-      III: 0.0,
+      III: 84.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -221,7 +221,7 @@ export const siakOtherCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 3.0,
       II: 3.0,
-      III: 0.0,
+      III: 3.0,
       IV: 0.0,
     },
     csrAchievements: {
@@ -238,7 +238,7 @@ export const siakOtherCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0.0,
+      III: 1.5,
       IV: 0.0,
     },
     tumpangSariAchievements: {
@@ -261,7 +261,7 @@ export const siakOtherCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1.0,
       II: 1.0,
-      III: 0.0,
+      III: 1.0,
       IV: 0.0,
     },
     tumpangSariAchievements: {

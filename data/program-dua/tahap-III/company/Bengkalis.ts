@@ -4,7 +4,7 @@ export const bengkalisCompanies3: Company[] = [
   {
     id: 1,
     name: "PT. ADEI PLANTATION INDUSTRY",
-    area: 11571,
+    area: 11571.0,
     target2Percent: 231.42,
     target7Percent: 809.97,
     monokulturTargets: {
@@ -16,7 +16,7 @@ export const bengkalisCompanies3: Company[] = [
     monokulturAchievements: {
       I: 3,
       II: 3,
-      III: 0,
+      III: 3,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -65,7 +65,7 @@ export const bengkalisCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 5,
       II: 5,
-      III: 0,
+      III: 5,
       IV: 0,
     },
     csrAchievements: {
@@ -90,7 +90,7 @@ export const bengkalisCompanies3: Company[] = [
     monokulturAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -115,8 +115,8 @@ export const bengkalisCompanies3: Company[] = [
   {
     id: 4,
     name: "PT. MESKOM AGRO SARIMAS",
-    area: 11000,
-    target2Percent: 220,
+    area: 11000.0,
+    target2Percent: 220.0,
     target7Percent: 770.0,
     monokulturTargets: {
       I: 55,
@@ -182,14 +182,14 @@ export const bengkalisCompanies3: Company[] = [
     csrAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
   },
   {
     id: 6,
     name: "PT. MURINIWOOD INDAH INDUSTRY",
-    area: 7886,
+    area: 7886.0,
     target2Percent: 157.72,
     target7Percent: 552.02,
     monokulturTargets: {
@@ -213,7 +213,7 @@ export const bengkalisCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 50,
       II: 50,
-      III: 0,
+      III: 50,
       IV: 0,
     },
     csrAchievements: {
@@ -226,8 +226,8 @@ export const bengkalisCompanies3: Company[] = [
   {
     id: 8,
     name: "PT. SARPINDO GRAHA SAWIT TANI/                         PT. PRIATAMA RIAU",
-    area: 7000,
-    target2Percent: 140,
+    area: 7000.0,
+    target2Percent: 140.0,
     target7Percent: 490.0,
     monokulturTargets: {
       I: 35,
@@ -238,7 +238,7 @@ export const bengkalisCompanies3: Company[] = [
     monokulturAchievements: {
       I: 3.46,
       II: 3.46,
-      III: 0,
+      III: 3.46,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -263,7 +263,7 @@ export const bengkalisCompanies3: Company[] = [
   {
     id: 9,
     name: "PT. SINAR INTI SAWIT",
-    area: 5380,
+    area: 5380.0,
     target2Percent: 107.6,
     target7Percent: 376.6,
     monokulturTargets: {
@@ -300,7 +300,7 @@ export const bengkalisCompanies3: Company[] = [
   {
     id: 10,
     name: "PT. SINAR SAWIT SEJAHTERA",
-    area: 6160,
+    area: 6160.0,
     target2Percent: 123.2,
     target7Percent: 431.2,
     monokulturTargets: {
@@ -330,16 +330,16 @@ export const bengkalisCompanies3: Company[] = [
     csrAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
   },
   {
-    id: 7,
+    id: 11,
     name: "PT. SURYA DUMAI AGRINDO/                  PT. RIAU MAKMUR SENTOSA",
-    area: 8200,
-    target2Percent: 164,
-    target7Percent: 574,
+    area: 8200.0,
+    target2Percent: 164.0,
+    target7Percent: 574.0,
     monokulturTargets: {
       I: 41,
       II: 41,
@@ -367,16 +367,16 @@ export const bengkalisCompanies3: Company[] = [
     csrAchievements: {
       I: 1,
       II: 1,
-      III: 0,
+      III: 1,
       IV: 0,
     },
   },
   {
-    id: 11,
+    id: 12,
     name: "PT. TUMPUAN",
-    area: 0,
-    target2Percent: 0,
-    target7Percent: 0,
+    area: NaN,
+    target2Percent: NaN,
+    target7Percent: NaN,
     monokulturTargets: {
       I: 0,
       II: 0,
@@ -398,7 +398,7 @@ export const bengkalisCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 50,
       II: 50,
-      III: 0,
+      III: 50,
       IV: 0,
     },
     csrAchievements: {

@@ -361,7 +361,7 @@ export const rohulCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 24,
       II: 24,
-      III: 0,
+      III: 24,
       IV: 0,
     },
     csrAchievements: {
@@ -386,7 +386,7 @@ export const rohulCompanies3: Company[] = [
     monokulturAchievements: {
       I: 2.5,
       II: 2.5,
-      III: 0,
+      III: 2.5,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -398,7 +398,7 @@ export const rohulCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 3,
       II: 3,
-      III: 0,
+      III: 3,
       IV: 0,
     },
     csrAchievements: {
@@ -460,7 +460,7 @@ export const rohulCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0,
+      III: 1.5,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -546,7 +546,7 @@ export const rohulCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 19,
       II: 19,
-      III: 0,
+      III: 19,
       IV: 0,
     },
     csrAchievements: {
@@ -768,7 +768,7 @@ export const rohulCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 4,
       II: 4,
-      III: 0,
+      III: 4,
       IV: 0,
     },
     csrAchievements: {
@@ -1064,7 +1064,7 @@ export const rohulCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
     csrAchievements: {
@@ -1101,7 +1101,7 @@ export const rohulCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 50,
       II: 50,
-      III: 0,
+      III: 50,
       IV: 0,
     },
     csrAchievements: {
@@ -1249,7 +1249,7 @@ export const rohulCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 6,
       II: 6,
-      III: 0,
+      III: 6,
       IV: 0,
     },
     csrAchievements: {
@@ -1348,7 +1348,7 @@ export const rohulCompanies3: Company[] = [
     monokulturAchievements: {
       I: 1.5,
       II: 1.5,
-      III: 0,
+      III: 1.5,
       IV: 0,
     },
     tumpangSariTargets: {
@@ -1434,7 +1434,7 @@ export const rohulCompanies3: Company[] = [
     tumpangSariAchievements: {
       I: 2,
       II: 2,
-      III: 0,
+      III: 2,
       IV: 0,
     },
     csrAchievements: {

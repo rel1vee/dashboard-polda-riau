@@ -2,785 +2,785 @@ import { Company } from "@/types";
 
 export const kamparOtherCompanies3: Company[] = [
   {
-    id: 1,
-    name: "PT. CENTRAL WARISAN INDAH MAKMUR",
-    area: 1.0,
-    monokulturAchievements: {
-      I: 105.0,
-      II: 105.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 1,
+      "name": "PT. CENTRAL WARISAN INDAH MAKMUR",
+      "area": 1.0,
+      "monokulturAchievements": {
+          "I": 105.0,
+          "II": 105.0,
+          "III": 105.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 2,
-    name: "PT. ADIMULYA AGRO LESTARI",
-    area: 0.25,
-    monokulturAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 2,
+      "name": "PT. ADIMULYA AGRO LESTARI",
+      "area": 0.25,
+      "monokulturAchievements": {
+          "I": 2.0,
+          "II": 2.0,
+          "III": 2.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 3,
-    name: "PT. KEBUN PANTAI RAJA",
-    area: 0.5,
-    monokulturAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 3,
+      "name": "PT. KEBUN PANTAI RAJA",
+      "area": 0.5,
+      "monokulturAchievements": {
+          "I": 2.0,
+          "II": 2.0,
+          "III": 2.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 4,
-    name: "PT. PN IV REG III SEI GALUH",
-    area: 0.5,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 4,
+      "name": "PT. PN IV REG III SEI GALUH",
+      "area": 0.5,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 5,
-    name: "PT CWIM KOPERASI AKUB (XIII KOTO KAMPAR)",
-    area: 0.25,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 5,
+      "name": "PT CWIM KOPERASI AKUB (XIII KOTO KAMPAR)",
+      "area": 0.25,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 2.0,
+          "II": 2.0,
+          "III": 2.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 6,
-    name: "PT. PADASA ENAM UTAMA (XIII KOTO KAMPAR)",
-    area: 20.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 1.0,
-      II: 1.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 6,
+      "name": "PT. PADASA ENAM UTAMA (XIII KOTO KAMPAR)",
+      "area": 20.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 1.0,
+          "II": 1.0,
+          "III": 1.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 7,
-    name: "PT. SIMASSAWIT ALIANTAN",
-    area: 0.5,
-    monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 7,
+      "name": "PT. SIMASSAWIT ALIANTAN",
+      "area": 0.5,
+      "monokulturAchievements": {
+          "I": 1.0,
+          "II": 1.0,
+          "III": 1.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 8,
-    name: "LAHAN PAK JAMIN",
-    area: 3.0,
-    monokulturAchievements: {
-      I: 0.5,
-      II: 0.5,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 8,
+      "name": "LAHAN PAK JAMIN",
+      "area": 3.0,
+      "monokulturAchievements": {
+          "I": 0.5,
+          "II": 0.5,
+          "III": 0.5,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 9,
-    name: "LAHAN PAK SUNARDI",
-    area: 3.0,
-    monokulturAchievements: {
-      I: 0.25,
-      II: 0.25,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 9,
+      "name": "LAHAN PAK SUNARDI",
+      "area": 3.0,
+      "monokulturAchievements": {
+          "I": 0.25,
+          "II": 0.25,
+          "III": 0.25,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 10,
-    name: "POKTAN KARYA INDAH",
-    area: 3.0,
-    monokulturAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 10,
+      "name": "POKTAN KARYA INDAH",
+      "area": 3.0,
+      "monokulturAchievements": {
+          "I": 2.0,
+          "II": 2.0,
+          "III": 2.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 11,
-    name: "POKTAN DESA TANAH DATAR",
-    area: 4.0,
-    monokulturAchievements: {
-      I: 12.0,
-      II: 12.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 11,
+      "name": "POKTAN DESA TANAH DATAR",
+      "area": 4.0,
+      "monokulturAchievements": {
+          "I": 12.0,
+          "II": 12.0,
+          "III": 12.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 12,
-    name: "POLSEK BANGKINANG KOTA",
-    area: 4.0,
-    monokulturAchievements: {
-      I: 0.5,
-      II: 0.5,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 12,
+      "name": "POLSEK BANGKINANG KOTA",
+      "area": 4.0,
+      "monokulturAchievements": {
+          "I": 0.5,
+          "II": 0.5,
+          "III": 0.5,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 13,
-    name: "POKTAN KEMBOJA",
-    area: 12.0,
-    monokulturAchievements: {
-      I: 1.0,
-      II: 1.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 13,
+      "name": "POKTAN KEMBOJA",
+      "area": 12.0,
+      "monokulturAchievements": {
+          "I": 1.0,
+          "II": 1.0,
+          "III": 1.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 14,
-    name: "KEBUN PAK KUNCORO",
-    area: 0.4,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.25,
-      II: 0.25,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 14,
+      "name": "KEBUN PAK KUNCORO",
+      "area": 0.4,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.25,
+          "II": 0.25,
+          "III": 0.25,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 15,
-    name: "PT. SARINDO AGRI LESTARI",
-    area: 2.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 15,
+      "name": "PT. SARINDO AGRI LESTARI",
+      "area": 2.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 2.0,
+          "II": 2.0,
+          "III": 2.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 16,
-    name: "PT. RIMBUN SAWIT SEJAHTERA",
-    area: 1.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 4.0,
-      II: 4.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 16,
+      "name": "PT. RIMBUN SAWIT SEJAHTERA",
+      "area": 1.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 4.0,
+          "II": 4.0,
+          "III": 4.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 17,
-    name: "POKTAN HERI SANTOSO",
-    area: 12.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.4,
-      II: 0.4,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 17,
+      "name": "POKTAN HERI SANTOSO",
+      "area": 12.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.4,
+          "II": 0.4,
+          "III": 0.4,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 18,
-    name: "KEBUN AN-NIZHAM",
-    area: 3.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 1.0,
-      II: 1.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 18,
+      "name": "KEBUN AN-NIZHAM",
+      "area": 3.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 1.0,
+          "II": 1.0,
+          "III": 1.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 19,
-    name: "PT. SMS ( DIREKTUR JONI )",
-    area: 0.16,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 1.0,
-      II: 1.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 19,
+      "name": "PT. SMS ( DIREKTUR JONI )",
+      "area": 0.16,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 1.0,
+          "II": 1.0,
+          "III": 1.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 20,
-    name: "PT. ZAS ( PENGAWAS MULYADI )",
-    area: 2.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 20,
+      "name": "PT. ZAS ( PENGAWAS MULYADI )",
+      "area": 2.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 2.0,
+          "II": 2.0,
+          "III": 2.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 21,
-    name: "POKTAN DESA SENAMA NENEK",
-    area: 0.5,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 4.0,
-      II: 4.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 21,
+      "name": "POKTAN DESA SENAMA NENEK",
+      "area": 0.5,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 4.0,
+          "II": 4.0,
+          "III": 4.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 22,
-    name: "POKTAN SAWINDO",
-    area: 1672.27,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.16,
-      II: 0.16,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 22,
+      "name": "POKTAN SAWINDO",
+      "area": 1672.27,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.16,
+          "II": 0.16,
+          "III": 0.16,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 23,
-    name: "KEBUN SAID USMAN EKS. KEBUN PAK RAHMAT",
-    area: 300.2,
-    monokulturAchievements: {
-      I: 0.5,
-      II: 0.5,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 23,
+      "name": "KEBUN SAID USMAN EKS. KEBUN PAK RAHMAT",
+      "area": 300.2,
+      "monokulturAchievements": {
+          "I": 0.5,
+          "II": 0.5,
+          "III": 0.5,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 24,
-    name: "TANAH KAS DESA BUKIT KRATAI",
-    area: 1835.0,
-    monokulturAchievements: {
-      I: 0.5,
-      II: 0.5,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 24,
+      "name": "TANAH KAS DESA BUKIT KRATAI",
+      "area": 1835.0,
+      "monokulturAchievements": {
+          "I": 0.5,
+          "II": 0.5,
+          "III": 0.5,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 25,
-    name: "PEKARANGAN KANTOR CAMAT SIAK HULU",
-    area: 1043.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.5,
-      II: 0.5,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 25,
+      "name": "PEKARANGAN KANTOR CAMAT SIAK HULU",
+      "area": 1043.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.5,
+          "II": 0.5,
+          "III": 0.5,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 26,
-    name: "POKTAN SARI MURNI",
-    area: 2300.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 3.0,
-      II: 3.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 26,
+      "name": "POKTAN SARI MURNI",
+      "area": 2300.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 3.0,
+          "II": 3.0,
+          "III": 3.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 27,
-    name: "POKTAN CAMPUR SARI",
-    area: 7719.15,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 3.0,
-      II: 3.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 27,
+      "name": "POKTAN CAMPUR SARI",
+      "area": 7719.15,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 3.0,
+          "II": 3.0,
+          "III": 3.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 28,
-    name: "POKTAN BENGKOANG TETAP JAYA",
-    area: 2562.83,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 3.0,
-      II: 3.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 28,
+      "name": "POKTAN BENGKOANG TETAP JAYA",
+      "area": 2562.83,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 3.0,
+          "II": 3.0,
+          "III": 3.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 29,
-    name: "POKTAN BAROKAH",
-    area: 2298.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 3.0,
-      II: 3.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 29,
+      "name": "POKTAN BAROKAH",
+      "area": 2298.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 3.0,
+          "II": 3.0,
+          "III": 3.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 30,
-    name: "POKTAN SEPAKAT JAYA TANI",
-    area: 1500.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 2.0,
-      II: 2.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 30,
+      "name": "POKTAN SEPAKAT JAYA TANI",
+      "area": 1500.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 2.0,
+          "II": 2.0,
+          "III": 2.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 31,
-    name: "POKTAN MAJU BERSAMA",
-    area: 675.0,
-    monokulturAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 12.0,
-      II: 12.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 31,
+      "name": "POKTAN MAJU BERSAMA",
+      "area": 675.0,
+      "monokulturAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 12.0,
+          "II": 12.0,
+          "III": 12.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 32,
-    name: "PT AGRO ABADI I (SIAK HULU)",
-    area: 1.0,
-    monokulturAchievements: {
-      I: 3.0,
-      II: 3.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 80.0,
-      II: 80.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 32,
+      "name": "PT AGRO ABADI I (SIAK HULU)",
+      "area": 1.0,
+      "monokulturAchievements": {
+          "I": 3.0,
+          "II": 3.0,
+          "III": 3.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 80.0,
+          "II": 80.0,
+          "III": 80.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 33,
-    name: "POKTAN DESA KUBANG JAYA",
-    area: 2.0,
-    monokulturAchievements: {
-      I: 4.0,
-      II: 4.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
+      "id": 33,
+      "name": "POKTAN DESA KUBANG JAYA",
+      "area": 2.0,
+      "monokulturAchievements": {
+          "I": 4.0,
+          "II": 4.0,
+          "III": 4.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
   },
   {
-    id: 34,
-    name: "LAHAN SATBRIMOBDA RIAU",
-    area: 0.5,
-    monokulturAchievements: {
-      I: 20.0,
-      II: 20.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    tumpangSariAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-    csrAchievements: {
-      I: 0.0,
-      II: 0.0,
-      III: 0.0,
-      IV: 0.0,
-    },
-  },
-];
+      "id": 34,
+      "name": "LAHAN SATBRIMOBDA RIAU",
+      "area": 0.5,
+      "monokulturAchievements": {
+          "I": 20.0,
+          "II": 20.0,
+          "III": 20.0,
+          "IV": 0.0
+      },
+      "tumpangSariAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      },
+      "csrAchievements": {
+          "I": 0.0,
+          "II": 0.0,
+          "III": 0.0,
+          "IV": 0.0
+      }
+  }
+]
