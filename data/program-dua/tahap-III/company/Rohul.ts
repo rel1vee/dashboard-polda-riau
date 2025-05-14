@@ -362,7 +362,7 @@ export const rohulCompanies3: Company[] = [
       I: 24,
       II: 24,
       III: 24,
-      IV: 0,
+      IV: 24,
     },
     csrAchievements: {
       I: 0,
@@ -387,7 +387,7 @@ export const rohulCompanies3: Company[] = [
       I: 2.5,
       II: 2.5,
       III: 2.5,
-      IV: 0,
+      IV: 2.5,
     },
     tumpangSariTargets: {
       I: 137.29,
@@ -399,7 +399,7 @@ export const rohulCompanies3: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     csrAchievements: {
       I: 0,
@@ -461,7 +461,7 @@ export const rohulCompanies3: Company[] = [
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0,
+      IV: 1.5,
     },
     tumpangSariTargets: {
       I: 40.34,
@@ -547,7 +547,7 @@ export const rohulCompanies3: Company[] = [
       I: 19,
       II: 19,
       III: 19,
-      IV: 0,
+      IV: 19,
     },
     csrAchievements: {
       I: 0,
@@ -769,7 +769,7 @@ export const rohulCompanies3: Company[] = [
       I: 4,
       II: 4,
       III: 4,
-      IV: 0,
+      IV: 4,
     },
     csrAchievements: {
       I: 0,
@@ -1065,7 +1065,7 @@ export const rohulCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -1102,7 +1102,7 @@ export const rohulCompanies3: Company[] = [
       I: 50,
       II: 50,
       III: 50,
-      IV: 0,
+      IV: 50,
     },
     csrAchievements: {
       I: 0,
@@ -1250,7 +1250,7 @@ export const rohulCompanies3: Company[] = [
       I: 6,
       II: 6,
       III: 6,
-      IV: 0,
+      IV: 6,
     },
     csrAchievements: {
       I: 0,
@@ -1349,7 +1349,7 @@ export const rohulCompanies3: Company[] = [
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0,
+      IV: 1.5,
     },
     tumpangSariTargets: {
       I: 36.54,
@@ -1435,7 +1435,7 @@ export const rohulCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,

@@ -35,7 +35,7 @@ export const pekanbaruCompanies3: Company[] = [
       I: 37,
       II: 37,
       III: 37,
-      IV: 0,
+      IV: 37,
     },
   },
   {
@@ -72,7 +72,7 @@ export const pekanbaruCompanies3: Company[] = [
       I: 18,
       II: 18,
       III: 18,
-      IV: 0,
+      IV: 18,
     },
   },
   {
@@ -109,7 +109,7 @@ export const pekanbaruCompanies3: Company[] = [
       I: 18,
       II: 18,
       III: 18,
-      IV: 0,
+      IV: 18,
     },
   },
   {
@@ -146,7 +146,7 @@ export const pekanbaruCompanies3: Company[] = [
       I: 57,
       II: 57,
       III: 57,
-      IV: 0,
+      IV: 57,
     },
   },
   {
@@ -183,7 +183,7 @@ export const pekanbaruCompanies3: Company[] = [
       I: 302,
       II: 302,
       III: 302,
-      IV: 0,
+      IV: 302,
     },
   },
   {

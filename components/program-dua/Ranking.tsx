@@ -68,6 +68,7 @@ const prepareTableData = () => {
     let polsekAchievement6 = 0;
     let polsekAchievement7 = 0;
     let polsekAchievement8 = 0;
+    let polsekAchievement9 = 0;
 
     city.polsek1.forEach((polsek) => {
       polsek.villages.forEach((village) => {
@@ -114,6 +115,12 @@ const prepareTableData = () => {
     city.polsek8.forEach((polsek) => {
       polsek.villages.forEach((village) => {
         polsekAchievement8 += village.achievement;
+      });
+    });
+
+    city.polsek9.forEach((polsek) => {
+      polsek.villages.forEach((village) => {
+        polsekAchievement9 += village.achievement;
       });
     });
 
@@ -227,9 +234,9 @@ const prepareTableData = () => {
     };
 
     const totalAchievements3 =
-      monokulturAchievements3.iii +
-      tumpangSariAchievements3.iii +
-      csrAchievements3.iii;
+      monokulturAchievements3.iv +
+      tumpangSariAchievements3.iv +
+      csrAchievements3.iv;
 
     return {
       no: city.id,
@@ -252,6 +259,7 @@ const prepareTableData = () => {
       polsekAchievement6,
       polsekAchievement7,
       polsekAchievement8,
+      polsekAchievement9,
       TAHAP_I: totalAchievements1 + polsekAchievement1,
       TAHAP_II:
         totalAchievements2 +
@@ -259,10 +267,10 @@ const prepareTableData = () => {
         totalAchievements1,
       TAHAP_III:
         totalAchievements3 +
-        (polsekAchievement8 - polsekAchievement5) -
+        (polsekAchievement9 - polsekAchievement5) -
         totalAchievements2,
       TAHAP_IV: 0,
-      FINAL: totalAchievements3 + polsekAchievement8,
+      FINAL: totalAchievements3 + polsekAchievement9,
     };
   });
 
@@ -275,7 +283,7 @@ const prepareTablePolsekData = () => {
     let totalAchievement = 0;
     let totalTarget = 0;
 
-    city.polsek8.forEach((polsek) => {
+    city.polsek9.forEach((polsek) => {
       polsek.villages.forEach((village) => {
         totalAchievement += village.achievement;
         totalTarget += village.target;
@@ -408,6 +416,27 @@ const getTotalAchievements = () => {
         return sum;
       }, 0);
 
+      const monoAchievementIV3 = allCompanies3.reduce((sum, company) => {
+        if (company.monokulturAchievements?.IV) {
+          return sum + company.monokulturAchievements.IV;
+        }
+        return sum;
+      }, 0);
+
+      const tumpangSariAchievementIV3 = allCompanies3.reduce((sum, company) => {
+        if (company.tumpangSariAchievements?.IV) {
+          return sum + company.tumpangSariAchievements.IV;
+        }
+        return sum;
+      }, 0);
+
+      const csrAchievementIV3 = allCompanies3.reduce((sum, company) => {
+        if (company.csrAchievements?.IV) {
+          return sum + company.csrAchievements.IV;
+        }
+        return sum;
+      }, 0);
+
       const monoAchievementIV2 = allCompanies2.reduce((sum, company) => {
         if (company.monokulturAchievements?.IV) {
           return sum + company.monokulturAchievements.IV;
@@ -530,6 +559,16 @@ const getTotalAchievements = () => {
         0
       );
 
+      const polsekAchievement9 = polres.polsek9.reduce(
+        (total, polsek) =>
+          total +
+          (polsek.villages.reduce(
+            (achievement, village) => achievement + (village.achievement || 0),
+            0
+          ) || 0),
+        0
+      );
+
       return {
         monokulturTarget: acc.monokulturTarget + polres.monokulturTarget,
         tumpangSariTarget: acc.tumpangSariTarget + polres.tumpangSariTarget,
@@ -564,6 +603,12 @@ const getTotalAchievements = () => {
           acc.tumpangSariAchievementIII3 + tumpangSariAchievementIII3,
         csrAchievementIII3: acc.csrAchievementIII3 + csrAchievementIII3,
 
+        monokulturAchievementIV3:
+          acc.monokulturAchievementIV3 + monoAchievementIV3,
+        tumpangSariAchievementIV3:
+          acc.tumpangSariAchievementIV3 + tumpangSariAchievementIV3,
+        csrAchievementIV3: acc.csrAchievementIV3 + csrAchievementIV3,
+
         polsekAchievement1: acc.polsekAchievement1 + polsekAchievement1,
         polsekAchievement2: acc.polsekAchievement2 + polsekAchievement2,
         polsekAchievement3: acc.polsekAchievement3 + polsekAchievement3,
@@ -572,6 +617,7 @@ const getTotalAchievements = () => {
         polsekAchievement6: acc.polsekAchievement6 + polsekAchievement6,
         polsekAchievement7: acc.polsekAchievement7 + polsekAchievement7,
         polsekAchievement8: acc.polsekAchievement8 + polsekAchievement8,
+        polsekAchievement9: acc.polsekAchievement9 + polsekAchievement9,
       };
     },
     {
@@ -598,6 +644,10 @@ const getTotalAchievements = () => {
       tumpangSariAchievementIII3: 0,
       csrAchievementIII3: 0,
 
+      monokulturAchievementIV3: 0,
+      tumpangSariAchievementIV3: 0,
+      csrAchievementIV3: 0,
+
       polsekAchievement1: 0,
       polsekAchievement2: 0,
       polsekAchievement3: 0,
@@ -606,6 +656,7 @@ const getTotalAchievements = () => {
       polsekAchievement6: 0,
       polsekAchievement7: 0,
       polsekAchievement8: 0,
+      polsekAchievement9: 0,
     }
   );
 };
@@ -636,6 +687,7 @@ const ProgramDuaRanking = () => {
     polsekAchievement6: number;
     polsekAchievement7: number;
     polsekAchievement8: number;
+    polsekAchievement9: number;
   }) => {
     return {
       phase1: {
@@ -686,10 +738,10 @@ const ProgramDuaRanking = () => {
       },
       phase3: {
         total: (
-          data.capaianMonokultur3.iii +
-          data.capaianTumpangSari3.iii +
-          data.capaianCSR3.iii +
-          (data.polsekAchievement8 - data.polsekAchievement5) -
+          data.capaianMonokultur3.iv +
+          data.capaianTumpangSari3.iv +
+          data.capaianCSR3.iv +
+          (data.polsekAchievement9 - data.polsekAchievement5) -
           (data.capaianMonokultur2.iv +
             data.capaianTumpangSari2.iv +
             data.capaianCSR2.iv)
@@ -697,10 +749,10 @@ const ProgramDuaRanking = () => {
           maximumFractionDigits: 2,
         }),
         percentage: (
-          ((data.capaianMonokultur3.iii +
-            data.capaianTumpangSari3.iii +
-            data.capaianCSR3.iii +
-            (data.polsekAchievement8 - data.polsekAchievement5) -
+          ((data.capaianMonokultur3.iv +
+            data.capaianTumpangSari3.iv +
+            data.capaianCSR3.iv +
+            (data.polsekAchievement9 - data.polsekAchievement5) -
             (data.capaianMonokultur2.iv +
               data.capaianTumpangSari2.iv +
               data.capaianCSR2.iv)) /
@@ -712,18 +764,18 @@ const ProgramDuaRanking = () => {
       },
       phase5: {
         total: (
-          data.capaianMonokultur3.iii +
-          data.capaianTumpangSari3.iii +
-          data.capaianCSR3.iii +
-          data.polsekAchievement8
+          data.capaianMonokultur3.iv +
+          data.capaianTumpangSari3.iv +
+          data.capaianCSR3.iv +
+          data.polsekAchievement9
         ).toLocaleString("id-ID", {
           maximumFractionDigits: 2,
         }),
         percentage: (
-          ((data.capaianMonokultur3.iii +
-            data.capaianTumpangSari3.iii +
-            data.capaianCSR3.iii +
-            data.polsekAchievement8) /
+          ((data.capaianMonokultur3.iv +
+            data.capaianTumpangSari3.iv +
+            data.capaianCSR3.iv +
+            data.polsekAchievement9) /
             data.totalTarget) *
           100
         ).toLocaleString("id-ID", {
@@ -974,7 +1026,16 @@ const ProgramDuaRanking = () => {
                             )}
                           </TableCell>
                           <TableCell className="text-center border bg-purple-50">
-                            {/* {formatNumber(0)} */}
+                            {formatNumber(
+                              row.capaianMonokultur3.iv +
+                                row.capaianTumpangSari3.iv +
+                                row.capaianCSR3.iv +
+                                (row.polsekAchievement9 -
+                                  row.polsekAchievement8) -
+                                (row.capaianMonokultur3.iii +
+                                  row.capaianTumpangSari3.iii +
+                                  row.capaianCSR3.iii)
+                            )}
                           </TableCell>
                           <TableCell className="text-center border font-bold bg-purple-50">
                             {totals.phase3.total}
@@ -1109,13 +1170,24 @@ const ProgramDuaRanking = () => {
                               achievements.csrAchievementII3)
                         )}
                       </TableCell>
-                      <TableCell className="text-center border bg-purple-50"></TableCell>
+                      <TableCell className="text-center border bg-purple-50">
+                        {formatNumber(
+                          achievements.monokulturAchievementIV3 +
+                            achievements.tumpangSariAchievementIV3 +
+                            achievements.csrAchievementIV3 +
+                            (achievements.polsekAchievement9 -
+                              achievements.polsekAchievement8) -
+                            (achievements.monokulturAchievementIII3 +
+                              achievements.tumpangSariAchievementIII3 +
+                              achievements.csrAchievementIII3)
+                        )}
+                      </TableCell>
                       <TableCell className="text-center border font-bold bg-purple-50">
                         {formatNumber(
-                          achievements.monokulturAchievementIII3 +
-                            achievements.tumpangSariAchievementIII3 +
-                            achievements.csrAchievementIII3 +
-                            (achievements.polsekAchievement8 -
+                          achievements.monokulturAchievementIV3 +
+                            achievements.tumpangSariAchievementIV3 +
+                            achievements.csrAchievementIV3 +
+                            (achievements.polsekAchievement9 -
                               achievements.polsekAchievement5) -
                             (achievements.monokulturAchievementIV2 +
                               achievements.tumpangSariAchievementIV2 +
@@ -1124,10 +1196,10 @@ const ProgramDuaRanking = () => {
                       </TableCell>
                       <TableCell className="text-center border font-bold bg-purple-50">
                         {formatNumber(
-                          ((achievements.monokulturAchievementIII3 +
-                            achievements.tumpangSariAchievementIII3 +
-                            achievements.csrAchievementIII3 +
-                            (achievements.polsekAchievement8 -
+                          ((achievements.monokulturAchievementIV3 +
+                            achievements.tumpangSariAchievementIV3 +
+                            achievements.csrAchievementIV3 +
+                            (achievements.polsekAchievement9 -
                               achievements.polsekAchievement5) -
                             (achievements.monokulturAchievementIV2 +
                               achievements.tumpangSariAchievementIV2 +
@@ -1150,18 +1222,18 @@ const ProgramDuaRanking = () => {
 
                       <TableCell className="text-center border font-bold">
                         {formatNumber(
-                          achievements.monokulturAchievementIII3 +
-                            achievements.tumpangSariAchievementIII3 +
-                            achievements.csrAchievementIII3 +
-                            achievements.polsekAchievement8
+                          achievements.monokulturAchievementIV3 +
+                            achievements.tumpangSariAchievementIV3 +
+                            achievements.csrAchievementIV3 +
+                            achievements.polsekAchievement9
                         )}
                       </TableCell>
                       <TableCell className="text-center border font-bold">
                         {formatNumber(
-                          ((achievements.monokulturAchievementIII3 +
-                            achievements.tumpangSariAchievementIII3 +
-                            achievements.csrAchievementIII3 +
-                            achievements.polsekAchievement8) /
+                          ((achievements.monokulturAchievementIV3 +
+                            achievements.tumpangSariAchievementIV3 +
+                            achievements.csrAchievementIV3 +
+                            achievements.polsekAchievement9) /
                             (achievements.monokulturTarget +
                               achievements.tumpangSariTarget)) *
                             100

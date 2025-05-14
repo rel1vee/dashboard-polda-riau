@@ -9,7 +9,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -32,7 +32,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -55,7 +55,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 0.6,
       II: 0.6,
       III: 0.6,
-      IV: 0.0,
+      IV: 0.6,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -78,7 +78,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 5.0,
       II: 5.0,
       III: 5.0,
-      IV: 0.0,
+      IV: 5.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -101,7 +101,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 21.0,
       II: 21.0,
       III: 21.0,
-      IV: 0.0,
+      IV: 21.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -124,7 +124,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -147,7 +147,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -170,7 +170,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 3.43,
       II: 3.43,
       III: 3.43,
-      IV: 0.0,
+      IV: 3.43,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -193,7 +193,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -216,7 +216,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 4.0,
       II: 4.0,
       III: 4.0,
-      IV: 0.0,
+      IV: 4.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -245,7 +245,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 0.0,
       II: 0.7,
       III: 0.7,
-      IV: 0.0,
+      IV: 0.7,
     },
     csrAchievements: {
       I: 0.0,
@@ -262,7 +262,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -285,7 +285,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 10.0,
       II: 10.0,
       III: 10.0,
-      IV: 0.0,
+      IV: 10.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -308,7 +308,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 25.0,
       II: 25.0,
       III: 25.0,
-      IV: 0.0,
+      IV: 25.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -337,7 +337,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -360,7 +360,7 @@ export const pelalawanOtherCompanies3: Company[] = [
       I: 0.0,
       II: 200.0,
       III: 200.0,
-      IV: 0.0,
+      IV: 200.0,
     },
     csrAchievements: {
       I: 0.0,

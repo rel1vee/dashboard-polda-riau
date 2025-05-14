@@ -17,7 +17,7 @@ export const bengkalisCompanies3: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     tumpangSariTargets: {
       I: 202.49,
@@ -66,7 +66,7 @@ export const bengkalisCompanies3: Company[] = [
       I: 5,
       II: 5,
       III: 5,
-      IV: 0,
+      IV: 5,
     },
     csrAchievements: {
       I: 0,
@@ -91,7 +91,7 @@ export const bengkalisCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 234.77,
@@ -183,7 +183,7 @@ export const bengkalisCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
   },
   {
@@ -214,7 +214,7 @@ export const bengkalisCompanies3: Company[] = [
       I: 50,
       II: 50,
       III: 50,
-      IV: 0,
+      IV: 50,
     },
     csrAchievements: {
       I: 0,
@@ -239,7 +239,7 @@ export const bengkalisCompanies3: Company[] = [
       I: 3.46,
       II: 3.46,
       III: 3.46,
-      IV: 0,
+      IV: 3.46,
     },
     tumpangSariTargets: {
       I: 122.5,
@@ -331,11 +331,11 @@ export const bengkalisCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
   },
   {
-    id: 11,
+    id: 7,
     name: "PT. SURYA DUMAI AGRINDO/                  PT. RIAU MAKMUR SENTOSA",
     area: 8200.0,
     target2Percent: 164.0,
@@ -368,15 +368,15 @@ export const bengkalisCompanies3: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
   },
   {
-    id: 12,
+    id: 11,
     name: "PT. TUMPUAN",
-    area: NaN,
-    target2Percent: NaN,
-    target7Percent: NaN,
+    area: 0.0,
+    target2Percent: 0.0,
+    target7Percent: 0.0,
     monokulturTargets: {
       I: 0,
       II: 0,
@@ -399,7 +399,7 @@ export const bengkalisCompanies3: Company[] = [
       I: 50,
       II: 50,
       III: 50,
-      IV: 0,
+      IV: 50,
     },
     csrAchievements: {
       I: 0,

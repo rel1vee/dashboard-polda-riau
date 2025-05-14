@@ -29,7 +29,7 @@ export const kuansingCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -91,7 +91,7 @@ export const kuansingCompanies3: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 210.0,
@@ -103,7 +103,7 @@ export const kuansingCompanies3: Company[] = [
       I: 5,
       II: 5,
       III: 5,
-      IV: 0,
+      IV: 5,
     },
     csrAchievements: {
       I: 0,
@@ -146,7 +146,7 @@ export const kuansingCompanies3: Company[] = [
       I: 2.4,
       II: 2.4,
       III: 2.4,
-      IV: 0,
+      IV: 2.4,
     },
   },
   {
@@ -177,7 +177,7 @@ export const kuansingCompanies3: Company[] = [
       I: 5,
       II: 5,
       III: 5,
-      IV: 0,
+      IV: 5,
     },
     csrAchievements: {
       I: 0,
@@ -202,7 +202,7 @@ export const kuansingCompanies3: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     tumpangSariTargets: {
       I: 63.05,
@@ -251,7 +251,7 @@ export const kuansingCompanies3: Company[] = [
       I: 50,
       II: 50,
       III: 50,
-      IV: 0,
+      IV: 50,
     },
     csrAchievements: {
       I: 0,
@@ -288,13 +288,13 @@ export const kuansingCompanies3: Company[] = [
       I: 5,
       II: 5,
       III: 5,
-      IV: 0,
+      IV: 5,
     },
     csrAchievements: {
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
   },
   {
@@ -362,7 +362,7 @@ export const kuansingCompanies3: Company[] = [
       I: 3,
       II: 3,
       III: 3,
-      IV: 0,
+      IV: 3,
     },
     csrAchievements: {
       I: 0,

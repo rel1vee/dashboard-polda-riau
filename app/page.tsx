@@ -146,7 +146,7 @@ const DashboardPoldaRiauPage = () => {
   const getTotalTargets = () => {
     return programDua.reduce(
       (acc, polres) => {
-        const polsekTarget = polres.polsek8.reduce(
+        const polsekTarget = polres.polsek9.reduce(
           (total, polsek) =>
             total +
             (polsek.villages.reduce(
@@ -179,27 +179,27 @@ const DashboardPoldaRiauPage = () => {
         ];
 
         const monoAchievement = allCompanies.reduce((sum, company) => {
-          if (company.monokulturAchievements.III) {
-            return sum + company.monokulturAchievements.III;
+          if (company.monokulturAchievements.IV) {
+            return sum + company.monokulturAchievements.IV;
           }
           return sum;
         }, 0);
 
         const tumpangSariAchievement = allCompanies.reduce((sum, company) => {
-          if (company.tumpangSariAchievements.III) {
-            return sum + company.tumpangSariAchievements.III;
+          if (company.tumpangSariAchievements.IV) {
+            return sum + company.tumpangSariAchievements.IV;
           }
           return sum;
         }, 0);
 
         const csrAchievement = allCompanies.reduce((sum, company) => {
-          if (company.csrAchievements.III) {
-            return sum + company.csrAchievements.III;
+          if (company.csrAchievements.IV) {
+            return sum + company.csrAchievements.IV;
           }
           return sum;
         }, 0);
 
-        const polsekAchievement = polres.polsek8.reduce(
+        const polsekAchievement = polres.polsek9.reduce(
           (total, polsek) =>
             total +
             (polsek.villages.reduce(
@@ -943,9 +943,9 @@ const DashboardPoldaRiauPage = () => {
                                   .map((company) => ({
                                     ...company,
                                     totalAchievements:
-                                      company.monokulturAchievements.III +
-                                      company.tumpangSariAchievements.III +
-                                      company.csrAchievements.III,
+                                      company.monokulturAchievements.IV +
+                                      company.tumpangSariAchievements.IV +
+                                      company.csrAchievements.IV,
                                   }))
                                   .sort(
                                     (a, b) =>
@@ -1035,9 +1035,9 @@ const DashboardPoldaRiauPage = () => {
                                   .map((company) => ({
                                     ...company,
                                     totalAchievements:
-                                      company.monokulturAchievements.III +
-                                      company.tumpangSariAchievements.III +
-                                      company.csrAchievements.III,
+                                      company.monokulturAchievements.IV +
+                                      company.tumpangSariAchievements.IV +
+                                      company.csrAchievements.IV,
                                   }))
                                   .sort(
                                     (a, b) =>
@@ -1105,7 +1105,7 @@ const DashboardPoldaRiauPage = () => {
                       </CardTitle>
                       {selectedCity ? (
                         <CardDescription>
-                          Total {selectedCity.polsek8.length} POLSEK. Pilih
+                          Total {selectedCity.polsek9.length} POLSEK. Pilih
                           POLSEK untuk Melihat Detail.
                         </CardDescription>
                       ) : (
@@ -1117,10 +1117,10 @@ const DashboardPoldaRiauPage = () => {
                     <CardContent className="p-0 overflow-y-auto max-h-[500px]">
                       {selectedCity ? (
                         <div className="p-4">
-                          {selectedCity.polsek8.length > 0 ? (
+                          {selectedCity.polsek9.length > 0 ? (
                             <Table>
                               <TableBody>
-                                {selectedCity.polsek8
+                                {selectedCity.polsek9
                                   .map((polsek) => ({
                                     ...polsek,
                                     totalAchievements: polsek.villages

@@ -29,7 +29,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -128,7 +128,7 @@ export const kamparCompanies3: Company[] = [
       I: 10,
       II: 10,
       III: 10,
-      IV: 0,
+      IV: 10,
     },
     tumpangSariTargets: {
       I: 88.26,
@@ -165,7 +165,7 @@ export const kamparCompanies3: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 3.47,
@@ -214,7 +214,7 @@ export const kamparCompanies3: Company[] = [
       I: 5,
       II: 5,
       III: 5,
-      IV: 0,
+      IV: 5,
     },
     csrAchievements: {
       I: 0,
@@ -251,7 +251,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -325,7 +325,7 @@ export const kamparCompanies3: Company[] = [
       I: 15,
       II: 15,
       III: 15,
-      IV: 0,
+      IV: 15,
     },
     csrAchievements: {
       I: 0,
@@ -350,7 +350,7 @@ export const kamparCompanies3: Company[] = [
       I: 4.24,
       II: 4.24,
       III: 4.24,
-      IV: 0,
+      IV: 4.24,
     },
     tumpangSariTargets: {
       I: 220.14,
@@ -473,7 +473,7 @@ export const kamparCompanies3: Company[] = [
       I: 12,
       II: 12,
       III: 12,
-      IV: 0,
+      IV: 12,
     },
     csrAchievements: {
       I: 0,
@@ -553,7 +553,7 @@ export const kamparCompanies3: Company[] = [
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0,
+      IV: 1.5,
     },
   },
   {
@@ -572,7 +572,7 @@ export const kamparCompanies3: Company[] = [
       I: 4.5,
       II: 4.5,
       III: 4.5,
-      IV: 0,
+      IV: 4.5,
     },
     tumpangSariTargets: {
       I: 14.0,
@@ -609,7 +609,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 56.19,
@@ -621,7 +621,7 @@ export const kamparCompanies3: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     csrAchievements: {
       I: 0,
@@ -646,7 +646,7 @@ export const kamparCompanies3: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 1.72,
@@ -720,7 +720,7 @@ export const kamparCompanies3: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 0.5,
-      IV: 0,
+      IV: 0.5,
     },
     tumpangSariTargets: {
       I: 9.24,
@@ -769,7 +769,7 @@ export const kamparCompanies3: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     csrAchievements: {
       I: 0,
@@ -806,7 +806,7 @@ export const kamparCompanies3: Company[] = [
       I: 25,
       II: 25,
       III: 25,
-      IV: 0,
+      IV: 25,
     },
     csrAchievements: {
       I: 0,
@@ -954,7 +954,7 @@ export const kamparCompanies3: Company[] = [
       I: 8,
       II: 8,
       III: 8,
-      IV: 0,
+      IV: 8,
     },
     csrAchievements: {
       I: 0,
@@ -1053,7 +1053,7 @@ export const kamparCompanies3: Company[] = [
       I: 6,
       II: 6,
       III: 6,
-      IV: 0,
+      IV: 6,
     },
     tumpangSariTargets: {
       I: 0,
@@ -1090,7 +1090,7 @@ export const kamparCompanies3: Company[] = [
       I: 0.5,
       II: 0.5,
       III: 0.5,
-      IV: 0,
+      IV: 0.5,
     },
     tumpangSariTargets: {
       I: 0,
@@ -1102,7 +1102,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -1275,7 +1275,7 @@ export const kamparCompanies3: Company[] = [
       I: 0.25,
       II: 0.25,
       III: 0.25,
-      IV: 0,
+      IV: 0.25,
     },
     tumpangSariTargets: {
       I: 6.51,
@@ -1287,7 +1287,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -1404,7 +1404,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
   },
   {
@@ -1497,7 +1497,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 27.62,
@@ -1509,7 +1509,7 @@ export const kamparCompanies3: Company[] = [
       I: 15,
       II: 15,
       III: 15,
-      IV: 0,
+      IV: 15,
     },
     csrAchievements: {
       I: 0,
@@ -1571,7 +1571,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 9.1,
@@ -1682,7 +1682,7 @@ export const kamparCompanies3: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 108.5,
@@ -1842,7 +1842,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     csrAchievements: {
       I: 0,
@@ -1904,7 +1904,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 15.72,
@@ -1941,7 +1941,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 5.41,
@@ -1953,7 +1953,7 @@ export const kamparCompanies3: Company[] = [
       I: 10,
       II: 10,
       III: 10,
-      IV: 0,
+      IV: 10,
     },
     csrAchievements: {
       I: 0,
@@ -1978,7 +1978,7 @@ export const kamparCompanies3: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 52.5,
@@ -2033,7 +2033,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
   },
   {
@@ -2089,7 +2089,7 @@ export const kamparCompanies3: Company[] = [
       I: 1,
       II: 1,
       III: 1,
-      IV: 0,
+      IV: 1,
     },
     tumpangSariTargets: {
       I: 17.5,
@@ -2107,7 +2107,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
   },
   {
@@ -2138,7 +2138,7 @@ export const kamparCompanies3: Company[] = [
       I: 14,
       II: 14,
       III: 14,
-      IV: 0,
+      IV: 14,
     },
     csrAchievements: {
       I: 0,
@@ -2200,7 +2200,7 @@ export const kamparCompanies3: Company[] = [
       I: 2,
       II: 2,
       III: 2,
-      IV: 0,
+      IV: 2,
     },
     tumpangSariTargets: {
       I: 47.45,
@@ -2237,7 +2237,7 @@ export const kamparCompanies3: Company[] = [
       I: 0.1,
       II: 0.1,
       III: 0.1,
-      IV: 0,
+      IV: 0.1,
     },
     tumpangSariTargets: {
       I: 75.76,

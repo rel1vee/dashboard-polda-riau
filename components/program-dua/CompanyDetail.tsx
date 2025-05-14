@@ -168,9 +168,9 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
       {
         periode: "3",
         monoTarget: (company3.target2Percent ?? 0) / 4,
-        monoAchievement: company3.monokulturAchievements.III,
+        monoAchievement: company3.monokulturAchievements.IV,
         tsTarget: (company3.target7Percent ?? 0) / 4,
-        tsAchievement: company3.tumpangSariAchievements.III,
+        tsAchievement: company3.tumpangSariAchievements.IV,
       },
       {
         periode: "4",
@@ -375,7 +375,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
 
   const totalArea = company3.area;
 
-  // Fungsi untuk memformat tanggal dalam format "DD-MM-YYYY"
   const formatToIndonesianDate = (date: Date): string => {
     return date.toLocaleDateString("id-ID", {
       day: "2-digit",
@@ -384,7 +383,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     });
   };
 
-  // Pemetaan nama bulan dalam berbagai bahasa
   const monthMap: { [key: string]: number } = {
     januari: 0,
     january: 0,
@@ -420,7 +418,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     dec: 11,
   };
 
-  // Fungsi parsing untuk format "DD-MM-YYYY" dan "DD/MM/YYYY"
   const parseDDMMYYYY = (dateStr: string): Date | null => {
     const parts = dateStr.split(/[-/]/);
     if (parts.length === 3) {
@@ -432,7 +429,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     return null;
   };
 
-  // Fungsi parsing untuk format "YYYY-MM-DD" dan "YYYY/MM/DD"
   const parseYYYYMMDD = (dateStr: string): Date | null => {
     const parts = dateStr.split(/[-/]/);
     if (parts.length === 3) {
@@ -444,7 +440,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     return null;
   };
 
-  // Fungsi parsing untuk format "DD MMMM YYYY" atau "DD MMM YYYY"
   const parseDDMMMMYYYY = (dateStr: string): Date | null => {
     const parts = dateStr.split(" ");
     if (parts.length === 3) {
@@ -458,7 +453,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     return null;
   };
 
-  // Fungsi parsing untuk format "MMMM YYYY"
   const parseMMMMYYYY = (dateStr: string): Date | null => {
     const parts = dateStr.split(" ");
     if (parts.length === 2) {
@@ -471,7 +465,6 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
     return null;
   };
 
-  // Fungsi utama untuk menambahkan 4 bulan
   const calculateHarvestTime = (waktuTanam: string): string => {
     if (!waktuTanam || waktuTanam.trim() === "") return " ";
 
@@ -660,9 +653,9 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </div>
                       <span className="text-sm font-medium">
                         {(
-                          company3.monokulturAchievements.III +
-                          company3.tumpangSariAchievements.III +
-                          (company3.csrAchievements.III ?? 0)
+                          company3.monokulturAchievements.IV +
+                          company3.tumpangSariAchievements.IV +
+                          (company3.csrAchievements.IV ?? 0)
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
@@ -791,8 +784,8 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                       </div>
                       <span className="text-sm font-medium">
                         {(
-                          company3.monokulturAchievements.III +
-                          company3.tumpangSariAchievements.III
+                          company3.monokulturAchievements.IV +
+                          company3.tumpangSariAchievements.IV
                         ).toLocaleString("id-ID", {
                           maximumFractionDigits: 2,
                         })}{" "}
@@ -1103,7 +1096,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company3.monokulturAchievements.III.toLocaleString(
+                            {company3.monokulturAchievements.IV.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -1161,7 +1154,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                             </span>
                           </div>
                           <span className="text-sm font-medium">
-                            {company3.tumpangSariAchievements.III.toLocaleString(
+                            {company3.tumpangSariAchievements.IV.toLocaleString(
                               "id-ID",
                               {
                                 maximumFractionDigits: 2,
@@ -1443,7 +1436,7 @@ const CompanyDetail: React.FC<CompanyDetailProps> = ({
                           </span>
                         </div>
                         <span className="text-sm font-medium">
-                          {company3.csrAchievements.III.toLocaleString("id-ID", {
+                          {company3.csrAchievements.IV.toLocaleString("id-ID", {
                             maximumFractionDigits: 2,
                           })}
                         </span>

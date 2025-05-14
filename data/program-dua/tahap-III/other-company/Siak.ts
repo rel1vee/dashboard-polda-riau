@@ -15,7 +15,7 @@ export const siakOtherCompanies3: Company[] = [
       I: 20.0,
       II: 20.0,
       III: 20.0,
-      IV: 0.0,
+      IV: 20.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -32,13 +32,13 @@ export const siakOtherCompanies3: Company[] = [
       I: 2.0,
       II: 2.0,
       III: 2.0,
-      IV: 0.0,
+      IV: 2.0,
     },
     tumpangSariAchievements: {
       I: 9.0,
       II: 9.0,
       III: 9.0,
-      IV: 0.0,
+      IV: 9.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -153,7 +153,7 @@ export const siakOtherCompanies3: Company[] = [
       I: 72.64,
       II: 72.64,
       III: 72.64,
-      IV: 0.0,
+      IV: 72.64,
     },
     csrAchievements: {
       I: 0.0,
@@ -176,7 +176,7 @@ export const siakOtherCompanies3: Company[] = [
       I: 84.0,
       II: 84.0,
       III: 84.0,
-      IV: 0.0,
+      IV: 84.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -222,7 +222,7 @@ export const siakOtherCompanies3: Company[] = [
       I: 3.0,
       II: 3.0,
       III: 3.0,
-      IV: 0.0,
+      IV: 3.0,
     },
     csrAchievements: {
       I: 0.0,
@@ -239,7 +239,7 @@ export const siakOtherCompanies3: Company[] = [
       I: 1.5,
       II: 1.5,
       III: 1.5,
-      IV: 0.0,
+      IV: 1.5,
     },
     tumpangSariAchievements: {
       I: 0.0,
@@ -262,7 +262,7 @@ export const siakOtherCompanies3: Company[] = [
       I: 1.0,
       II: 1.0,
       III: 1.0,
-      IV: 0.0,
+      IV: 1.0,
     },
     tumpangSariAchievements: {
       I: 0.0,
