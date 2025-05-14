@@ -212,8 +212,8 @@ export const merantiPolsek9: Polsek[] = [
       {
         id: 4,
         name: "MEKARSARI",
-        waktuTanam: "",
-        achievement: 0,
+        waktuTanam: "10 mei 2025",
+        achievement: 0.5,
         target: 2,
       },
       {
@@ -492,8 +492,8 @@ export const merantiPolsek9: Polsek[] = [
       {
         id: 23,
         name: "TANJUNG KEDABU",
-        waktuTanam: "",
-        achievement: 0,
+        waktuTanam: "7 mei 2025",
+        achievement: 0.5,
         target: 2,
       },
       {

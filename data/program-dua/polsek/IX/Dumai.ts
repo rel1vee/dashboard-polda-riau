@@ -24,7 +24,7 @@ export const dumaiPolsek9: Polsek[] = [
         id: 3,
         name: "BUKIT NENAS",
         waktuTanam: "",
-        achievement: 7.5,
+        achievement: 9,
         target: 2,
       },
       {
