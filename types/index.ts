@@ -16,6 +16,7 @@ export interface ProgramSatu {
   jumlahTitikIX: number;
   jumlahTitikX: number;
   jumlahTitikXI: number;
+  jumlahTitikXII: number;
   desaPercontohan: number;
   desaNonPercontohan: number;
   perikanan: number;
