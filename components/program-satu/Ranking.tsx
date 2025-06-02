@@ -43,6 +43,8 @@ const ProgramSatuRanking = () => {
       acc.jumlahTitikX += curr.jumlahTitikX;
       acc.jumlahTitikXI += curr.jumlahTitikXI;
       acc.jumlahTitikXII += curr.jumlahTitikXII;
+      acc.jumlahTitikXIII += curr.jumlahTitikXIII;
+      acc.jumlahTitikXIV += curr.jumlahTitikXIV;
       acc.perikanan += curr.perikanan;
       acc.peternakan += curr.peternakan;
       acc.holtikultura += curr.holtikultura;
@@ -74,6 +76,8 @@ const ProgramSatuRanking = () => {
       jumlahTitikX: 0,
       jumlahTitikXI: 0,
       jumlahTitikXII: 0,
+      jumlahTitikXIII: 0,
+      jumlahTitikXIV: 0,
       perikanan: 0,
       peternakan: 0,
       holtikultura: 0,
@@ -144,7 +148,7 @@ const ProgramSatuRanking = () => {
                 Desa Non Percontohan
               </TableHead>
               <TableHead
-                colSpan={10}
+                colSpan={12}
                 className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300"
               >
                 Jumlah Titik Pekarangan
@@ -241,6 +245,12 @@ const ProgramSatuRanking = () => {
               <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
                 1-6 MEI
               </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                7-13 MEI
+              </TableHead>
+              <TableHead className="text-center border uppercase px-4 py-2 border-red-200 font-bold text-gray-800 bg-red-300 whitespace-nowrap">
+                14-20 MEI
+              </TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -293,14 +303,20 @@ const ProgramSatuRanking = () => {
                   <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikX}
                   </TableCell>
-                  <TableCell className="text-center border font-bold bg-red-50">
+                  <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikXI}
                   </TableCell>
-                  <TableCell className="text-center border font-bold bg-red-50">
+                  <TableCell className="text-center border bg-red-50">
                     {row.jumlahTitikXII}
                   </TableCell>
+                  <TableCell className="text-center border bg-red-50">
+                    {row.jumlahTitikXIII}
+                  </TableCell>
+                  <TableCell className="text-center border font-bold bg-red-50">
+                    {row.jumlahTitikXIV}
+                  </TableCell>
                   <TableCell className="text-center border font-bold bg-indigo-50">
-                    {row.jumlahTitikXII - row.jumlahTitikXI}
+                    {row.jumlahTitikXIV - row.jumlahTitikXIII}
                   </TableCell>
                   <TableCell className="text-center border bg-amber-50">
                     {row.perikanan}
@@ -378,8 +394,16 @@ const ProgramSatuRanking = () => {
               <TableCell className="text-center border font-bold bg-red-50">
                 {formatNumber(totalRow.jumlahTitikXII)}
               </TableCell>
+              <TableCell className="text-center border font-bold bg-red-50">
+                {formatNumber(totalRow.jumlahTitikXIII)}
+              </TableCell>
+              <TableCell className="text-center border font-bold bg-red-50">
+                {formatNumber(totalRow.jumlahTitikXIV)}
+              </TableCell>
               <TableCell className="text-center border font-bold bg-indigo-50">
-                {formatNumber(totalRow.jumlahTitikXII - totalRow.jumlahTitikXI)}
+                {formatNumber(
+                  totalRow.jumlahTitikXIV - totalRow.jumlahTitikXIII
+                )}
               </TableCell>
               <TableCell className="text-center border font-bold bg-amber-50">
                 {formatNumber(totalRow.perikanan)}
