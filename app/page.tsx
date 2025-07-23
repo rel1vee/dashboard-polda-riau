@@ -1521,37 +1521,34 @@ const DashboardPoldaRiauPage = () => {
                     label: "TOTAL LUAS PEMBUKAAN LAHAN BARU",
                     value: "8.024,88",
                     satuan: "HEKTAR",
-                    color: "border-red-400",
-                    bg: "bg-white",
-                    border: "border-red-400",
-                    text: "text-red-600",
+                    bg: "bg-gradient-to-br from-red-100 via-orange-100 to-yellow-100",
+                    border: "border-red-300",
+                    text: "text-red-700",
                   },
                   {
                     label:
-                      "TOTAL LUAS LAHAN YANG DITANAM JAGUNG DILAHAN YG BARU DIBUKA",
+                      "TOTAL LUAS LAHAN YANG DITANAM JAGUNG DILAHAN YANG BARU DIBUKA",
                     value: "1.097,34",
                     satuan: "HEKTAR",
-                    color: "border-yellow-400",
-                    bg: "bg-white",
-                    border: "border-yellow-400",
-                    text: "text-yellow-600",
+                    bg: "bg-gradient-to-br from-yellow-100 via-amber-100 to-lime-100",
+                    border: "border-yellow-300",
+                    text: "text-yellow-700",
                   },
                   {
-                    label: "TOTAL LUAS LAHAN YG DIPANEN",
+                    label: "TOTAL LUAS LAHAN YANG DIPANEN",
                     value: "260,02",
                     satuan: "HEKTAR",
-                    color: "border-emerald-600",
-                    bg: "bg-white",
-                    border: "border-emerald-600",
+                    bg: "bg-gradient-to-br from-emerald-100 via-green-100 to-lime-100",
+                    border: "border-emerald-400",
                     text: "text-emerald-700",
                   },
                   {
-                    label: "TOTAL LUAS LAHAN YG DITANAM KEMBALI SETELAH PANEN",
+                    label:
+                      "TOTAL LUAS LAHAN YANG DITANAM KEMBALI SETELAH PANEN",
                     value: "25,15",
                     satuan: "HEKTAR",
-                    color: "border-blue-700",
-                    bg: "bg-white",
-                    border: "border-blue-700",
+                    bg: "bg-gradient-to-br from-blue-100 via-sky-100 to-cyan-100",
+                    border: "border-blue-400",
                     text: "text-blue-700",
                   },
                 ].map((item, idx) => (
@@ -1604,13 +1601,13 @@ const DashboardPoldaRiauPage = () => {
                               LAHAN BARU
                             </TableHead>
                             <TableHead className="text-center font-bold text-emerald-800">
-                              LAHAN YG DITANAM
+                              LAHAN YANG DITANAM
                             </TableHead>
                             <TableHead className="text-center font-bold text-emerald-800">
-                              LAHAN YG DIPANEN
+                              LAHAN YANG DIPANEN
                             </TableHead>
                             <TableHead className="text-center font-bold text-emerald-800">
-                              LAHAN YG DITANAM KEMBALI
+                              LAHAN YANG DITANAM KEMBALI
                             </TableHead>
                           </TableRow>
                         </TableHeader>
@@ -1761,7 +1758,6 @@ const DashboardPoldaRiauPage = () => {
                             </TableHead>
                           </TableRow>
                           <TableRow className="bg-gradient-to-r from-green-100 via-emerald-50 to-lime-50 text-xs">
-                            {/* 7 bulan x 4 kolom */}
                             {Array.from({ length: 9 }, (_, i) => [
                               <TableHead
                                 key={`bulan${i}-baru`}
@@ -1791,9 +1787,7 @@ const DashboardPoldaRiauPage = () => {
                           </TableRow>
                         </TableHeader>
                         <TableBody>
-                          {/* Data di bawah ini diambil dari gambar, urut sesuai POLRES dan bulan */}
                           {[
-                            // NO, POLRES, [NOV: baru, tanam, panen, ulang], [DES: ...], [JAN: ...], dst
                             [
                               "1",
                               "POLRESTA PEKANBARU",
@@ -2295,7 +2289,6 @@ const DashboardPoldaRiauPage = () => {
                               ))}
                             </TableRow>
                           ))}
-                          {/* Baris Jumlah */}
                           <TableRow className="bg-gradient-to-r from-green-300 via-emerald-200 to-lime-200 font-bold text-xs">
                             <TableCell
                               className="text-center text-emerald-900"
@@ -2303,7 +2296,6 @@ const DashboardPoldaRiauPage = () => {
                             >
                               JUMLAH
                             </TableCell>
-                            {/* Data jumlah per bulan, urut sesuai gambar */}
                             {[
                               "226,84",
                               "24,18",
