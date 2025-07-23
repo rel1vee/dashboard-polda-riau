@@ -333,9 +333,12 @@ const DashboardPoldaRiauPage = () => {
           </motion.div>
           {/* Tab Program */}
           <Tabs defaultValue="program-dua" className="w-full">
-            <TabsList className="grid w-full bg-blue-100 h-auto grid-cols-2 gap-2 mb-4">
+            <TabsList className="grid w-full bg-blue-100 h-auto grid-cols-1 md:grid-cols-3 gap-2 mb-4">
               <TabsTrigger value="program-satu">PROGRAM I</TabsTrigger>
               <TabsTrigger value="program-dua">PROGRAM II</TabsTrigger>
+              <TabsTrigger value="tanam-panen-jagung">
+                LAHAN TANAM & PANEN JAGUNG
+              </TabsTrigger>
             </TabsList>
             {/* Program Satu*/}
             <TabsContent value="program-satu" className="flex flex-col gap-6">
@@ -1181,6 +1184,1178 @@ const DashboardPoldaRiauPage = () => {
                   </Card>
                 </motion.div>
               </div>
+            </TabsContent>
+            {/* Lahan Tanam & Panen Jagung */}
+            <TabsContent
+              value="tanam-panen-jagung"
+              className="flex flex-col gap-6"
+            >
+              {/* Statistik Ringkas */}
+              <motion.div
+                className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                {[
+                  {
+                    label: "Lahan Milik POLRI",
+                    value: "20,16",
+                    color: "from-gray-700 to-gray-900",
+                  },
+                  {
+                    label: "Poktan Binaan POLRI",
+                    value: "317,53",
+                    color: "from-sky-400 to-blue-500",
+                  },
+                  {
+                    label: "Masy/Swasta Binaan POLRI",
+                    value: "410,68",
+                    color: "from-cyan-700 to-blue-400",
+                  },
+                  {
+                    label: "Perkebunan Tumpang Sari",
+                    value: "342,72",
+                    color: "from-yellow-400 to-orange-400",
+                  },
+                  {
+                    label: "Perhutanan Sosial",
+                    value: "6",
+                    color: "from-red-400 to-pink-500",
+                  },
+                  {
+                    label: "Perhutani/Inhutani",
+                    value: "0",
+                    color: "from-gray-300 to-gray-400",
+                  },
+                  {
+                    label: "Lahan Lainnya",
+                    value: "0",
+                    color: "from-green-600 to-emerald-500",
+                  },
+                ].map((item, idx) => (
+                  <div
+                    key={idx}
+                    className={`flex items-center gap-4 p-4 rounded-xl shadow-md bg-gradient-to-br ${item.color} border-l-8 border-transparent hover:scale-[1.03] transition-transform duration-200`}
+                  >
+                    <div>
+                      <div className="text-sm font-semibold text-white/90 uppercase drop-shadow">
+                        {item.label}
+                      </div>
+                      <div className="text-2xl font-bold text-white drop-shadow">
+                        {item.value}{" "}
+                        <span className="text-sm font-normal">Hektar</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </motion.div>
+              {/* Tabel Rekapitulasi */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <Card className="rounded-xl shadow-lg border-none overflow-x-auto">
+                  <CardHeader className="bg-gradient-to-r from-green-100 via-emerald-100 to-lime-100 rounded-t-xl">
+                    <CardTitle className="text-xl bg-gradient-to-r from-green-700 via-emerald-600 to-lime-600 bg-clip-text text-transparent flex items-center gap-2">
+                      <span className="font-bold">
+                        Rekapitulasi Lahan Jagung Per Jenis Lahan
+                      </span>
+                    </CardTitle>
+                    <CardDescription className="text-emerald-700">
+                      Total luas lahan yang telah ditanam jagung per jenis lahan
+                      di seluruh POLRES/TA.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="p-0">
+                    <div className="overflow-x-auto">
+                      <Table>
+                        <TableHeader>
+                          <TableRow className="bg-gradient-to-r from-green-200 via-emerald-100 to-lime-100 text-xs">
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              NO
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              POLDA
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              Lahan Milik POLRI
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              Poktan Binaan POLRI
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              Masy/Swasta Binaan POLRI
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              Perkebunan Tumpang Sari
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              Perhutanan Sosial
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              Perhutani/Inhutani
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              Lainnya
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              TOTAL
+                            </TableHead>
+                          </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                          {[
+                            [
+                              "1",
+                              "POLRESTA PEKANBARU",
+                              "0,00",
+                              "5,47",
+                              "31,50",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "36,97",
+                            ],
+                            [
+                              "2",
+                              "POLRES ROHIL",
+                              "0,00",
+                              "46,74",
+                              "16,00",
+                              "40,00",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "102,74",
+                            ],
+                            [
+                              "3",
+                              "POLRES SIAK",
+                              "1,91",
+                              "1,00",
+                              "23,24",
+                              "25,50",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "51,65",
+                            ],
+                            [
+                              "4",
+                              "POLRES KAMPAR",
+                              "13,50",
+                              "67,25",
+                              "23,19",
+                              "45,31",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "149,25",
+                            ],
+                            [
+                              "5",
+                              "POLRES INHU",
+                              "0,00",
+                              "33,38",
+                              "51,00",
+                              "15,00",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "99,38",
+                            ],
+                            [
+                              "6",
+                              "POLRES INHIL",
+                              "0,00",
+                              "100,65",
+                              "18,50",
+                              "32,00",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "151,15",
+                            ],
+                            [
+                              "7",
+                              "POLRES PELALAWAN",
+                              "0,00",
+                              "0,00",
+                              "86,39",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "86,39",
+                            ],
+                            [
+                              "8",
+                              "POLRES BENGKALIS",
+                              "2,75",
+                              "21,54",
+                              "10,46",
+                              "60,00",
+                              "1,00",
+                              "0,00",
+                              "0,00",
+                              "95,75",
+                            ],
+                            [
+                              "9",
+                              "POLRES ROHUL",
+                              "0,50",
+                              "0,00",
+                              "49,00",
+                              "83,41",
+                              "4,00",
+                              "0,00",
+                              "0,00",
+                              "136,91",
+                            ],
+                            [
+                              "10",
+                              "POLRES KUANSING",
+                              "0,00",
+                              "0,00",
+                              "63,90",
+                              "39,50",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "103,40",
+                            ],
+                            [
+                              "11",
+                              "POLRES KEP. MERANTI",
+                              "0,00",
+                              "22,00",
+                              "31,50",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "0,00",
+                              "53,50",
+                            ],
+                            [
+                              "12",
+                              "POLRES DUMAI",
+                              "1,50",
+                              "19,50",
+                              "6,00",
+                              "2,00",
+                              "1,00",
+                              "0,00",
+                              "0,00",
+                              "30,00",
+                            ],
+                          ].map((row, idx) => (
+                            <TableRow
+                              key={idx}
+                              className="hover:bg-gradient-to-r hover:from-green-50 hover:to-lime-50 text-xs transition-colors"
+                            >
+                              {row.map((cell, cidx) => (
+                                <TableCell
+                                  key={cidx}
+                                  className={`text-center ${
+                                    cidx === 1
+                                      ? "font-semibold uppercase text-emerald-700"
+                                      : "text-emerald-900"
+                                  }`}
+                                >
+                                  {cell}
+                                </TableCell>
+                              ))}
+                            </TableRow>
+                          ))}
+                          {/* Baris Jumlah */}
+                          <TableRow className="bg-gradient-to-r from-green-300 via-emerald-200 to-lime-200 font-bold text-xs">
+                            <TableCell
+                              className="text-center text-emerald-900"
+                              colSpan={2}
+                            >
+                              JUMLAH
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              20,16
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              317,53
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              410,68
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              342,72
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              6,00
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              0,00
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              0,00
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              1.097,09
+                            </TableCell>
+                          </TableRow>
+                        </TableBody>
+                      </Table>
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
+              {/* Statistik Ringkas */}
+              <motion.div
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                {[
+                  {
+                    label: "TOTAL LUAS PEMBUKAAN LAHAN BARU",
+                    value: "8.024,88",
+                    satuan: "HEKTAR",
+                    color: "border-red-400",
+                    bg: "bg-white",
+                    border: "border-red-400",
+                    text: "text-red-600",
+                  },
+                  {
+                    label:
+                      "TOTAL LUAS LAHAN YANG DITANAM JAGUNG DILAHAN YG BARU DIBUKA",
+                    value: "1.097,34",
+                    satuan: "HEKTAR",
+                    color: "border-yellow-400",
+                    bg: "bg-white",
+                    border: "border-yellow-400",
+                    text: "text-yellow-600",
+                  },
+                  {
+                    label: "TOTAL LUAS LAHAN YG DIPANEN",
+                    value: "260,02",
+                    satuan: "HEKTAR",
+                    color: "border-emerald-600",
+                    bg: "bg-white",
+                    border: "border-emerald-600",
+                    text: "text-emerald-700",
+                  },
+                  {
+                    label: "TOTAL LUAS LAHAN YG DITANAM KEMBALI SETELAH PANEN",
+                    value: "25,15",
+                    satuan: "HEKTAR",
+                    color: "border-blue-700",
+                    bg: "bg-white",
+                    border: "border-blue-700",
+                    text: "text-blue-700",
+                  },
+                ].map((item, idx) => (
+                  <div
+                    key={idx}
+                    className={`flex items-center gap-4 p-5 rounded-xl shadow-md border-2 ${item.border} ${item.bg} hover:scale-[1.03] transition-transform duration-200`}
+                  >
+                    <div>
+                      <div className={`text-2xl font-bold ${item.text}`}>
+                        {item.value}{" "}
+                        <span className="text-base font-normal">
+                          {item.satuan}
+                        </span>
+                      </div>
+                      <div className="text-xs font-semibold text-gray-700 mt-1 uppercase">
+                        {item.label}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </motion.div>
+              {/* Statistik Per Bulan */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <Card className="rounded-xl shadow-lg border-none overflow-x-auto">
+                  <CardHeader className="bg-gradient-to-r from-green-100 via-emerald-100 to-lime-100 rounded-t-xl">
+                    <CardTitle className="text-xl bg-gradient-to-r from-green-700 via-emerald-600 to-lime-600 bg-clip-text text-transparent flex items-center gap-2">
+                      <span className="font-bold">
+                        Rekapitulasi Total Luas Lahan Per Bulan (Nov 2024 - Jul
+                        2025)
+                      </span>
+                    </CardTitle>
+                    <CardDescription className="text-emerald-700">
+                      Statistik bulanan lahan baru, lahan ditanam, lahan
+                      dipanen, dan lahan ditanam kembali.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="p-0">
+                    <div className="overflow-x-auto">
+                      <Table>
+                        <TableHeader>
+                          <TableRow className="bg-gradient-to-r from-green-200 via-emerald-100 to-lime-100 text-xs">
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              BULAN
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              LAHAN BARU
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              LAHAN YG DITANAM
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              LAHAN YG DIPANEN
+                            </TableHead>
+                            <TableHead className="text-center font-bold text-emerald-800">
+                              LAHAN YG DITANAM KEMBALI
+                            </TableHead>
+                          </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                          {[
+                            ["NOV 2024", "226,84", "24,18", "", ""],
+                            ["DES 2024", "159,45", "12,00", "", ""],
+                            ["JAN 2025", "1.080,48", "135,57", "2,12", "1,00"],
+                            ["FEB 2025", "1.574,60", "240,63", "16,56", "0,50"],
+                            ["MAR 2025", "1.999,10", "219,72", "19,00", "0,00"],
+                            ["APR 2025", "1.254,31", "114,96", "21,91", "0,00"],
+                            ["MEI 2025", "727,80", "150,83", "52,38", "5,00"],
+                            ["JUN 2025", "417,12", "88,60", "92,30", "5,40"],
+                            ["JUL 2025", "585,18", "110,85", "55,75", "13,25"],
+                          ].map((row, idx) => (
+                            <TableRow
+                              key={idx}
+                              className="hover:bg-gradient-to-r hover:from-green-50 hover:to-lime-50 text-xs transition-colors"
+                            >
+                              {row.map((cell, cidx) => (
+                                <TableCell
+                                  key={cidx}
+                                  className={`text-center ${
+                                    cidx === 0
+                                      ? "font-semibold uppercase text-emerald-700"
+                                      : "text-emerald-900"
+                                  }`}
+                                >
+                                  {cell}
+                                </TableCell>
+                              ))}
+                            </TableRow>
+                          ))}
+                          {/* Baris Jumlah */}
+                          <TableRow className="bg-gradient-to-r from-green-300 via-emerald-200 to-lime-200 font-bold text-xs">
+                            <TableCell className="text-center text-emerald-900">
+                              JUMLAH
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              8.024,88
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              1.097,34
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              260,02
+                            </TableCell>
+                            <TableCell className="text-center text-emerald-900">
+                              25,15
+                            </TableCell>
+                          </TableRow>
+                        </TableBody>
+                      </Table>
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
+              {/* TABEL DATA PER POLRES PER BULAN */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+              >
+                <Card className="rounded-xl shadow-lg border-none overflow-x-auto">
+                  <CardHeader className="bg-gradient-to-r from-green-100 via-emerald-100 to-lime-100 rounded-t-xl">
+                    <CardTitle className="text-lg md:text-xl bg-gradient-to-r from-green-700 via-emerald-600 to-lime-600 bg-clip-text text-transparent flex items-center gap-2">
+                      <span className="font-bold">
+                        Rekapitulasi Data Lahan Jagung Per POLRES & Bulan (Nov
+                        2024 - Jul 2025)
+                      </span>
+                    </CardTitle>
+                    <CardDescription className="text-emerald-700">
+                      Data detail per POLRES, per bulan, untuk seluruh kategori
+                      lahan.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="p-0">
+                    <div className="overflow-x-auto">
+                      <Table>
+                        <TableHeader>
+                          <TableRow className="bg-gradient-to-r from-green-200 via-emerald-100 to-lime-100 text-xs">
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              rowSpan={2}
+                            >
+                              NO
+                            </TableHead>
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              rowSpan={2}
+                            >
+                              POLRES
+                            </TableHead>
+                            {/* Bulan */}
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              colSpan={4}
+                            >
+                              NOV 2024
+                            </TableHead>
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              colSpan={4}
+                            >
+                              DES 2024
+                            </TableHead>
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              colSpan={4}
+                            >
+                              JAN 2025
+                            </TableHead>
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              colSpan={4}
+                            >
+                              FEB 2025
+                            </TableHead>
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              colSpan={4}
+                            >
+                              MAR 2025
+                            </TableHead>
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              colSpan={4}
+                            >
+                              APR 2025
+                            </TableHead>
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              colSpan={4}
+                            >
+                              MEI 2025
+                            </TableHead>
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              colSpan={4}
+                            >
+                              JUN 2025
+                            </TableHead>
+                            <TableHead
+                              className="text-center font-bold text-emerald-800"
+                              colSpan={4}
+                            >
+                              JUL 2025
+                            </TableHead>
+                          </TableRow>
+                          <TableRow className="bg-gradient-to-r from-green-100 via-emerald-50 to-lime-50 text-xs">
+                            {/* 7 bulan x 4 kolom */}
+                            {Array.from({ length: 9 }, (_, i) => [
+                              <TableHead
+                                key={`bulan${i}-baru`}
+                                className="text-center font-bold text-emerald-700"
+                              >
+                                Baru
+                              </TableHead>,
+                              <TableHead
+                                key={`bulan${i}-tanam`}
+                                className="text-center font-bold text-emerald-700"
+                              >
+                                Tanam
+                              </TableHead>,
+                              <TableHead
+                                key={`bulan${i}-panen`}
+                                className="text-center font-bold text-emerald-700"
+                              >
+                                Panen
+                              </TableHead>,
+                              <TableHead
+                                key={`bulan${i}-ulang`}
+                                className="text-center font-bold text-emerald-700"
+                              >
+                                Tanam Ulang
+                              </TableHead>,
+                            ])}
+                          </TableRow>
+                        </TableHeader>
+                        <TableBody>
+                          {/* Data di bawah ini diambil dari gambar, urut sesuai POLRES dan bulan */}
+                          {[
+                            // NO, POLRES, [NOV: baru, tanam, panen, ulang], [DES: ...], [JAN: ...], dst
+                            [
+                              "1",
+                              "POLRESTA PEKANBARU",
+                              "1,32",
+                              "1,32",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "4,5",
+                              "4,5",
+                              "0,12",
+                              "0",
+                              "429,25",
+                              "8,25",
+                              "1,2",
+                              "0",
+                              "0,25",
+                              "6,73",
+                              "0",
+                              "0",
+                              "37",
+                              "10",
+                              "0,25",
+                              "0",
+                              "0,15",
+                              "0,15",
+                              "2,25",
+                              "0",
+                              "2",
+                              "7",
+                              "0",
+                              "0",
+                              "2,5",
+                              "7,5",
+                              "0",
+                              "0",
+                            ],
+                            [
+                              "2",
+                              "POLRES ROHIL",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "0",
+                              "36,2",
+                              "",
+                              "",
+                              "48,4",
+                              "11,72",
+                              "0",
+                              "0",
+                              "113,3",
+                              "39",
+                              "0",
+                              "0",
+                              "200,4",
+                              "32,52",
+                              "0",
+                              "0",
+                              "36",
+                              "1,5",
+                              "0",
+                              "0",
+                              "78,4",
+                              "1,3",
+                              "3,52",
+                              "0",
+                              "84,12",
+                              "1,5",
+                              "20,12",
+                              "0",
+                              "78,34",
+                              "8,5",
+                              "9",
+                              "0",
+                            ],
+                            [
+                              "3",
+                              "POLRES SIAK",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "120",
+                              "11,5",
+                              "0",
+                              "0",
+                              "121",
+                              "36",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "120",
+                              "1,5",
+                              "1,5",
+                              "0",
+                              "34,1",
+                              "1,5",
+                              "9,5",
+                              "0",
+                            ],
+                            [
+                              "4",
+                              "POLRES KAMPAR",
+                              "141,11",
+                              "15,25",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "133,74",
+                              "91,01",
+                              "0",
+                              "0",
+                              "82,5",
+                              "20,21",
+                              "3,25",
+                              "0",
+                              "227,9",
+                              "36,7",
+                              "12",
+                              "0",
+                              "397,8",
+                              "33,5",
+                              "2,7",
+                              "0",
+                              "1",
+                              "13,5",
+                              "4",
+                              "0",
+                              "20,8",
+                              "13,24",
+                              "3,1",
+                              "2,9",
+                              "30,5",
+                              "15,7",
+                              "9",
+                              "0",
+                            ],
+                            [
+                              "5",
+                              "POLRES INHU",
+                              "1,2",
+                              "1,2",
+                              "",
+                              "",
+                              "1,5",
+                              "1,5",
+                              "",
+                              "",
+                              "113,2",
+                              "113,2",
+                              "0",
+                              "0",
+                              "77,95",
+                              "23,95",
+                              "0",
+                              "0",
+                              "505,49",
+                              "48,5",
+                              "0",
+                              "0",
+                              "420,65",
+                              "18,1",
+                              "2,7",
+                              "0",
+                              "254,35",
+                              "23,15",
+                              "2,5",
+                              "0",
+                              "5",
+                              "9,65",
+                              "0",
+                              "0",
+                              "2,5",
+                              "4",
+                              "1",
+                              "0",
+                            ],
+                            [
+                              "6",
+                              "POLRES INHIL",
+                              "1,2",
+                              "1,2",
+                              "",
+                              "",
+                              "1,5",
+                              "1,5",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "317,3",
+                              "33,5",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "1",
+                              "1",
+                              "0",
+                              "0",
+                              "2,5",
+                              "1,5",
+                              "1",
+                              "0",
+                            ],
+                            [
+                              "7",
+                              "POLRES PELALAWAN",
+                              "64,6",
+                              "13,6",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "64,6",
+                              "13,6",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                            ],
+                            [
+                              "8",
+                              "POLRES BENGKALIS",
+                              "80,2",
+                              "19,6",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "36,1",
+                              "4",
+                              "0,5",
+                              "0",
+                              "15",
+                              "16,5",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0,257",
+                              "0",
+                              "0",
+                              "0",
+                              "3,01",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                            ],
+                            [
+                              "9",
+                              "POLRES ROHUL",
+                              "150",
+                              "7",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "150",
+                              "7",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "21,5",
+                              "5,5",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                            ],
+                            [
+                              "10",
+                              "POLRES KUANSING",
+                              "223,72",
+                              "7",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "224,32",
+                              "4,1",
+                              "0",
+                              "0",
+                              "14",
+                              "7",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                            ],
+                            [
+                              "11",
+                              "POLRES KEP. MERANTI",
+                              "5,5",
+                              "1,5",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "",
+                              "",
+                              "60,5",
+                              "0,5",
+                              "0",
+                              "0",
+                              "114,25",
+                              "0,5",
+                              "0",
+                              "0",
+                              "4",
+                              "1,3",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "3",
+                              "1,3",
+                              "0",
+                              "0",
+                              "4,5",
+                              "4,5",
+                              "2",
+                              "0",
+                            ],
+                            [
+                              "12",
+                              "POLRES DUMAI",
+                              "95,25",
+                              "1,9",
+                              "",
+                              "",
+                              "31,1",
+                              "1,25",
+                              "",
+                              "",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "2,5",
+                              "1,9",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "0",
+                              "2,5",
+                              "1,9",
+                              "0,25",
+                              "0",
+                              "2,5",
+                              "1,9",
+                              "0,25",
+                              "0",
+                            ],
+                          ].map((row, idx) => (
+                            <TableRow
+                              key={idx}
+                              className="hover:bg-gradient-to-r hover:from-green-50 hover:to-lime-50 text-xs transition-colors"
+                            >
+                              <TableCell className="text-center font-semibold text-emerald-700">
+                                {row[0]}
+                              </TableCell>
+                              <TableCell className="text-center font-semibold uppercase text-emerald-700">
+                                {row[1]}
+                              </TableCell>
+                              {row.slice(2).map((cell, cidx) => (
+                                <TableCell
+                                  key={cidx}
+                                  className="text-center text-emerald-900"
+                                >
+                                  {cell}
+                                </TableCell>
+                              ))}
+                            </TableRow>
+                          ))}
+                          {/* Baris Jumlah */}
+                          <TableRow className="bg-gradient-to-r from-green-300 via-emerald-200 to-lime-200 font-bold text-xs">
+                            <TableCell
+                              className="text-center text-emerald-900"
+                              colSpan={2}
+                            >
+                              JUMLAH
+                            </TableCell>
+                            {/* Data jumlah per bulan, urut sesuai gambar */}
+                            {[
+                              "226,84",
+                              "24,18",
+                              "",
+                              "",
+                              "169,45",
+                              "12,00",
+                              "",
+                              "",
+                              "1.080,48",
+                              "135,57",
+                              "2,12",
+                              "1,00",
+                              "1.574,60",
+                              "240,63",
+                              "16,56",
+                              "0,50",
+                              "1.999,10",
+                              "219,72",
+                              "19,00",
+                              "0,00",
+                              "1.254,31",
+                              "114,96",
+                              "21,91",
+                              "0,00",
+                              "727,80",
+                              "150,83",
+                              "52,38",
+                              "5,00",
+                              "417,12",
+                              "88,60",
+                              "92,30",
+                              "5,40",
+                              "585,18",
+                              "110,85",
+                              "55,75",
+                              "13,25",
+                            ].map((cell, idx) => (
+                              <TableCell
+                                key={idx}
+                                className="text-center text-emerald-900"
+                              >
+                                {cell}
+                              </TableCell>
+                            ))}
+                          </TableRow>
+                        </TableBody>
+                      </Table>
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.div>
             </TabsContent>
           </Tabs>
         </div>
